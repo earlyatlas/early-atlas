@@ -42,11 +42,18 @@ jobs:
       - name: Validate (the full gate)
         run: pnpm check
 
+      # Mint a short-lived GitHub App installation token. Acts as the app (not the
+      # Actions bot, which orgs commonly block from creating PRs) and replaces the
+      # personal PAT — scoped to contents+pull-requests on this repo only.
+      - uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
       - name: Open draft PR
-        # Use a user token (not the Actions bot) for PR creation: orgs commonly
-        # block "GitHub Actions creating pull requests", but a PAT is unaffected.
         env:
-          GH_TOKEN: ${{ secrets.AUTHORING_PR_TOKEN }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
           PID: ${{ github.event.client_payload.proposal_id }}
           TITLE: ${{ github.event.client_payload.title }}
           RATIONALE: ${{ github.event.client_payload.rationale }}
