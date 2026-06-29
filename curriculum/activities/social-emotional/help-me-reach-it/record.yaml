@@ -4,6 +4,8 @@ title: Help Me Reach It
 summary: A gently out-of-reach toy invites a toddler to signal or ask a familiar adult for help.
 supported_skill_ids:
   - ea.skill.social-emotional.relationships.seeks-help-from-adults
+media_ids:
+  - ea.media.image.help-me-reach-it
 age_range_months:
   min: 8
   max: 30

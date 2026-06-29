@@ -1,0 +1,14 @@
+id: ea.media.image.help-me-reach-it
+slug: help-me-reach-it
+title: A toddler reaching for a toy
+provider: image
+src: /media/help-me-reach-it.jpg
+alt: A toddler in a blue shirt reaches across a rug to grasp a toy with a teal handle.
+caption: A toddler reaches for a toy that is just out of easy reach.
+width: 1280
+height: 960
+tags:
+  - reaching
+  - help-seeking
+status: draft
+locale: en-US

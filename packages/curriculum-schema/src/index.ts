@@ -158,7 +158,33 @@ export const youtubeMediaSchema = z.object({
   status: statusSchema.default("draft"),
   locale: z.string().default("en-US"),
 });
-export const mediaSchema = z.discriminatedUnion("provider", [youtubeMediaSchema]);
+/** Images (photos/illustrations for an activity). The binary lives in the site's
+ *  static assets and is served from the CDN; `src` is the path to it (a real PR
+ *  adds the file under apps/web/public/media/ and this record alongside). Images
+ *  are shown on the web record page but excluded from the print/PDF handout. */
+export const imageMediaSchema = z.object({
+  id: idSchema, // ea.media.image.<slug>
+  slug: z.string().min(1),
+  title: z.string().min(1),
+  provider: z.literal("image"),
+  /** Root-relative path under the site's public dir, e.g. /media/<slug>.jpg */
+  src: z
+    .string()
+    .regex(/^\/media\/[\w./-]+\.(jpg|jpeg|png|webp|avif)$/i, "src must be /media/<file>"),
+  alt: z.string().min(1), // required for accessibility
+  caption: z.string().optional(),
+  width: z.number().int().positive().optional(),
+  height: z.number().int().positive().optional(),
+  /** Reverse links: skills/activities this image supports (optional — records
+   *  may also reference media via their own media_ids). */
+  supported_skill_ids: z.array(idSchema).optional(),
+  attribution: z.string().optional(),
+  tags: z.array(z.string()).optional(),
+  status: statusSchema.default("draft"),
+  locale: z.string().default("en-US"),
+});
+
+export const mediaSchema = z.discriminatedUnion("provider", [youtubeMediaSchema, imageMediaSchema]);
 export type Media = z.infer<typeof mediaSchema>;
 
 // ---------------------------------------------------------------------------

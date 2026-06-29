@@ -14,6 +14,8 @@ export default tseslint.config(
       "**/*.astro",
       "**/env.d.ts", // Astro-generated
       ".claude/**", // local agent tooling
+      ".agents/**", // local agent tooling
+      ".impeccable/**", // local agent tooling
     ],
   },
   js.configs.recommended,

@@ -38,9 +38,14 @@ const ownMedia = Array.isArray(data.media_ids) ? (data.media_ids as string[]) : 
 const backMedia = [...store.records.values()]
   .filter((m) => m.kind === "media" && (m.data.supported_skill_ids ?? []).includes(rec.id))
   .map((m) => m.id);
-const videos = [...new Set([...ownMedia, ...backMedia])]
+const mediaIds = [...new Set([...ownMedia, ...backMedia])];
+const videos = mediaIds
   .map((mid) => store.records.get(mid))
   .filter((m): m is NonNullable<typeof m> => !!m && m.data.provider === "youtube");
+// Photos: shown on the web page (lazy-loaded), excluded from the print/PDF handout.
+const images = mediaIds
+  .map((mid) => store.records.get(mid))
+  .filter((m): m is NonNullable<typeof m> => !!m && m.data.provider === "image");
 
 const purpose: string | undefined = data.developmental_purpose;
 const lead: string | undefined =
@@ -176,6 +181,7 @@ const sections = [
   ...(domainSkills.length ? [{ id: "skills", label: "Skills" }] : []),
   ...(isPrintable ? [{ id: "worksheet", label: "Worksheet" }] : []),
   ...(videos.length ? [{ id: "watch", label: "Watch" }] : []),
+  ...(images.length ? [{ id: "photos", label: "Photos" }] : []),
   ...(purpose ? [{ id: "why", label: "Why it matters" }] : []),
   ...(milestones.length ? [{ id: "milestone", label: "Milestone" }] : []),
   ...lists.map((s) => ({ id: s.key, label: s.label })),
@@ -328,6 +334,35 @@ const sections = [
             </a>
           </div>
         ))}
+      </section>
+    )
+  }
+
+  {
+    images.length > 0 && (
+      // no-print: photos are for the web page only, never the PDF handout.
+      <section id="photos" class="no-print">
+        <h2>Photos</h2>
+        <div class="rec-photos">
+          {images.map((im) => (
+            <figure class="rec-photo">
+              <img
+                src={im.data.src}
+                alt={im.data.alt}
+                width={im.data.width}
+                height={im.data.height}
+                loading="lazy"
+                decoding="async"
+              />
+              {(im.data.caption || im.data.attribution) && (
+                <figcaption>
+                  {im.data.caption}
+                  {im.data.attribution && <span class="muted"> — {im.data.attribution}</span>}
+                </figcaption>
+              )}
+            </figure>
+          ))}
+        </div>
       </section>
     )
   }
@@ -529,6 +564,32 @@ const sections = [
   }
   .rec-edit a:hover {
     color: var(--accent);
+  }
+
+  /* Photos: responsive, lazy-loaded; one column so they read like a gallery. */
+  .rec-photos {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    margin-top: var(--space-3);
+  }
+  .rec-photo {
+    margin: 0;
+  }
+  .rec-photo img {
+    display: block;
+    width: auto;
+    height: auto;
+    /* Standard size: fit within a ~22rem box, adapting to portrait or landscape. */
+    max-width: min(100%, 22rem);
+    max-height: 22rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+  }
+  .rec-photo figcaption {
+    margin-top: var(--space-2);
+    font-size: var(--text-sm);
+    color: var(--muted);
   }
 
   .actions {
