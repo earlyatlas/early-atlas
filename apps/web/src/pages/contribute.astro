@@ -177,6 +177,7 @@ export const prerender = true;
   }
   .amount-other input {
     width: 100%;
+    min-width: 0; /* let the number input shrink in flex instead of overflowing/wrapping */
     margin: 0;
     padding: 0;
     border: 0;
@@ -184,7 +185,7 @@ export const prerender = true;
     font: inherit;
     font-weight: 700;
     color: var(--ink);
-    text-align: center;
+    text-align: left;
   }
   .amount-other input:focus {
     outline: none;
@@ -330,6 +331,13 @@ export const prerender = true;
       selected = 0;
       setNote("");
     });
+
+    // Suggest a default amount so Donate always has a value to send.
+    const defaultPreset = presets.find((b) => b.dataset.cents === "1000") ?? presets[0];
+    if (defaultPreset) {
+      defaultPreset.classList.add("selected");
+      selected = Number(defaultPreset.dataset.cents);
+    }
 
     const chosenCents = () => {
       if (selected) return selected;
