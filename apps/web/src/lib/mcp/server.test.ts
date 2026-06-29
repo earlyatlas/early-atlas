@@ -23,7 +23,7 @@ describe("MCP server", () => {
 
   it("keeps the tool list small (token-lean gate)", () => {
     const r: any = rpc("tools/list");
-    expect(r.result.tools).toHaveLength(7);
+    expect(r.result.tools).toHaveLength(8);
     // Objective gate: the whole tool list must stay well under the budget that
     // motivated the resource-pointer design. ~4 chars/token.
     const bytes = JSON.stringify(r.result.tools).length;
@@ -36,6 +36,36 @@ describe("MCP server", () => {
   it("reads a resource", () => {
     const r: any = rpc("resources/read", { uri: "earlyatlas://guide" });
     expect(r.result.contents[0].text).toContain("authoring gateway");
+  });
+
+  it("reads lesson-planning guidance", () => {
+    const r: any = rpc("resources/read", { uri: "earlyatlas://guide/lesson-planning" });
+    expect(r.result.contents[0].text).toContain("recommend_activity");
+  });
+
+  it("recommends activities without creating a draft", () => {
+    const c = ctx();
+    const r: any = handleRpc(
+      {
+        jsonrpc: "2.0",
+        id: 1,
+        method: "tools/call",
+        params: {
+          name: "recommend_activity",
+          arguments: {
+            age_months: 36,
+            domain_id: "ea.domain.mathematics",
+            methodology: "play-based",
+            limit: 2,
+          },
+        },
+      } as any,
+      c,
+    );
+    const payload = JSON.parse(r.result.content[0].text);
+    expect(payload.recommendations.length).toBeGreaterThan(0);
+    expect(payload.recommendations[0].present_to_human.title).toBeTruthy();
+    expect(c.drafts.size).toBe(0);
   });
 
   it("drafts and validates a change set server-side", () => {

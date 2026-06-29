@@ -69,8 +69,14 @@ do NOT edit files or Git directly. Instead you:
 
 There are intentionally no tools to write files, push, merge, or run shell commands.
 
+Anonymous clients may use read-only discovery and lesson-planning tools. Persisting
+an edit or submitting a proposal must be tied to the human through OAuth consent;
+see earlyatlas://guide/auth.
+
 ## Where to read more
 - earlyatlas://guide/tools       — detailed usage for every tool
+- earlyatlas://guide/lesson-planning — read-only activity recommendation workflow
+- earlyatlas://guide/auth        — anonymous vs authenticated MCP design
 - earlyatlas://guide/changesets  — change-set format + operation catalog (generated)
 - earlyatlas://schema/<kind>     — generated JSON Schema per record kind: ${schemaKinds().join(", ")}
 - earlyatlas://style-guide       — voice, evidence, accessibility rules
@@ -95,6 +101,12 @@ Args: { id }. Returns the full record fields plus its MDX body.
 Args: { id }. Returns the record's prerequisites, related skills, supporting
 activities, and citations, resolved to { id, title }.
 
+## recommend_activity
+Args: { age_months?, domain_id?, methodology?, query?, limit? }. Read-only. Helps
+an agent offer a parent or educator activity choices by age, domain, and
+pedagogical approach. Returns available domains/methodologies plus matching
+activities. If age_months is missing, returns a human question to ask first.
+
 ## create_draft_changeset
 Args: { title?, rationale?, operations[] }. See earlyatlas://guide/changesets.
 Returns a changeset_id. Nothing is written to the repository.
@@ -110,6 +122,86 @@ Args: { changeset_id }. Returns a temporary, unlisted preview URL + affected ids
 ## submit_changeset
 Args: { changeset_id, author? }. Opens a draft GitHub pull request for editorial
 review. Requires a valid change set. Cannot merge.`,
+  },
+  {
+    uri: "earlyatlas://guide/lesson-planning",
+    name: "Read-only lesson planning workflow",
+    description: "How agents should help a human choose an Early Atlas activity.",
+    mimeType: "text/markdown",
+    build: () => `# Lesson planning with Early Atlas
+
+This path is read-only and may be used without sign-in. It is for helping a
+parent, caregiver, or educator choose an existing activity from the public
+curriculum.
+
+## Agent flow
+1. Ask for the child's age. Store it as months.
+2. Offer compact choices for domain and approach:
+   - Domain examples: Language, Mathematics, Science, Social-emotional,
+     Physical development, Creative arts.
+   - Approach examples: Play-based learning, Montessori, Reggio Emilia,
+     Waldorf, Forest School, HighScope, Classical Education, Charlotte Mason.
+3. Call \`recommend_activity\` with age_months and any selected domain_id,
+   methodology, or topic query.
+4. Present 2-3 activities as human-friendly cards. Use titles, summaries, time,
+   materials, and the first few steps. Do not show record ids unless the human asks.
+5. Let the human pick one. Then give a clean mini-lesson: materials, setup, steps,
+   safety, accessibility, and what to observe.
+
+## Good UI shape for the human
+
+Use plain language and scannable sections:
+- "A good fit for today"
+- "Why this fits"
+- "You need"
+- "Do it"
+- "Watch for"
+- "Make it easier / harder"
+
+Never describe schema fields, ids, statuses, or MCP mechanics in the human-facing
+answer. The user came for an activity, not the data model.`,
+  },
+  {
+    uri: "earlyatlas://guide/auth",
+    name: "MCP authentication design",
+    description: "Anonymous read-only access and identity-bound editing.",
+    mimeType: "text/markdown",
+    build: () => `# MCP authentication design
+
+Early Atlas should support two MCP modes.
+
+## 1. Anonymous read-only mode
+
+No sign-in is required to:
+- read resources and prompts;
+- search public curriculum;
+- fetch public records;
+- ask for activity recommendations with \`recommend_activity\`.
+
+This mode lets an agent explain Early Atlas and help a human choose an activity
+without creating an account or handing identity to the agent.
+
+## 2. Authenticated proposal mode
+
+Any action that persists or submits an edit must be tied to the human, not to an
+anonymous agent session. The MCP client should start OAuth consent with the same
+Cognito identity provider used by the web app. The server verifies the bearer JWT
+on every mutating request and stores attribution on the proposal row:
+
+- author_sub: stable Cognito subject
+- author_email: display attribution
+- client/session metadata: MCP client name and request time when available
+
+Authenticated tools may persist drafts and submit proposals. They still do not
+write git directly. Admin approval remains the trust boundary. Ephemeral local
+drafting and validation can exist before sign-in, but saving or submitting must
+require identity.
+
+## Principle for agents
+
+An agent may explore anonymously. When the human wants to save, submit, or edit,
+the agent asks for consent and signs in through the browser. The token is
+short-lived, scoped to proposing curriculum, and never grants merge access.`,
   },
   {
     uri: "earlyatlas://guide/changesets",

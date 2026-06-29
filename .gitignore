@@ -32,3 +32,9 @@ drafts/local/
 # Agent / local tooling (kept out of the public repo)
 .claude/
 .impeccable/
+
+# agent tooling bundle (not part of the project)
+.agents/
+
+# Codex agent tooling
+.codex/

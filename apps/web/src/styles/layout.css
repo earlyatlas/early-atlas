@@ -92,6 +92,10 @@
     font-weight: 600;
     background: var(--accent-soft);
   }
+  .sidebar a.section-active {
+    color: var(--ink);
+    font-weight: 600;
+  }
   .nav-top {
     font-weight: 600;
   }
@@ -116,6 +120,11 @@
     list-style: none;
     margin: 2px 0 0;
     padding: 0;
+  }
+  .sidebar .nav-subtree ul {
+    margin: 2px 0 var(--space-2) var(--space-2);
+    padding-left: var(--space-2);
+    border-left: 1px solid var(--line);
   }
 
   /* Content column */

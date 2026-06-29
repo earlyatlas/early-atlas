@@ -47,16 +47,17 @@ type CreateProposalInput struct {
 	Title       *string
 	Rationale   *string
 	BaseCommit  *string
+	Validation  json.RawMessage // submit-time validation result (e.g. {"valid":true})
 }
 
 func (s *Store) CreateProposal(ctx context.Context, in CreateProposalInput) (*Proposal, error) {
 	return scanProposal(s.pool.QueryRow(ctx,
 		`insert into authoring.proposals
-		   (id, author_sub, author_email, title, rationale, changeset, base_commit)
-		 values ($1, $2, $3, $4, $5, $6, $7)
+		   (id, author_sub, author_email, title, rationale, changeset, base_commit, validation)
+		 values ($1, $2, $3, $4, $5, $6, $7, $8)
 		 returning `+cols,
 		uuid.New(), in.AuthorSub, in.AuthorEmail, in.Title, in.Rationale,
-		in.Changeset, in.BaseCommit))
+		in.Changeset, in.BaseCommit, in.Validation))
 }
 
 func (s *Store) GetProposal(ctx context.Context, id uuid.UUID) (*Proposal, error) {

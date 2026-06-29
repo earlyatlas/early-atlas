@@ -1,6 +1,8 @@
 // Package api exposes the proposal queue over HTTP (ADR 0005). Contributors and
-// agents create proposals; admins list, read, and change status. Authoritative
-// change-set validation runs in CI, not here.
+// agents create proposals; admins list, read, and change status. Submitted change
+// sets are STRUCTURALLY validated here on submit (see validate.go) — malformed or
+// unsupported ones are rejected; the authoritative record-schema + graph validation
+// then runs in CI before a PR is opened.
 package api
 
 import (
@@ -94,6 +96,25 @@ func (h *Handlers) create(w http.ResponseWriter, r *http.Request) {
 		writeErr(w, http.StatusBadRequest, "changeset is required")
 		return
 	}
+	// Structural validation gate (ADR 0005): reject malformed/unsupported change
+	// sets on submit so they never reach the review queue. Authoritative
+	// record-schema + graph validation still runs in CI.
+	csTitle, csRationale, verrs := validateChangeset(body.Changeset)
+	if len(verrs) > 0 {
+		writeJSON(w, http.StatusBadRequest, map[string]any{
+			"error":      "the change set didn't pass validation",
+			"validation": map[string]any{"valid": false, "errors": verrs},
+		})
+		return
+	}
+	// Fall back to the change set's own title/rationale when the client didn't send
+	// them at the top level (the contribute form embeds them in the change set).
+	if body.Title == nil && csTitle != "" {
+		body.Title = &csTitle
+	}
+	if body.Rationale == nil && csRationale != "" {
+		body.Rationale = &csRationale
+	}
 	email := u.Email
 	p, err := h.Store.CreateProposal(r.Context(), store.CreateProposalInput{
 		Changeset:   body.Changeset,
@@ -102,6 +123,7 @@ func (h *Handlers) create(w http.ResponseWriter, r *http.Request) {
 		Title:       body.Title,
 		Rationale:   body.Rationale,
 		BaseCommit:  body.BaseCommit,
+		Validation:  json.RawMessage(`{"valid":true}`),
 	})
 	if err != nil {
 		writeErr(w, http.StatusInternalServerError, "could not create proposal")
