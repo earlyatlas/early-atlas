@@ -1,7 +1,11 @@
 package api
 
 import (
+	"crypto/hmac"
+	"crypto/sha256"
+	"encoding/hex"
 	"encoding/json"
+	"errors"
 	"io"
 	"log/slog"
 	"net/http"
@@ -22,11 +26,12 @@ import (
 // decides the mode, which the UI reads from /api/donate/config. There is no
 // client-supplied mode flag — that would be both confusing and unsafe.
 type DonateHandlers struct {
-	SecretKey   string          // sk_/rk_ test or live — prefix decides the mode
-	AllowOrigin map[string]bool // origins permitted as checkout return targets
-	DefaultURL  string          // fallback return origin (e.g. https://earlyatlas.com)
-	Log         *slog.Logger
-	HTTP        *http.Client
+	SecretKey     string          // sk_/rk_ test or live — prefix decides the mode
+	WebhookSecret string          // whsec_… for verifying Stripe webhook signatures
+	AllowOrigin   map[string]bool // origins permitted as checkout return targets
+	DefaultURL    string          // fallback return origin (e.g. https://earlyatlas.com)
+	Log           *slog.Logger
+	HTTP          *http.Client
 }
 
 const (
@@ -44,7 +49,7 @@ func StripeMode(key string) string {
 	return "test"
 }
 
-func NewDonateHandlers(secretKey string, allowOrigins []string, defaultURL string, log *slog.Logger) *DonateHandlers {
+func NewDonateHandlers(secretKey, webhookSecret string, allowOrigins []string, defaultURL string, log *slog.Logger) *DonateHandlers {
 	allow := make(map[string]bool, len(allowOrigins))
 	for _, o := range allowOrigins {
 		if o = strings.TrimSpace(o); o != "" {
@@ -52,11 +57,12 @@ func NewDonateHandlers(secretKey string, allowOrigins []string, defaultURL strin
 		}
 	}
 	return &DonateHandlers{
-		SecretKey:   secretKey,
-		AllowOrigin: allow,
-		DefaultURL:  strings.TrimRight(defaultURL, "/"),
-		Log:         log,
-		HTTP:        &http.Client{Timeout: 15 * time.Second},
+		SecretKey:     secretKey,
+		WebhookSecret: webhookSecret,
+		AllowOrigin:   allow,
+		DefaultURL:    strings.TrimRight(defaultURL, "/"),
+		Log:           log,
+		HTTP:          &http.Client{Timeout: 15 * time.Second},
 	}
 }
 
@@ -64,6 +70,7 @@ func (h *DonateHandlers) Routes() http.Handler {
 	mux := http.NewServeMux()
 	mux.HandleFunc("POST /api/donate", h.create)
 	mux.HandleFunc("GET /api/donate/config", h.config)
+	mux.HandleFunc("POST /api/donate/webhook", h.webhook)
 	return mux
 }
 
@@ -150,4 +157,100 @@ func (h *DonateHandlers) create(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	writeJSON(w, http.StatusOK, map[string]string{"url": parsed.URL})
+}
+
+// webhook receives Stripe events (checkout.session.completed). It verifies the
+// signature against the endpoint's signing secret before acting — unverified
+// webhooks can be spoofed. Donations need no fulfillment, so a completed session
+// is just recorded; we always 200 a verified event so Stripe stops retrying.
+func (h *DonateHandlers) webhook(w http.ResponseWriter, r *http.Request) {
+	body, err := io.ReadAll(io.LimitReader(r.Body, 1<<20))
+	if err != nil {
+		writeErr(w, http.StatusBadRequest, "could not read body")
+		return
+	}
+	if h.WebhookSecret == "" {
+		h.Log.Warn("stripe webhook received but STRIPE_WEBHOOK_SECRET is not set")
+		w.WriteHeader(http.StatusOK) // avoid infinite retries while unconfigured
+		return
+	}
+	if err := verifyStripeSignature(r.Header.Get("Stripe-Signature"), body, h.WebhookSecret); err != nil {
+		h.Log.Warn("stripe webhook signature rejected", "err", err)
+		writeErr(w, http.StatusBadRequest, "invalid signature")
+		return
+	}
+
+	var evt struct {
+		Type string `json:"type"`
+		Data struct {
+			Object json.RawMessage `json:"object"`
+		} `json:"data"`
+	}
+	if err := json.Unmarshal(body, &evt); err != nil {
+		writeErr(w, http.StatusBadRequest, "invalid event")
+		return
+	}
+	switch evt.Type {
+	case "checkout.session.completed":
+		var s struct {
+			AmountTotal     int64  `json:"amount_total"`
+			Currency        string `json:"currency"`
+			PaymentStatus   string `json:"payment_status"`
+			CustomerDetails struct {
+				Email string `json:"email"`
+			} `json:"customer_details"`
+		}
+		_ = json.Unmarshal(evt.Data.Object, &s)
+		h.Log.Info("donation completed",
+			"amount_cents", s.AmountTotal, "currency", s.Currency,
+			"payment_status", s.PaymentStatus, "email", s.CustomerDetails.Email)
+	default:
+		h.Log.Debug("stripe webhook ignored", "type", evt.Type)
+	}
+	w.WriteHeader(http.StatusOK)
+}
+
+// verifyStripeSignature implements Stripe's signature scheme: the Stripe-Signature
+// header is `t=<unix>,v1=<hex hmac>`; the signed payload is `<t>.<raw body>` HMAC-
+// SHA256'd with the signing secret. Constant-time compare + a timestamp tolerance
+// to block replay.
+func verifyStripeSignature(header string, payload []byte, secret string) error {
+	if header == "" {
+		return errors.New("missing Stripe-Signature")
+	}
+	var ts string
+	var sigs []string
+	for _, part := range strings.Split(header, ",") {
+		kv := strings.SplitN(part, "=", 2)
+		if len(kv) != 2 {
+			continue
+		}
+		switch kv[0] {
+		case "t":
+			ts = kv[1]
+		case "v1":
+			sigs = append(sigs, kv[1])
+		}
+	}
+	if ts == "" || len(sigs) == 0 {
+		return errors.New("malformed signature header")
+	}
+	tsInt, err := strconv.ParseInt(ts, 10, 64)
+	if err != nil {
+		return errors.New("bad timestamp")
+	}
+	if d := time.Since(time.Unix(tsInt, 0)); d > 5*time.Minute || d < -5*time.Minute {
+		return errors.New("timestamp outside tolerance")
+	}
+	mac := hmac.New(sha256.New, []byte(secret))
+	mac.Write([]byte(ts))
+	mac.Write([]byte("."))
+	mac.Write(payload)
+	expected := hex.EncodeToString(mac.Sum(nil))
+	for _, s := range sigs {
+		if hmac.Equal([]byte(expected), []byte(s)) {
+			return nil
+		}
+	}
+	return errors.New("no matching signature")
 }
