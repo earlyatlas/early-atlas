@@ -923,7 +923,7 @@ export const prerender = true;
       try {
         const res = await api("/api/proposals", {
           method: "POST",
-          body: JSON.stringify({ changeset }),
+          body: JSON.stringify({ changeset, title: changeset.title, rationale: changeset.rationale }),
         });
         const data = await res.json().catch(() => ({}));
         if (res.status === 201) {
