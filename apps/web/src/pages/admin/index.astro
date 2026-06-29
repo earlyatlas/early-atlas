@@ -153,6 +153,22 @@ export const prerender = true;
   }
   const actionable = (s: string) => s === "draft" || s === "submitted";
 
+  // A one-shot banner shown after an action, so the materialization outcome (the
+  // approve→PR dispatch) is visible and a failed one can be retried.
+  let flash: { text: string; bad: boolean } | null = null;
+  function materializationFlash(status: string, m?: string): { text: string; bad: boolean } | null {
+    if (status === "rejected") return { text: "Proposal rejected.", bad: false };
+    if (status !== "approved") return null;
+    if (!m || m === "skipped")
+      return { text: "Approved. Materialization is off — no PR was opened.", bad: false };
+    if (m === "dispatched")
+      return { text: "Approved — a draft PR is being opened on GitHub.", bad: false };
+    return {
+      text: `Approved, but materialization failed: ${m}. Use “Retry materialization”.`,
+      bad: true,
+    };
+  }
+
   async function loadQueue() {
     const queue = document.getElementById("queue")!;
     const status = document.getElementById("status")!;
@@ -187,7 +203,9 @@ export const prerender = true;
         const actions = actionable(p.status)
           ? `<button class="act" data-id="${p.id}" data-status="approved">Approve</button>
            <button class="act act-reject" data-id="${p.id}" data-status="rejected">Reject</button>`
-          : "";
+          : p.status === "approved"
+            ? `<button class="act act-reject" data-id="${p.id}" data-status="approved" title="Re-run materialization (idempotent)">Retry materialization</button>`
+            : "";
         return `<li class="proposal">
         <div class="proposal-head"><span class="badge badge-${escapeHtml(p.status)}">${escapeHtml(p.status)}</span>
           <strong>${escapeHtml(p.title ?? "(untitled)")}</strong> ${valid}</div>
@@ -198,18 +216,29 @@ export const prerender = true;
       })
       .join("");
 
+    if (flash) {
+      queue.insertAdjacentHTML(
+        "afterbegin",
+        `<li class="notice ${flash.bad ? "bad" : ""}" role="status">${escapeHtml(flash.text)}</li>`,
+      );
+      flash = null;
+    }
+
     queue.querySelectorAll<HTMLButtonElement>(".act").forEach((btn) => {
       btn.addEventListener("click", async () => {
         btn.disabled = true;
+        const status = btn.dataset.status!;
         const r = await api(`/api/proposals/${btn.dataset.id}/status`, {
           method: "POST",
-          body: JSON.stringify({ status: btn.dataset.status }),
+          body: JSON.stringify({ status }),
         });
-        if (r.ok) loadQueue();
-        else {
-          btn.disabled = false;
-          alert(`Failed: ${r.status}`);
+        const data = await r.json().catch(() => ({}) as any);
+        if (r.ok) {
+          flash = materializationFlash(status, data.materialization);
+        } else {
+          flash = { text: `Couldn’t update the proposal (${r.status}).`, bad: true };
         }
+        loadQueue();
       });
     });
   }
