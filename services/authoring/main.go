@@ -93,7 +93,7 @@ func main() {
 	// configured key's prefix decides test vs live mode (reported at /config).
 	if stripeKey := os.Getenv("STRIPE_SECRET_KEY"); stripeKey != "" {
 		corsOrigins := strings.Split(os.Getenv("AUTHORING_CORS_ORIGINS"), ",")
-		dh := api.NewDonateHandlers(stripeKey, corsOrigins, envOr("DONATE_RETURN_URL", "https://earlyatlas.com"), log)
+		dh := api.NewDonateHandlers(stripeKey, os.Getenv("STRIPE_WEBHOOK_SECRET"), corsOrigins, envOr("DONATE_RETURN_URL", "https://earlyatlas.com"), log)
 		mux.Handle("/api/donate", api.CORS(corsOrigins, dh.Routes()))
 		mux.Handle("/api/donate/", api.CORS(corsOrigins, dh.Routes()))
 		log.Info("donations enabled", "mode", api.StripeMode(stripeKey))
