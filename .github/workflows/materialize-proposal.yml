@@ -20,6 +20,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: develop # proposals branch from + target develop (develop -> main is the only path to prod)
 
       - uses: pnpm/action-setup@v4
         with:
@@ -99,7 +100,8 @@ jobs:
           - [ ] Evidence / citations where claims are made
           - [ ] Accessibility & inclusive language
 
-          Merging this PR (to \`main\`) publishes it. Close it to reject.
+          Merging this PR (to \`develop\`) stages it for the next release
+          (\`develop\` → \`main\` publishes). Close it to reject.
 
           <sub>Materialized by the \`materialize-proposal\` workflow · proposal ${PID}</sub>
           EOF
@@ -108,7 +110,7 @@ jobs:
           if gh pr view "$BRANCH" >/dev/null 2>&1; then
             echo "PR already exists for ${BRANCH}; updated the branch."
           else
-            gh pr create --draft --title "Proposal: ${TITLE}" --body "$BODY" \
+            gh pr create --draft --base develop --title "Proposal: ${TITLE}" --body "$BODY" \
               --label proposal --label needs-review
           fi
           gh pr view "$BRANCH" --json url -q .url
