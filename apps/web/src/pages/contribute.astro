@@ -133,19 +133,22 @@ export const prerender = true;
     border: 1px solid var(--notice-ok-border);
     line-height: 1.5;
   }
+  /* Fixed 4-column grid: equal cells, so selecting an amount never reflows the row. */
   .amounts {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: var(--space-2);
   }
   .amount {
-    flex: 1 1 0;
-    min-width: 4rem;
+    appearance: none;
+    display: flex; /* lock the label dead-center so selecting never nudges it */
+    align-items: center;
+    justify-content: center;
+    min-height: 2.75rem;
     margin: 0;
-    padding: var(--space-3) var(--space-2);
+    padding: 0 var(--space-2);
     font: inherit;
     font-weight: 700;
-    text-align: center;
     color: var(--ink);
     background: var(--surface-2);
     border: 1px solid var(--line);
@@ -153,31 +156,30 @@ export const prerender = true;
     cursor: pointer;
     transition:
       border-color 0.12s var(--ease-out),
-      background-color 0.12s var(--ease-out);
+      background-color 0.12s var(--ease-out),
+      color 0.12s var(--ease-out);
   }
   .amount:hover {
     border-color: var(--accent-border);
   }
   .amount.selected {
     background: var(--accent-soft);
-    border-color: var(--accent-border);
+    border-color: var(--accent);
     color: var(--accent);
   }
-  /* the "Other" amount is an input wearing the same chip as the preset buttons */
+  /* the "Other" amount is an input wearing the same chip — content left-aligned */
   .amount-other {
-    display: flex;
-    align-items: center;
-    gap: 2px;
+    justify-content: flex-start;
+    gap: 3px;
     cursor: text;
-    flex: 1.4 1 0;
   }
   .amount-other .cur {
+    flex: none;
     color: var(--muted);
-    font-weight: 700;
   }
   .amount-other input {
     width: 100%;
-    min-width: 0; /* let the number input shrink in flex instead of overflowing/wrapping */
+    min-width: 0;
     margin: 0;
     padding: 0;
     border: 0;
@@ -185,13 +187,12 @@ export const prerender = true;
     font: inherit;
     font-weight: 700;
     color: var(--ink);
-    text-align: left;
   }
   .amount-other input:focus {
     outline: none;
   }
   .amount-other:focus-within {
-    border-color: var(--accent-border);
+    border-color: var(--accent);
     background: var(--accent-soft);
   }
   /* hide number spinners — the chip should read as a clean field */
@@ -326,11 +327,13 @@ export const prerender = true;
         setNote("");
       }),
     );
-    otherInput.addEventListener("input", () => {
-      clearPresets();
+    const useOther = () => {
+      clearPresets(); // deselect any preset the moment "Other" becomes active
       selected = 0;
       setNote("");
-    });
+    };
+    otherInput.addEventListener("focus", useOther);
+    otherInput.addEventListener("input", useOther);
 
     // Suggest a default amount so Donate always has a value to send.
     const defaultPreset = presets.find((b) => b.dataset.cents === "1000") ?? presets[0];
