@@ -83,7 +83,8 @@ func main() {
 		handlers := &api.Handlers{Store: st, Log: log, GitHub: githubCfg, GitHubOn: githubOn}
 		corsOrigins := strings.Split(os.Getenv("AUTHORING_CORS_ORIGINS"), ",")
 		mux.Handle("/api/", api.CORS(corsOrigins, handlers.Routes(verifier)))
-		log.Info("proposal API enabled", "cors_origins", len(corsOrigins), "materialization", githubOn)
+		log.Info("proposal API enabled", "cors_origins", len(corsOrigins),
+			"materialization", githubOn, "github_app", githubCfg.IsApp())
 	} else {
 		log.Warn("proposal API disabled — set COGNITO_ISSUER and COGNITO_CLIENT_ID")
 	}
