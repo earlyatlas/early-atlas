@@ -1,0 +1,42 @@
+id: ea.activity.social-emotional.calm-down-corner
+slug: calm-down-corner
+title: Calm-Down Corner
+summary: Children practice using a cozy space and simple strategies to settle big feelings.
+supported_skill_ids:
+  - ea.skill.social-emotional.self-regulation.manages-strong-feelings
+age_range_months:
+  min: 30
+  max: 60
+group_size: 1-3 children
+duration_minutes: 10
+materials:
+  - A small cozy space with cushions
+  - Calming tools (soft toy, breathing card, picture of calm strategies)
+setup: Set up the corner during a calm time and introduce it before it is needed.
+steps:
+  - Visit the corner together when everyone is calm.
+  - Practice one breathing strategy, like "smell the flower, blow the candle."
+  - Show how to hug the soft toy or look at the strategy cards.
+  - Explain that the corner is a place to feel better, never a punishment.
+variations:
+  - Make a personal "calm kit" the child helps choose.
+differentiation:
+  - For beginners, an adult sits and co-regulates in the corner.
+  - For older children, let them name which strategy they will try.
+assessment_opportunities:
+  - Note whether the child chooses a calming strategy when upset, with reminders.
+safety_notes:
+  - Keep the child in sight and stay close during big feelings.
+accessibility_notes:
+  - Honor sensory needs (dim light, quiet, a weighted item) and use visual strategy cards.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+  - ea.citation.headstart.elof
+tags:
+  - self-regulation
+  - calming
+  - social-emotional
+methodologies:
+  - play-based
+status: accepted
+locale: en-US

@@ -1,0 +1,47 @@
+id: ea.activity.approaches-to-learning.familiar-or-new-sorting-game
+slug: familiar-or-new-sorting-game
+title: Familiar or New?
+summary: A toddler looks through a basket that mixes well-loved objects with one or two brand-new items, noticing and reacting to what is unfamiliar.
+supported_skill_ids:
+  - ea.skill.approaches-to-learning.executive-function.distinguishes-familiar-and-unfamiliar
+age_range_months:
+  min: 12
+  max: 36
+group_size: 1-3 children
+duration_minutes: 10
+materials:
+  - A basket
+  - 4 to 5 objects the child uses every day (their own cup, a favorite book)
+  - 1 to 2 objects the child has never seen before
+  - Optional photos of familiar family members and one unfamiliar face
+setup: Place the familiar objects in the basket and tuck one new object among them.
+steps:
+  - Sit with the child and pull out objects one at a time.
+  - Name each familiar object warmly, such as "Here is your cup. You know this one."
+  - When the new object appears, pause and watch the child's reaction.
+  - Wonder aloud together, such as "This one is new. What could it be?"
+  - Let the child explore the new object as long as they like.
+variations:
+  - Use family photos and add one photo of a friendly but unfamiliar person.
+  - Hide a new object in a familiar spot and see if the child notices the change.
+differentiation:
+  - For younger toddlers, use just one new object among two familiar ones.
+  - For older toddlers, ask them to tell you which things are "yours" and which are new.
+assessment_opportunities:
+  - Note whether the child reacts differently to the new object than the familiar ones.
+  - Listen for words or gestures that mark something as new or surprising.
+safety_notes:
+  - Ensure all objects, especially new ones, are too large to swallow and have no sharp parts.
+accessibility_notes:
+  - Offer objects with distinct textures or sounds so familiarity does not depend on sight alone.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - familiarity
+  - memory
+  - routines
+methodologies:
+  - play-based
+  - montessori
+status: accepted
+locale: en-US

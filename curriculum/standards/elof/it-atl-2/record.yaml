@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-atl-2
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-ATL 2"
+title: "Child manages actions and behavior with support of familiar adults."
+domain_area: "Approaches to Learning"
+sub_domain: "Emotional and Behavioral Self-Regulation"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Responds to attentive caregiving by quieting or calming down, such as when being fed or being comforted during moments of physical distress."
+  - age_period: "8 to 18 Months"
+    text: "Looks to familiar adults for assistance and guidance with actions and behavior. May try to calm self by sucking on fingers or thumb when overly excited or distressed."
+  - age_period: "16 to 36 Months"
+    text: "Begins to manage and adjust actions and behavior with the guidance of familiar adults using words or signs such as \"Stop\" or \"No\" during conflict with a peer instead of hitting. Lets the adult know when they are hungry or tired."
+  - age_period: "By 36 Months"
+    text: "Participates in and follows everyday routines with the support of familiar adults."
+  - age_period: "By 36 Months"
+    text: "Communicates verbally or non-verbally about basic needs. Manages short delays in getting physical needs met with the support of familiar adults."
+  - age_period: "By 36 Months"
+    text: "Learns and follows some basic rules for managing actions and behavior in familiar settings, such as holding an adult's hand when crossing the street."
+source_url: https://headstart.gov/school-readiness/article/approaches-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

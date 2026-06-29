@@ -1,0 +1,47 @@
+id: ea.skill.approaches-to-learning.curiosity-initiative.shows-initiative
+slug: shows-initiative
+title: Shows Initiative and Independence
+short_description: >-
+  Child starts interactions and activities on their own, makes choices, and
+  works independently for growing stretches of time.
+developmental_purpose: >-
+  Initiative is the engine of self-directed learning. It starts when an infant
+  initiates a game with a caregiver or points to a wanted toy, and grows into a
+  preschooler who chooses an activity, gathers what they need, and plans a play
+  scenario. Children who take initiative experience themselves as capable agents,
+  which fuels motivation and independence across every domain.
+domain_ids:
+  - ea.domain.approaches-to-learning
+age_range_months:
+  min: 6
+  max: 60
+developmental_stage: infant_to_preschool
+related_skill_ids:
+  - ea.skill.approaches-to-learning.curiosity-initiative.shows-curiosity
+  - ea.skill.approaches-to-learning.creativity.uses-imagination-in-play
+mastery_criteria:
+  - Initiates interactions or shared activities with adults and peers.
+  - Makes choices and communicates preferences to adults and other children.
+  - Independently gathers the things needed to start or finish a self-chosen task.
+observation_prompts:
+  - Does the child begin an activity without being told, or wait to be directed?
+  - When given an open choice, can the child decide and act on a preference?
+common_misconceptions:
+  - >-
+    A child who needs help starting is not "lazy"; initiative grows when the
+    environment offers reachable, appealing choices and unhurried time.
+accessibility_notes:
+  - Display choices as pictures or objects so every child can select independently.
+  - Arrange materials on low, open shelves so children can gather what they need themselves.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - curiosity-initiative
+  - initiative
+  - independence
+  - choice
+standard_ids:
+  - ea.standard.elof.it-atl-6
+  - ea.standard.elof.p-atl-10
+status: accepted
+locale: en-US

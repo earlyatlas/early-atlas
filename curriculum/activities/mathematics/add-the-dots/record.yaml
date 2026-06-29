@@ -1,0 +1,41 @@
+id: ea.activity.mathematics.add-the-dots
+slug: add-the-dots
+title: Add the Dots
+summary: Children roll two dot dice and count all the dots to find the total.
+supported_skill_ids:
+  - ea.skill.mathematics.number-sense.adds-single-digit
+age_range_months:
+  min: 48
+  max: 72
+group_size: 1-4 children
+duration_minutes: 15
+materials:
+  - Two large dot dice (or number-and-dot cards)
+  - Optional counters
+setup: Sit where each child can roll both dice and see the dots.
+steps:
+  - Have the child roll both dice.
+  - Count the dots on the first die, then keep counting onto the second.
+  - Say the total ("Four and three make seven").
+  - Roll again and compare totals, optionally writing the number sentence.
+variations:
+  - Use counters to build each number before combining.
+  - Race to be first to reach a target total over several rolls.
+differentiation:
+  - For beginners, keep both dice to small numbers and count all dots.
+  - For older children, encourage counting on from the larger number.
+assessment_opportunities:
+  - Note whether the child counts on or must count every dot from one.
+accessibility_notes:
+  - Provide counters or a number line for children not yet adding mentally.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - addition
+  - number-sense
+  - dice-game
+methodologies:
+  - play-based
+  - montessori
+status: accepted
+locale: en-US

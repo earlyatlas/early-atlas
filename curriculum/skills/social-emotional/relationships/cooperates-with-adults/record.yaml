@@ -1,0 +1,43 @@
+id: ea.skill.social-emotional.relationships.cooperates-with-adults
+slug: cooperates-with-adults
+title: Cooperates With Adults
+short_description: Child uses polite social behavior and follows adult guidance.
+developmental_purpose: >-
+  Prosocial, cooperative behavior with adults — greeting, attending, following
+  reasonable guidelines — lets a preschooler take part in group routines and
+  builds the mutual respect that classroom and family life depend on.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+prerequisite_skill_ids:
+  - ea.skill.social-emotional.relationships.connects-with-trusted-adults
+related_skill_ids:
+  - ea.skill.social-emotional.self-regulation.solves-peer-conflicts
+mastery_criteria:
+  - Uses prosocial greetings and respectful words with adults, such as "hello" and "thank you".
+  - Attends to an adult and follows familiar guidelines and directions without significant prompting.
+  - Asks or waits for adult permission before acting when unsure.
+observation_prompts:
+  - Does the child greet and respond to adults with respectful language?
+  - When given a direction, can the child attend and follow it with little prompting?
+  - When unsure, does the child check with an adult before going ahead?
+accessibility_notes:
+  - Pair spoken directions with a picture schedule or gesture so expectations are clear.
+  - Give extra processing time and one step at a time for children who need it.
+common_misconceptions:
+  - Occasional "no" and testing limits is typical for this age and does not mean a child is uncooperative.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - relationships
+  - cooperation
+  - prosocial
+  - following-directions
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-se-2
+status: accepted
+locale: en-US

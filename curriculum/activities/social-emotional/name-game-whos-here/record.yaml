@@ -1,0 +1,45 @@
+id: ea.activity.social-emotional.name-game-whos-here
+slug: name-game-whos-here
+title: Name Game — Who's Here?
+summary: A simple name song and photo play help a toddler recognize their name and notice features of self and others.
+supported_skill_ids:
+  - ea.skill.social-emotional.self-concept.recognizes-own-characteristics
+age_range_months:
+  min: 10
+  max: 36
+group_size: 1-6 children
+duration_minutes: 10
+materials:
+  - Photos of each child
+  - A mirror
+setup: Gather the children in a small circle with the photos and mirror nearby.
+steps:
+  - Sing a short hello song, naming each child in turn.
+  - Pause on each name and invite the child to respond by looking or coming.
+  - Hold the mirror and point out a feature, for example "you have curly hair."
+  - Show each child their photo and name them warmly.
+  - Notice similarities and differences kindly, for example "you both have brown eyes."
+variations:
+  - Add a puppet that "looks for" each child by name.
+  - Let children find their own photo in a small basket.
+differentiation:
+  - For younger children, focus on their own name and face.
+  - For older toddlers, ask them to name a feature of themselves.
+assessment_opportunities:
+  - Note whether the child responds to their own name.
+  - Watch for the child naming or pointing to a feature of self.
+safety_notes:
+  - Use a shatterproof mirror and store photos out of mouthing reach.
+accessibility_notes:
+  - Pair each name with eye contact, a gentle touch, or a sign.
+  - Use clear, high-contrast photos for children with vision differences.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - self-recognition
+  - identity
+  - name
+methodologies:
+  - play-based
+status: accepted
+locale: en-US

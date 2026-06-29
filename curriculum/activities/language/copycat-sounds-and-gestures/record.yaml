@@ -1,0 +1,45 @@
+id: ea.activity.language.copycat-sounds-and-gestures
+slug: copycat-sounds-and-gestures
+title: Copycat Sounds and Gestures
+summary: A baby or toddler plays a back-and-forth copying game, imitating animal sounds, simple words, and hand gestures with a caregiver.
+supported_skill_ids:
+  - ea.skill.language.expressive.imitates-sounds-and-gestures
+age_range_months:
+  min: 6
+  max: 30
+group_size: 1-4 children
+duration_minutes: 10
+materials:
+  - No materials required
+  - Optional simple props (a toy animal, a scarf to wave)
+setup: Sit face to face with the child where they can see your mouth and hands clearly.
+steps:
+  - Start with a sound or gesture the child already makes and copy it back to them.
+  - Add a new sound or gesture, such as clapping or saying "moo," and wait.
+  - Pause expectantly to give the child time to imitate you.
+  - Celebrate any attempt, then take a turn copying the child.
+  - Build a simple back-and-forth rhythm of taking turns.
+variations:
+  - Sing a song with gestures, such as waving and tapping, and pause for the child to join.
+  - Use a toy phone and take turns making talking sounds.
+differentiation:
+  - For infants, mirror the sounds and gestures the child already produces.
+  - For older toddlers, imitate a two-step action, such as clap then tap your knees.
+assessment_opportunities:
+  - Note which sounds or gestures the child imitates and how quickly.
+  - Watch for delayed imitation, where the child reuses a gesture later.
+safety_notes:
+  - Keep any props large and soft; supervise scarves closely.
+accessibility_notes:
+  - Offer gestures or signs alongside sounds for children with hearing differences.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - imitation
+  - gestures
+  - expressive-language
+methodologies:
+  - play-based
+  - waldorf
+status: accepted
+locale: en-US

@@ -1,0 +1,31 @@
+id: ea.printable.literacy.copywork-nursery-rhyme
+slug: copywork-nursery-rhyme
+title: Copywork — A Nursery Rhyme
+printable_type: worksheet
+instructions: "First recite the rhyme from memory. Then trace each word, saying it as you write. Read the whole line aloud when you finish."
+supported_skill_ids:
+  - ea.skill.literacy.writing.traces-letters
+age_range_months:
+  min: 54
+  max: 78
+generator:
+  type: handwriting
+  targets:
+    - twinkle
+    - little
+    - star
+    - how
+    - wonder
+    - are
+  rows_per_target: 1
+  traces_per_row: 3
+  style: dotted-thirds
+tags:
+  - copywork
+  - poetry
+  - recitation
+  - handwriting
+methodologies:
+  - classical
+status: accepted
+locale: en-US

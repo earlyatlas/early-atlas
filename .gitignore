@@ -1,0 +1,34 @@
+# Dependencies & build output
+node_modules/
+dist/
+build/
+.astro/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.pyc
+
+# Infra / CDK artifacts (infra lives in a separate private repo — never here)
+cdk.out/
+*.tfstate
+*.tfstate.*
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# OS & editor cruft
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*~
+
+# Local-only working state
+drafts/local/
+
+# Agent / local tooling (kept out of the public repo)
+.claude/
+.impeccable/

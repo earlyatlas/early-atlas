@@ -1,0 +1,47 @@
+id: ea.skill.approaches-to-learning.self-regulation.manages-behavior
+slug: manages-behavior
+title: Manages Actions and Behavior
+short_description: >-
+  Child adjusts actions, words, and behavior — first with steady adult guidance
+  and later with increasing independence in familiar settings.
+developmental_purpose: >-
+  Behavioral self-regulation is the bridge between feeling an impulse and acting
+  on it. A toddler learns to say "stop" instead of hitting; a preschooler waits a
+  turn and uses gentle hands when frustrated. These capacities grow through
+  repeated, supportive practice with trusted adults and make group life,
+  friendship, and learning possible.
+domain_ids:
+  - ea.domain.approaches-to-learning
+age_range_months:
+  min: 8
+  max: 60
+developmental_stage: infant_to_preschool
+related_skill_ids:
+  - ea.skill.approaches-to-learning.self-regulation.manages-emotions
+  - ea.skill.approaches-to-learning.self-regulation.follows-rules-and-routines
+mastery_criteria:
+  - Uses words or signs, such as "stop" or "my turn," instead of physical reactions during conflict.
+  - Manages own actions and words with reminders, using gentle touches and friendly words.
+  - Waits a turn and refrains from aggressive behavior toward others.
+observation_prompts:
+  - During a disagreement over a toy, does the child use words or gestures rather than grabbing or hitting?
+  - How much adult support does the child need to redirect an action, such as switching to gentle hands?
+common_misconceptions:
+  - >-
+    Expecting consistent self-control without reminders is unrealistic before
+    around age five; lapses are part of typical development, not defiance.
+accessibility_notes:
+  - Pair spoken reminders with simple gestures or picture cues for children who process language slowly.
+  - Model and practice replacement actions concretely rather than only stating what not to do.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - self-regulation
+  - behavior
+  - turn-taking
+  - conflict
+standard_ids:
+  - ea.standard.elof.it-atl-2
+  - ea.standard.elof.p-atl-4
+status: accepted
+locale: en-US

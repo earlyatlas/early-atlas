@@ -1,0 +1,52 @@
+id: ea.activity.approaches-to-learning.picture-schedule-routine
+slug: picture-schedule-routine
+title: Our Day in Pictures
+summary: >-
+  Children build and use a picture schedule, then follow a transition signal to
+  move smoothly between parts of the day.
+supported_skill_ids:
+  - ea.skill.approaches-to-learning.self-regulation.follows-rules-and-routines
+age_range_months:
+  min: 36
+  max: 60
+group_size: whole group
+duration_minutes: 20
+materials:
+  - Printed or drawn picture cards for daily activities, such as circle, snack, outside, cleanup
+  - A board, wall strip, or pocket chart to display them in order
+  - A chime, bell, or short song to signal transitions
+setup: >-
+  Make picture cards for the main parts of the day. Have the display board and
+  the transition signal ready.
+steps:
+  - Look at the picture cards together and name each part of the day.
+  - Invite children to help place the cards in order on the board.
+  - Explain the signal, such as a chime, that means it is time to change activities.
+  - "Practice one transition: ring the signal, point to the next card, and move together."
+  - Refer back to the board throughout the day so children can see what comes next.
+variations:
+  - Let a child be the "schedule helper" who points to the next card each time.
+  - Move a clip or arrow along the schedule so children can track the day.
+differentiation:
+  - For children new to routines, focus on just the next one or two steps.
+  - For older children, add a card they can flip when a step is finished.
+assessment_opportunities:
+  - Note which children move at the signal with only a group cue.
+  - Observe whether children reference the board to predict what comes next.
+safety_notes:
+  - Keep transitions unhurried so children do not rush or crowd.
+accessibility_notes:
+  - Use real photos for children who recognize them more easily than drawings.
+  - Give an individual heads-up before the group signal for children who need extra time.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - routines
+  - transitions
+  - schedule
+  - rules
+methodologies:
+  - highscope
+  - montessori
+status: accepted
+locale: en-US

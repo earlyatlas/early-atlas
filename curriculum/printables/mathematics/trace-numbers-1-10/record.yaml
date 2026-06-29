@@ -1,0 +1,35 @@
+id: ea.printable.mathematics.trace-numbers-1-10
+slug: trace-numbers-1-10
+title: Trace the Numbers 1–10
+printable_type: worksheet
+instructions: "Say each number out loud, then trace it along the dotted lines. Form each numeral from the top, the way you would write it."
+supported_skill_ids:
+  - ea.skill.mathematics.number-sense.matches-quantity-to-numeral
+age_range_months:
+  min: 42
+  max: 66
+generator:
+  type: handwriting
+  targets:
+    - "1"
+    - "2"
+    - "3"
+    - "4"
+    - "5"
+    - "6"
+    - "7"
+    - "8"
+    - "9"
+    - "10"
+  rows_per_target: 1
+  traces_per_row: 5
+  style: dotted-thirds
+tags:
+  - numerals
+  - number-formation
+  - copywork
+  - handwriting
+methodologies:
+  - classical
+status: accepted
+locale: en-US

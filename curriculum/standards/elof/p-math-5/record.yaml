@@ -1,0 +1,21 @@
+id: ea.standard.elof.p-math-5
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-MATH 5"
+title: "Child associates a quantity with written numerals up to 5 and begins to write numbers."
+domain_area: "Mathematics Development"
+sub_domain: "Counting and Cardinality"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Begins to understand that a written numeral represents a quantity and may draw objects or use informal symbols to represent numbers."
+  - age_period: "48 to 60 Months"
+    text: "Understands that written numbers represent quantities of objects, and uses information symbols, such as a tally, to represent numerals. With adult support, writes some numerals up to 10."
+  - age_period: "By 60 Months"
+    text: "Associates a number of objects with a written numeral 0–5."
+  - age_period: "By 60 Months"
+    text: "Recognizes and, with support, writes some numerals up to 10."
+source_url: https://headstart.gov/school-readiness/article/math-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

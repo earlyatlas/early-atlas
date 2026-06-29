@@ -1,0 +1,52 @@
+id: ea.activity.approaches-to-learning.tallest-tower-challenge
+slug: tallest-tower-challenge
+title: Tallest Tower Challenge
+summary: >-
+  Children build the tallest tower they can with blocks, rebuilding and trying
+  new strategies after it topples to practice persistence through setbacks.
+supported_skill_ids:
+  - ea.skill.approaches-to-learning.persistence.persists-through-challenges
+age_range_months:
+  min: 36
+  max: 60
+group_size: 1-4 children
+duration_minutes: 20
+materials:
+  - A set of stacking blocks of varied sizes
+  - A flat, stable building surface
+setup: >-
+  Spread the blocks on the floor or a low table with enough room for towers to
+  rise and fall.
+steps:
+  - "Pose the challenge: \"Let's see how tall a tower you can build.\""
+  - Let children build and notice what makes the tower steady or wobbly.
+  - "When a tower topples, respond calmly: \"It fell, what could you try next time?\""
+  - Encourage a new strategy, such as a wider base, and invite another attempt.
+  - "Celebrate the effort and the strategy, not only the finished height."
+variations:
+  - Challenge children to build a tower as tall as their knee or waist.
+  - Use cups or cardboard tubes instead of blocks for a different building problem.
+differentiation:
+  - For younger children, use large soft blocks that stack easily.
+  - For older children, add a rule such as alternating block sizes to raise the challenge.
+assessment_opportunities:
+  - Note whether the child rebuilds after a collapse or abandons the task.
+  - Watch for the child changing strategy rather than repeating the same approach.
+safety_notes:
+  - Use lightweight blocks so a falling tower cannot hurt a child.
+  - Keep towers below standing head height to avoid pieces falling on faces.
+accessibility_notes:
+  - Offer blocks with grippy surfaces for children still refining fine-motor control.
+  - Give brief, specific encouragement at the moment of difficulty, not only at the end.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - persistence
+  - problem-solving
+  - growth-mindset
+  - building
+methodologies:
+  - highscope
+  - play-based
+status: accepted
+locale: en-US

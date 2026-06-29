@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-lc-6
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-LC 6"
+title: "Child initiates non-verbal communication and language to learn and gain information."
+domain_area: "Language and Communication"
+sub_domain: "Communicating and Speaking"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Takes turns in non-verbal conversations by using facial expressions, sounds, gestures, or signs to initiate or respond to communication."
+  - age_period: "8 to 18 Months"
+    text: "Asks simple questions using gestures, such as pointing, signs or words, with variations in pitch and intonation."
+  - age_period: "16 to 36 Months"
+    text: "Seeks information and meaning of words by asking questions in words or signs, such as \"What's that?\" or \"Who's that?\" or \"Why?\""
+  - age_period: "By 36 Months"
+    text: "Asks questions in a variety of ways."
+  - age_period: "By 36 Months"
+    text: "Repeats or re-phrases questions until a response is received."
+source_url: https://headstart.gov/school-readiness/article/language-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

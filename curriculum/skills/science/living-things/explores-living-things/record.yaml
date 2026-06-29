@@ -1,0 +1,39 @@
+id: ea.skill.science.living-things.explores-living-things
+slug: explores-living-things
+title: Explores Living Things
+short_description: Child observes plants and animals and learns what living things need to grow.
+developmental_purpose: >-
+  Exploring living things helps children sort the world into living and
+  nonliving and to understand that plants and animals need food, water, air,
+  and care. This early biology builds empathy for living creatures and a sense
+  of how growth and life cycles work.
+domain_ids:
+  - ea.domain.science
+age_range_months:
+  min: 30
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.science.inquiry-skills.observes-and-describes
+mastery_criteria:
+  - Names at least two things a plant or animal needs to live, such as water, food, or sunlight.
+  - Distinguishes some living things from nonliving objects and explains a reason.
+observation_prompts:
+  - "Does the child notice changes in a growing plant or animal over time and comment on them?"
+  - "When asked, can the child explain that a living thing needs care to stay healthy?"
+accessibility_notes:
+  - Offer close-up images, textured models, or sound recordings for children who cannot handle living specimens directly.
+safety_notes:
+  - Wash hands after touching plants, soil, or animals, and supervise to prevent mouthing of seeds, leaves, or insects.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - living-things
+  - plants
+  - animals
+  - observation
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-sci-1
+status: accepted
+locale: en-US

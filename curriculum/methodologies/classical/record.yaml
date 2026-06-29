@@ -1,0 +1,21 @@
+id: ea.methodology.classical
+slug: classical
+title: Classical Education
+short_description: A time-tested approach following the classical "trivium," beginning with memory, language, and recitation in the early years.
+origin: Rooted in the education of ancient Greece and Rome (the trivium of grammar, logic, and rhetoric), revived for modern schooling.
+principles:
+  - The early "grammar stage" delights in memorizing facts, songs, and rhymes.
+  - Rich language, storytelling, and a strong oral foundation.
+  - Recitation, copywork, and repetition build mastery.
+  - Big questions explored through Socratic conversation as children grow.
+  - Early memory work lays groundwork for later logic and rhetoric.
+inspiration_note: >-
+  Lessons tagged Classical are inspired by these ideas — joyful memory work,
+  recitation, and rich language. They are original Early Atlas activities, not an
+  official curriculum of any classical school or association.
+tags:
+  - memorization
+  - recitation
+  - language-rich
+status: accepted
+locale: en-US

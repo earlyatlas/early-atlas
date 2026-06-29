@@ -1,0 +1,29 @@
+id: ea.domain.science
+slug: science
+title: Science & Inquiry
+description: >-
+  Young scientists observe, ask questions, predict, and explore the living
+  world and the physical world around them. Through hands-on investigation of
+  plants, animals, motion, water, and weather, children build the habits of
+  noticing closely, wondering aloud, and testing ideas. These early inquiry
+  skills lay the foundation for reasoning, evidence, and a lasting curiosity
+  about how things work.
+age_coverage:
+  min: 8
+  max: 66
+subdomains:
+  - inquiry-skills
+  - living-things
+  - physical-world
+  - earth-environment
+references:
+  - ea.citation.headstart.elof
+  - ea.citation.naeyc.dap
+tags:
+  - science
+  - inquiry
+  - observation
+  - living-things
+  - physical-world
+status: accepted
+locale: en-US

@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-se-6
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-SE 6"
+title: "Child learns to express a range of emotions."
+domain_area: "Social and Emotional Development"
+sub_domain: "Emotional Functioning"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Expresses feelings of comfort, discomfort, enjoyment, fear, surprise, anger, or unhappiness by crying, smiling, laughing, or through facial expressions, body movements, or gestures, often to elicit a response from a familiar adult."
+  - age_period: "8 to 18 Months"
+    text: "Expresses a variety of emotions and modifies their expression according to the reactions of familiar adults, based on the child's cultural background."
+  - age_period: "16 to 36 Months"
+    text: "Expresses a range of emotions, including surprise, guilt, embarrassment, or pride, based on increasing awareness of their effects on others."
+  - age_period: "By 36 Months"
+    text: "Expresses a variety of emotions through facial expressions, sounds, gestures, or words."
+  - age_period: "By 36 Months"
+    text: "Uses words to describe some feelings or emotions that reflect an awareness of other people's emotions."
+source_url: https://headstart.gov/school-readiness/article/social-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

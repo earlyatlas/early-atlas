@@ -1,0 +1,37 @@
+id: ea.skill.mathematics.number-sense.adds-single-digit
+slug: adds-single-digit
+title: Adds Single-Digit Numbers
+short_description: Child adds two single-digit numbers.
+developmental_purpose: >-
+  Combining small quantities is the foundation of arithmetic and builds fluency
+  with number relationships.
+domain_ids:
+  - ea.domain.mathematics
+age_range_months:
+  min: 48
+  max: 72
+developmental_stage: preschool_to_kindergarten
+prerequisite_skill_ids:
+  - ea.skill.mathematics.number-sense.counts-to-ten
+mastery_criteria:
+  - Finds the sum of two single-digit numbers, with manipulatives if needed.
+observation_prompts:
+  - Given two small groups of objects, does the child count them together to find the total?
+supporting_activity_ids:
+  - ea.activity.mathematics.add-the-dots
+accessibility_notes:
+  - Provide counters or a number line for children who are not yet adding mentally.
+research_reference_ids:
+  - ea.citation.headstart.elof
+printable_ids:
+  - ea.printable.mathematics.single-digit-addition
+  - ea.printable.mathematics.addition-within-five
+tags:
+  - number-sense
+  - addition
+  - arithmetic
+  - kindergarten
+standard_ids:
+  - ea.standard.elof.p-math-6
+status: accepted
+locale: en-US

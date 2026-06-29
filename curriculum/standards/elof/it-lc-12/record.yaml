@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-lc-12
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-LC 12"
+title: "Child comprehends meaning from pictures and stories."
+domain_area: "Language and Communication"
+sub_domain: "Emergent Literacy"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Looks at picture books and listens to an adult talk about pictures in a book."
+  - age_period: "8 to 18 Months"
+    text: "Points at pictures in a book, making sounds or saying words and interacting with an adult reading a book."
+  - age_period: "16 to 36 Months"
+    text: "Talks about books, acts out events from stories, and uses some vocabulary encountered during book reading."
+  - age_period: "By 36 Months"
+    text: "Uses pictures as a guide to talk about a story that has been read."
+  - age_period: "By 36 Months"
+    text: "Asks or answers questions about what is happening in a book or story."
+  - age_period: "By 36 Months"
+    text: "Identifies the feelings of characters in a book or story."
+source_url: https://headstart.gov/school-readiness/article/language-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

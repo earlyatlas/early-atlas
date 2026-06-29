@@ -1,0 +1,47 @@
+id: ea.activity.creative-arts.draw-your-family
+slug: draw-your-family
+title: Draw Your Family
+summary: Children draw the people they love, then share the story of who is in the picture.
+supported_skill_ids:
+  - ea.skill.creative-arts.visual-art.creates-representational-art
+age_range_months:
+  min: 36
+  max: 66
+group_size: 1-6 children
+duration_minutes: 25
+materials:
+  - Paper
+  - Crayons, markers, or colored pencils
+  - Optional small mirror for drawing faces
+setup: Set out paper and drawing tools at a comfortable table where children can spread out.
+steps:
+  - Invite each child to draw the people in their family, in any way they choose.
+  - Resist correcting or directing; let each child decide who and what to include.
+  - Move around and ask open questions, such as "can you tell me about your picture?"
+  - Write down the child's own words about the drawing if they wish.
+  - Invite children who want to share their picture and story with the group.
+variations:
+  - Draw a self-portrait using a small mirror to notice details.
+  - Draw pets, friends, or a favorite place instead of family.
+differentiation:
+  - For children newer to representation, focus on naming what they drew; for others, encourage details and a story.
+assessment_opportunities:
+  - Note whether the child draws recognizable figures, adds intentional details, and can describe the picture.
+  - Listen for the meaning and story the child gives to their marks.
+safety_notes:
+  - Supervise use of sharpened pencils and keep small caps away from children who still mouth objects.
+accessibility_notes:
+  - Offer chunky grips, adaptive tools, or three-dimensional materials so each child can represent their family their way.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - visual-art
+  - drawing
+  - family
+  - representation
+  - self-expression
+methodologies:
+  - reggio-emilia
+  - play-based
+status: accepted
+locale: en-US

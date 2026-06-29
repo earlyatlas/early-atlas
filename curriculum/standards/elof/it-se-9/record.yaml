@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-se-9
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-SE 9"
+title: "Child manages emotions with the support of familiar adults."
+domain_area: "Social and Emotional Development"
+sub_domain: "Emotional Functioning"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Quiets or stops crying when held and gently rocked or talked to by a familiar adult."
+  - age_period: "8 to 18 Months"
+    text: "Looks to or seeks comfort when distressed and accepts reassurance from a familiar adult, or engages in self-comforting behaviors, such as sucking on fingers or thumb to calm self when upset or in new situations."
+  - age_period: "16 to 36 Months"
+    text: "Shows developing ability to cope with stress or strong emotions by using strategies, such as getting a familiar toy or blanket or seeking contact with a familiar adult."
+  - age_period: "By 36 Months"
+    text: "Uses different ways to calm or comfort self when upset."
+  - age_period: "By 36 Months"
+    text: "Responds positively to emotional support from adults and other children."
+source_url: https://headstart.gov/school-readiness/article/social-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

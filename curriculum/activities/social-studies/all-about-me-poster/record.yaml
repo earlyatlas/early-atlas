@@ -1,0 +1,56 @@
+id: ea.activity.social-studies.all-about-me-poster
+slug: all-about-me-poster
+title: All About Me and My Family Poster
+summary: >-
+  Children build a personal poster or photo basket with pictures and drawings
+  of themselves and their family, then share who is special to them.
+supported_skill_ids:
+  - ea.skill.social-studies.self-and-family.knows-self-and-family
+age_range_months:
+  min: 24
+  max: 48
+group_size: 1-6 children
+duration_minutes: 25
+materials:
+  - Large sheets of paper or sturdy boards, one per child
+  - Family photos sent from home, plus printed magazine pictures
+  - A basket or pocket folder for children who prefer collecting photos
+  - Crayons, washable glue sticks, and child-safe scissors
+setup: >-
+  Set out one paper per child with their name written at the top. Place photos
+  and drawing supplies within easy reach on a low table.
+steps:
+  - Gather and invite each child to say their name and how old they are.
+  - >-
+    Help each child choose photos or draw the people who are special to them,
+    naming each person aloud.
+  - Glue the pictures onto the poster or tuck them into a personal photo basket.
+  - "Ask gently: \"Who is this? What do they do with you?\""
+  - Invite children to share one part of their poster with the group.
+variations:
+  - Make a class "We Belong Together" wall by displaying every poster side by side.
+  - Offer a photo basket instead of a poster for children who like to sort and revisit pictures.
+differentiation:
+  - For younger children, focus on naming one or two people rather than a full poster.
+  - For older children, add labels or a sentence dictated about each family member.
+assessment_opportunities:
+  - Note whether the child names family members and describes what each person does.
+  - Listen for the child stating their own name and age.
+safety_notes:
+  - Supervise scissor and glue use; keep small photo magnets or pins out of reach.
+accessibility_notes:
+  - >-
+    Welcome every family structure; let the child decide who belongs on their
+    poster.
+  - Provide picture cards or signs for children who communicate non-verbally.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - self-identity
+  - family
+  - belonging
+methodologies:
+  - reggio-emilia
+  - play-based
+status: accepted
+locale: en-US

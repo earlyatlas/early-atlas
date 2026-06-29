@@ -1,0 +1,39 @@
+id: ea.skill.social-emotional.emotional-understanding.identifies-basic-emotions
+slug: identifies-basic-emotions
+title: Identifies Basic Emotions
+short_description: Child names basic emotions in themselves and others.
+developmental_purpose: >-
+  Putting a name to feelings is the first step toward managing them; emotional
+  vocabulary lets a child seek help, build empathy, and self-regulate.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 24
+  max: 48
+developmental_stage: toddler_to_preschool
+related_skill_ids:
+  - ea.skill.language.expressive.names-familiar-objects
+mastery_criteria:
+  - Names happy, sad, mad, and scared when shown faces or in real situations.
+  - Labels their own feeling with a word at least sometimes.
+observation_prompts:
+  - When a story character shows a feeling, can the child name it?
+  - During a strong feeling, does the child have a word for what they feel?
+supporting_activity_ids:
+  - ea.activity.social-emotional.feelings-faces
+accessibility_notes:
+  - Pair feeling words with photos, drawings, or signs for children with language differences.
+  - Use a consistent set of feeling visuals so the cues stay familiar.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+  - ea.citation.headstart.elof
+tags:
+  - emotional-understanding
+  - emotions
+  - feelings-vocabulary
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-se-6
+  - ea.standard.elof.it-se-7
+status: accepted
+locale: en-US

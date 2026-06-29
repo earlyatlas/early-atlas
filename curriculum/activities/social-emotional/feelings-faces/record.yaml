@@ -1,0 +1,41 @@
+id: ea.activity.social-emotional.feelings-faces
+slug: feelings-faces
+title: Feelings Faces
+summary: Children name emotions on face cards and connect them to real moments.
+supported_skill_ids:
+  - ea.skill.social-emotional.emotional-understanding.identifies-basic-emotions
+age_range_months:
+  min: 24
+  max: 48
+group_size: 1-6 children
+duration_minutes: 10
+materials:
+  - Cards or photos showing happy, sad, mad, and scared faces
+  - A mirror (optional)
+setup: Lay out the feeling cards where children can see them.
+steps:
+  - Hold up a face and ask "How does this person feel?"
+  - Name the feeling together and make the face in the mirror.
+  - Ask "When do you feel happy?" and listen to the child's example.
+  - Connect a feeling card to a moment from the day.
+variations:
+  - Pause a story and find the card that matches a character's feeling.
+differentiation:
+  - For beginners, start with just happy and sad.
+  - For older children, add feelings like excited, surprised, or frustrated.
+assessment_opportunities:
+  - Note which feelings the child names and whether they label their own.
+accessibility_notes:
+  - Use consistent photos or signs paired with feeling words.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+  - ea.citation.headstart.elof
+tags:
+  - emotions
+  - feelings-vocabulary
+  - social-emotional
+methodologies:
+  - play-based
+  - reggio-emilia
+status: accepted
+locale: en-US

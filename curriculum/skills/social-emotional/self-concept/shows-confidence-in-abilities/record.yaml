@@ -1,0 +1,36 @@
+id: ea.skill.social-emotional.self-concept.shows-confidence-in-abilities
+slug: shows-confidence-in-abilities
+title: Shows Confidence in Own Abilities
+short_description: Toddler shows and shares new skills, seeking encouragement from familiar people.
+developmental_purpose: >-
+  Confidence grows when a child tries something, succeeds, and shares it with a
+  caring adult who delights in them. Showing "look what I can do" and attempting
+  things by oneself builds the agency and persistence behind lifelong learning.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 6
+  max: 36
+developmental_stage: infant_toddler
+related_skill_ids:
+  - ea.skill.social-emotional.self-concept.recognizes-own-characteristics
+mastery_criteria:
+  - Draws an adult's attention to a new skill or accomplishment and attends to their response.
+  - Attempts tasks independently, such as putting on a jacket or pouring from a small pitcher.
+observation_prompts:
+  - Does the child seek out an adult to show a new skill?
+  - Does the child try to do things by themselves and show pride when they succeed?
+accessibility_notes:
+  - Celebrate effort and attempts, not just success, with specific warm feedback.
+  - Offer "just-right" challenges and adapted tools so every child can experience mastery.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - self-concept
+  - confidence
+  - autonomy
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-se-12
+status: accepted
+locale: en-US

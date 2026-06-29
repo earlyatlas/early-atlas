@@ -1,0 +1,27 @@
+id: ea.standard.elof.p-lc-7
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-LC 7"
+title: "Child shows understanding of word categories and relationships among words."
+domain_area: "Language and Communication"
+sub_domain: "Vocabulary"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Typically uses known words in the correct context and, with support, shows an emerging understanding of how words are related to broader categories, such as sorting things by color."
+  - age_period: "48 to 60 Months"
+    text: "Demonstrates an increasingly sophisticated understanding of words and word categories with support, such as listing multiple examples of a familiar category or identifying a synonym or antonym."
+  - age_period: "By 60 Months"
+    text: "Categorizes words or objects, such as sorting a hard hat, machines, and tools into the construction group, or giving many examples of farm animals."
+  - age_period: "By 60 Months"
+    text: "Discusses new words in relation to known words and word categories, such as \"It fell to the bottom when it sank,\" or \"When you hop it's like jumping on one leg,\" or \"The bear and fox are both wild animals.\""
+  - age_period: "By 60 Months"
+    text: "Identifies shared characteristics among people, places, things, or actions, such as identifying that both cats and dogs are furry and have four legs."
+  - age_period: "By 60 Months"
+    text: "Identifies key common antonyms, such as black/white or up/down. Identifies one or two synonyms for very familiar words, such as glad or happy."
+  - age_period: "By 60 Months"
+    text: "Shows an ability to distinguish similar words, such as \"I don't like it, I love it!\" or \"It's more than tall, it's gigantic,\" or \"It's so cold, it's frosty.\""
+source_url: https://headstart.gov/school-readiness/article/language-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

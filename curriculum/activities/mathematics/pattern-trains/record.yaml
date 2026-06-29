@@ -1,0 +1,41 @@
+id: ea.activity.mathematics.pattern-trains
+slug: pattern-trains
+title: Pattern Trains
+summary: Children build a repeating AB "train" of blocks by copying and extending a model.
+supported_skill_ids:
+  - ea.skill.mathematics.patterning.copies-simple-pattern
+age_range_months:
+  min: 36
+  max: 60
+group_size: 1-4 children
+duration_minutes: 15
+materials:
+  - Two colors or two shapes of blocks or linking cubes
+setup: Start a short AB pattern train and keep a supply of blocks ready.
+steps:
+  - Lay out a red-blue-red-blue train and say the pattern aloud.
+  - Ask the child to make a train that looks just like yours.
+  - Invite the child to add the next block to keep the pattern going.
+  - Say the pattern together, pointing to each car.
+variations:
+  - Make patterns with sounds or movements (clap-stomp-clap-stomp).
+  - Try an AABB pattern for a challenge.
+differentiation:
+  - For beginners, copy the pattern alongside your finished model.
+  - For older children, ask "What comes next?" before they place a block.
+assessment_opportunities:
+  - Note whether the child extends the pattern, not just copies it.
+accessibility_notes:
+  - Use blocks that differ by shape or texture as well as color.
+research_reference_ids:
+  - ea.citation.headstart.elof
+  - ea.citation.naeyc.dap
+tags:
+  - patterning
+  - algebraic-thinking
+  - blocks
+methodologies:
+  - montessori
+  - play-based
+status: accepted
+locale: en-US

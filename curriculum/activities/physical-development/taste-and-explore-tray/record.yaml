@@ -1,0 +1,56 @@
+id: ea.activity.physical-development.taste-and-explore-tray
+slug: taste-and-explore-tray
+title: Taste-and-Explore Food Tray
+summary: >-
+  A pressure-free tasting activity where a toddler looks at, touches, smells, and
+  samples a small selection of nutritious foods.
+supported_skill_ids:
+  - ea.skill.physical-development.health-safety.explores-healthy-eating
+age_range_months:
+  min: 9
+  max: 36
+group_size: 1-4 children
+duration_minutes: 12
+materials:
+  - A small tray or plate per child
+  - Two or three soft, safely cut nutritious foods, such as banana, steamed carrot,
+    and ripe pear
+  - Damp cloths for hands
+setup: >-
+  Confirm each child's allergies and feeding plan. Wash hands and surfaces, cut
+  foods to safe sizes, and seat children upright at a low table.
+steps:
+  - Name each food and invite the children to look at and smell it first.
+  - Let children touch and explore the textures with no pressure to eat.
+  - Offer a small taste of each food, modeling a bite yourself.
+  - Use simple words for what they notice, such as "the carrot is crunchy."
+  - Watch for and name each child's "more" or "all done" signals.
+variations:
+  - Theme the tray by color, such as orange foods, or by texture, such as crunchy
+    and soft.
+  - Repeat the same food on several days, since trying again builds acceptance.
+differentiation:
+  - For younger children, offer softer, smaller pieces and let them explore by hand.
+  - For older toddlers, ask which food they liked and offer a simple choice next
+    time.
+assessment_opportunities:
+  - Note whether the child explores or tastes a new food when offered.
+  - Watch how the child communicates hunger, fullness, or being finished.
+safety_notes:
+  - Cut foods to reduce choking risk, seat children upright, supervise eating, and
+    follow each family's allergy and feeding plan.
+accessibility_notes:
+  - Offer textures and sizes matched to each child's chewing and motor skills.
+  - Honor sensory sensitivities by letting children touch and smell before tasting.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - health-safety
+  - nutrition
+  - tasting
+  - toddler
+methodologies:
+  - montessori
+  - play-based
+status: accepted
+locale: en-US

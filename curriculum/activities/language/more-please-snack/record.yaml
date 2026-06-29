@@ -1,0 +1,40 @@
+id: ea.activity.language.more-please-snack
+slug: more-please-snack
+title: More Please at Snack
+summary: A snack routine that invites children to combine two words to request food.
+supported_skill_ids:
+  - ea.skill.language.expressive.uses-two-word-phrases
+age_range_months:
+  min: 18
+  max: 36
+group_size: 1-4 children
+duration_minutes: 10
+materials:
+  - A snack the child likes, served in small portions
+setup: Serve small portions so children have natural reasons to ask for more.
+steps:
+  - Offer a small first portion and wait.
+  - When the child wants more, model the phrase "more cracker" and pause.
+  - Honor any two-word attempt right away by giving the snack.
+  - Repeat across the snack, expanding the child's words by one.
+variations:
+  - Use the same routine at bubble play ("more bubbles") or with a wind-up toy.
+differentiation:
+  - For beginners, accept one word plus a sign as the two-part message.
+  - For older children, model three-word phrases.
+assessment_opportunities:
+  - Note whether the child combines two words without a full model.
+accessibility_notes:
+  - Two-symbol AAC or two-sign combinations count as two-word phrases.
+safety_notes:
+  - Choose choke-safe foods and watch for allergies.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - expressive-language
+  - phrases
+  - routine
+methodologies:
+  - play-based
+status: accepted
+locale: en-US

@@ -1,0 +1,36 @@
+id: ea.skill.social-emotional.self-concept.sense-of-belonging-in-family
+slug: sense-of-belonging-in-family
+title: Sense of Belonging in Family
+short_description: Toddler anticipates familiar routines and identifies as a member of a family.
+developmental_purpose: >-
+  Anticipating daily routines and recognizing family members in photos and stories
+  gives a child the felt security of belonging. A strong sense of "my people" and
+  "my place" anchors emotional well-being and openness to the wider world.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 6
+  max: 36
+developmental_stage: infant_toddler
+related_skill_ids:
+  - ea.skill.social-emotional.self-concept.recognizes-own-characteristics
+mastery_criteria:
+  - Anticipates familiar routines, such as getting shoes when it is time to go outside.
+  - Identifies self as a member of a family and names or points to familiar people in photos.
+observation_prompts:
+  - Does the child anticipate the next step in a familiar routine?
+  - Can the child point to or name family members in photos or conversation?
+accessibility_notes:
+  - Display family photos at the child's eye level and revisit them in unhurried moments.
+  - Honor every family structure; let each child's real people and routines be the content.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - self-concept
+  - belonging
+  - family
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-se-13
+status: accepted
+locale: en-US

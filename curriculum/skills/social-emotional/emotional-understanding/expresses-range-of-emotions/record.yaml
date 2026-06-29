@@ -1,0 +1,36 @@
+id: ea.skill.social-emotional.emotional-understanding.expresses-range-of-emotions
+slug: expresses-range-of-emotions
+title: Expresses a Range of Emotions
+short_description: Infant or toddler shows a widening range of emotions through faces, sounds, gestures, and words.
+developmental_purpose: >-
+  Expressing comfort, joy, fear, anger, surprise, and pride — first through cries
+  and faces, later through words — lets a child communicate inner states and be
+  understood. Emotional expression is the gateway to emotional regulation.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 2
+  max: 36
+developmental_stage: infant_toddler
+related_skill_ids:
+  - ea.skill.social-emotional.emotional-understanding.shows-care-and-concern
+mastery_criteria:
+  - Expresses several distinct emotions through facial expressions, sounds, gestures, or movement.
+  - Begins to use words or signs to name some feelings.
+observation_prompts:
+  - Can you read a variety of emotions from the child's expressions and gestures?
+  - Does the child use any words or signs to tell you how they feel?
+accessibility_notes:
+  - Name the emotion you see ("you look surprised") to pair feelings with language.
+  - Offer feeling pictures or signs for children with limited spoken language.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - emotional-understanding
+  - emotions
+  - expression
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-se-6
+status: accepted
+locale: en-US

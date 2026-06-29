@@ -1,0 +1,41 @@
+id: ea.activity.language.picture-naming-basket
+slug: picture-naming-basket
+title: Naming Basket
+summary: Children name familiar objects pulled one at a time from a treasure basket.
+supported_skill_ids:
+  - ea.skill.language.expressive.names-familiar-objects
+age_range_months:
+  min: 12
+  max: 30
+group_size: 1-3 children
+duration_minutes: 10
+materials:
+  - A basket of 6-10 familiar real objects (spoon, ball, brush, cup, toy car)
+setup: Place the basket between you and the child.
+steps:
+  - Pull out one object and pause expectantly.
+  - Ask "What's this?" and wait for the child to name it.
+  - If the child points or is silent, name it and invite them to repeat.
+  - Continue through the basket, celebrating each attempt.
+variations:
+  - Swap in objects from a theme (kitchen, bathtime, outdoors).
+  - Hide an object and have the child name it by feel.
+differentiation:
+  - Accept approximations and signs as naming.
+  - For older children, ask "What do we do with it?" to extend language.
+assessment_opportunities:
+  - Tally how many objects the child names spontaneously.
+accessibility_notes:
+  - Accept signs or AAC selections; pair objects with pictures for added support.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+  - ea.citation.montessori.absorbent-mind
+tags:
+  - vocabulary
+  - naming
+  - treasure-basket
+methodologies:
+  - montessori
+  - play-based
+status: accepted
+locale: en-US

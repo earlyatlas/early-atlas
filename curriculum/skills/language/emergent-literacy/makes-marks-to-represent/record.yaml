@@ -1,0 +1,43 @@
+id: ea.skill.language.emergent-literacy.makes-marks-to-represent
+slug: makes-marks-to-represent
+title: Makes Marks to Represent Ideas
+short_description: Child makes marks and scribbles and uses them to represent objects or actions.
+developmental_purpose: >-
+  Making marks — first to explore, then to stand for something — is the
+  beginning of writing. When a toddler scribbles and tells you what it "says,"
+  they are discovering that marks on paper can carry meaning, the core insight
+  behind written language.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 8
+  max: 36
+developmental_stage: infant_to_toddler
+related_skill_ids:
+  - ea.skill.language.emergent-literacy.recognizes-pictures-and-symbols
+mastery_criteria:
+  - Makes marks on paper with a large crayon or marker to explore writing tools.
+  - Makes scribbles to represent an object or action, even if an adult cannot recognize it.
+  - Talks with others about what their drawing or scribble shows.
+observation_prompts:
+  - Given a large crayon and paper, does the child make marks?
+  - When the child scribbles, do they tell you what it is or what it shows?
+accessibility_notes:
+  - Offer chunky crayons, adapted grips, or finger paint for children developing fine-motor control.
+  - Let children mark in shaving cream, sand, or on a tablet if paper-and-crayon is hard to grasp.
+safety_notes:
+  - Use non-toxic, washable markers and crayons large enough not to be a choking hazard.
+common_misconceptions:
+  - Scribbles are not "just a mess"; they are a genuine and necessary stage of learning to write.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - emergent-literacy
+  - mark-making
+  - writing
+  - drawing
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-lc-13
+status: accepted
+locale: en-US

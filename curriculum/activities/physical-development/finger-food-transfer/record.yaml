@@ -1,0 +1,54 @@
+id: ea.activity.physical-development.finger-food-transfer
+slug: finger-food-transfer
+title: Finger-Food Pick and Drop
+summary: >-
+  An infant practices the pincer grasp by picking up soft food pieces and dropping
+  them into a small cup.
+supported_skill_ids:
+  - ea.skill.physical-development.fine-motor.develops-pincer-grasp
+age_range_months:
+  min: 8
+  max: 14
+group_size: 1 child
+duration_minutes: 10
+materials:
+  - A handful of soft, dissolvable, pea-sized foods such as cooked peas, soft
+    banana bits, or puff cereal
+  - A small open cup or bowl
+  - A clean high-chair tray or wiped low table
+setup: >-
+  Seat the infant securely in a high chair. Place a few food pieces directly on
+  the tray and set the empty cup within easy reach.
+steps:
+  - Point to a single piece of food and name it to draw the infant's attention.
+  - Model picking up one piece with your thumb and index finger, slowly and clearly.
+  - Invite the infant to pick up a piece their own way, encouraging any attempt.
+  - "Offer the cup and say: drop it in, cheering each release into the cup."
+  - Let the infant eat the pieces and repeat at their own pace.
+variations:
+  - Place pieces inside an empty egg carton so the infant must reach into each cup.
+  - Use a slightly raised lip or low edge so pieces are easier to pinch.
+differentiation:
+  - For beginners, offer larger pieces and celebrate a raking grasp as a first step.
+  - For more skilled infants, scatter pieces farther apart to encourage reaching and
+    a precise pinch.
+assessment_opportunities:
+  - Note whether the infant uses fingertip thumb-and-forefinger pinching or a
+    whole-hand rake.
+  - Watch whether the child can release a piece into the cup on purpose.
+safety_notes:
+  - Use only soft, dissolvable foods sized to reduce choking risk and stay within
+    arm's reach the entire time.
+  - Never leave the infant unattended with food.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - fine-motor
+  - pincer-grasp
+  - self-feeding
+  - infant
+methodologies:
+  - montessori
+  - play-based
+status: accepted
+locale: en-US

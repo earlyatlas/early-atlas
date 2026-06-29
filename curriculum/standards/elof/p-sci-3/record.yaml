@@ -1,0 +1,21 @@
+id: ea.standard.elof.p-sci-3
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-SCI 3"
+title: "Child compares and categorizes observable phenomena."
+domain_area: "Scientific Reasoning"
+sub_domain: "Scientific Inquiry"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Sorts objects into groups based on simple attributes, such as color. With support, uses measurement tools to quantify similarities and differences of observable phenomena, such as when a child scoops sand into two containers and, with adult assistance, determines which container holds more scoops."
+  - age_period: "48 to 60 Months"
+    text: "With increasing independence, sorts objects into groups based on more complex attributes, such as weight, sound, or texture. Uses measurement tools to assess the properties of and compare observable phenomena."
+  - age_period: "By 60 Months"
+    text: "Categorizes by sorting observable phenomena into groups based on attributes such as appearance, weight, function, ability, texture, odor, and sound."
+  - age_period: "By 60 Months"
+    text: "Uses measurement tools, such as a ruler, balance scale, eye dropper, unit blocks, thermometer, or measuring cup, to quantify similarities and differences of observable phenomena."
+source_url: https://headstart.gov/school-readiness/article/science-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

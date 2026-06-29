@@ -1,0 +1,36 @@
+id: ea.skill.social-emotional.relationships.shows-interest-in-peers
+slug: shows-interest-in-peers
+title: Shows Interest in Other Children
+short_description: Infant or toddler notices, watches, and begins to connect with other children.
+developmental_purpose: >-
+  Noticing and reaching toward other children — touching a face, smiling, learning
+  a friend's name — is the start of peer relationships. Early peer interest grows
+  into the friendships and social belonging that support learning in groups.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 6
+  max: 36
+developmental_stage: infant_toddler
+related_skill_ids:
+  - ea.skill.social-emotional.relationships.imitates-peers-in-play
+mastery_criteria:
+  - Watches, touches, or makes sounds directed at another child.
+  - Participates in simple back-and-forth interactions with a familiar peer.
+observation_prompts:
+  - Does the child notice and respond to other children nearby?
+  - Does the child show recognition of, or preference for, particular playmates?
+accessibility_notes:
+  - Seat children near peers and narrate what each child is doing to draw attention.
+  - For children who find closeness overwhelming, start with parallel proximity, not contact.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - relationships
+  - peers
+  - social-interest
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-se-4
+status: accepted
+locale: en-US

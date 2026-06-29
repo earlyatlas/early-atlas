@@ -1,0 +1,401 @@
+---
+import Base from "../layouts/Base.astro";
+export const prerender = true;
+---
+
+<Base title="Contribute">
+  <div class="contribute">
+    <header class="contribute-hero">
+      <h1>Contribute to Early Atlas</h1>
+      <p class="lede">
+        Early Atlas is a free, openly licensed early-childhood curriculum, built in the open by the
+        educators who use it. There are two ways to help it grow: chip in to support the work, or
+        share your own expertise so the next teacher finds what they were looking for.
+      </p>
+    </header>
+
+    <section class="donate" id="donate" aria-labelledby="donate-h">
+      <div class="donate-head">
+        <h2 id="donate-h">Support the work</h2>
+        <span class="donate-mode" id="donate-mode" hidden></span>
+      </div>
+      <p class="donate-copy">
+        Every record is researched, written, and reviewed by hand, and the site stays free for every
+        family and classroom — no ads, no paywall. A one-time gift helps cover that ongoing work and
+        keeps it open for everyone.
+      </p>
+      <div id="donate-thanks" class="donate-thanks" role="status" hidden></div>
+      <div class="amounts" role="group" aria-label="Donation amount">
+        <button type="button" class="amount" data-cents="500">$5</button>
+        <button type="button" class="amount" data-cents="1000">$10</button>
+        <button type="button" class="amount" data-cents="5000">$50</button>
+        <label class="amount amount-other">
+          <span class="cur">$</span>
+          <input
+            id="amount-other"
+            type="number"
+            min="1"
+            max="10000"
+            step="1"
+            inputmode="numeric"
+            placeholder="Other"
+            aria-label="Other amount in dollars"
+          />
+        </label>
+      </div>
+      <button type="button" class="donate-btn" id="donate-btn">Donate</button>
+      <p class="donate-note" id="donate-note" aria-live="polite"></p>
+      <p class="donate-fine">
+        Secure checkout by <strong>Stripe</strong> — we never see your card details. Donations are voluntary
+        and not tax-deductible.
+      </p>
+    </section>
+
+    <section class="share-cta" aria-labelledby="share-h">
+      <h2 id="share-h">Share your expertise</h2>
+      <p class="share-lede">
+        You know what actually works with young children. Add a skill or activity, or suggest an
+        edit to an existing one — every contribution is reviewed before it’s published, so the
+        library stays trustworthy while it grows.
+      </p>
+      <p class="cta-row">
+        <a class="cta-btn" href="/contribute/propose">Add or edit a skill or activity →</a>
+      </p>
+      <ul class="share-points">
+        <li>
+          <strong>Grounded in real practice.</strong> Activities, milestones, and the signs of mastery
+          from the people doing the work every day.
+        </li>
+        <li>
+          <strong>Reviewed, never raw.</strong> An admin reviews each proposal as a clean, auditable change
+          before anything goes live.
+        </li>
+        <li>
+          <strong>Open and shared.</strong> Everything is openly licensed, so any educator or family can
+          use it freely.
+        </li>
+      </ul>
+    </section>
+  </div>
+</Base>
+
+<!-- scoped: the hero / donation / share markup is static, so normal scoped styles reach it. -->
+<style>
+  .contribute-hero {
+    max-width: var(--prose);
+  }
+  .contribute-hero .lede {
+    margin: var(--space-3) 0 0;
+    font-size: var(--text-lg);
+    line-height: 1.6;
+    color: var(--muted);
+    text-wrap: pretty;
+  }
+
+  /* Donation card */
+  .donate {
+    margin: var(--space-6) 0 var(--space-7);
+    max-width: 34rem;
+    padding: var(--space-5);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    background: var(--surface);
+  }
+  .donate-head {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+  }
+  .donate-head h2 {
+    margin: 0;
+  }
+  .donate-mode {
+    font-size: 0.66rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 2px 8px;
+    border-radius: var(--radius-pill);
+    background: var(--notice-bad);
+    color: var(--ink);
+    border: 1px solid var(--notice-bad-border);
+  }
+  .donate-copy {
+    margin: var(--space-2) 0 var(--space-4);
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .donate-thanks {
+    margin: 0 0 var(--space-4);
+    padding: var(--space-3) var(--space-4);
+    border-radius: var(--radius-sm);
+    background: var(--notice-ok);
+    border: 1px solid var(--notice-ok-border);
+    line-height: 1.5;
+  }
+  .amounts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+  .amount {
+    flex: 1 1 0;
+    min-width: 4rem;
+    margin: 0;
+    padding: var(--space-3) var(--space-2);
+    font: inherit;
+    font-weight: 700;
+    text-align: center;
+    color: var(--ink);
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition:
+      border-color 0.12s var(--ease-out),
+      background-color 0.12s var(--ease-out);
+  }
+  .amount:hover {
+    border-color: var(--accent-border);
+  }
+  .amount.selected {
+    background: var(--accent-soft);
+    border-color: var(--accent-border);
+    color: var(--accent);
+  }
+  /* the "Other" amount is an input wearing the same chip as the preset buttons */
+  .amount-other {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: text;
+    flex: 1.4 1 0;
+  }
+  .amount-other .cur {
+    color: var(--muted);
+    font-weight: 700;
+  }
+  .amount-other input {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    font: inherit;
+    font-weight: 700;
+    color: var(--ink);
+    text-align: center;
+  }
+  .amount-other input:focus {
+    outline: none;
+  }
+  .amount-other:focus-within {
+    border-color: var(--accent-border);
+    background: var(--accent-soft);
+  }
+  /* hide number spinners — the chip should read as a clean field */
+  .amount-other input::-webkit-outer-spin-button,
+  .amount-other input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+  }
+  .amount-other input[type="number"] {
+    appearance: textfield;
+  }
+  .donate-btn {
+    margin: var(--space-4) 0 0;
+    width: 100%;
+    padding: var(--space-3) var(--space-4);
+    font: inherit;
+    font-weight: 700;
+    color: var(--accent-ink);
+    background: var(--accent);
+    border: 1px solid transparent;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+  }
+  .donate-btn:hover {
+    filter: brightness(1.06);
+  }
+  .donate-btn:disabled {
+    opacity: 0.55;
+    cursor: default;
+    filter: none;
+  }
+  .donate-note {
+    margin: var(--space-2) 0 0;
+    min-height: 1.2em;
+    font-size: var(--text-sm);
+    color: var(--muted);
+  }
+  .donate-note.bad {
+    color: var(--required);
+  }
+  .donate-fine {
+    margin: var(--space-3) 0 0;
+    font-size: var(--text-sm);
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  /* Share-your-expertise call to action */
+  .share-cta {
+    margin-top: var(--space-7);
+    padding-top: var(--space-6);
+    border-top: 1px solid var(--line);
+  }
+  .share-lede {
+    max-width: var(--prose);
+    margin: var(--space-2) 0 var(--space-4);
+    line-height: 1.6;
+  }
+  .cta-row {
+    margin: 0 0 var(--space-5);
+  }
+  .cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-5);
+    font-weight: 700;
+    color: var(--accent-ink);
+    background: var(--accent);
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+  }
+  .cta-btn:hover {
+    filter: brightness(1.06);
+  }
+  .share-points {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: var(--prose);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+  .share-points li {
+    padding-left: var(--space-5);
+    position: relative;
+    line-height: 1.55;
+    color: var(--muted);
+  }
+  .share-points li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .share-points strong {
+    color: var(--ink);
+  }
+</style>
+
+<!-- Donations: create a Stripe Checkout Session on the backend, then redirect. -->
+<script>
+  import { apiBase, isApiConfigured } from "../lib/auth/browser";
+
+  const presets = Array.from(document.querySelectorAll<HTMLButtonElement>(".amount[data-cents]"));
+  const otherInput = document.getElementById("amount-other") as HTMLInputElement | null;
+  const donateBtn = document.getElementById("donate-btn") as HTMLButtonElement | null;
+  const note = document.getElementById("donate-note");
+  const modeBadge = document.getElementById("donate-mode");
+  const thanks = document.getElementById("donate-thanks");
+
+  if (donateBtn && otherInput && note) {
+    let selected = 0; // chosen preset, in cents (0 = use the Other field)
+
+    const setNote = (msg: string, bad = false) => {
+      note.textContent = msg;
+      note.classList.toggle("bad", bad);
+    };
+    const clearPresets = () => presets.forEach((b) => b.classList.remove("selected"));
+
+    presets.forEach((b) =>
+      b.addEventListener("click", () => {
+        clearPresets();
+        b.classList.add("selected");
+        selected = Number(b.dataset.cents);
+        otherInput.value = "";
+        setNote("");
+      }),
+    );
+    otherInput.addEventListener("input", () => {
+      clearPresets();
+      selected = 0;
+      setNote("");
+    });
+
+    const chosenCents = () => {
+      if (selected) return selected;
+      const dollars = parseFloat(otherInput.value);
+      return Number.isFinite(dollars) ? Math.round(dollars * 100) : 0;
+    };
+
+    donateBtn.addEventListener("click", async () => {
+      const cents = chosenCents();
+      if (cents < 100 || cents > 1_000_000) {
+        setNote("Choose an amount between $1 and $10,000.", true);
+        return;
+      }
+      donateBtn.disabled = true;
+      setNote("Redirecting to secure checkout…");
+      try {
+        const res = await fetch(`${apiBase}/api/donate`, {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ amount_cents: cents, return_origin: location.origin }),
+        });
+        const data = await res.json().catch(() => ({}));
+        if (res.ok && data.url) {
+          location.href = data.url; // hand off to Stripe-hosted checkout
+        } else {
+          donateBtn.disabled = false;
+          setNote(data.error || "Couldn’t start checkout. Please try again.", true);
+        }
+      } catch {
+        donateBtn.disabled = false;
+        setNote("Network error. Please try again.", true);
+      }
+    });
+
+    // Return states from Stripe.
+    const params = new URLSearchParams(location.search);
+    const donated = params.get("donated");
+    if (donated === "1" && thanks) {
+      thanks.hidden = false;
+      thanks.textContent =
+        "Thank you for supporting Early Atlas — your contribution keeps it free and open for every family and classroom. 💙";
+    } else if (donated === "0") {
+      setNote("Checkout canceled — no charge was made.");
+    }
+
+    // Availability + test/live mode (one backend; the key prefix is the mode).
+    if (!isApiConfigured()) {
+      donateBtn.disabled = true;
+      setNote("Donations aren’t available in this preview build.");
+    } else {
+      fetch(`${apiBase}/api/donate/config`)
+        .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+        .then((cfg) => {
+          if (cfg.mode === "test" && modeBadge) {
+            modeBadge.hidden = false;
+            modeBadge.textContent = "Test mode";
+            if (!donated)
+              setNote(
+                "Test mode — use card 4242 4242 4242 4242 with any future date and CVC. No real charge.",
+              );
+          }
+        })
+        .catch(() => {
+          donateBtn.disabled = true;
+          setNote("Donations are temporarily unavailable.");
+        });
+    }
+  }
+</script>

@@ -1,0 +1,40 @@
+id: ea.activity.social-emotional.roll-the-ball
+slug: roll-the-ball
+title: Roll the Ball
+summary: Children practice taking turns by rolling a ball back and forth with a partner.
+supported_skill_ids:
+  - ea.skill.social-emotional.relationships.takes-turns
+age_range_months:
+  min: 30
+  max: 54
+group_size: 2-4 children
+duration_minutes: 10
+materials:
+  - A soft ball
+  - Optional "my turn" card or object to pass
+setup: Have children sit facing a partner a short distance apart.
+steps:
+  - Say "My turn" and roll the ball to the child.
+  - Cue "Now it's your turn" and wait for them to roll it back.
+  - Name the turn-taking ("You waited, then it was your turn!").
+  - Keep the rhythm going, gradually lengthening the wait.
+variations:
+  - Pass a shaker around a small circle, each child taking a turn.
+differentiation:
+  - For beginners, keep waits very short and use a turn object.
+  - For older children, add three or more players to a circle.
+assessment_opportunities:
+  - Note whether the child waits for their turn and passes the ball on.
+accessibility_notes:
+  - Use a visual or object cue to make whose-turn-it-is concrete.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+  - ea.citation.headstart.elof
+tags:
+  - turn-taking
+  - cooperation
+  - social-emotional
+methodologies:
+  - play-based
+status: accepted
+locale: en-US

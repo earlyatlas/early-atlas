@@ -1,0 +1,21 @@
+id: ea.standard.elof.p-lc-4
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-LC 4"
+title: "Child understands, follows, and uses appropriate social and conversational rules."
+domain_area: "Language and Communication"
+sub_domain: "Communicating and Speaking"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Engages in conversations with adults, other children, or within the group setting lasting two or three conversational turns, and, with support, will sometimes use appropriate tone and volume for different situations."
+  - age_period: "48 to 60 Months"
+    text: "Maintains multi-turn conversations with adults or other children by being responsive to the conversational partner in a variety of ways, such as by asking a question. With increasing independence, varies tone and volume of expression to match the social situation."
+  - age_period: "By 60 Months"
+    text: "Maintains multi-turn conversations with adults, other children, and within larger groups by responding in increasingly sophisticated ways, such as asking related questions or expressing agreement."
+  - age_period: "By 60 Months"
+    text: "With increasing independence, matches the tone and volume of expression to the content and social situation, such as by using a whisper to tell a secret."
+source_url: https://headstart.gov/school-readiness/article/language-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

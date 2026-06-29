@@ -1,0 +1,21 @@
+id: ea.standard.elof.p-pmp-4
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-PMP 4"
+title: "Child demonstrates personal hygiene and self-care skills."
+domain_area: "Perceptual, Motor, and Physical Development"
+sub_domain: "Health, Safety, and Nutrition"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Shows an awareness of personal hygiene and self-care skills, such as telling an adult it is important to wash hands before eating. May not complete or exhibit these skills regularly without adult guidance and supervision."
+  - age_period: "48 to 60 Months"
+    text: "Begins to take more responsibility for personal hygiene and self-care skills. Sometimes completes them without adult prompting."
+  - age_period: "By 60 Months"
+    text: "Washes hands with soap and water. Knows to do this before eating, after using the bathroom, or after blowing nose."
+  - age_period: "By 60 Months"
+    text: "Demonstrates increasing ability to take responsibility for participating in personal self-care skills, such as brushing teeth or getting dressed."
+source_url: https://headstart.gov/school-readiness/article/perceptual-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

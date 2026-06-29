@@ -1,0 +1,36 @@
+id: ea.skill.social-emotional.relationships.imitates-peers-in-play
+slug: imitates-peers-in-play
+title: Imitates and Plays with Peers
+short_description: Toddler imitates other children and joins in simple play with them.
+developmental_purpose: >-
+  Imitation games and side-by-side play are how toddlers first practice doing
+  things together. Moving from watching, to copying, to simple cooperative play
+  builds the give-and-take that underlies all later collaboration.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 8
+  max: 36
+developmental_stage: infant_toddler
+related_skill_ids:
+  - ea.skill.social-emotional.relationships.shows-interest-in-peers
+mastery_criteria:
+  - Imitates another child's simple action, sound, or movement during play.
+  - Joins in a shared activity with a peer, sometimes taking turns toward a common goal.
+observation_prompts:
+  - Does the child copy what another child is doing during play?
+  - Can the child sustain simple play with a peer around a shared focus?
+accessibility_notes:
+  - Use highly repeatable, predictable games (clapping, peek-a-boo) that are easy to copy.
+  - Provide duplicate toys so imitation does not require giving up a coveted item.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - relationships
+  - imitation
+  - cooperative-play
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-se-5
+status: accepted
+locale: en-US

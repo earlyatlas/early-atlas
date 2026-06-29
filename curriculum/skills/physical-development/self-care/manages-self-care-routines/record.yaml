@@ -1,0 +1,46 @@
+id: ea.skill.physical-development.self-care.manages-self-care-routines
+slug: manages-self-care-routines
+title: Manages Self-Care Routines
+short_description: >-
+  Child carries out daily routines such as dressing, handwashing, and feeding
+  themselves with growing independence.
+developmental_purpose: >-
+  Self-care routines join fine and gross motor control with sequencing, memory,
+  and self-regulation. Managing dressing, handwashing, and feeding builds a
+  child's competence, confidence, and the independence that underlies health and
+  classroom participation.
+domain_ids:
+  - ea.domain.physical-development
+age_range_months:
+  min: 24
+  max: 48
+developmental_stage: toddler_to_preschool
+prerequisite_skill_ids:
+  - ea.skill.physical-development.fine-motor.develops-pincer-grasp
+mastery_criteria:
+  - Washes and dries hands following the steps with only occasional reminders.
+  - Puts on and removes easy clothing such as a coat, elastic-waist pants, or shoes.
+  - Feeds self a meal using a spoon or fork with little spilling.
+observation_prompts:
+  - "During arrival, does the child hang their coat and start handwashing without\
+    \ step-by-step prompting?"
+  - When given simple clothing, does the child persist through tricky parts before
+    asking for help?
+accessibility_notes:
+  - Offer adaptive clothing with larger fasteners and picture sequence cards for
+    children who need extra support.
+  - Break each routine into single steps and allow extra time for children with
+    motor or processing differences.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - self-care
+  - dressing
+  - handwashing
+  - independence
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-pmp-4
+  - ea.standard.elof.it-pmp-9
+status: accepted
+locale: en-US

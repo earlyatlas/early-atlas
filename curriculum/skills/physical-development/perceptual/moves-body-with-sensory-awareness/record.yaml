@@ -1,0 +1,50 @@
+id: ea.skill.physical-development.perceptual.moves-body-with-sensory-awareness
+slug: moves-body-with-sensory-awareness
+title: Moves Body with Sensory Awareness
+short_description: >-
+  Child uses sight, sound, and body awareness to plan movements and judge how
+  their body fits and moves through space.
+developmental_purpose: >-
+  Safe, purposeful movement depends on reading the environment and the body at
+  the same time. As toddlers scan for obstacles, gauge openings, and adjust to
+  surfaces, they link perception to action, building the spatial awareness and
+  motor planning that underlie coordinated movement and self-care.
+domain_ids:
+  - ea.domain.physical-development
+age_range_months:
+  min: 8
+  max: 36
+developmental_stage: infant_to_toddler
+related_skill_ids:
+  - ea.skill.physical-development.gross-motor.walks-and-climbs
+mastery_criteria:
+  - Scans ahead and steps around or over obstacles while walking or crawling.
+  - Adjusts movement to the surface, such as slowing on a slippery or uneven floor.
+  - Judges whether their body will fit through or into a space before moving.
+  - Coordinates seeing and moving in routines, such as doing hand motions to a song.
+observation_prompts:
+  - When crawling or walking toward a barrier, does the child plan a path around it
+    rather than bumping into it?
+  - Does the toddler test or adjust their body to fit through a tunnel or under a
+    table?
+accessibility_notes:
+  - Keep pathways predictable and well lit and add textured or sound cues at edges
+    for children with visual differences.
+  - Allow extra time and offer a steady handhold for children with motor or balance
+    differences.
+safety_notes:
+  - Supervise near steps, edges, and drop-offs, since judgment of danger is still
+    developing.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - perception
+  - spatial-awareness
+  - body-awareness
+  - motor-planning
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-pmp-2
+  - ea.standard.elof.it-pmp-5
+status: accepted
+locale: en-US

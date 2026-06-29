@@ -1,0 +1,57 @@
+id: ea.activity.physical-development.safety-rules-role-play
+slug: safety-rules-role-play
+title: Safety Rules Role-Play and Walk
+summary: >-
+  Preschoolers practice personal safety routines, street and pedestrian safety,
+  spotting hazards, and alerting others, through role-play and a guided walk.
+supported_skill_ids:
+  - ea.skill.physical-development.health-safety.follows-safety-practices
+age_range_months:
+  min: 36
+  max: 60
+group_size: 2-8 children
+duration_minutes: 25
+materials:
+  - Picture cards or photos of common hazards, such as a hot stove, a busy street,
+    and a moving swing
+  - A pretend crosswalk made with tape or chalk
+  - A toy stop sign or a red and green card
+setup: >-
+  Lay out the pretend crosswalk and gather the hazard cards. If walking outdoors,
+  scout a safe, low-traffic route with a real curb beforehand.
+steps:
+  - Show a hazard card and ask the children what makes it unsafe and what to do.
+  - Practice the crosswalk routine, stop, look both ways, listen, then walk holding
+    a hand.
+  - Role-play noticing a hazard and telling an adult or friend about it.
+  - Act out keeping a safe distance from a moving swing or a hot pretend stove.
+  - Take a short guided walk to use the stop-look-listen routine at a real curb.
+variations:
+  - Make a class safety book where each child draws one rule they practiced.
+  - Add a fire-drill or buckle-up routine to the role-play.
+differentiation:
+  - For children who need support, use picture sequences and practice one routine at
+    a time.
+  - For a challenge, ask children to explain a rule to a younger friend.
+assessment_opportunities:
+  - Note whether the child identifies and avoids a common hazard.
+  - Watch whether they follow the stop-look-listen routine and alert others to
+    danger.
+safety_notes:
+  - On any real walk, adults supervise closely and keep children within reach;
+    safety practice supplements, not replaces, supervision.
+accessibility_notes:
+  - Use picture sequences, songs, and consistent cue words to teach routines.
+  - Practice routines repeatedly in real settings for children who learn by doing.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - health-safety
+  - safety
+  - role-play
+  - preschool
+methodologies:
+  - play-based
+  - highscope
+status: accepted
+locale: en-US

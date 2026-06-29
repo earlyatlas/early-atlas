@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-lc-4
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-LC 4"
+title: "Child uses non-verbal communication and language to engage others in interaction."
+domain_area: "Language and Communication"
+sub_domain: "Communicating and Speaking"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Uses facial expressions, including smiling, or uses gestures or sounds, such as cooing or babbling, to engage familiar adults in social interaction."
+  - age_period: "8 to 18 Months"
+    text: "Repeats actions or single words to initiate or maintain social interactions with other children or adults, such as clapping hands or calling a name to get someone's attention."
+  - age_period: "16 to 36 Months"
+    text: "Uses words, signs, phrases, or simple sentences to initiate, continue, or extend conversations with others about feelings, experiences, or thoughts."
+  - age_period: "By 36 Months"
+    text: "Initiates and responds in conversations with others."
+  - age_period: "By 36 Months"
+    text: "Participates in simple conversations with others that are maintained by back-and-forth exchanges of ideas or information."
+  - age_period: "By 36 Months"
+    text: "Engages in simple conversations by expressing own feelings, thoughts, and ideas to others."
+source_url: https://headstart.gov/school-readiness/article/language-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

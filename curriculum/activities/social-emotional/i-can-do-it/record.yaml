@@ -1,0 +1,45 @@
+id: ea.activity.social-emotional.i-can-do-it
+slug: i-can-do-it
+title: I Can Do It!
+summary: A toddler practices a self-help task and shares the accomplishment with a delighted adult.
+supported_skill_ids:
+  - ea.skill.social-emotional.self-concept.shows-confidence-in-abilities
+age_range_months:
+  min: 14
+  max: 36
+group_size: 1-3 children
+duration_minutes: 15
+materials:
+  - Child-sized real tools, such as a small pitcher or a coat to put on
+  - A low, accessible work space
+setup: Set out one achievable self-help task with everything within the child's reach.
+steps:
+  - Show the task slowly, for example pouring water from a small pitcher into a cup.
+  - Invite the child to try and step back to let them work.
+  - Resist over-helping; offer just enough support for success.
+  - When the child finishes, share their delight, for example "you poured it yourself!"
+  - Invite the child to show someone else what they can do.
+variations:
+  - Practice putting on a coat using the flip-over method.
+  - Let the child carry a small tray or pour their own snack.
+differentiation:
+  - For beginners, choose a one-step task and a forgiving material.
+  - For confident toddlers, add a second step to the sequence.
+assessment_opportunities:
+  - Note whether the child attempts the task independently.
+  - Watch for the child seeking an adult to share the accomplishment.
+safety_notes:
+  - Use child-safe tools and supervise tasks with water or small objects.
+accessibility_notes:
+  - Adapt tools — larger handles, non-slip mats — so every child can succeed.
+  - Celebrate effort and attempts, not only completion.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - confidence
+  - autonomy
+  - self-help
+methodologies:
+  - montessori
+status: accepted
+locale: en-US

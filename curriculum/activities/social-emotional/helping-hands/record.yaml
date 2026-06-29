@@ -1,0 +1,41 @@
+id: ea.activity.social-emotional.helping-hands
+slug: helping-hands
+title: Helping Hands
+summary: Children notice when someone needs help and practice caring responses.
+supported_skill_ids:
+  - ea.skill.social-emotional.relationships.shows-empathy
+age_range_months:
+  min: 36
+  max: 60
+group_size: 1-6 children
+duration_minutes: 15
+materials:
+  - A book or puppet showing a character who is hurt or sad
+  - Comfort props (toy bandage, soft blanket)
+setup: Choose a story or puppet scene where someone needs care.
+steps:
+  - Read or act out a moment where a character feels sad or gets hurt.
+  - Ask "How does she feel? What could we do to help?"
+  - Let children offer ideas and act out a caring response with the props.
+  - Connect it to real life ("When a friend is sad, we can ask if they're okay").
+variations:
+  - Set up a classroom "helper" job that supports a peer each day.
+differentiation:
+  - For beginners, model the helping action and have them copy it.
+  - For older children, brainstorm two different ways to help.
+assessment_opportunities:
+  - Note whether the child notices the feeling and offers a caring response.
+accessibility_notes:
+  - Make caring actions explicit and concrete; some children need the action shown.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+  - ea.citation.headstart.elof
+tags:
+  - empathy
+  - prosocial
+  - social-emotional
+methodologies:
+  - reggio-emilia
+  - play-based
+status: accepted
+locale: en-US

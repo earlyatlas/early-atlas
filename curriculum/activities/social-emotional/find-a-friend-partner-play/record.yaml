@@ -1,0 +1,45 @@
+id: ea.activity.social-emotional.find-a-friend-partner-play
+slug: find-a-friend-partner-play
+title: Find-a-Friend Partner Play
+summary: Children pair up to share a cooperative task, practicing how to join, talk with, and stay engaged with a peer.
+supported_skill_ids:
+  - ea.skill.social-emotional.relationships.makes-friends-with-peers
+age_range_months:
+  min: 36
+  max: 60
+group_size: pairs within a group of 4-12 children
+duration_minutes: 15
+materials:
+  - One shared activity per pair (a puzzle, building blocks, or a simple matching game)
+  - Optional picture cards showing ways to join play
+setup: Set out one shared task for each pair and decide pairings, mixing children who do not usually play together.
+steps:
+  - Talk briefly about friendly ways to start playing together, such as "Can I play?" or "Let's build a tower."
+  - Help each child find their partner and settle at a shared task.
+  - Coach an opening line if a child is unsure how to begin with their partner.
+  - Stay nearby and notice when partners take turns talking and add to each other's ideas.
+  - Gather the group and let pairs share one thing they did together.
+variations:
+  - Rotate partners weekly so children build comfort with several peers.
+  - Use a cooperative task that only works with two, such as carrying a tray together.
+differentiation:
+  - Offer entry-phrase picture cards and a smaller, quieter space for children who find peers overwhelming.
+  - For confident pairs, add a goal that requires planning and negotiating roles.
+assessment_opportunities:
+  - Note whether the child uses a strategy to join and sustains back-and-forth with their partner.
+safety_notes:
+  - Supervise sharing of small pieces and keep the mood low-pressure so no child is forced to interact.
+accessibility_notes:
+  - Allow AAC, gestures, or pictures for joining and conversation, and honor a child's pace.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - friendship
+  - peer-interaction
+  - cooperation
+  - joining-play
+methodologies:
+  - play-based
+  - reggio-emilia
+status: accepted
+locale: en-US

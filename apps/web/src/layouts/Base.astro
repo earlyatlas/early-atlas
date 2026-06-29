@@ -1,0 +1,157 @@
+---
+import "../styles/global.css";
+import { buildMethodologyNav } from "../lib/nav.js";
+
+interface Props {
+  title: string;
+  /** Non-canonical render (draft overlay / preview): noindex + a "not official"
+   *  banner + print suppression. Guards against printing/sharing unapproved edits. */
+  noncanonical?: boolean;
+}
+const { title, noncanonical = false } = Astro.props;
+
+// The sidebar is intentionally lean: domains/skills live on the Browse page; the
+// sidebar carries only Browse and the Methodologies explainers.
+const methodologies = buildMethodologyNav();
+const path = decodeURIComponent(Astro.url.pathname).replace(/\/+$/, "");
+const isActive = (href: string) => path === href.replace(/\/+$/, "");
+const hasToc = Astro.slots.has("toc");
+---
+
+<!doctype html>
+<html lang="en" data-theme="dark" data-noncanonical={noncanonical ? "true" : undefined}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>{noncanonical ? "Draft preview · " : ""}{title} · Early Atlas</title>
+    <meta name="color-scheme" content="dark light" />
+    {noncanonical && <meta name="robots" content="noindex, nofollow" />}
+    <script is:inline>
+      // A manual toggle (saved) always wins; otherwise default by the browser's
+      // local time — daytime (7am–7pm) is light, evening/night is dark.
+      const savedTheme = localStorage.getItem("ea-theme");
+      const daytime = (() => {
+        const h = new Date().getHours();
+        return h >= 7 && h < 19;
+      })();
+      document.documentElement.dataset.theme = savedTheme ?? (daytime ? "light" : "dark");
+    </script>
+  </head>
+  <body>
+    {
+      noncanonical && (
+        <div class="draft-banner" role="alert">
+          <strong>Draft preview</strong> — proposed content, not official Early Atlas curriculum.
+          Please don’t print or share it.
+        </div>
+      )
+    }
+    <header class="site-header">
+      <button class="icon-btn menu-btn" id="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <a class="brand" href="/">
+        <img class="brand-logo" src="/logo.png" width="28" height="28" alt="" aria-hidden="true" />
+        <span>Early Atlas</span>
+      </a>
+      <span class="spacer"></span>
+      <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode">◐</button>
+    </header>
+
+    <div class="shell" data-toc={hasToc ? "true" : "false"}>
+      <aside class="sidebar" id="sidebar">
+        <nav aria-label="Curriculum">
+          <a class:list={["nav-top", { active: isActive("/") }]} href="/">Browse &amp; search</a>
+          <a class:list={["nav-top", { active: isActive("/milestones") }]} href="/milestones">
+            Milestones
+          </a>
+          <a class:list={["nav-top", { active: isActive("/how-to-use") }]} href="/how-to-use">
+            How to use
+          </a>
+          <a class:list={["nav-top", { active: isActive("/about") }]} href="/about">About</a>
+          <a class:list={["nav-top", { active: isActive("/contribute") }]} href="/contribute">
+            Contribute
+          </a>
+          {
+            methodologies.length > 0 && (
+              <div class="nav-group nav-methodologies">
+                <div class="nav-section-label">Methodologies</div>
+                <ul>
+                  {methodologies.map((m) => (
+                    <li>
+                      <a
+                        class:list={{ active: isActive(m.href) }}
+                        aria-current={isActive(m.href) ? "page" : undefined}
+                        href={m.href}
+                      >
+                        {m.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )
+          }
+          {
+            import.meta.env.DEV && (
+              <a class="nav-top" href="/mcp">
+                MCP
+              </a>
+            )
+          }
+        </nav>
+      </aside>
+
+      <main class="content">
+        <slot />
+      </main>
+
+      {
+        hasToc && (
+          <aside class="toc" aria-label="On this page">
+            <slot name="toc" />
+          </aside>
+        )
+      }
+    </div>
+
+    <div class="scrim" id="scrim"></div>
+
+    <script is:inline>
+      document.getElementById("theme-toggle")?.addEventListener("click", () => {
+        const root = document.documentElement;
+        const next = root.dataset.theme === "dark" ? "light" : "dark";
+        root.dataset.theme = next;
+        localStorage.setItem("ea-theme", next);
+      });
+      const sidebar = document.getElementById("sidebar");
+      const scrim = document.getElementById("scrim");
+      const closeNav = () => {
+        sidebar?.classList.remove("open");
+        scrim?.classList.remove("show");
+      };
+      document.getElementById("menu-toggle")?.addEventListener("click", () => {
+        sidebar?.classList.toggle("open");
+        scrim?.classList.toggle("show");
+      });
+      scrim?.addEventListener("click", closeNav);
+    </script>
+
+    <style>
+      .draft-banner {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        padding: var(--space-2) var(--space-4);
+        background: var(--notice-bad);
+        border-bottom: 1px solid var(--notice-bad-border);
+        color: var(--ink);
+        font-size: var(--text-sm);
+        text-align: center;
+      }
+    </style>
+  </body>
+</html>

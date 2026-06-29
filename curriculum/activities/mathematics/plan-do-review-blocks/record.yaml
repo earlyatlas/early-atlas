@@ -1,0 +1,49 @@
+id: ea.activity.mathematics.plan-do-review-blocks
+slug: plan-do-review-blocks
+title: Plan, Build, Tell
+summary: The child plans what to build, builds it with blocks, then tells you about it — a plan-do-review cycle that grows planning, patterning, and counting.
+supported_skill_ids:
+  - ea.skill.mathematics.patterning.copies-simple-pattern
+  - ea.skill.mathematics.number-sense.counts-to-ten
+age_range_months:
+  min: 36
+  max: 66
+group_size: 1-4 children
+duration_minutes: 20
+materials:
+  - A basket of blocks in a few colors and sizes
+  - Optional — a small mat or tray to define each child's building space
+setup: Clear a flat space and put the blocks within easy reach.
+steps:
+  - "Plan: ask the child what they want to make and let them say it out loud."
+  - "Do: give unhurried time to build the plan, joining in only when invited."
+  - Notice the math as it happens — "You made red, blue, red, blue — that's a pattern!"
+  - "Review: when finished, ask the child to tell you what they built and how."
+  - Count the blocks together as you tidy up, touching each one once.
+variations:
+  - Challenge the child to copy and extend a simple AB pattern you start.
+  - Take a photo of the plan and compare it with what was built.
+  - Build a "tower of ten" and count each block as it is added.
+differentiation:
+  - Younger builders can plan with one word and build freely.
+  - Older builders can plan two steps ("first a wall, then a door") and follow both.
+assessment_opportunities:
+  - Notice whether the child's build matches the plan they described.
+  - Watch for copying or extending patterns, and for accurate one-to-one counting.
+safety_notes:
+  - Use child-safe blocks; supervise so towers fall away from faces.
+accessibility_notes:
+  - Offer larger, lighter blocks for developing fine-motor control.
+  - Accept plans shared through pointing, signs, or any language the child speaks.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - plan-do-review
+  - active-learning
+  - building
+  - patterning
+  - counting
+methodologies:
+  - highscope
+status: accepted
+locale: en-US

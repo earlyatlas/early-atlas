@@ -1,0 +1,22 @@
+{
+  "name": "@earlyatlas/curriculum-core",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "validate": "node --import tsx src/cli.ts",
+    "coverage": "node --import tsx src/coverage.ts",
+    "materialize": "node --import tsx src/materialize.ts"
+  },
+  "dependencies": {
+    "@earlyatlas/curriculum-schema": "workspace:*",
+    "fast-glob": "^3.3.2",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "tsx": "^4.19.2"
+  }
+}

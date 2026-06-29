@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-c-3
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-C 3"
+title: "Child recognizes differences between familiar and unfamiliar people, objects, actions, or events."
+domain_area: "Cognition"
+sub_domain: "Memory"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Recognizes familiar people by their faces or voices. Learns to distinguish between familiar and unfamiliar people."
+  - age_period: "8 to 18 Months"
+    text: "Remembers actions of familiar adults, the usual location of familiar objects, and parts of familiar routines. Notices and responds to new people, objects, or materials in the environment."
+  - age_period: "16 to 36 Months"
+    text: "Anticipates and communicates about multiple steps of familiar routines, activities, or events. Expresses surprise or asks about unexpected outcomes or unusual people, actions, or events."
+  - age_period: "By 36 Months"
+    text: "Comments about similarities or differences between new people, objects, or events, and ones that are more familiar."
+  - age_period: "By 36 Months"
+    text: "Tells others about what will happen next or about changes in usual routines or schedules."
+source_url: https://headstart.gov/school-readiness/article/cognition-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

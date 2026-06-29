@@ -1,0 +1,25 @@
+id: ea.standard.elof.p-se-2
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-SE 2"
+title: "Child engages in prosocial and cooperative behavior with adults."
+domain_area: "Social and Emotional Development"
+sub_domain: "Relationships with Adults"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Sometimes engages in prosocial behavior with adults, such as greeting the teacher or saying goodbye, and responds to adult requests and directions that may include assistance or prompting. Sometimes demonstrates uncooperative behavior with familiar adults, such as saying \"No\" to requests, but these moments are typically resolved with support from adults."
+  - age_period: "48 to 60 Months"
+    text: "Often engages in prosocial behavior with adults and usually responds appropriately to adult requests and directions without significant assistance or prompting. Uncooperative behavior with familiar adults is rare and the child is able to resolve minor conflicts with adults with support, such as being given reminders to use a quiet voice or follow directions."
+  - age_period: "By 60 Months"
+    text: "Engages in prosocial behaviors with adults, such as using respectful language or greetings."
+  - age_period: "By 60 Months"
+    text: "Attends to an adult when asked."
+  - age_period: "By 60 Months"
+    text: "Follows adult guidelines and expectations for appropriate behavior."
+  - age_period: "By 60 Months"
+    text: "Asks or waits for adult permission before doing something when they are unsure."
+source_url: https://headstart.gov/school-readiness/article/social-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

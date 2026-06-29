@@ -1,0 +1,21 @@
+id: ea.standard.elof.p-pmp-6
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-PMP 6"
+title: "Child demonstrates knowledge of personal safety practices and routines."
+domain_area: "Perceptual, Motor, and Physical Development"
+sub_domain: "Health, Safety, and Nutrition"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Shows awareness of a growing number of personal safety practices and routines. Looks to adults for support in enacting these."
+  - age_period: "48 to 60 Months"
+    text: "Exhibits increasing independence in following basic personal safety practices and routines. Follows adult guidance around more complex practices."
+  - age_period: "By 60 Months"
+    text: "Identifies, avoids, and alerts others to danger, such as keeping a safe distance from swings."
+  - age_period: "By 60 Months"
+    text: "Identifies and follows basic safety rules with adult guidance and support, such as transportation and street safety practices."
+source_url: https://headstart.gov/school-readiness/article/perceptual-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

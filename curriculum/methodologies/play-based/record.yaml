@@ -1,0 +1,23 @@
+id: ea.methodology.play-based
+slug: play-based
+title: Play-based learning
+short_description: Learning driven by playful, child-chosen activity, widely endorsed as developmentally appropriate for young children.
+origin: A broad, research-supported tradition reflected in developmentally appropriate practice rather than a single founder or brand.
+principles:
+  - Play is the primary vehicle for early learning.
+  - Children build skills through hands-on exploration and make-believe.
+  - Adults scaffold by joining play, asking questions, and extending ideas.
+  - Joyful, low-pressure practice over rote drill.
+  - Skills are embedded in meaningful, real-world contexts.
+inspiration_note: >-
+  Lessons tagged play-based turn a skill into a game or exploration a child wants
+  to do. Unlike the named approaches, play-based learning is a general, non-branded
+  tradition; we cite developmentally appropriate practice as support.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - play
+  - hands-on
+  - exploration
+status: accepted
+locale: en-US

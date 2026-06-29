@@ -1,0 +1,19 @@
+id: ea.standard.elof.p-math-1
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-MATH 1"
+title: "Child knows number names and the count sequence."
+domain_area: "Mathematics Development"
+sub_domain: "Counting and Cardinality"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Says or signs some number words in sequence (up to 10), starting with one. Understands that counting words are separate words, such as \"one,\" \"two,\" \"three\" versus \"onetwothree\"."
+  - age_period: "48 to 60 Months"
+    text: "Says or signs more number words in sequence."
+  - age_period: "By 60 Months"
+    text: "Counts verbally or signs to at least 20 by ones."
+source_url: https://headstart.gov/school-readiness/article/math-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

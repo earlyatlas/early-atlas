@@ -1,0 +1,41 @@
+id: ea.skill.social-emotional.self-concept.expresses-confidence
+slug: expresses-confidence
+title: Expresses Confidence in Self
+short_description: Child shows pride in accomplishments and positive feelings about who they are.
+developmental_purpose: >-
+  A preschooler who takes satisfaction in their own skills, shares ideas in a
+  group, and uses positive words to describe themselves is building the
+  self-concept and persistence that fuel learning and resilience.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.social-emotional.relationships.connects-with-trusted-adults
+mastery_criteria:
+  - Shows satisfaction or seeks acknowledgment when completing a task or solving a problem.
+  - Shares own ideas or beliefs in a group or with others, with or without prompting.
+  - Uses positive words to describe self, such as "kind" or "hard worker".
+observation_prompts:
+  - When the child finishes something hard, do they show pride or want it noticed?
+  - In group time, does the child offer their own ideas?
+  - Can the child name something they are good at or proud of?
+accessibility_notes:
+  - Notice effort and specific actions, not just results, so every child can feel competent.
+  - Offer photos, drawings, or AAC so all children can share an accomplishment or idea.
+common_misconceptions:
+  - Healthy confidence grows from genuine, specific encouragement, not from constant generic praise.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - self-concept
+  - confidence
+  - self-esteem
+  - identity
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-se-10
+status: accepted
+locale: en-US

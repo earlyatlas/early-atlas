@@ -1,0 +1,51 @@
+id: ea.activity.approaches-to-learning.everything-has-a-home-cleanup
+slug: everything-has-a-home-cleanup
+title: Everything Has a Home
+summary: >-
+  Children match materials to labeled spots in a playful cleanup game, learning
+  to use and return classroom and home items with care.
+supported_skill_ids:
+  - ea.skill.approaches-to-learning.self-regulation.cares-for-materials
+age_range_months:
+  min: 36
+  max: 60
+group_size: 1-8 children
+duration_minutes: 15
+materials:
+  - Bins, baskets, or shelves with picture-and-word labels
+  - A variety of toys and materials that belong in those spots
+setup: >-
+  Label each storage spot with a photo or drawing of what belongs there. Scatter
+  a manageable number of items around the play area.
+steps:
+  - Walk around together and read the picture labels on each bin or shelf.
+  - Show how to carry an item carefully and place it in its "home."
+  - Turn cleanup into a game, such as "find everything that lives on the block shelf."
+  - Cheer as each item finds its home and the space becomes tidy.
+  - Notice and name careful handling, such as stacking blocks gently.
+variations:
+  - Play "I spy something that belongs in the art bin" to guide sorting.
+  - Time a friendly cleanup song and finish before it ends.
+differentiation:
+  - For younger or new children, focus on one category at a time.
+  - For older children, let them help design and place new labels.
+assessment_opportunities:
+  - Note whether the child matches items to spots with little adult help.
+  - Observe whether the child handles materials gently rather than tossing them.
+safety_notes:
+  - Keep bins light and at child height to avoid dropping or tipping.
+accessibility_notes:
+  - Use bold photo labels for pre-readers and high-contrast labels for low vision.
+  - Offer easy-grip bins or open trays for children with motor differences.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - materials
+  - cleanup
+  - sorting
+  - responsibility
+methodologies:
+  - montessori
+  - highscope
+status: accepted
+locale: en-US

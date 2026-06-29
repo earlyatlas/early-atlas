@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-sci-5
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-SCI 5"
+title: "Child plans and conducts investigations and experiments."
+domain_area: "Scientific Reasoning"
+sub_domain: "Reasoning and Problem-Solving"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "With adult support, engages in simple investigations and experiments, such as building a \"bridge\" out of classroom materials and seeing how many dolls it will hold before it collapses. Records data with teacher assistance, mostly using pictures and marks on a page."
+  - age_period: "48 to 60 Months"
+    text: "With increasing independence, engages in some parts of conducting complex investigations or experiments. Increasingly able to articulate the steps that need to be taken to conduct an investigation. Uses more complex ways to gather and record data, such as with adult support, makes a graph that shows children's favorite snacks."
+  - age_period: "By 60 Months"
+    text: "Articulates steps to be taken and lists materials needed for an investigation or experiment."
+  - age_period: "By 60 Months"
+    text: "Implements steps and uses materials to explore testable questions, such as \"Do plants need water to grow?\" by planting seeds and giving water to some but not to others."
+  - age_period: "By 60 Months"
+    text: "Uses senses and simple tools to observe, gather, and record data, such as gathering data on where children's families are from and creating a graph that shows the number of children from different countries."
+source_url: https://headstart.gov/school-readiness/article/science-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

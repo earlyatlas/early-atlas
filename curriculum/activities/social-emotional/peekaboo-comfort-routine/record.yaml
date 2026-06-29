@@ -1,0 +1,46 @@
+id: ea.activity.social-emotional.peekaboo-comfort-routine
+slug: peekaboo-comfort-routine
+title: Peekaboo and Comfort Routine
+summary: A caregiver plays peekaboo and offers warm soothing to build the child's trust that comfort is reliable.
+supported_skill_ids:
+  - ea.skill.social-emotional.relationships.seeks-comfort-from-adults
+age_range_months:
+  min: 3
+  max: 18
+group_size: 1 child with a caregiver
+duration_minutes: 10
+materials:
+  - A soft blanket or cloth
+  - A comfortable lap or floor space
+setup: Sit close and at the child's eye level in a calm, quiet spot.
+steps:
+  - Hold the child close and talk in a warm, gentle voice.
+  - Cover your face with the cloth, then reveal it and say a happy "peekaboo!"
+  - Watch the child's response and match their delight or pause if they need a break.
+  - If the child becomes fussy, stop the game and offer soothing — rocking, holding, or quiet.
+  - Name what you are doing, for example "I am right here with you."
+variations:
+  - Hide a favorite soft toy under the cloth and reveal it together.
+  - Play during diaper changes or before naps to weave comfort into daily routines.
+differentiation:
+  - For younger infants, slow the pace and exaggerate your warm expressions.
+  - For older babies, let the child pull the cloth away to take the lead.
+assessment_opportunities:
+  - Note whether the child quiets and settles when you offer comfort.
+  - Watch for the child reaching toward you or seeking your face during the game.
+safety_notes:
+  - Use a lightweight cloth and never leave it covering the child's face.
+  - Always supervise; keep the child supported and secure on your lap.
+accessibility_notes:
+  - For children with vision differences, add a gentle voice cue or touch when you reappear.
+  - Follow the child's sensory cues; reduce intensity if they look overwhelmed.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - attachment
+  - comfort
+  - peekaboo
+methodologies:
+  - play-based
+status: accepted
+locale: en-US

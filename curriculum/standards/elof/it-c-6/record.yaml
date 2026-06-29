@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-c-6
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-C 6"
+title: "Child learns to use a variety of strategies in solving problems."
+domain_area: "Cognition"
+sub_domain: "Reasoning and Problem-Solving"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Engages in simple repeated actions to reach a goal, such as trying to get whole hand and then fingers or thumb in mouth."
+  - age_period: "8 to 18 Months"
+    text: "Explores how to make something happen again or how something works by doing actions over and over again, such as repeatedly filling a container and emptying it out."
+  - age_period: "16 to 36 Months"
+    text: "Engages in activities for longer periods of time and tries several times to solve more challenging problems, often using a combination of actions or behaviors."
+  - age_period: "By 36 Months"
+    text: "Uses a variety of strategies to solve problems, such as trial and error, simple tools, or asking someone to help."
+  - age_period: "By 36 Months"
+    text: "Tries to solve the same problem in several different ways at different times."
+source_url: https://headstart.gov/school-readiness/article/cognition-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

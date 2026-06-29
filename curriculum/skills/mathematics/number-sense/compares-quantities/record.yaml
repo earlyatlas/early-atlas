@@ -1,0 +1,41 @@
+id: ea.skill.mathematics.number-sense.compares-quantities
+slug: compares-quantities
+title: Compares Quantities
+short_description: Child counts two groups and tells which has more, less, or the same.
+developmental_purpose: >-
+  Comparing quantities builds on one-to-one counting and is the foundation of
+  number relationships. Learning that the count, not the size or spread of
+  objects, determines "how many" lets children reason about more, less, and
+  equal, and use ordinal words like first and second.
+domain_ids:
+  - ea.domain.mathematics
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.mathematics.number-sense.counts-to-ten
+mastery_criteria:
+  - Counts two small groups and says which has more, fewer, or the same.
+  - Compares groups correctly even when the larger group has smaller objects.
+  - Uses ordinal words from first to at least fifth to describe position in a line.
+observation_prompts:
+  - "When two plates have different amounts of snack, can the child tell which has more without being told?"
+  - Does the child rely on counting rather than on which pile looks bigger?
+accessibility_notes:
+  - Arrange objects in rows so children who cannot move items can still compare by sight.
+  - Offer high-contrast or textured objects for children with low vision.
+common_misconceptions:
+  - "A group that takes up more space is not always the group with more objects."
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - number-sense
+  - comparing
+  - more-less
+  - ordinal-numbers
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-math-4
+status: accepted
+locale: en-US

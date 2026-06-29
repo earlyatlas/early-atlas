@@ -1,0 +1,241 @@
+---
+import Base from "../../layouts/Base.astro";
+export const prerender = true;
+---
+
+<Base title="Admin">
+  <div class="admin">
+    <h1>Review queue</h1>
+    <div id="status"><p class="muted">Checking your session…</p></div>
+    <ul class="queue" id="queue"></ul>
+  </div>
+</Base>
+
+<!-- global (not scoped): the queue is built in client JS, which never receives
+     Astro's scope hash — so these are plain selectors, namespaced under .admin. -->
+<style is:global>
+  .admin {
+    .queue {
+      list-style: none;
+      margin: var(--space-5) 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-4);
+    }
+    .proposal {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: var(--space-4);
+      background: var(--surface);
+    }
+    .proposal-head {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      flex-wrap: wrap;
+    }
+    .proposal-head strong {
+      font-size: var(--text-lg);
+    }
+    .ok {
+      color: var(--accent);
+      font-size: var(--text-sm);
+    }
+    .bad {
+      color: var(--required);
+      font-size: var(--text-sm);
+    }
+    .badge {
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      font-size: 0.68rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: var(--radius-pill);
+      background: var(--surface-2);
+      color: var(--muted);
+      border: 1px solid var(--line);
+    }
+    .badge-submitted {
+      background: var(--accent-soft);
+      color: var(--accent);
+      border-color: var(--accent-border);
+    }
+    .proposal-meta {
+      font-size: var(--text-sm);
+      margin: var(--space-1) 0 var(--space-3);
+    }
+    .ops {
+      margin: var(--space-2) 0;
+      padding-left: var(--space-5);
+      font-family: var(--font-mono);
+      font-size: var(--text-sm);
+      color: var(--muted);
+    }
+    .ops li {
+      margin: 2px 0;
+    }
+    .proposal-actions {
+      display: flex;
+      gap: var(--space-3);
+      align-items: center;
+      margin-top: var(--space-4);
+    }
+    /* buttons: clear primary (approve) / secondary (reject) / link (preview) */
+    .act {
+      margin: 0;
+      padding: var(--space-2) var(--space-4);
+      font: inherit;
+      font-size: var(--text-sm);
+      font-weight: 600;
+      border: 1px solid transparent;
+      border-radius: var(--radius-sm);
+      background: var(--accent);
+      color: var(--accent-ink);
+      cursor: pointer;
+    }
+    .act:hover {
+      filter: brightness(1.06);
+    }
+    .act-reject {
+      background: transparent;
+      color: var(--muted);
+      border-color: var(--line);
+    }
+    .act-reject:hover {
+      filter: none;
+      color: var(--ink);
+      border-color: var(--accent-border);
+    }
+    .act:disabled {
+      opacity: 0.55;
+      cursor: default;
+    }
+    .btn-quiet {
+      margin-right: auto;
+      padding: var(--space-2) 0;
+      font-size: var(--text-sm);
+      font-weight: 600;
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .btn-quiet:hover {
+      text-decoration: underline;
+    }
+  }
+</style>
+
+<script>
+  import { getUser, login, logout, api, isAuthConfigured } from "../../lib/auth/browser";
+
+  const escapeHtml = (s: string) =>
+    String(s).replace(
+      /[&<>"]/g,
+      (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!,
+    );
+
+  function opSummary(op: any): string {
+    switch (op.op) {
+      case "create_record":
+        return `create ${op.record?.id ?? "?"}`;
+      case "update_fields":
+        return `update ${op.id} (${Object.keys(op.fields ?? {}).length} field(s))`;
+      case "replace_body":
+        return `replace body of ${op.id}`;
+      case "deprecate_record":
+        return `deprecate ${op.id}`;
+      case "add_edge":
+        return `link ${op.from_id} → ${op.to_id} (${op.type})`;
+      default:
+        return String(op.op);
+    }
+  }
+  const actionable = (s: string) => s === "draft" || s === "submitted";
+
+  async function loadQueue() {
+    const queue = document.getElementById("queue")!;
+    const status = document.getElementById("status")!;
+    const res = await api("/api/proposals");
+    if (res.status === 401) {
+      status.innerHTML = "";
+      renderSignedOut(true);
+      return;
+    }
+    if (res.status === 403) {
+      status.innerHTML = '<div class="notice bad">This account isn’t an Early Atlas admin.</div>';
+      return;
+    }
+    if (!res.ok) {
+      status.innerHTML = `<div class="notice bad">Couldn’t load the queue (${res.status}).</div>`;
+      return;
+    }
+    const proposals: any[] = await res.json();
+    if (!proposals.length) {
+      queue.innerHTML = '<p class="muted">No proposals in the queue.</p>';
+      return;
+    }
+    queue.innerHTML = proposals
+      .map((p) => {
+        const v = p.validation;
+        const ops = (p.changeset?.operations ?? [])
+          .map((o: any) => `<li>${escapeHtml(opSummary(o))}</li>`)
+          .join("");
+        const valid = v
+          ? `<span class="${v.valid ? "ok" : "bad"}">${v.valid ? "✓ valid" : "✗ invalid"}</span>`
+          : "";
+        const actions = actionable(p.status)
+          ? `<button class="act" data-id="${p.id}" data-status="approved">Approve</button>
+           <button class="act act-reject" data-id="${p.id}" data-status="rejected">Reject</button>`
+          : "";
+        return `<li class="proposal">
+        <div class="proposal-head"><span class="badge badge-${escapeHtml(p.status)}">${escapeHtml(p.status)}</span>
+          <strong>${escapeHtml(p.title ?? "(untitled)")}</strong> ${valid}</div>
+        <div class="proposal-meta muted">by ${escapeHtml(p.author_email ?? p.author_sub ?? "unknown")} · ${new Date(p.created_at).toLocaleString()}</div>
+        <ul class="ops">${ops}</ul>
+        <div class="proposal-actions"><a class="btn-quiet" href="/drafts?id=${encodeURIComponent(p.id)}">Preview</a>${actions}</div>
+      </li>`;
+      })
+      .join("");
+
+    queue.querySelectorAll<HTMLButtonElement>(".act").forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        btn.disabled = true;
+        const r = await api(`/api/proposals/${btn.dataset.id}/status`, {
+          method: "POST",
+          body: JSON.stringify({ status: btn.dataset.status }),
+        });
+        if (r.ok) loadQueue();
+        else {
+          btn.disabled = false;
+          alert(`Failed: ${r.status}`);
+        }
+      });
+    });
+  }
+
+  function renderSignedOut(expired = false) {
+    const status = document.getElementById("status")!;
+    status.innerHTML = `<p>${expired ? "Your session expired. " : ""}Sign in as an admin to review proposals.</p><p><button id="signin-btn">Sign in</button></p>`;
+    document.getElementById("signin-btn")!.addEventListener("click", () => login("/admin"));
+  }
+
+  (function main() {
+    const status = document.getElementById("status")!;
+    if (!isAuthConfigured()) {
+      status.innerHTML = '<div class="notice bad">Sign-in isn’t configured for this build.</div>';
+      return;
+    }
+    const user = getUser();
+    if (!user) {
+      renderSignedOut();
+      return;
+    }
+    status.innerHTML = `<p class="muted">Signed in as <strong>${escapeHtml(user.email ?? user.sub)}</strong>. · <a href="#" id="signout">Sign out</a></p>`;
+    document.getElementById("signout")!.addEventListener("click", (e) => {
+      e.preventDefault();
+      logout();
+    });
+    loadQueue();
+  })();
+</script>

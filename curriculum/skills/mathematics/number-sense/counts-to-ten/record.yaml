@@ -1,0 +1,42 @@
+id: ea.skill.mathematics.number-sense.counts-to-ten
+slug: counts-to-ten
+title: Counts to Ten
+short_description: Child counts objects to ten using one-to-one correspondence.
+developmental_purpose: >-
+  Counting with one-to-one correspondence — one number word per object — is the
+  core of number sense and the prerequisite for comparing and combining quantities.
+domain_ids:
+  - ea.domain.mathematics
+age_range_months:
+  min: 30
+  max: 54
+developmental_stage: toddler_to_preschool
+related_skill_ids:
+  - ea.skill.mathematics.classification.sorts-by-color
+mastery_criteria:
+  - Recites number words in order to ten.
+  - Counts a set of up to ten objects, touching each once and saying one number per object.
+observation_prompts:
+  - When counting snacks or toys, does the child assign exactly one number to each item?
+supporting_activity_ids:
+  - ea.activity.mathematics.count-and-drop
+accessibility_notes:
+  - Use objects that are easy to grasp or fixed in a row for children with motor differences.
+  - Allow counting by sliding/touching for children who cannot pick items up.
+common_misconceptions:
+  - Reciting "one-two-three" by rote is not the same as counting objects one-to-one.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+  - ea.citation.headstart.elof
+tags:
+  - number-sense
+  - counting
+  - one-to-one-correspondence
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-math-1
+  - ea.standard.elof.p-math-2
+  - ea.standard.elof.p-math-3
+  - ea.standard.elof.it-c-8
+status: accepted
+locale: en-US

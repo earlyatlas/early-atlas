@@ -1,0 +1,130 @@
+/* @layer components — the browse tree (domain → skill → leaf). Styles must stay
+   global: the tree is server-rendered but toggled/filtered by client JS. */
+@layer components {
+  .tree {
+    margin-top: var(--space-4);
+  }
+  .d-node {
+    margin-bottom: var(--space-2);
+  }
+
+  /* A node row: same shape for domain, skill, and leaf — a chevron (toggles
+     children), a title link (navigates), and a type tag. */
+  .node-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    min-height: 38px;
+    padding: var(--space-1) var(--space-2);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    list-style: none;
+    transition: background-color 0.13s var(--ease-out);
+  }
+  summary.node-row::-webkit-details-marker {
+    display: none;
+  }
+  .node-row:hover {
+    background: var(--surface-2);
+  }
+
+  /* Expand control — deliberately big and obviously interactive. */
+  .node-toggle {
+    flex: none;
+    width: 1.75rem;
+    height: 1.75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--line);
+    background: var(--surface-2);
+    color: var(--muted);
+  }
+  summary.node-row:hover .node-toggle {
+    border-color: var(--accent-border);
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+  .node-toggle .tw {
+    font-size: 1.05rem;
+    line-height: 1;
+    transition: transform 0.12s ease;
+  }
+  .node[open] > summary .node-toggle .tw {
+    transform: rotate(90deg);
+  }
+  .twisty-spacer {
+    flex: none;
+    width: 1.75rem;
+  }
+  .node-count {
+    margin-left: auto;
+    flex: none;
+    font-size: 0.72rem;
+    color: var(--muted);
+  }
+  summary.node-row:hover .node-count {
+    color: var(--accent);
+  }
+
+  /* Title text is the SAME size for domain, skill, and leaf — hierarchy is shown
+     by nesting + the type tag, not by font size. */
+  .node-link {
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: var(--ink);
+    text-decoration: none;
+  }
+  a.node-link:hover,
+  a.r-link:hover .node-link {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+
+  .node-type {
+    flex: none;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 1px 6px;
+    border-radius: var(--radius-pill);
+    background: var(--surface-2);
+    color: var(--muted);
+    border: 1px solid var(--line);
+  }
+  .d-node > summary > .node-type {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-color: var(--accent-border);
+  }
+
+  .node-desc {
+    flex-basis: 100%;
+    padding-left: 1.5rem;
+    font-size: var(--text-sm);
+    color: var(--muted);
+  }
+  .node[open] > summary .node-desc {
+    display: none;
+  }
+
+  .node-children {
+    margin: 0 0 var(--space-2) 0.5rem;
+    padding-left: var(--space-3);
+    border-left: 1px solid var(--line);
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  a.r-link.node-row {
+    color: inherit;
+  }
+  .r-empty {
+    font-size: var(--text-sm);
+    margin: var(--space-1) 0;
+    padding-left: var(--space-2);
+  }
+}

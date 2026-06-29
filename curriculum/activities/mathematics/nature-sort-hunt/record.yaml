@@ -1,0 +1,51 @@
+id: ea.activity.mathematics.nature-sort-hunt
+slug: nature-sort-hunt
+title: Nature Sort and Count Hunt
+summary: Outdoors, the child gathers natural treasures, sorts them by color or kind, and counts each group — classification and counting in the fresh air.
+supported_skill_ids:
+  - ea.skill.mathematics.classification.sorts-by-color
+  - ea.skill.mathematics.number-sense.counts-to-ten
+age_range_months:
+  min: 36
+  max: 66
+group_size: 1-6 children
+duration_minutes: 25
+materials:
+  - A small basket, bag, or bucket for each child
+  - A natural outdoor space — yard, park, or trail
+  - Optional — a muffin tin or paper plates for sorting groups
+setup: Set a clear boundary for where children may explore before you begin.
+steps:
+  - Take a slow walk and invite the child to collect safe natural items — leaves, stones, sticks, petals.
+  - Find a spot to sit and pour out the treasures together.
+  - Ask, "How could we put these in groups?" and let the child sort by color or kind.
+  - Count the items in each group, touching each one once.
+  - Talk about which group has the most and the fewest before returning items to nature.
+variations:
+  - Sort by a second attribute, such as big and small or smooth and rough.
+  - Make a simple repeating pattern with the items (leaf, stone, leaf, stone).
+  - Tally how many of each color you found across the whole walk.
+differentiation:
+  - Offer just two colors or two kinds for children new to sorting.
+  - Invite older children to sort by two rules at once and explain their groups.
+assessment_opportunities:
+  - Notice whether the child sorts consistently by the chosen attribute.
+  - Watch for accurate one-to-one counting and comparing of groups.
+safety_notes:
+  - Supervise closely outdoors; teach "look, don't taste," and avoid berries, mushrooms, and sharp or unknown plants.
+  - Wash hands after exploring; support safe, age-appropriate risk-taking on uneven ground.
+accessibility_notes:
+  - Bring treasures to a child who is more comfortable seated, or explore a small patch within reach.
+  - Name colors and counts aloud so the activity works for visual and verbal learners alike.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - outdoor
+  - nature
+  - sorting
+  - classification
+  - counting
+methodologies:
+  - forest-school
+status: accepted
+locale: en-US

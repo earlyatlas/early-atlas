@@ -1,0 +1,31 @@
+id: ea.printable.literacy.trace-lowercase-letters
+slug: trace-lowercase-letters
+title: Trace the Lowercase Letters
+printable_type: worksheet
+instructions: Trace each letter. Start at the top and follow the dots.
+supported_skill_ids:
+  - ea.skill.literacy.writing.traces-letters
+  - ea.skill.literacy.letter-knowledge.names-alphabet-letters
+age_range_months:
+  min: 42
+  max: 66
+generator:
+  type: handwriting
+  targets:
+    - a
+    - b
+    - c
+    - d
+    - e
+    - f
+  rows_per_target: 2
+  traces_per_row: 6
+  style: dotted-thirds
+tags:
+  - writing
+  - letter-formation
+  - lowercase
+methodologies:
+  - montessori
+status: draft
+locale: en-US

@@ -1,0 +1,46 @@
+id: ea.activity.science.drop-and-discover-treasure-basket
+slug: drop-and-discover-treasure-basket
+title: Drop and Discover Treasure Basket
+summary: Babies drop and release safe objects to discover that their actions make things happen.
+supported_skill_ids:
+  - ea.skill.science.physical-world.explores-cause-and-effect
+age_range_months:
+  min: 8
+  max: 20
+group_size: 1-2 children
+duration_minutes: 10
+materials:
+  - A low basket of large, safe objects such as wooden rings, fabric balls, and a metal cup
+  - A child-safe tray or shallow box to catch dropped objects
+  - A soft mat for the child to sit on
+setup: Seat the baby on the mat with the basket within reach and the tray placed in front of them.
+steps:
+  - Hand the baby one object and let them feel and explore it.
+  - Model dropping the object into the tray so it makes a sound.
+  - Wait and watch as the baby reaches for another object and tries dropping it too.
+  - Respond with words such as "you dropped it" each time, naming the cause and the effect.
+  - Refill the basket and let the baby repeat the game as long as they stay interested.
+variations:
+  - Swap in objects that make different sounds so the baby compares the effects.
+  - Add a pop-up toy the baby can press to make something spring up.
+differentiation:
+  - For younger babies, place objects directly into an open hand to ease grasping.
+  - For older toddlers, offer a container with a small opening that takes more aim.
+assessment_opportunities:
+  - Note whether the baby repeats the drop on purpose and anticipates the sound.
+safety_notes:
+  - Use only objects too large to be swallowed and supervise closely to prevent mouthing of small parts.
+accessibility_notes:
+  - Choose objects with contrasting colors, textures, and sounds so the effect is clear through several senses.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - cause-and-effect
+  - exploration
+  - senses
+  - infant
+methodologies:
+  - montessori
+  - play-based
+status: accepted
+locale: en-US

@@ -1,0 +1,45 @@
+id: ea.skill.approaches-to-learning.self-regulation.follows-rules-and-routines
+slug: follows-rules-and-routines
+title: Follows Rules and Routines
+short_description: >-
+  Child follows classroom rules and daily routines with increasing
+  independence, responding to signals for transitions.
+developmental_purpose: >-
+  Predictable routines give young children a sense of safety and a framework for
+  acting without constant direction. Learning to follow shared rules — and to
+  move through arrival, cleanup, and transition routines — builds the
+  self-direction and group awareness that classroom and family life depend on.
+domain_ids:
+  - ea.domain.approaches-to-learning
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.approaches-to-learning.self-regulation.manages-behavior
+  - ea.skill.approaches-to-learning.self-regulation.cares-for-materials
+mastery_criteria:
+  - Follows familiar routines, such as putting away a backpack on arrival, with occasional reminders.
+  - Demonstrates awareness of classroom rules when asked and follows them most of the time.
+  - Responds to a signal, such as a chime or song, when transitioning between activities.
+observation_prompts:
+  - Can the child move through a multi-step routine, such as end-of-lunch cleanup, with only a reminder or two?
+  - Does the child respond to a transition signal without needing an individual prompt?
+common_misconceptions:
+  - >-
+    Following rules is a skill that is taught and rehearsed, not a sign of a
+    child's character; reminders are scaffolding, not failure.
+accessibility_notes:
+  - Post a picture schedule so children who are pre-readers can anticipate what comes next.
+  - Give an advance warning before transitions for children who find change difficult.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - self-regulation
+  - routines
+  - rules
+  - transitions
+standard_ids:
+  - ea.standard.elof.p-atl-2
+status: accepted
+locale: en-US

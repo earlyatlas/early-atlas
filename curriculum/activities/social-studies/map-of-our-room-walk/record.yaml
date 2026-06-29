@@ -1,0 +1,51 @@
+id: ea.activity.social-studies.map-of-our-room-walk
+slug: map-of-our-room-walk
+title: Map of Our Room Walk
+summary: >-
+  Children take a slow walk around the classroom naming key places, then draw
+  a simple map showing where a few of those places are.
+supported_skill_ids:
+  - ea.skill.social-studies.world-around-us.explores-places-and-maps
+age_range_months:
+  min: 42
+  max: 66
+group_size: 1-8 children
+duration_minutes: 30
+materials:
+  - Large paper for a shared map, plus small paper for individual maps
+  - Crayons or markers
+  - A few photo cards of classroom landmarks like the door, rug, and sink
+setup: >-
+  Clear a path around the room and place the shared map paper on the floor or
+  a low table where the group can gather.
+steps:
+  - Walk slowly around the room and name each important place as you pass it.
+  - Use position words such as "next to," "behind," and "near" to describe where things are.
+  - Back at the table, draw the room's main spots together on the shared map.
+  - Invite each child to draw their own simple map showing two or three places.
+  - Use a map to find a hidden classroom object as a closing game.
+variations:
+  - Take the activity outdoors and map the playground or a nature path.
+  - Add toy figures and "walk" them along the routes on the map.
+differentiation:
+  - For younger children, place photo cards on a grid instead of drawing.
+  - For older children, add a simple key with symbols for each landmark.
+assessment_opportunities:
+  - Note whether the child places a few landmarks in roughly the right spots.
+  - Listen for accurate use of position words.
+safety_notes:
+  - Keep the walking path clear of tripping hazards.
+accessibility_notes:
+  - Offer a tactile map with felt pieces or raised paths for children who benefit from touch.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - geography
+  - maps
+  - places
+methodologies:
+  - reggio-emilia
+  - play-based
+  - forest-school
+status: accepted
+locale: en-US

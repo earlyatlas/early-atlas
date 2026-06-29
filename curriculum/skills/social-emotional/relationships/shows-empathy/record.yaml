@@ -1,0 +1,37 @@
+id: ea.skill.social-emotional.relationships.shows-empathy
+slug: shows-empathy
+title: Shows Empathy
+short_description: Child notices others' feelings and responds with care.
+developmental_purpose: >-
+  Empathy — recognizing and responding to how others feel — is the foundation of
+  kind relationships and prosocial behavior in group settings.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+prerequisite_skill_ids:
+  - ea.skill.social-emotional.emotional-understanding.identifies-basic-emotions
+related_skill_ids:
+  - ea.skill.social-emotional.relationships.takes-turns
+mastery_criteria:
+  - Notices when a peer is hurt or upset and responds (comforts, fetches an adult, offers a toy).
+observation_prompts:
+  - When another child is upset, does the child show concern or try to help?
+supporting_activity_ids:
+  - ea.activity.social-emotional.helping-hands
+accessibility_notes:
+  - Model and name caring responses explicitly; some children need the helping action shown.
+research_reference_ids:
+  - ea.citation.headstart.elof
+  - ea.citation.naeyc.dap
+tags:
+  - relationships
+  - empathy
+  - prosocial
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-se-7
+status: accepted
+locale: en-US

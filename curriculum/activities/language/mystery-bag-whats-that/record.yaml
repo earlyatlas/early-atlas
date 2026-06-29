@@ -1,0 +1,47 @@
+id: ea.activity.language.mystery-bag-whats-that
+slug: mystery-bag-whats-that
+title: Mystery Bag - What's That?
+summary: Children pull surprises from a bag, prompting them to ask "What's that?" and seek the names of new things.
+supported_skill_ids:
+  - ea.skill.language.expressive.asks-questions-to-learn
+age_range_months:
+  min: 12
+  max: 36
+group_size: 1-4 children
+duration_minutes: 10
+materials:
+  - A cloth bag or pillowcase
+  - Four or five interesting, safe objects, some familiar and some new
+setup: Place the objects in the bag out of the children's sight.
+steps:
+  - Shake the bag and wonder aloud, "What could be in here?"
+  - Reach in, pause, and let a child pull out an object.
+  - Wait expectantly so the child can ask "What's that?" with a point, sound, sign, or word.
+  - Answer their question, name the object, and talk about it together.
+  - Pass the bag so each child gets a turn to wonder and ask.
+variations:
+  - Use a feely bag where children guess by touch before pulling the object out.
+  - Hide objects related to a theme, such as kitchen tools or animals.
+differentiation:
+  - For younger children, model the question, "What's that? It's a brush!"
+  - For older toddlers, invite follow-up questions like "Why?" or "What does it do?"
+assessment_opportunities:
+  - Note how the child asks — a point with a sound, a sign, or words.
+  - Watch for the child seeking the name or meaning of an unfamiliar object.
+safety_notes:
+  - Use objects with no small parts or sharp edges; supervise closely.
+accessibility_notes:
+  - Treat a point with a questioning look or an AAC question as asking.
+  - Offer objects with rich textures and sounds for children with vision differences.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - questions
+  - inquiry
+  - vocabulary
+  - toddler
+methodologies:
+  - reggio-emilia
+  - montessori
+status: accepted
+locale: en-US

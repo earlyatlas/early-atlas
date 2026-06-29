@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-c-5
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-C 5"
+title: "Child uses memories as a foundation for more complex actions and thoughts."
+domain_area: "Cognition"
+sub_domain: "Memory"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Shows excitement with a toy or other object that was played with days earlier. Anticipates familiar actions or routines, such as getting picked up or being fed."
+  - age_period: "8 to 18 Months"
+    text: "Remembers how to use objects or materials from previous experience. Anticipates routines or events by taking action, such as going to the table when it is time to eat."
+  - age_period: "16 to 36 Months"
+    text: "Tells others about memories and past experiences. Remembers how to do a series of actions that were observed at an earlier time."
+  - age_period: "By 36 Months"
+    text: "Recalls a similar family event when hearing a story read."
+  - age_period: "By 36 Months"
+    text: "Prepares for next routine or activity based on past experiences, such as gets hat or coat when it is time to go outside."
+  - age_period: "By 36 Months"
+    text: "Repeats simple rules about expected behavior, such as \"We wash our hands before we eat.\""
+source_url: https://headstart.gov/school-readiness/article/cognition-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

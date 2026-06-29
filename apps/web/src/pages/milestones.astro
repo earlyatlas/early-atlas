@@ -1,0 +1,219 @@
+---
+import Base from "../layouts/Base.astro";
+import { getCurriculum } from "../lib/curriculum.js";
+
+// Prerendered: the full ELOF goal/indicator set + skill links ship to the page
+// and filter client-side by age + domain.
+export const prerender = true;
+
+const store = getCurriculum();
+const arr = (x: unknown): any[] => (Array.isArray(x) ? x : []);
+const recs = [...store.records.values()];
+
+// goal id -> the skills that relate to it (from each skill's standard_ids).
+const skillsByStandard = new Map<string, { id: string; title: string }[]>();
+for (const s of recs) {
+  if (s.kind !== "skill") continue;
+  for (const sid of arr(s.data.standard_ids))
+    (skillsByStandard.get(sid) ?? skillsByStandard.set(sid, []).get(sid)!).push({
+      id: s.id,
+      title: s.data.title ?? s.id,
+    });
+}
+
+// Parse an ELOF age-period label into a numeric month band.
+function band(ap: string): { lo: number; hi: number; point: boolean } {
+  let m;
+  if ((m = /^Birth to (\d+)/.exec(ap))) return { lo: 0, hi: +m[1], point: false };
+  if ((m = /^By (\d+)/.exec(ap))) return { lo: +m[1], hi: +m[1], point: true };
+  if ((m = /^(\d+) to (\d+)/.exec(ap))) return { lo: +m[1], hi: +m[2], point: false };
+  return { lo: 0, hi: 216, point: false };
+}
+
+const goals = recs
+  .filter((r) => r.kind === "standard" && r.data.framework === "elof")
+  .map((r) => ({
+    code: r.data.code,
+    title: r.data.title,
+    domain: r.data.domain_area ?? "",
+    sub: r.data.sub_domain ?? "",
+    ageBand: r.data.age_band ?? "",
+    inds: arr(r.data.indicators).map((i) => ({
+      ...band(i.age_period),
+      label: i.age_period,
+      text: i.text,
+    })),
+    skills: skillsByStandard.get(r.id) ?? [],
+  }))
+  .sort(
+    (a, b) =>
+      a.domain.localeCompare(b.domain) ||
+      a.code.localeCompare(b.code, undefined, { numeric: true }),
+  );
+---
+
+<Base title="Milestones">
+  <h1>Developmental milestones</h1>
+  <p>
+    Enter a child's age and choose an area to see what they're likely working on now, what's coming
+    next, and gentle ways to support it. Milestones come from the federal
+    <strong>Head Start Early Learning Outcomes Framework (ELOF)</strong>.
+  </p>
+
+  <div class="filters">
+    <div class="filter">
+      <label for="age">Child's age (months)</label>
+      <input
+        id="age"
+        type="number"
+        inputmode="numeric"
+        min="0"
+        max="72"
+        class="age-input"
+        placeholder="e.g. 40"
+        required
+      />
+    </div>
+    <div class="filter">
+      <label for="domain">Area of development</label>
+      <select id="domain" disabled>
+        <option value="">Enter an age first</option>
+      </select>
+    </div>
+  </div>
+
+  <p class="muted" id="ms-summary"></p>
+  <div id="ms-results"></div>
+
+  <div class="disclaimer" role="note">
+    Milestones are developmental guideposts from the Head Start ELOF (a U.S. federal, public-domain
+    framework) — not a checklist, test, or diagnosis. Children grow at their own pace. If you have
+    concerns about a child's development, talk with a qualified professional.
+  </div>
+
+  <script is:inline type="application/json" id="elof-data" set:html={JSON.stringify(goals)} />
+
+  <script is:inline>
+    const GOALS = JSON.parse(document.getElementById("elof-data").textContent);
+    const ageEl = document.getElementById("age");
+    const domEl = document.getElementById("domain");
+    const results = document.getElementById("ms-results");
+    const summary = document.getElementById("ms-summary");
+
+    // Preferred display order of the ELOF areas.
+    const ORDER = [
+      "Approaches to Learning",
+      "Social and Emotional Development",
+      "Language and Communication",
+      "Literacy",
+      "Mathematics Development",
+      "Scientific Reasoning",
+      "Cognition",
+      "Perceptual, Motor, and Physical Development",
+    ];
+
+    const classify = (i, n) => {
+      if (i.point) return n >= i.lo ? "earlier" : "next";
+      if (n >= i.hi) return "earlier";
+      if (n < i.lo) return "next";
+      return "now";
+    };
+    const esc = (s) => s.replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" })[c]);
+    const li = (items) => items.map((x) => `<li>${esc(x.text)}</li>`).join("");
+
+    const ageValid = () => {
+      const r = ageEl.value.trim();
+      return r !== "" && !isNaN(parseInt(r, 10));
+    };
+    const clampAge = () => Math.max(0, Math.min(72, parseInt(ageEl.value.trim(), 10)));
+
+    // The available areas of development depend on age: infants/toddlers and
+    // preschoolers have a different set (e.g. "Cognition" for the young; it splits
+    // into Mathematics, Scientific Reasoning, and Literacy at preschool age).
+    const domainsFor = (band) =>
+      ORDER.filter((d) => GOALS.some((g) => g.domain === d && g.ageBand === band));
+
+    function rebuildDomains(band) {
+      const prev = domEl.value;
+      const opts = domainsFor(band);
+      domEl.innerHTML = opts.map((d) => `<option value="${d}">${d}</option>`).join("");
+      domEl.value = opts.includes(prev) ? prev : opts[0];
+      domEl.disabled = false;
+    }
+
+    function render() {
+      // Age is required — show nothing until a valid age is entered.
+      if (!ageValid()) {
+        summary.textContent = "";
+        domEl.innerHTML = `<option value="">Enter an age first</option>`;
+        domEl.disabled = true;
+        results.innerHTML = `<div class="ms-empty">Enter a child's age above to see the milestones they're working on now — and gentle ways to support what comes next.</div>`;
+        return;
+      }
+      const n = clampAge();
+      const band = n < 36 ? "infant-toddler" : "preschooler";
+      rebuildDomains(band);
+      renderMilestones(n, band);
+    }
+
+    function renderMilestones(n, band) {
+      const domain = domEl.value;
+      const goals = GOALS.filter((g) => g.domain === domain && g.ageBand === band);
+      summary.textContent = `Around ${n} months · ${domain}.`;
+      let html = "";
+
+      for (const g of goals) {
+        const now = g.inds.filter((i) => classify(i, n) === "now");
+        const nextAll = g.inds.filter((i) => classify(i, n) === "next");
+        const nextLo = nextAll.length ? Math.min(...nextAll.map((i) => i.lo)) : null;
+        const next = nextAll.filter((i) => i.lo === nextLo);
+        const earlier = g.inds.filter((i) => classify(i, n) === "earlier");
+        const prevHi = earlier.length ? Math.max(...earlier.map((i) => i.hi)) : null;
+        const prev = earlier.filter((i) => i.hi === prevHi);
+
+        let body = "";
+        if (now.length)
+          body += `<div class="ms-now"><p class="ms-label">Around this age</p><ul class="ms-list">${li(now)}</ul></div>`;
+        else if (!next.length && prev.length)
+          body += `<div class="ms-now"><p class="ms-label">Typically in place by now</p><ul class="ms-list">${li(prev)}</ul></div>`;
+        if (next.length)
+          body += `<div class="ms-next"><p class="ms-label">Coming next${nextLo && nextLo > n ? ` · around ${nextLo} months` : ""}</p><ul class="ms-list">${li(next)}</ul></div>`;
+        if (prev.length && now.length)
+          body += `<details class="ms-earlier"><summary>Earlier steps</summary><ul class="ms-list">${li(prev)}</ul></details>`;
+
+        // Skills that build toward THIS goal — the things to actually do.
+        if (g.skills.length) {
+          const chips = g.skills
+            .map((s) => `<a class="ms-skill" href="/r/${s.id}">${esc(s.title)}</a>`)
+            .join("");
+          body += `<div class="ms-skills-inline"><p class="ms-label ms-label-do">Try these skills</p><div class="ms-skill-chips">${chips}</div></div>`;
+        }
+
+        html += `<section class="ms-goal"><h3 class="ms-goal-title">${esc(g.title)}</h3>${body}</section>`;
+      }
+
+      if (!goals.length) html = `<p class="muted">No milestones found for this selection.</p>`;
+      results.innerHTML = html;
+    }
+
+    ageEl.addEventListener("input", render);
+    domEl.addEventListener("change", () => {
+      if (ageValid()) {
+        const n = clampAge();
+        renderMilestones(n, n < 36 ? "infant-toddler" : "preschooler");
+      }
+    });
+
+    // Deep-link prefill from a skill/activity page: /milestones?age=..&area=..
+    const params = new URLSearchParams(location.search);
+    const qage = parseInt(params.get("age") ?? "", 10);
+    if (!isNaN(qage)) ageEl.value = String(Math.max(0, Math.min(72, qage)));
+    render();
+    const qarea = params.get("area");
+    if (qarea && ageValid() && [...domEl.options].some((o) => o.value === qarea)) {
+      domEl.value = qarea;
+      const n = clampAge();
+      renderMilestones(n, n < 36 ? "infant-toddler" : "preschooler");
+    }
+  </script>
+</Base>

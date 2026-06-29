@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-se-12
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-SE 12"
+title: "Child shows confidence in own abilities through relationships with others."
+domain_area: "Social and Emotional Development"
+sub_domain: "Sense of Identity and Belonging"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Participates in back-and-forth social interactions through facial expressions, sounds, gestures, and responding to the actions of others."
+  - age_period: "8 to 18 Months"
+    text: "Expresses desires and preferences. Seeks to draw adult's attention to objects of interest or new physical skills and attends to adult's responses."
+  - age_period: "16 to 36 Months"
+    text: "Contributes own ideas, skills, and abilities to activities and experiences with adults and other children. May call attention to new skills and abilities or seek to do things by self, such as putting on own jacket or pouring juice out of a small pitcher."
+  - age_period: "By 36 Months"
+    text: "Shows confidence in increasing abilities."
+  - age_period: "By 36 Months"
+    text: "Shows others what they can do."
+source_url: https://headstart.gov/school-readiness/article/social-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

@@ -1,0 +1,51 @@
+id: ea.skill.physical-development.gross-motor.uses-large-muscles-to-explore
+slug: uses-large-muscles-to-explore
+title: Uses Large Muscles to Explore
+short_description: >-
+  Child uses whole-body movements such as crawling, climbing, running, kicking,
+  and throwing to explore and act on the environment.
+developmental_purpose: >-
+  Large-muscle control is the engine of early exploration. Each new posture and
+  movement, from sitting up to running and climbing, opens new places to reach
+  and things to do. Varied, vigorous movement builds the strength, coordination,
+  and stamina that support active play and healthy development.
+domain_ids:
+  - ea.domain.physical-development
+age_range_months:
+  min: 6
+  max: 36
+developmental_stage: infant_to_toddler
+related_skill_ids:
+  - ea.skill.physical-development.gross-motor.walks-and-climbs
+mastery_criteria:
+  - Uses new postures and positions, such as sitting or standing, to reach and
+    explore new things.
+  - Moves through space in varied ways, such as crawling, climbing, carrying, and
+    running.
+  - Explores using actions like throwing, kicking, jumping, or climbing.
+  - Experiments with different ways of moving the body, such as dancing.
+observation_prompts:
+  - During active play, does the child use several kinds of movement to get to and
+    handle what interests them?
+  - Does the toddler try new ways of moving, such as galloping, spinning, or
+    climbing onto things?
+accessibility_notes:
+  - Offer ramps, low platforms, and sturdy supports so children of all mobility
+    levels can change position and explore.
+  - Provide cause-and-effect toys reachable from seated or supported positions.
+safety_notes:
+  - Anchor furniture, pad hard edges, cushion landing areas, and stay within arm's
+    reach during climbing.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - gross-motor
+  - climbing
+  - running
+  - throwing
+  - exploration
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-pmp-4
+status: accepted
+locale: en-US

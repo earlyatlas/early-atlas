@@ -1,0 +1,35 @@
+id: ea.skill.mathematics.spatial-sense.explores-objects-in-space
+slug: explores-objects-in-space
+title: Explores Objects and Their Movement in Space
+short_description: Child explores how objects fit together, fit inside others, and move through space.
+developmental_purpose: >-
+  Spatial awareness is early mathematical thinking. Discovering how objects fit,
+  nest, and travel through space builds the intuitions about position, size, and
+  shape that ground later geometry and measurement.
+domain_ids:
+  - ea.domain.mathematics
+age_range_months:
+  min: 6
+  max: 36
+developmental_stage: infant_to_toddler
+mastery_criteria:
+  - Explores how things fit together and move through space.
+  - Predicts how objects fit into or inside other things, matching object size to container size.
+  - Completes simple puzzles or fits shapes into matching openings.
+observation_prompts:
+  - Does the child try to fit a smaller object inside a larger one?
+  - Does the child anticipate where a rolling or dropped object will go?
+accessibility_notes:
+  - Use large, lightweight shapes and wide openings for children with motor differences.
+  - Add textured or contrasting edges to shapes for children with vision differences.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - spatial-sense
+  - fitting
+  - shapes
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-c-9
+status: accepted
+locale: en-US

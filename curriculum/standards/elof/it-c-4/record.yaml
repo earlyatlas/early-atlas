@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-c-4
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-C 4"
+title: "Child recognizes the stability of people and objects in the environment."
+domain_area: "Cognition"
+sub_domain: "Memory"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Shows awareness that people and objects still exist when they are out of sight or sound range. May turn head or crawl towards a parent or other familiar adult who leaves the room."
+  - age_period: "8 to 18 Months"
+    text: "Searches for hidden or missing people or objects in the place they were last seen or found. May wait and watch at a door or window for the return of a family member."
+  - age_period: "16 to 36 Months"
+    text: "Uses a variety of search strategies to find hidden or missing people or objects, including looking in multiple locations for things that have been missing for some time."
+  - age_period: "By 36 Months"
+    text: "Notices who is missing from a familiar group, such as family at dinner or children in a playgroup."
+  - age_period: "By 36 Months"
+    text: "Looks in several different places for a toy that was played with a few days before."
+source_url: https://headstart.gov/school-readiness/article/cognition-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

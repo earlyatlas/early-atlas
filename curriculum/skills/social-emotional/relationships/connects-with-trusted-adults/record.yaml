@@ -1,0 +1,41 @@
+id: ea.skill.social-emotional.relationships.connects-with-trusted-adults
+slug: connects-with-trusted-adults
+title: Connects With Trusted Adults
+short_description: Child builds warm relationships with adults and turns to them for help.
+developmental_purpose: >-
+  Secure relationships with caregivers and teachers give a preschooler the safe
+  base they need to explore, separate without distress, and seek help when a
+  problem is too big to solve alone.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.social-emotional.relationships.makes-friends-with-peers
+mastery_criteria:
+  - Initiates and sustains reciprocal interactions with familiar adults, such as sharing ideas or talking about play.
+  - Separates from a trusted adult with minimal distress in a familiar setting.
+  - Seeks an adult as a resource when needing help to solve a problem.
+observation_prompts:
+  - Does the child start back-and-forth conversations with a trusted adult, not only respond?
+  - At drop-off or transitions, can the child say goodbye and settle into the day?
+  - When stuck, does the child go to an adult for help instead of giving up?
+accessibility_notes:
+  - Offer a consistent primary caregiver and a visual goodbye routine for children who find separations hard.
+  - Accept gestures, signs, or AAC as valid ways to initiate and seek help.
+common_misconceptions:
+  - Separating calmly does not mean a child is unattached; secure children separate more easily because they trust the adult will return.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - relationships
+  - adult-child-relationships
+  - secure-base
+  - help-seeking
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-se-1
+status: accepted
+locale: en-US

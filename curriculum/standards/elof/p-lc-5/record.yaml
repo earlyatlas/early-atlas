@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-lc-5
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-LC 5"
+title: "Child expresses self in increasingly long, detailed, and sophisticated ways."
+domain_area: "Language and Communication"
+sub_domain: "Communicating and Speaking"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Communicates clearly enough to be understood by familiar adults, but may make some pronunciation and grammatical errors. Typically uses three- to five-word phrases/sentences when communicating. With some prompting, can offer multiple (two or three) pieces of information on a single topic."
+  - age_period: "48 to 60 Months"
+    text: "Communicates clearly enough to be understood by familiar and unfamiliar adults, but may make some pronunciation errors and some isolated grammatical errors. Uses longer sentences, as well as sentences that are slightly more complex, such as \"I need a pencil because this one broke.\" Can offer multiple pieces of information on a topic with increasing independence and answer simple questions."
+  - age_period: "By 60 Months"
+    text: "Communicates clearly enough to be understood by adults across a range of situations. Pronunciation errors and grammatical errors are isolated and infrequent. Shows proficiency with prepositions, regular/irregular past tense, possessives, and noun-verb agreement."
+  - age_period: "By 60 Months"
+    text: "Typically, uses complete sentences of more than five words with complex structures, such as sentences involving sequence and causal relations."
+  - age_period: "By 60 Months"
+    text: "Can produce and organize multiple sentences on a topic, such as giving directions or telling a story, including information about the past or present or things not physically present, and answer a variety of question types."
+source_url: https://headstart.gov/school-readiness/article/language-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

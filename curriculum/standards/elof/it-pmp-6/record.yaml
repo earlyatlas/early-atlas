@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-pmp-6
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-PMP 6"
+title: "Child coordinates hand and eye movements to perform actions."
+domain_area: "Perceptual, Motor, and Physical Development"
+sub_domain: "Fine Motor"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Coordinates hands and eyes when reaching for and holding stable or moving objects."
+  - age_period: "8 to 18 Months"
+    text: "Uses hand-eye coordination for more complex actions, such as releasing objects into a container, or stacking cups, rings, or blocks, or picking up pieces of food one by one."
+  - age_period: "16 to 36 Months"
+    text: "Uses hand-eye coordination when participating in routines, play, and activities, such as putting on a mitten, painting at an easel, putting pieces of a puzzle together, or folding paper."
+  - age_period: "By 36 Months"
+    text: "Uses hand-eye coordination to manipulate objects and materials such as completing puzzles or threading beads with large holes."
+  - age_period: "By 36 Months"
+    text: "Uses hand-eye coordination in handling books, such as turning pages, pointing to a picture, or looking for favorite page."
+source_url: https://headstart.gov/school-readiness/article/perceptual-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

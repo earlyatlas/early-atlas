@@ -1,0 +1,21 @@
+id: ea.standard.elof.p-math-4
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-MATH 4"
+title: "Child compares numbers."
+domain_area: "Mathematics Development"
+sub_domain: "Counting and Cardinality"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Begins to accurately count and compare objects that are about the same size and are in small groups with adult assistance, such as counts a pile of two blocks and a pile of four, and determines whether the piles have the same or different numbers of blocks. Identifies the first and second objects in a sequence."
+  - age_period: "48 to 60 Months"
+    text: "Counts to determine and compare number amounts even when the larger group's objects are smaller in size, such as buttons, compared with the smaller group's objects that are larger in size, such as markers. Uses numbers related to order or position."
+  - age_period: "By 60 Months"
+    text: "Identifies whether the number of objects in one group is more than, less than, or the same as objects in another group for up to at least five objects."
+  - age_period: "By 60 Months"
+    text: "Identifies and uses numbers related to order or position from first to tenth."
+source_url: https://headstart.gov/school-readiness/article/math-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

@@ -1,0 +1,37 @@
+id: ea.skill.science.inquiry-skills.observes-and-describes
+slug: observes-and-describes
+title: Observes and Describes
+short_description: Child uses the senses to notice details and describes what they observe.
+developmental_purpose: >-
+  Careful observation is the first step of any investigation. As children look,
+  listen, touch, and smell, then put what they notice into words, they build the
+  descriptive language and attention to detail that scientific inquiry depends
+  on.
+domain_ids:
+  - ea.domain.science
+age_range_months:
+  min: 24
+  max: 54
+developmental_stage: toddler_to_preschool
+related_skill_ids:
+  - ea.skill.science.living-things.explores-living-things
+mastery_criteria:
+  - Describes at least two properties of an object, such as color, size, shape, or texture.
+  - Uses more than one sense to explore something new and reports what was noticed.
+observation_prompts:
+  - "When given a new object, does the child explore it with several senses before describing it?"
+  - "Does the child use specific words like rough, shiny, or curved rather than only good or nice?"
+accessibility_notes:
+  - Accept descriptions through gesture, signing, or pointing as well as spoken words.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - observation
+  - inquiry
+  - senses
+  - describing
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-sci-1
+status: accepted
+locale: en-US

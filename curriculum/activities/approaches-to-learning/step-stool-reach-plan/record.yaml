@@ -1,0 +1,46 @@
+id: ea.activity.approaches-to-learning.step-stool-reach-plan
+slug: step-stool-reach-plan
+title: How Will You Reach It?
+summary: A toddler figures out how to reach a desired object placed up high, planning to fetch a sturdy stool or stack a support.
+supported_skill_ids:
+  - ea.skill.approaches-to-learning.executive-function.reasons-and-plans-ahead
+age_range_months:
+  min: 18
+  max: 36
+group_size: 1-3 children
+duration_minutes: 12
+materials:
+  - A favorite book or toy
+  - A low, sturdy step stool or stable box
+  - A safe, padded floor area
+setup: Place the object on a low shelf just above the child's reach, with the step stool visible nearby.
+steps:
+  - Show the child the object on the shelf and invite them to get it.
+  - Let the child try on tiptoes first, then pause and wonder, "What could help you reach?"
+  - Watch the child notice and bring the stool, offering hints only if needed.
+  - Stand close to spot the child as they step up safely.
+  - Talk through the plan together, such as "You brought the stool so you could reach."
+variations:
+  - Set out two objects so the child plans to make two trips.
+  - Add a turn-taking version where two children plan how to share one stool.
+differentiation:
+  - For younger toddlers, place the stool right beside the shelf as a strong cue.
+  - For older toddlers, place the stool across the room so they must plan to fetch it.
+assessment_opportunities:
+  - Note whether the child reasons about a tool before acting.
+  - Watch for the child carrying out a multi-step plan toward the goal.
+safety_notes:
+  - Use only a low, stable stool on a padded surface and stay within arm's reach to spot the child.
+accessibility_notes:
+  - Offer a ramp or sturdy push handle for children who do not climb steps.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - planning
+  - reasoning
+  - problem-solving
+methodologies:
+  - highscope
+  - montessori
+status: accepted
+locale: en-US

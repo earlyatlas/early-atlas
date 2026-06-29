@@ -1,0 +1,59 @@
+id: ea.activity.approaches-to-learning.sensory-discovery-basket
+slug: sensory-discovery-basket
+title: Sensory Discovery Basket
+summary: >-
+  An infant explores a basket of safe everyday objects with varied textures,
+  weights, and sounds, building curiosity through hands-on investigation.
+supported_skill_ids:
+  - ea.skill.approaches-to-learning.curiosity-initiative.explores-with-senses
+age_range_months:
+  min: 5
+  max: 14
+group_size: 1 child with a caregiver
+duration_minutes: 10
+materials:
+  - A shallow basket or low-sided box
+  - >-
+    Six to eight safe objects of different textures and weights, such as a wooden
+    spoon, a metal cup, a pinecone, a fabric scarf, and a textured ball
+  - A clean blanket or mat
+setup: >-
+  Wash the objects and place them loosely in the basket. Set the basket on a mat
+  within the infant's reach, and sit close by to supervise.
+steps:
+  - Sit with the infant and let them notice the basket without prompting.
+  - Allow the infant to choose an object and explore it in their own way.
+  - "Name what you observe: \"You are shaking the cup, it makes a sound.\""
+  - When interest fades on one object, let the infant reach for another.
+  - Follow the infant's pace and avoid taking over the exploration.
+variations:
+  - Swap in objects of a single new texture, such as several soft items, on another day.
+  - Add a clear container so the infant can practice putting objects in and taking them out.
+differentiation:
+  - For younger infants, offer two or three lightweight objects instead of a full basket.
+  - For older infants, include objects that nest or stack to extend exploration.
+assessment_opportunities:
+  - Note how many different actions the infant uses on a single object.
+  - Watch whether the infant repeats an action to make a result happen again.
+safety_notes:
+  - >-
+    Use only objects too large to be a choking hazard and free of small or
+    breakable parts; supervise closely at all times.
+  - Wash objects between uses since infants will mouth them.
+accessibility_notes:
+  - >-
+    For infants with low vision, choose objects with strong sound or scent and
+    place them on the side of greater reach.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - curiosity
+  - sensory
+  - exploration
+  - infant
+methodologies:
+  - montessori
+  - play-based
+  - reggio-emilia
+status: accepted
+locale: en-US

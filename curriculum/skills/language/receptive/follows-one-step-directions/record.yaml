@@ -1,0 +1,36 @@
+id: ea.skill.language.receptive.follows-one-step-directions
+slug: follows-one-step-directions
+title: Follows One-Step Directions
+short_description: Child carries out a simple one-step direction without gestures.
+developmental_purpose: >-
+  Understanding and acting on spoken directions shows receptive language is
+  working and is essential for participating in group routines and learning.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 12
+  max: 30
+developmental_stage: toddler
+related_skill_ids:
+  - ea.skill.language.expressive.names-familiar-objects
+mastery_criteria:
+  - Follows a familiar one-step direction (e.g., "Bring me the cup") without a pointing cue.
+observation_prompts:
+  - When you give a simple direction without gesturing, does the child follow it?
+supporting_activity_ids:
+  - ea.activity.language.simon-says-simple
+accessibility_notes:
+  - Pair spoken directions with a sign or picture for children who are deaf or hard of hearing.
+  - Allow extra processing time before repeating the direction.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+  - ea.citation.headstart.elof
+tags:
+  - receptive-language
+  - directions
+  - listening
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-lc-1
+status: accepted
+locale: en-US

@@ -1,0 +1,40 @@
+id: ea.skill.language.expressive.names-familiar-objects
+slug: names-familiar-objects
+title: Names Familiar Objects
+short_description: Child says the names of familiar people, body parts, and everyday objects.
+developmental_purpose: >-
+  A growing spoken vocabulary lets a child label the world, ask for what they
+  need, and build the word knowledge that later reading comprehension depends on.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 12
+  max: 30
+developmental_stage: toddler
+related_skill_ids:
+  - ea.skill.language.expressive.uses-two-word-phrases
+mastery_criteria:
+  - Spontaneously names at least ten familiar objects, people, or body parts.
+  - Uses a word (not only pointing) to request a desired item.
+observation_prompts:
+  - When you point to a familiar object and ask "What's this?", does the child name it?
+  - Does the child use words to label things during everyday play?
+supporting_activity_ids:
+  - ea.activity.language.picture-naming-basket
+accessibility_notes:
+  - Accept approximations, signs, or AAC selections as naming for children with speech or motor differences.
+  - Pair spoken words with pictures or objects for children who are deaf or hard of hearing.
+common_misconceptions:
+  - A quiet toddler is not necessarily behind; comprehension (receptive language) usually leads production.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+  - ea.citation.headstart.elof
+tags:
+  - vocabulary
+  - expressive-language
+  - naming
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-lc-8
+status: accepted
+locale: en-US

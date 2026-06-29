@@ -1,0 +1,108 @@
+---
+import { generateWorksheet, type LoadedRecord } from "@earlyatlas/curriculum-core";
+import TracingRow from "./TracingRow.astro";
+
+interface Props {
+  record: LoadedRecord;
+}
+const { record } = Astro.props;
+const model = generateWorksheet(record.data.generator, record.id);
+---
+
+{
+  model.kind === "arithmetic" ? (
+    <div class="ws">
+      <div class="ws-grid">
+        {model.problems.map((p, i) => (
+          <div class="prob">
+            <span class="pn">{i + 1}.</span>
+            <div class="stack">
+              <span>{p.a}</span>
+              <span>
+                {p.op} {p.b}
+              </span>
+              <span class="rule" />
+              <span class="ans" />
+            </div>
+          </div>
+        ))}
+      </div>
+      {model.answerKey && (
+        <section class="answer-key" id="answer-key">
+          <h2>Answer key</h2>
+          <ol class="ak">
+            {model.problems.map((p) => (
+              <li>
+                {p.a} {p.op} {p.b} = {p.answer}
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+    </div>
+  ) : (
+    <div class="ws-trace">
+      {model.rows.map((r) => (
+        <TracingRow target={r.target} traces={r.traces} />
+      ))}
+    </div>
+  )
+}
+
+<style>
+  .ws-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: var(--space-5) var(--space-4);
+    margin: var(--space-4) 0;
+  }
+  .prob {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-1);
+  }
+  .pn {
+    font-size: var(--text-sm);
+    color: var(--muted);
+  }
+  .stack {
+    font: 1.4rem / 1.35 var(--font-mono);
+    text-align: right;
+    min-width: 4ch;
+  }
+  .stack span {
+    display: block;
+  }
+  .stack .rule {
+    border-top: 2px solid var(--ink);
+    margin-top: 2px;
+  }
+  .stack .ans {
+    height: 1.7rem;
+  }
+  .answer-key {
+    margin-top: var(--space-6);
+    padding-top: var(--space-4);
+    border-top: 1px solid var(--line);
+  }
+  .answer-key h2 {
+    font-size: var(--text-h2);
+    color: var(--muted);
+  }
+  .ak {
+    columns: 3;
+    font: var(--text-sm) / 1.8 var(--font-mono);
+    color: var(--muted);
+  }
+  .ws-trace {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-5);
+    margin: var(--space-4) 0;
+  }
+  @media print {
+    .answer-key {
+      break-before: page;
+    }
+  }
+</style>

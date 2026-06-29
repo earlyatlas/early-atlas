@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-atl-4
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-ATL 4"
+title: "Child develops the ability to show persistence in actions and behavior."
+domain_area: "Approaches to Learning"
+sub_domain: "Cognitive Self-Regulation (Executive Functioning)"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Shows increasing ability to continue interactions with familiar adults or toys for more than just a brief time."
+  - age_period: "8 to 18 Months"
+    text: "Shows willingness to repeat attempts to communicate or to repeat actions to solve a problem even when encountering difficulties."
+  - age_period: "16 to 36 Months"
+    text: "Shows increasing ability to stay engaged when working towards a goal or solving a problem. Often tries different strategies until successful."
+  - age_period: "By 36 Months"
+    text: "Persists in learning new skills or solving problems."
+  - age_period: "By 36 Months"
+    text: "Continues efforts to finish a challenging activity or task with support of an adult."
+source_url: https://headstart.gov/school-readiness/article/approaches-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

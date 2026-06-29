@@ -1,0 +1,29 @@
+id: ea.domain.social-studies
+slug: social-studies
+title: Social Studies
+description: >-
+  Young children's widening world: who they are within their family, the
+  community and the helpers who keep it running, and the ways people belong,
+  are alike, and are different. Children also begin to explore the places
+  around them and represent those places with simple maps.
+age_coverage:
+  min: 24
+  max: 72
+subdomains:
+  - self-and-family
+  - community
+  - diversity-belonging
+  - world-around-us
+references:
+  - ea.citation.headstart.elof
+  - ea.citation.naeyc.dap
+tags:
+  - self-identity
+  - family
+  - community
+  - helpers
+  - diversity
+  - belonging
+  - maps
+status: accepted
+locale: en-US

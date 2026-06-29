@@ -1,0 +1,45 @@
+id: ea.skill.approaches-to-learning.curiosity-initiative.explores-with-senses
+slug: explores-with-senses
+title: Explores With Senses and Actions
+short_description: >-
+  Infant actively investigates objects and surroundings by looking, mouthing,
+  reaching, banging, and shaking.
+developmental_purpose: >-
+  Sensory and motor exploration is the earliest expression of curiosity and
+  initiative. By acting on objects and noticing what happens, the infant builds
+  the cause-and-effect understanding, attention, and intrinsic motivation that
+  later learning is built upon.
+domain_ids:
+  - ea.domain.approaches-to-learning
+age_range_months:
+  min: 4
+  max: 14
+developmental_stage: infant
+mastery_criteria:
+  - Reaches for and grasps a nearby object to bring it closer for inspection.
+  - Uses more than one action on the same object, such as shaking then banging.
+  - Visibly attends to the result of an action and repeats it to see it again.
+observation_prompts:
+  - When offered a new object, does the infant explore it in several different ways?
+  - "Does the infant pause to watch what happens after an action, such as a rattle making sound?"
+common_misconceptions:
+  - >-
+    Mouthing objects is not "bad behavior"; for infants it is a primary and
+    appropriate way of investigating texture, shape, and weight.
+accessibility_notes:
+  - >-
+    For infants with low vision, offer objects with strong sound, scent, or
+    contrasting texture so exploration is not dependent on sight.
+  - Position objects within reach on the side of greater motor control.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - curiosity
+  - exploration
+  - sensory
+  - cause-and-effect
+  - infant
+standard_ids:
+  - ea.standard.elof.it-atl-7
+status: accepted
+locale: en-US

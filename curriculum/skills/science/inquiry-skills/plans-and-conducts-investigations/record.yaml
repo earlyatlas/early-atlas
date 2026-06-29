@@ -1,0 +1,47 @@
+id: ea.skill.science.inquiry-skills.plans-and-conducts-investigations
+slug: plans-and-conducts-investigations
+title: Plans and Conducts Investigations
+short_description: Child plans simple investigations, gathers the materials, carries out the steps, and records what happens.
+developmental_purpose: >-
+  Turning a wondering into a doable test is the engine of inquiry. When children
+  decide what they want to find out, name the materials they will need, follow
+  the steps in order, and record observations with pictures, marks, or simple
+  graphs, they learn that questions can be answered through deliberate, organized
+  action rather than guessing.
+domain_ids:
+  - ea.domain.science
+age_range_months:
+  min: 36
+  max: 66
+developmental_stage: preschool
+prerequisite_skill_ids:
+  - ea.skill.science.inquiry-skills.observes-and-describes
+related_skill_ids:
+  - ea.skill.science.inquiry-skills.predicts-and-tests
+mastery_criteria:
+  - With support, names a testable question to explore, such as whether plants need water to grow.
+  - Gathers the materials and follows the steps of a simple investigation, with growing independence.
+  - Records data during the investigation using pictures, tally marks, or a simple group graph.
+observation_prompts:
+  - "Can the child say what they want to find out and which materials they will use?"
+  - "During the investigation, does the child carry out the steps in a sensible order?"
+  - "Does the child record what happens with marks, drawings, or photos?"
+accessibility_notes:
+  - Offer picture step-cards so children can follow and order the procedure visually.
+  - Let children record data by placing stickers or stamps rather than only drawing or writing.
+safety_notes:
+  - Choose safe, non-toxic materials and supervise closely around water, soil, and small objects.
+common_misconceptions:
+  - Doing fun hands-on play is not yet an investigation until there is a question being tested.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - investigation
+  - inquiry
+  - experiment
+  - data
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-sci-5
+status: accepted
+locale: en-US

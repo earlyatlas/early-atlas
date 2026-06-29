@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-math-6
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-MATH 6"
+title: "Child understands addition as adding to and understands subtraction as taking away from."
+domain_area: "Mathematics Development"
+sub_domain: "Operations and Algebraic Thinking"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Begins to add and subtract very small collections of objects with adult support. For example, the teacher says, \"You have three grapes and get one more. How many in all?\" Child counts out three, then counts out one more, then counts all four: \"One, two, three, four. I have four!\""
+  - age_period: "48 to 60 Months"
+    text: "Solves addition problems by joining objects together and subtraction problems by separating, using manipulatives and fingers to represent objects."
+  - age_period: "By 60 Months"
+    text: "Represents addition and subtraction in different ways, such as with fingers, objects, and drawings."
+  - age_period: "By 60 Months"
+    text: "Solves addition and subtraction word problems. Adds and subtracts up to five to or from a given number."
+  - age_period: "By 60 Months"
+    text: "With adult assistance, begins to use counting on from the larger number for addition. For example, when adding a group of three and a group of two, counts \"One, two, three…\" and then counts on \"Four, five!\" (keeping track with fingers). When counting back for subtraction such as taking away three from five, counts, \"Five, four, three…two!\" (keeping track with fingers)."
+source_url: https://headstart.gov/school-readiness/article/math-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

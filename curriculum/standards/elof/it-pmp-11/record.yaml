@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-pmp-11
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-PMP 11"
+title: "Child demonstrates increasing interest in engaging in healthy eating habits and making nutritious food choices."
+domain_area: "Perceptual, Motor, and Physical Development"
+sub_domain: "Health, Safety, and Nutrition"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Emerging"
+  - age_period: "8 to 18 Months"
+    text: "Shows interest in new foods that are offered."
+  - age_period: "16 to 36 Months"
+    text: "Shows willingness to try new nutritious foods when offered on multiple occasions. Sometimes makes nutritious choices about which foods to eat when offered several choices, with support from an adult."
+  - age_period: "By 36 Months"
+    text: "Expresses preferences about foods, specifically likes or dislikes, sometimes based on whether the food is nutritious."
+  - age_period: "By 36 Months"
+    text: "Sometimes makes nutritious choices with support from an adult."
+  - age_period: "By 36 Months"
+    text: "Communicates to adults when hungry, thirsty, or has had enough to eat."
+source_url: https://headstart.gov/school-readiness/article/perceptual-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

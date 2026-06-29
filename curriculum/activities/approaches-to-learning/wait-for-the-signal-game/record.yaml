@@ -1,0 +1,50 @@
+id: ea.activity.approaches-to-learning.wait-for-the-signal-game
+slug: wait-for-the-signal-game
+title: Wait for the Signal
+summary: >-
+  A playful stop-and-go game where children move only on a signal, practicing
+  the pause-before-acting that builds impulse control.
+supported_skill_ids:
+  - ea.skill.approaches-to-learning.self-regulation.controls-impulses
+age_range_months:
+  min: 36
+  max: 60
+group_size: 3-12 children
+duration_minutes: 15
+materials:
+  - "A simple signal: a drum, bell, or your voice"
+  - "Optional: green and red cards for go and stop"
+setup: >-
+  Clear a safe open space for moving. Decide on a clear go signal and a clear
+  stop signal.
+steps:
+  - Explain the rule, such as "Move when you hear the drum, freeze when it stops."
+  - Practice one round slowly so everyone learns the signals.
+  - Play several rounds, varying how long children must wait before the go signal.
+  - Add a gentle challenge, such as waiting in a "ready" pose before moving.
+  - Praise the pause, naming children who waited and watched for the signal.
+variations:
+  - Hold up a red or green card instead of a sound for a looking-based version.
+  - Let a child be the signal leader once they understand the game.
+differentiation:
+  - For children still learning to wait, keep pauses short and predictable.
+  - For older children, lengthen the wait or add a "trick" signal to listen for.
+assessment_opportunities:
+  - Note whether the child holds still and waits rather than moving early.
+  - Observe how the wait tolerance grows over repeated play.
+safety_notes:
+  - Keep the space clear of obstacles so freezing and moving stay safe.
+accessibility_notes:
+  - Pair sound signals with a visual cue for children who are deaf or hard of hearing.
+  - Offer a seated version using hands or instruments for children with limited mobility.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - impulse-control
+  - waiting
+  - movement-game
+  - inhibition
+methodologies:
+  - play-based
+status: accepted
+locale: en-US

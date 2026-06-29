@@ -1,0 +1,38 @@
+id: ea.skill.literacy.writing.traces-letters
+slug: traces-letters
+title: Traces Letters
+short_description: Child traces letter shapes along guide lines.
+developmental_purpose: >-
+  Tracing builds the fine-motor control and letter-shape memory that precede
+  independent writing.
+domain_ids:
+  - ea.domain.literacy
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+mastery_criteria:
+  - Traces most uppercase letters staying near the guide lines.
+observation_prompts:
+  - Does the child start strokes at the top and follow the letter shape?
+related_skill_ids:
+  - ea.skill.literacy.letter-knowledge.names-alphabet-letters
+supporting_activity_ids:
+  - ea.activity.literacy.sky-writing-letters
+accessibility_notes:
+  - Offer thicker lines and a pencil grip for children developing fine-motor control.
+research_reference_ids:
+  - ea.citation.headstart.elof
+  - ea.citation.naeyc.dap
+printable_ids:
+  - ea.printable.literacy.trace-uppercase-letters
+  - ea.printable.literacy.trace-lowercase-letters
+tags:
+  - writing
+  - fine-motor
+  - letter-formation
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-lit-6
+status: accepted
+locale: en-US

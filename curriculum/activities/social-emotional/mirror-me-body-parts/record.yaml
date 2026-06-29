@@ -1,0 +1,45 @@
+id: ea.activity.social-emotional.mirror-me-body-parts
+slug: mirror-me-body-parts
+title: "Mirror Me: Body Discovery"
+summary: An infant or toddler explores their own body and reflection while a caregiver names parts and feelings.
+supported_skill_ids:
+  - ea.skill.social-emotional.self-concept.discovers-self-and-others
+age_range_months:
+  min: 4
+  max: 24
+group_size: 1 child with a caregiver
+duration_minutes: 10
+materials:
+  - A large unbreakable mirror
+  - A soft mat
+setup: Place the mirror at the child's level on a soft, safe surface.
+steps:
+  - Sit with the child facing the mirror and point to their reflection.
+  - Touch and name body parts gently, for example "these are your hands."
+  - Wiggle fingers and toes together and watch the reflection move.
+  - Name yourself and the child to mark "you" and "me."
+  - Follow the child's gaze and label whatever draws their interest.
+variations:
+  - Add a peer to the mirror and name both children.
+  - Play this during dressing routines, naming parts as you go.
+differentiation:
+  - For infants, keep to a few parts and slow, repetitive naming.
+  - For toddlers, ask "where is your nose?" and let them point.
+assessment_opportunities:
+  - Note whether the child explores their body and reacts to their reflection.
+  - Watch for the child distinguishing self from others.
+safety_notes:
+  - Use a shatterproof mirror secured so it cannot tip onto the child.
+accessibility_notes:
+  - For children with vision differences, emphasize touch and naming over the reflection.
+  - Adapt for motor differences by gently guiding the child's hands to each part.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - self-awareness
+  - body-awareness
+  - mirror-play
+methodologies:
+  - montessori
+status: accepted
+locale: en-US

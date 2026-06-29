@@ -1,0 +1,47 @@
+id: ea.activity.language.peekaboo-turn-taking
+slug: peekaboo-turn-taking
+title: Peekaboo Turn-Taking
+summary: A back-and-forth peekaboo game that builds the social turn-taking at the heart of conversation.
+supported_skill_ids:
+  - ea.skill.language.expressive.engages-others-in-interaction
+age_range_months:
+  min: 4
+  max: 24
+group_size: 1 child with a caregiver
+duration_minutes: 8
+materials:
+  - A light scarf or small blanket (optional)
+  - Just your hands and face
+setup: Sit face-to-face with the child in a calm, unhurried moment.
+steps:
+  - Cover your face with your hands or a scarf and pause.
+  - Reveal your face with a warm "Peekaboo!" and watch the child's reaction.
+  - Pause and wait expectantly for the child to take a turn — a smile, sound, or pull of the scarf.
+  - Respond to whatever they offer as a real turn, then go again.
+  - Let the child lead by hiding their own face or starting the game.
+variations:
+  - Hide a toy under the scarf and reveal it together.
+  - Play with a sibling or another child to widen the circle.
+differentiation:
+  - For young infants, keep the rhythm slow and exaggerate your expressions.
+  - For older toddlers, add words, "Where did I go? Here I am!"
+assessment_opportunities:
+  - Note whether the child takes a turn to keep the game going.
+  - Watch for the child initiating the game themselves.
+safety_notes:
+  - Keep scarves light and never cover the child's face.
+accessibility_notes:
+  - Build the game around any signal the child gives, including eye gaze or body movement.
+  - Use touch and sound cues for children with vision differences.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - turn-taking
+  - conversation
+  - social-interaction
+  - infant
+methodologies:
+  - play-based
+  - highscope
+status: accepted
+locale: en-US

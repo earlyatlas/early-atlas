@@ -1,0 +1,45 @@
+id: ea.activity.social-emotional.morning-greeting-circle
+slug: morning-greeting-circle
+title: Morning Greeting Circle
+summary: Children practice polite greetings and following a friendly direction as they start the day together with an adult leader.
+supported_skill_ids:
+  - ea.skill.social-emotional.relationships.cooperates-with-adults
+age_range_months:
+  min: 36
+  max: 60
+group_size: 3-12 children
+duration_minutes: 10
+materials:
+  - A greeting chart with picture choices (wave, high five, handshake, fist bump)
+  - Optional soft puppet or talking object passed around the circle
+setup: Gather children in a circle on a rug or in marked spots so each has a place to sit.
+steps:
+  - Open with a shared song or chant so children know the routine has begun.
+  - Greet the first child warmly by name and offer a greeting choice from the chart.
+  - Have the child greet the adult and the next child back, then pass the turn around the circle.
+  - Give one simple group direction (such as "show me listening ears") and notice children who follow it.
+  - Close by thanking the group for their kind greetings and for following along.
+variations:
+  - Let a child be the "greeter leader" who chooses the day's greeting for everyone.
+  - Add greetings in different languages families speak at home.
+differentiation:
+  - Offer a picture card to point to for children who are not yet speaking greetings.
+  - Keep waits short and seat restless children near the adult for support.
+assessment_opportunities:
+  - Note whether the child greets respectfully and attends to and follows the group direction.
+safety_notes:
+  - Offer no-touch greeting options so children are never required to make physical contact.
+accessibility_notes:
+  - Pair every spoken cue with a gesture or picture and allow extra processing time.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - cooperation
+  - greetings
+  - circle-time
+  - following-directions
+methodologies:
+  - highscope
+  - play-based
+status: accepted
+locale: en-US

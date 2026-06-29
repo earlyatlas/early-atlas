@@ -1,0 +1,54 @@
+id: ea.activity.physical-development.balance-hop-and-toss-game
+slug: balance-hop-and-toss-game
+title: Balance, Hop, and Toss Outdoor Game
+summary: >-
+  An outdoor movement game where children balance along a line, hop between
+  markers, and toss beanbags at a target.
+supported_skill_ids:
+  - ea.skill.physical-development.gross-motor.balances-hops-throws
+age_range_months:
+  min: 36
+  max: 66
+group_size: 2-6 children
+duration_minutes: 25
+materials:
+  - A rope, chalk line, or low plank to balance along
+  - Flat markers or chalk circles for hopping spots
+  - Two or three soft beanbags
+  - A bucket, hoop, or chalk target to throw into
+setup: >-
+  Outdoors, lay out a straight balance line, a row of hopping markers a short step
+  apart, and place the target a few feet from a throwing spot.
+steps:
+  - Lead the children heel-to-toe along the balance line with arms out.
+  - At the markers, invite each child to hop from spot to spot on one or two feet.
+  - At the throwing spot, model an overhand toss of a beanbag into the target.
+  - Let each child take several throws, stepping closer if needed for success.
+  - Send the children back through the course as a loop, taking turns.
+variations:
+  - Add a "wobbly log" by using a real low log or balance beam in a forest setting.
+  - Turn it into a nature hunt where each station ends at a found leaf or stone.
+differentiation:
+  - For beginners, widen the line, let them hop with two feet, and shorten the throw.
+  - For advanced children, narrow the beam, ask for single-foot hops, and move the
+    target back.
+assessment_opportunities:
+  - Note how long the child balances and whether they hop on one foot.
+  - Watch whether the throw is overhand and aimed toward the target.
+safety_notes:
+  - Clear the area of trip hazards, keep the balance surface low, and use soft
+    beanbags.
+  - Space children out so they do not collide while hopping or throwing.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - gross-motor
+  - balance
+  - hopping
+  - throwing
+  - outdoor
+methodologies:
+  - forest-school
+  - play-based
+status: accepted
+locale: en-US

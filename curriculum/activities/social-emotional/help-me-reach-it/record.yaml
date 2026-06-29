@@ -1,0 +1,45 @@
+id: ea.activity.social-emotional.help-me-reach-it
+slug: help-me-reach-it
+title: Help Me Reach It
+summary: A gently out-of-reach toy invites a toddler to signal or ask a familiar adult for help.
+supported_skill_ids:
+  - ea.skill.social-emotional.relationships.seeks-help-from-adults
+age_range_months:
+  min: 8
+  max: 30
+group_size: 1-2 children
+duration_minutes: 10
+materials:
+  - A favorite toy
+  - A clear container with a lid, or a low shelf
+setup: Place the desired toy somewhere the child can see but not quite reach or open on their own.
+steps:
+  - Show the child the toy and let them try to get it.
+  - Stay near and attentive, giving the child a moment to signal for help.
+  - Respond warmly to any bid — a point, a reach, a sound, a word — and say what you understand.
+  - Offer just enough help, then let the child finish, celebrating their request.
+  - Name the exchange, for example "you asked, and I helped — we did it together."
+variations:
+  - Use a container the child needs help opening to practice asking again.
+  - Place the toy higher for older toddlers so they lead you to it.
+differentiation:
+  - For pre-verbal children, accept and reinforce gestures and sounds.
+  - For talkers, gently model a help word or short phrase to imitate.
+assessment_opportunities:
+  - Note how the child communicates the need — gesture, sound, leading, or words.
+  - Watch whether the child looks to you as a resource rather than only fussing.
+safety_notes:
+  - Keep containers and shelves stable; avoid small parts that pose a choking risk.
+accessibility_notes:
+  - Honor any communication mode, including signs or picture cards.
+  - Respond promptly and consistently so help-seeking feels worthwhile.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - help-seeking
+  - communication
+  - relationships
+methodologies:
+  - montessori
+status: accepted
+locale: en-US

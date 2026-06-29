@@ -1,0 +1,43 @@
+id: ea.activity.practical-life.sorting-socks
+slug: sorting-socks
+title: Sorting Socks
+summary: Children sort a basket of clean socks by color, building classification skills.
+supported_skill_ids:
+  - ea.skill.mathematics.classification.sorts-by-color
+age_range_months:
+  min: 24
+  max: 48
+group_size: 1-4 children
+duration_minutes: 15
+materials:
+  - A basket of clean socks in three or four distinct colors
+  - Three or four bins or hoops to sort into
+setup: Place the basket and the empty bins on a low table or the floor.
+steps:
+  - Show the child one sock and name its color.
+  - Invite the child to find the bin "where this color lives."
+  - Let the child continue sorting the rest of the basket at their own pace.
+  - When finished, count how many socks are in each bin together.
+variations:
+  - Sort by size instead of color for an added challenge.
+  - Add a "mystery sock" of a new color and ask where it should go.
+differentiation:
+  - For younger children, start with just two colors.
+  - For older children, sort by two attributes (color and size).
+assessment_opportunities:
+  - Note whether the child sorts independently or needs a model for each sock.
+safety_notes:
+  - Use only clean, child-safe socks; supervise to prevent mouthing of small items.
+accessibility_notes:
+  - Offer socks with distinct textures or patterns alongside color.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - color
+  - sorting
+  - classification
+methodologies:
+  - montessori
+  - play-based
+status: accepted
+locale: en-US

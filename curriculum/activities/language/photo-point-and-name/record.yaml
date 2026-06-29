@@ -1,0 +1,48 @@
+id: ea.activity.language.photo-point-and-name
+slug: photo-point-and-name
+title: Family Photo Point-and-Name
+summary: Children look at photos of familiar people and favorite logos, pointing to and naming what they recognize.
+supported_skill_ids:
+  - ea.skill.language.emergent-literacy.recognizes-pictures-and-symbols
+age_range_months:
+  min: 8
+  max: 36
+group_size: 1-3 children
+duration_minutes: 10
+materials:
+  - Printed photos of familiar people, pets, and places
+  - A simple homemade photo book or sturdy album
+  - Optional cards with familiar logos or signs
+setup: Arrange the photos in the album or spread a few on a low surface.
+steps:
+  - Open the book and point to a familiar face, naming the person.
+  - Ask, "Who is that?" and wait for the child to point, sign, or name.
+  - Celebrate each recognition and add a little more, "Yes, that's Grandma!"
+  - Show a familiar logo or sign and talk about where they have seen it.
+  - For older toddlers, point to the first letter of the child's name.
+variations:
+  - Make a photo book of classroom friends and look at it together.
+  - Take a neighborhood walk and spot familiar signs and logos.
+differentiation:
+  - For younger children, use a few large, clear photos of closest people.
+  - For older toddlers, introduce naming letters in their own name.
+assessment_opportunities:
+  - Note whether the child points to or names familiar people and objects.
+  - Watch for recognition of familiar symbols, logos, or letters.
+safety_notes:
+  - Use sturdy pages or laminated photos that withstand handling and mouthing.
+accessibility_notes:
+  - Use large, high-contrast images and tactile symbols for children with vision differences.
+  - Accept signs, vocalizations, or AAC selections as recognition.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - symbols
+  - pictures
+  - print-awareness
+  - toddler
+methodologies:
+  - reggio-emilia
+  - highscope
+status: accepted
+locale: en-US

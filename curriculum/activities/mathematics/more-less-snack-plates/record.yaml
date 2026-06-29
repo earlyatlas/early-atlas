@@ -1,0 +1,49 @@
+id: ea.activity.mathematics.more-less-snack-plates
+slug: more-less-snack-plates
+title: More, Less, or Same Snack Plates
+summary: Children count two plates of snacks and decide which has more, fewer, or the same.
+supported_skill_ids:
+  - ea.skill.mathematics.number-sense.compares-quantities
+age_range_months:
+  min: 36
+  max: 60
+group_size: 2-4 children
+duration_minutes: 15
+materials:
+  - Two small plates or paper circles per pair
+  - A bowl of identical countable snacks or counters, such as crackers or cubes
+  - A few larger counters and a few smaller counters for the challenge round
+setup: Give each pair two plates and place the bowl of counters within reach.
+steps:
+  - Put a small handful of counters on each plate, using different amounts.
+  - Invite the children to count the first plate together, touching each item.
+  - Count the second plate the same way and write or say each total.
+  - "Ask: which plate has more, which has fewer, or are they the same?"
+  - Move one counter and recount to show how the comparison changes.
+  - Line the children up and name who is first, second, and third.
+variations:
+  - Make the smaller group out of large counters and the larger group out of tiny ones to show that count, not size, decides.
+  - Hide one plate and ask the child to make the other plate have "one more."
+differentiation:
+  - For younger children, compare groups of one versus three so the difference is obvious.
+  - For older children, compare amounts up to ten and ask "how many more?"
+assessment_opportunities:
+  - Note whether the child counts to compare or just guesses by which pile looks bigger.
+  - Listen for accurate use of more, fewer, and same.
+safety_notes:
+  - If using edible snacks, confirm allergies and serve only clean, washed hands and surfaces.
+accessibility_notes:
+  - Arrange counters in straight rows for children who compare by sight rather than touch.
+  - Use high-contrast counters and plates for children with low vision.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - comparing
+  - more-less
+  - counting
+  - number-sense
+methodologies:
+  - play-based
+  - montessori
+status: accepted
+locale: en-US

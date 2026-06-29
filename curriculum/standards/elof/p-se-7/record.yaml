@@ -1,0 +1,21 @@
+id: ea.standard.elof.p-se-7
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-SE 7"
+title: "Child expresses care and concern toward others."
+domain_area: "Social and Emotional Development"
+sub_domain: "Emotional Functioning"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Often pays attention when others are distressed, but attention and response to this distress may be brief. May seek out adult support to help another child who is distressed."
+  - age_period: "48 to 60 Months"
+    text: "Consistently pays attention when others are distressed and often responds with care, either by seeking out adult support or providing reassurance or support themselves."
+  - age_period: "By 60 Months"
+    text: "Makes empathetic statements to adults or other children."
+  - age_period: "By 60 Months"
+    text: "Offers support to adults or other children who are distressed."
+source_url: https://headstart.gov/school-readiness/article/social-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

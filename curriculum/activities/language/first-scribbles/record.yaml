@@ -1,0 +1,48 @@
+id: ea.activity.language.first-scribbles
+slug: first-scribbles
+title: First Scribbles
+summary: Toddlers explore large crayons on big paper, making marks and talking about what their scribbles show.
+supported_skill_ids:
+  - ea.skill.language.emergent-literacy.makes-marks-to-represent
+age_range_months:
+  min: 10
+  max: 36
+group_size: 1-4 children
+duration_minutes: 12
+materials:
+  - Large non-toxic, washable crayons or markers
+  - Big sheets of paper, taped down at the corners
+setup: Tape a large sheet of paper to a low table so it stays put while the child draws.
+steps:
+  - Offer a chunky crayon and invite the child to make marks.
+  - Let the child explore freely; resist correcting or directing the marks.
+  - Make your own marks alongside and describe yours, "I'm drawing a long line."
+  - Ask, "Tell me about your drawing," and listen to what the marks mean to them.
+  - Write down the child's words near their scribble and read them back.
+variations:
+  - Mark-make in shaving cream, sand, or with water on a chalkboard.
+  - Tape paper to a wall or easel for big arm movements.
+differentiation:
+  - For beginners, use chunky crayons or adapted grips and accept any mark.
+  - For older toddlers, invite them to draw something specific and name it.
+assessment_opportunities:
+  - Note whether the child makes marks and talks about what they represent.
+  - Watch for marks that the child names as an object or action.
+safety_notes:
+  - Use only non-toxic, washable tools large enough not to be a choking hazard.
+  - Supervise closely so crayons are not mouthed.
+accessibility_notes:
+  - Offer adapted grips, finger paint, or a tablet for children developing fine-motor control.
+  - Let children mark in textured materials if holding a crayon is hard.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - mark-making
+  - writing
+  - drawing
+  - toddler
+methodologies:
+  - reggio-emilia
+  - montessori
+status: accepted
+locale: en-US

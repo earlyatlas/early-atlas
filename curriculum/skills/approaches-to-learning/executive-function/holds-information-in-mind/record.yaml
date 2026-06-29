@@ -1,0 +1,46 @@
+id: ea.skill.approaches-to-learning.executive-function.holds-information-in-mind
+slug: holds-information-in-mind
+title: Holds Information in Mind
+short_description: >-
+  Child keeps a small amount of information active in memory and uses it to
+  guide a short sequence of actions.
+developmental_purpose: >-
+  Working memory is the executive-function capacity to hold and manipulate
+  information over short spans. It lets a child remember a two- or three-step
+  direction, recall where an object was hidden, and keep a goal in mind while
+  acting, all of which support planning and early academic skills.
+domain_ids:
+  - ea.domain.approaches-to-learning
+age_range_months:
+  min: 30
+  max: 54
+developmental_stage: preschool
+prerequisite_skill_ids:
+  - ea.skill.approaches-to-learning.executive-function.focuses-attention
+related_skill_ids:
+  - ea.skill.language.receptive.follows-one-step-directions
+mastery_criteria:
+  - Carries out a two-step direction from memory without reminders.
+  - Recalls which of several covered items was hidden or removed.
+  - Keeps a stated goal in mind while completing the steps to reach it.
+observation_prompts:
+  - "After a two-step request, does the child complete both parts in order?"
+  - In a hiding or memory game, does the child remember the location after a short delay?
+common_misconceptions:
+  - >-
+    Failing to follow a multi-step direction is often a working-memory limit,
+    not defiance; breaking the request into smaller pieces usually helps.
+accessibility_notes:
+  - Pair spoken information with a picture, gesture, or object cue as a memory anchor.
+  - Shorten the number of items to remember before gradually increasing the load.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - executive-function
+  - working-memory
+  - sequencing
+  - recall
+standard_ids:
+  - ea.standard.elof.p-atl-8
+status: accepted
+locale: en-US

@@ -1,0 +1,48 @@
+id: ea.activity.science.sink-or-float-prediction-experiment
+slug: sink-or-float-prediction-experiment
+title: Sink or Float Prediction Experiment
+summary: Children predict whether objects will sink or float, then test each one in water.
+supported_skill_ids:
+  - ea.skill.science.inquiry-skills.predicts-and-tests
+age_range_months:
+  min: 42
+  max: 66
+group_size: 2-6 children
+duration_minutes: 25
+materials:
+  - A clear tub or basin of water
+  - A collection of safe objects such as a cork, spoon, sponge, coin, leaf, and toy
+  - Two labeled trays or hoops marked sink and float
+  - Towels for spills
+setup: Fill the tub partway and set the objects and the two sorting trays beside it.
+steps:
+  - Show the children one object and ask them to predict whether it will sink or float.
+  - Have them place the object on the sink tray or the float tray as their guess.
+  - Gently lower the object into the water and watch what happens.
+  - Compare the result to the prediction and move the object if the guess was wrong.
+  - Continue with each object, then look at the two trays and talk about what floated and why.
+variations:
+  - Test whether a ball of clay sinks but the same clay shaped like a boat floats.
+  - Sort the objects by material first and predict by group.
+differentiation:
+  - For younger children, use a few obvious objects and focus on the prediction itself.
+  - For older children, ask them to explain a reason for each prediction.
+assessment_opportunities:
+  - Note whether children predict before testing and compare the outcome to their guess.
+safety_notes:
+  - Supervise closely at all times around water and keep small objects out of reach of mouthing.
+accessibility_notes:
+  - Offer picture cards of sink and float so children can predict by pointing.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - prediction
+  - inquiry
+  - water
+  - testing
+methodologies:
+  - highscope
+  - reggio-emilia
+  - play-based
+status: accepted
+locale: en-US

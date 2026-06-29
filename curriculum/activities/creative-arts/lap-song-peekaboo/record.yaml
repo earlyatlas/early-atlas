@@ -1,0 +1,46 @@
+id: ea.activity.creative-arts.lap-song-peekaboo
+slug: lap-song-peekaboo
+title: Lap Songs and Sound Play
+summary: A caregiver sings simple lap songs and rhythmic sound games to invite an infant's response.
+supported_skill_ids:
+  - ea.skill.creative-arts.music.responds-to-music
+age_range_months:
+  min: 0
+  max: 12
+group_size: 1 infant with a caregiver
+duration_minutes: 10
+materials:
+  - Your own singing voice
+  - Optional soft shaker or bell for gentle sound
+setup: Hold the baby comfortably on your lap or lay them where they can see your face.
+steps:
+  - Sing a short, familiar song such as a lullaby, watching the baby's face for a response.
+  - Pause before a key moment, such as a gentle bounce or tickle, to let the baby anticipate it.
+  - Repeat the same song so the baby learns its shape and refrain.
+  - Try a soft shaker to one side and notice if the baby turns toward the sound.
+  - Follow the baby's cues, slowing or stopping when they look away or tire.
+variations:
+  - Swap the lullaby for a livelier bouncing rhyme and notice the change in response.
+  - Add simple hand motions so an older infant can begin to anticipate and imitate.
+differentiation:
+  - For newborns, keep songs slow and quiet; for older infants, add playful pauses and bounces.
+assessment_opportunities:
+  - Note whether the baby turns toward sound, quiets, or brightens during a familiar song.
+  - Watch for early anticipation, such as stilling just before a repeated tickle.
+safety_notes:
+  - Support the infant's head and neck and keep any sound gentle and close, never startling.
+accessibility_notes:
+  - For infants with hearing differences, emphasize touch, facial expression, and gentle rhythmic movement alongside or instead of sound.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - music
+  - song
+  - sound
+  - infant
+  - bonding
+methodologies:
+  - waldorf
+  - play-based
+status: accepted
+locale: en-US

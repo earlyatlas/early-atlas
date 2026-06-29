@@ -1,0 +1,41 @@
+id: ea.skill.language.emergent-literacy.handles-books
+slug: handles-books
+title: Handles Books
+short_description: Child explores and handles books and relates them to their stories or information.
+developmental_purpose: >-
+  Holding a book, turning pages, and treating it as a source of stories and
+  pictures are the first print concepts a child learns. This hands-on book
+  knowledge — how books work and that they hold meaning — underlies all later
+  reading.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 4
+  max: 36
+developmental_stage: infant_to_toddler
+related_skill_ids:
+  - ea.skill.language.emergent-literacy.comprehends-pictures-and-stories
+mastery_criteria:
+  - Explores a book by touching, patting, or mouthing it.
+  - Holds a book, turns pages, and looks at the pictures.
+  - Pretends to read by turning pages and talking or signing about what is happening.
+observation_prompts:
+  - Given a sturdy book, does the child hold it and turn the pages?
+  - Does the child return to favorite books and ask for them again?
+accessibility_notes:
+  - Offer board, cloth, or touch-and-feel books for children developing fine-motor control.
+  - Provide high-contrast or tactile books for children with vision differences.
+common_misconceptions:
+  - Mouthing and patting a book is exploration, not misuse; it is how infants get to know books.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - emergent-literacy
+  - books
+  - print-concepts
+  - infant
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-lc-10
+status: accepted
+locale: en-US

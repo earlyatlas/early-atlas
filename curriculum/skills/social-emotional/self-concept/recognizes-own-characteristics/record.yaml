@@ -1,0 +1,36 @@
+id: ea.skill.social-emotional.self-concept.recognizes-own-characteristics
+slug: recognizes-own-characteristics
+title: Recognizes Own Name and Characteristics
+short_description: Toddler responds to their own name and notices characteristics of self and others.
+developmental_purpose: >-
+  Knowing one's name and noticing features like hair color, size, or age builds a
+  concrete sense of self. Comparing self with others lays the groundwork for
+  identity, belonging, and respect for human similarities and differences.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 8
+  max: 36
+developmental_stage: infant_toddler
+related_skill_ids:
+  - ea.skill.social-emotional.self-concept.discovers-self-and-others
+mastery_criteria:
+  - Responds by looking or coming when called by name.
+  - Identifies some physical characteristics of self and notices similarities and differences with others.
+observation_prompts:
+  - Does the child respond to their own name?
+  - Can the child point to or name a feature of themselves, such as hair or eyes?
+accessibility_notes:
+  - Use the child's name warmly and often, paired with eye contact or a touch cue.
+  - Offer photos and mirrors so children can see the features being named.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - self-concept
+  - self-recognition
+  - identity
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-se-11
+status: accepted
+locale: en-US

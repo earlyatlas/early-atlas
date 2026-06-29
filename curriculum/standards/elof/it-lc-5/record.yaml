@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-lc-5
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-LC 5"
+title: "Child uses increasingly complex language in conversation with others."
+domain_area: "Language and Communication"
+sub_domain: "Communicating and Speaking"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Explores sounds common in many languages, such as \"ma-ma\" or \"ba-ba.\""
+  - age_period: "8 to 18 Months"
+    text: "Initiates and participates in conversations by babbling and using gestures, such as showing or giving, or by using words or signs. Communicates mainly about objects, actions, and events happening in the here and now."
+  - age_period: "16 to 36 Months"
+    text: "Participates in conversations with others using spoken or sign language that includes simple sentences, questions, and responses. Sometimes describes experiences that have happened in the past or are about to happen. Children who are DLLs develop the ability to participate in conversations with increasing complexity in each of their languages."
+  - age_period: "By 36 Months"
+    text: "Uses sentences of three or more words in conversation with others."
+  - age_period: "By 36 Months"
+    text: "Asks and answers simple questions in conversations with others."
+  - age_period: "By 36 Months"
+    text: "Refers to past or future events in conversation with others."
+source_url: https://headstart.gov/school-readiness/article/language-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

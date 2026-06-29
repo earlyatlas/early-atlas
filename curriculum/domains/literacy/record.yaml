@@ -1,0 +1,22 @@
+id: ea.domain.literacy
+slug: literacy
+title: Literacy
+description: >-
+  Early reading and writing: print awareness, letter knowledge, and the fine-motor
+  control needed to form letters.
+age_coverage:
+  min: 24
+  max: 72
+subdomains:
+  - print-awareness
+  - letter-knowledge
+  - phonological-awareness
+  - writing
+  - comprehension
+tags:
+  - literacy
+  - emergent-literacy
+  - reading
+  - writing
+status: accepted
+locale: en-US

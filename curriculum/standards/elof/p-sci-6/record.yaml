@@ -1,0 +1,25 @@
+id: ea.standard.elof.p-sci-6
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-SCI 6"
+title: "Child analyzes results, draws conclusions, and communicates results."
+domain_area: "Scientific Reasoning"
+sub_domain: "Reasoning and Problem-Solving"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "With adult assistance, analyzes and interprets data. Draws conclusions and provides simple descriptions of results. For example, an adult suggests counting how many dolls can be supported by a bridge before it breaks and along with the children counts, \"One, two, three dolls. What happened when we put on the next doll?\" A child says, \"The bridge broke!\""
+  - age_period: "48 to 60 Months"
+    text: "With increasing independence, analyzes and interprets data and draws conclusions. With adult support, compares results to initial prediction and generates new questions or designs. For example, after putting multiple magnets together to create one magnet that is not strong enough to lift 10 paperclips, builds another and tries again. Communicates results, solutions, and conclusions in increasingly complex ways through multiple methods."
+  - age_period: "By 60 Months"
+    text: "Analyzes and interprets data and summarizes results of investigation."
+  - age_period: "By 60 Months"
+    text: "Draws conclusions, constructs explanations, and verbalizes cause and effect relationships."
+  - age_period: "By 60 Months"
+    text: "With adult support, compares results to initial prediction and offers evidence as to why they do or do not work. Generates new testable questions based on results."
+  - age_period: "By 60 Months"
+    text: "Communicates results, solutions, and conclusions through a variety of methods, such as telling an adult that plants need water to grow or putting dots on a map that show the number of children from each country."
+source_url: https://headstart.gov/school-readiness/article/science-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

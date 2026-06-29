@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-lit-5
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-LIT 5"
+title: "Child asks and answers questions about a book that was read aloud."
+domain_area: "Literacy"
+sub_domain: "Comprehension and Text Structure"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Can answer basic questions about likes or dislikes in a book or story. Asks and answers questions about main characters or events in a familiar story. With modeling and support, makes predictions about events that might happen next."
+  - age_period: "48 to 60 Months"
+    text: "With support, provides basic answers to specific questions about details of a story, such as who, what, when, or where. With support, can answer inferential questions about stories, such as predictions or how/why something is happening in a particular moment."
+  - age_period: "By 60 Months"
+    text: "Answers questions about details of a story with increasingly specific information, such as when asked \"Who was Mary?\" responds \"She was the girl who was riding the horse and then got hurt.\""
+  - age_period: "By 60 Months"
+    text: "Answers increasingly complex inferential questions that require making predictions based on multiple pieces of information from the story; inferring characters' feelings or intentions; or providing evaluations of judgments that are grounded in the text."
+  - age_period: "By 60 Months"
+    text: "Provides a summary of a story, highlighting a number of the key ideas in the story and how they relate."
+source_url: https://headstart.gov/school-readiness/article/literacy-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

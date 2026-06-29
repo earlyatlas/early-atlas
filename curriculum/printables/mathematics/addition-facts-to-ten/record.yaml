@@ -1,0 +1,28 @@
+id: ea.printable.mathematics.addition-facts-to-ten
+slug: addition-facts-to-ten
+title: Addition Facts to 10 — Practice
+printable_type: worksheet
+instructions: "Solve each addition fact. Say the whole fact aloud as you write the answer, such as \"two plus three is five.\""
+supported_skill_ids:
+  - ea.skill.mathematics.number-sense.adds-single-digit
+age_range_months:
+  min: 54
+  max: 78
+generator:
+  type: arithmetic
+  operation: addition
+  operand_min: 0
+  operand_max: 5
+  max_result: 10
+  count: 20
+  layout: vertical
+  answer_key: true
+tags:
+  - addition
+  - math-facts
+  - memorization
+  - arithmetic
+methodologies:
+  - classical
+status: accepted
+locale: en-US

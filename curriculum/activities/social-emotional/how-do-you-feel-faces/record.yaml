@@ -1,0 +1,45 @@
+id: ea.activity.social-emotional.how-do-you-feel-faces
+slug: how-do-you-feel-faces
+title: How Do You Feel? Faces and Sounds
+summary: A caregiver mirrors and names a toddler's emotions during play to build emotional expression.
+supported_skill_ids:
+  - ea.skill.social-emotional.emotional-understanding.expresses-range-of-emotions
+age_range_months:
+  min: 10
+  max: 36
+group_size: 1-3 children
+duration_minutes: 10
+materials:
+  - A mirror
+  - Optional board book showing faces with feelings
+setup: Sit with the child near a mirror in a relaxed moment.
+steps:
+  - Notice the child's current feeling and name it warmly, for example "you seem so happy!"
+  - Make the matching face in the mirror together and add a sound or gesture.
+  - Try other feelings — surprised, sleepy, excited — and label each one.
+  - Pause often to let the child show you a face or sound of their own.
+  - Connect feelings to real moments, for example "you were mad when the tower fell."
+variations:
+  - Read a feelings board book and copy each character's expression.
+  - Use puppets to act out a feeling and name it.
+differentiation:
+  - For pre-verbal children, focus on faces, sounds, and gestures.
+  - For talkers, add a feeling word for them to repeat.
+assessment_opportunities:
+  - Note how many distinct emotions the child expresses.
+  - Watch for the child beginning to use words or signs for feelings.
+safety_notes:
+  - Keep mirrors shatterproof and securely placed.
+accessibility_notes:
+  - Pair every feeling word with a face, sign, or sound so meaning is multi-sensory.
+  - Let children opt out of mimicking and simply watch if they prefer.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - emotions
+  - expression
+  - feelings-vocabulary
+methodologies:
+  - play-based
+status: accepted
+locale: en-US

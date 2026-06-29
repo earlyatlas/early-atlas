@@ -1,0 +1,36 @@
+id: ea.skill.creative-arts.music.responds-to-music
+slug: responds-to-music
+title: Responds to Music and Sound
+short_description: Infant attends and reacts to songs, voices, and rhythmic sounds.
+developmental_purpose: >-
+  Turning toward sound, quieting to a familiar voice, and brightening at a song
+  are an infant's first musical exchanges. These responses build auditory
+  attention, social connection, and the back-and-forth rhythm that later supports
+  language and self-expression.
+domain_ids:
+  - ea.domain.creative-arts
+age_range_months:
+  min: 0
+  max: 12
+developmental_stage: infant
+related_skill_ids:
+  - ea.skill.creative-arts.movement-dance.moves-to-music
+mastery_criteria:
+  - Turns head or eyes toward a singing voice or rhythmic sound.
+  - Shows pleasure (smiling, cooing, stilling, or bouncing) during a familiar song.
+  - Begins to anticipate a repeated sound or refrain, such as pausing before a tickle.
+observation_prompts:
+  - When you sing a familiar lullaby, does the infant quiet, focus, or move in response?
+  - Does the baby react differently to a lively rhythm versus a slow, soothing tune?
+accessibility_notes:
+  - For infants with hearing differences, pair sound with touch and visual cues such as gentle bouncing or signed song gestures.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - music
+  - sound
+  - rhythm
+  - infant
+  - listening
+status: accepted
+locale: en-US

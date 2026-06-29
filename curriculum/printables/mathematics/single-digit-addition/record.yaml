@@ -1,0 +1,30 @@
+id: ea.printable.mathematics.single-digit-addition
+slug: single-digit-addition
+title: Single-Digit Addition
+printable_type: worksheet
+instructions: Solve each problem.
+supported_skill_ids:
+  - ea.skill.mathematics.number-sense.adds-single-digit
+# This worksheet is a supporting document for the "Add the Dots" activity, in
+# addition to practicing the skill. Standalone worksheets simply omit this.
+supported_activity_ids:
+  - ea.activity.mathematics.add-the-dots
+age_range_months:
+  min: 48
+  max: 72
+generator:
+  type: arithmetic
+  operation: addition
+  operand_min: 0
+  operand_max: 9
+  count: 20
+  layout: vertical
+  answer_key: true
+tags:
+  - addition
+  - arithmetic
+  - early-numeracy
+methodologies:
+  - play-based
+status: draft
+locale: en-US

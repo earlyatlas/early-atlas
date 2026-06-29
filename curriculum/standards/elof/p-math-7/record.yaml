@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-math-7
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-MATH 7"
+title: "Child understands simple patterns."
+domain_area: "Mathematics Development"
+sub_domain: "Operations and Algebraic Thinking"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Recognizes a simple pattern, and with adult assistance, fills in the missing element of a pattern, such as boy, girl, boy, girl, ___, girl. Duplicates and extends ABABAB patterns."
+  - age_period: "48 to 60 Months"
+    text: "Creates, identifies, extends, and duplicates simple repeating patterns in different forms, such as with objects, numbers, sounds, and movements."
+  - age_period: "By 60 Months"
+    text: "Fills in missing elements of simple patterns."
+  - age_period: "By 60 Months"
+    text: "Duplicates simple patterns in a different location than demonstrated, such as making the same alternating color pattern with blocks at a table that was demonstrated on the rug. Extends patterns, such as making an eight block tower of the same pattern that was demonstrated with four blocks."
+  - age_period: "By 60 Months"
+    text: "Identifies the core unit of sequentially repeating patterns, such as color in a sequence of alternating red and blue blocks."
+source_url: https://headstart.gov/school-readiness/article/math-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

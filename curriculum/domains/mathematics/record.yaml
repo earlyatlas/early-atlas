@@ -1,0 +1,20 @@
+id: ea.domain.mathematics
+slug: mathematics
+title: Mathematics
+description: >-
+  Early mathematical thinking: classification, patterning, number sense,
+  spatial reasoning, and measurement.
+age_coverage:
+  min: 12
+  max: 72
+subdomains:
+  - classification
+  - patterning
+  - number-sense
+tags:
+  - mathematics
+  - number-sense
+  - patterning
+  - classification
+status: accepted
+locale: en-US

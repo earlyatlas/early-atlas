@@ -1,0 +1,53 @@
+id: ea.activity.science.do-plants-need-water-investigation
+slug: do-plants-need-water-investigation
+title: Do Plants Need Water? Investigation
+summary: Children plan and carry out a simple experiment, watering one set of seeds and not another, and record what they see.
+supported_skill_ids:
+  - ea.skill.science.inquiry-skills.plans-and-conducts-investigations
+age_range_months:
+  min: 42
+  max: 66
+group_size: 2-6 children
+duration_minutes: 20
+materials:
+  - Two clear cups or small pots labeled "water" and "no water"
+  - Fast-sprouting seeds, such as beans or grass seed
+  - Potting soil
+  - A small watering can or cup of water
+  - A simple observation sheet with boxes for daily drawings
+setup: >-
+  Gather the children and pose the testable question: "Do plants need water to
+  grow?" Set out the cups, soil, and seeds within reach.
+steps:
+  - Together, name the materials needed and the steps you will follow.
+  - Help children fill both cups with soil and plant the same number of seeds in each.
+  - Water only the cup labeled "water" and decide together to keep watering it each day.
+  - Have children record what the cups look like today with a drawing on the observation sheet.
+  - Over the following days, water the "water" cup and add a new drawing each time to track changes.
+variations:
+  - Test light instead of water by placing one cup in a dark cupboard and one by a window.
+  - Make a class graph counting how many seeds sprouted in each cup.
+differentiation:
+  - For younger children, focus on planting and daily watering with picture step-cards.
+  - For older children, invite them to list the materials and steps before starting.
+assessment_opportunities:
+  - Note whether the child can state what the investigation is trying to find out.
+  - Observe whether the child records observations each day with marks or drawings.
+safety_notes:
+  - Supervise so seeds and soil are not eaten; wash hands after handling soil.
+  - Use non-toxic seeds that are safe in a classroom.
+accessibility_notes:
+  - Offer picture step-cards so children can follow the procedure visually.
+  - Let children record by placing stickers or stamps instead of drawing.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - investigation
+  - plants
+  - experiment
+  - data
+methodologies:
+  - highscope
+  - play-based
+status: accepted
+locale: en-US

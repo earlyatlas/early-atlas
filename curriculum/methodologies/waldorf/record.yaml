@@ -1,0 +1,21 @@
+id: ea.methodology.waldorf
+slug: waldorf
+title: Waldorf
+short_description: A rhythm- and imagination-led approach emphasizing play, nature, story, and the arts in early childhood.
+origin: Founded by Rudolf Steiner in Germany in 1919, growing from his Waldorf education movement.
+principles:
+  - Learning through imaginative, open-ended play.
+  - Predictable daily and seasonal rhythms create security.
+  - Rich oral storytelling, song, movement, and handwork.
+  - Natural, simple materials over screens and rigid drills in the early years.
+  - Formal academics are introduced gradually, after early childhood.
+inspiration_note: >-
+  Lessons tagged Waldorf are inspired by these ideas — imaginative play, natural
+  materials, song and story. They are original Early Atlas activities, not
+  official Waldorf or Steiner curriculum.
+tags:
+  - imaginative-play
+  - nature
+  - storytelling
+status: accepted
+locale: en-US

@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-se-10
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-SE 10"
+title: "Child expresses confidence in own skills and positive feelings about self."
+domain_area: "Social and Emotional Development"
+sub_domain: "Sense of Identity and Belonging"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Expresses enjoyment in accomplishing daily routines and new skills and may draw adult attention to these accomplishments. May share own ideas or express positive feelings about self, particularly when prompted by an adult."
+  - age_period: "48 to 60 Months"
+    text: "Enjoys accomplishing a greater number of tasks and sharing these accomplishments with other children and adults. Makes increasing number of contributions to group discussion and may share ideas with or without adult prompting."
+  - age_period: "By 60 Months"
+    text: "Shows satisfaction or seeks acknowledgment when completing a task or solving a problem."
+  - age_period: "By 60 Months"
+    text: "Expresses own ideas or beliefs in group contexts or in interactions with others."
+  - age_period: "By 60 Months"
+    text: "Uses positive words to describe self, such as kind or hard-worker."
+source_url: https://headstart.gov/school-readiness/article/social-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

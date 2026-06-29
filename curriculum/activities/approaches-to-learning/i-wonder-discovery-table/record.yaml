@@ -1,0 +1,54 @@
+id: ea.activity.approaches-to-learning.i-wonder-discovery-table
+slug: i-wonder-discovery-table
+title: I Wonder Discovery Table
+summary: >-
+  Children investigate a curated set of intriguing natural objects and share
+  their wonderings, building curiosity and the habit of asking questions.
+supported_skill_ids:
+  - ea.skill.approaches-to-learning.curiosity-initiative.shows-curiosity
+age_range_months:
+  min: 30
+  max: 54
+group_size: 2-6 children
+duration_minutes: 20
+materials:
+  - >-
+    A collection of intriguing natural objects, such as shells, pinecones, seed
+    pods, and smooth stones
+  - Magnifying glasses
+  - A simple chart or paper labeled "I wonder..."
+setup: >-
+  Arrange the objects on a low table with the magnifying glasses nearby. Post the
+  wonder chart where children can see it.
+steps:
+  - Invite children to explore the objects with their hands and the magnifiers.
+  - "Model a wondering: \"I wonder why this shell has so many lines.\""
+  - "Write down or draw each child's question on the wonder chart."
+  - Encourage children to make a guess before seeking an answer.
+  - Choose one wondering to investigate further together as a group.
+variations:
+  - Rotate the collection seasonally, adding leaves in fall or seeds in spring.
+  - Pair the table with a short related book to spark new questions.
+differentiation:
+  - For younger children, accept wonderings shown through pointing or single words.
+  - For older children, sort objects and ask how they are alike and different.
+assessment_opportunities:
+  - Note whether children generate their own questions or mainly echo a model.
+  - Watch for children offering predictions or theories about what they observe.
+safety_notes:
+  - Choose objects too large to swallow and check for sharp edges before use.
+accessibility_notes:
+  - Include objects with strong textures and scents so exploration is multisensory.
+  - Give extra wait time for children who need longer to form a question.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - curiosity
+  - inquiry
+  - questioning
+  - nature
+methodologies:
+  - reggio-emilia
+  - play-based
+status: accepted
+locale: en-US

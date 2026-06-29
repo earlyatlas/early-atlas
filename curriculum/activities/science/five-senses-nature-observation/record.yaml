@@ -1,0 +1,47 @@
+id: ea.activity.science.five-senses-nature-observation
+slug: five-senses-nature-observation
+title: Five Senses Nature Observation
+summary: Children use their senses to explore a natural object closely and describe what they notice.
+supported_skill_ids:
+  - ea.skill.science.inquiry-skills.observes-and-describes
+age_range_months:
+  min: 24
+  max: 54
+group_size: 1-6 children
+duration_minutes: 20
+materials:
+  - A collected nature item per child such as a pinecone, leaf, smooth stone, or piece of bark
+  - A magnifying glass or two to share
+  - A tray to display the items
+setup: Place each nature item on the tray and gather children where everyone can see and reach.
+steps:
+  - Invite each child to choose one item and hold it.
+  - Ask "what do you see?" and help name colors, shapes, and patterns.
+  - Guide the children to touch the item and describe whether it feels rough, smooth, or bumpy.
+  - Encourage gentle smelling and listening, asking what they notice with each sense.
+  - Gather the group to share one describing word each about their item.
+variations:
+  - Hide the items in a feely bag and have children describe by touch before looking.
+  - Take the activity outdoors and observe items where they are found.
+differentiation:
+  - For younger children, focus on one or two senses such as sight and touch.
+  - For older children, ask them to compare two items and describe a difference.
+assessment_opportunities:
+  - Note how many senses each child uses and how specific their describing words are.
+safety_notes:
+  - Avoid items that may be mouthed by younger children and wash hands after handling nature items.
+accessibility_notes:
+  - Offer items with strong textures or scents for children who explore best by touch or smell.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - observation
+  - senses
+  - inquiry
+  - describing
+methodologies:
+  - reggio-emilia
+  - forest-school
+  - play-based
+status: accepted
+locale: en-US

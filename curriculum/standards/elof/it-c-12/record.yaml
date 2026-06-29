@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-c-12
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-C 12"
+title: "Child uses objects or symbols to represent something else."
+domain_area: "Cognition"
+sub_domain: "Imitation and Symbolic Representation and Play"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Emerging"
+  - age_period: "8 to 18 Months"
+    text: "Uses toy objects in ways similar to the real objects they represent, such as talking on a toy phone."
+  - age_period: "16 to 36 Months"
+    text: "Uses objects as symbols to represent other objects during pretend play, such as using blocks for toy cars or trucks."
+  - age_period: "By 36 Months"
+    text: "Uses familiar objects to represent something else."
+  - age_period: "By 36 Months"
+    text: "Improvises with props during pretend play, such as using a towel for a blanket or making a cookie out of play dough."
+  - age_period: "By 36 Months"
+    text: "Understands that some symbols have meaning, such as a sign or a drawing."
+source_url: https://headstart.gov/school-readiness/article/cognition-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

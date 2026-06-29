@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-se-11
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-SE 11"
+title: "Child has sense of belonging to family, community, and other groups."
+domain_area: "Social and Emotional Development"
+sub_domain: "Sense of Identity and Belonging"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Communicates feeling a sense of belonging to family and an emerging sense of connections to other communities through words or other forms of expression, such as drawing a picture of their family or sharing a special object related to their cultural heritage."
+  - age_period: "48 to 60 Months"
+    text: "Has a sense of belonging to family and community and communicates details about these connections, such as sharing a story about a family gathering, both spontaneously and when prompted by an adult or other child."
+  - age_period: "By 60 Months"
+    text: "Identifies self as being a part of different groups, such as family, community, culture, faith, or preschool."
+  - age_period: "By 60 Months"
+    text: "Relates personal stories about being a part of different groups."
+  - age_period: "By 60 Months"
+    text: "Identifies similarities and differences about self across familiar environments and settings."
+source_url: https://headstart.gov/school-readiness/article/social-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

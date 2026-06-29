@@ -1,0 +1,25 @@
+id: ea.standard.elof.p-lc-6
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-LC 6"
+title: "Child understands and uses a wide variety of words for a variety of purposes."
+domain_area: "Language and Communication"
+sub_domain: "Vocabulary"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Shows a rapid increase in acquisition of new vocabulary words that describe actions, emotions, things, or ideas that are meaningful within the everyday environment. Uses new vocabulary words to describe relations among things or ideas. Shows repetition of new words offered by adults."
+  - age_period: "48 to 60 Months"
+    text: "Shows a steady increase in vocabulary through the acquisition of words with increasing specificity and variety. Shows repetition of new words offered by adults and may ask about the meaning of unfamiliar words."
+  - age_period: "By 60 Months"
+    text: "Demonstrates the use of multiple (two or three) new words or signs a day during play and other activities."
+  - age_period: "By 60 Months"
+    text: "Shows recognition of and/or familiarity with key domain-specific words heard during reading or discussions."
+  - age_period: "By 60 Months"
+    text: "With multiple exposures, uses new domain-specific vocabulary during activities, such as using the word \"cocoon\" when learning about the life-cycle of caterpillars, or \"cylinder\" when learning about 3-D shapes."
+  - age_period: "By 60 Months"
+    text: "With support, forms guesses about the meaning of new words from context clues."
+source_url: https://headstart.gov/school-readiness/article/language-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

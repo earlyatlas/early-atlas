@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-se-13
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-SE 13"
+title: "Child develops a sense of belonging through relationships with others."
+domain_area: "Social and Emotional Development"
+sub_domain: "Sense of Identity and Belonging"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Shows awareness of familiar routines by behaviors, such as opening mouth for feeding or lifting arms to be picked up."
+  - age_period: "8 to 18 Months"
+    text: "Anticipates familiar routines or activities, such as getting shoes when it is time to go outside or watching for a parent when it is time to go home."
+  - age_period: "16 to 36 Months"
+    text: "Refers to personal or family experiences and events that have happened in the recent past, such as when a grandparent came to visit or when there was a family celebration."
+  - age_period: "By 36 Months"
+    text: "Identifies self as a member of a family."
+  - age_period: "By 36 Months"
+    text: "Points to or names self and other familiar people, such as in photos or pictures."
+  - age_period: "By 36 Months"
+    text: "Talks about family members, familiar people, or friends who may not be present."
+source_url: https://headstart.gov/school-readiness/article/social-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

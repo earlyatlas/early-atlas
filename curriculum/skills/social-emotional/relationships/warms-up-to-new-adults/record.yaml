@@ -1,0 +1,36 @@
+id: ea.skill.social-emotional.relationships.warms-up-to-new-adults
+slug: warms-up-to-new-adults
+title: Warms Up to New Adults
+short_description: Toddler uses a trusted adult as a secure base when meeting unfamiliar adults.
+developmental_purpose: >-
+  Using a familiar caregiver as a "secure base" to check in with before engaging
+  someone new lets a child stretch beyond primary relationships. This is how
+  expectations learned at home transfer to teachers, relatives, and other adults.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 8
+  max: 36
+developmental_stage: infant_toddler
+related_skill_ids:
+  - ea.skill.social-emotional.relationships.seeks-comfort-from-adults
+mastery_criteria:
+  - Glances at or stays near a familiar adult to gauge comfort before approaching someone new.
+  - With reassurance, engages in a positive interaction with an unfamiliar adult.
+observation_prompts:
+  - When a new adult arrives, does the child look to a familiar caregiver for cues?
+  - After reassurance, can the child warm up and interact with the new adult?
+accessibility_notes:
+  - Allow extra time and never force interaction; let the child approach at their own pace.
+  - Keep a familiar caregiver visibly present and available during introductions.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - relationships
+  - secure-base
+  - new-adults
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-se-2
+status: accepted
+locale: en-US

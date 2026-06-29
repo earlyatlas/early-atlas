@@ -1,0 +1,44 @@
+id: ea.skill.approaches-to-learning.self-regulation.cares-for-materials
+slug: cares-for-materials
+title: Cares for Materials
+short_description: >-
+  Child uses, handles, and puts away classroom and home materials appropriately,
+  with increasing independence.
+developmental_purpose: >-
+  Caring for materials joins fine-motor control, memory for where things belong,
+  and respect for a shared environment. When a child uses tools as intended and
+  returns them to their place, they practice responsibility and self-regulation
+  while keeping the learning space orderly and ready for the next person.
+domain_ids:
+  - ea.domain.approaches-to-learning
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.approaches-to-learning.self-regulation.follows-rules-and-routines
+mastery_criteria:
+  - Uses materials in appropriate ways during an activity rather than throwing or misusing them.
+  - Returns materials to their labeled place, such as blocks to the correct shelf, at cleanup.
+  - Handles fragile or shared items with care when reminded.
+observation_prompts:
+  - At cleanup, can the child match materials to their storage spots with little help?
+  - Does the child use tools, such as scissors or markers, the way they are meant to be used?
+common_misconceptions:
+  - >-
+    Mishandling materials is usually a skill or environment issue, not
+    carelessness; clear labels and reachable shelves do much of the teaching.
+accessibility_notes:
+  - Use photo labels on bins and shelves so pre-readers can sort items independently.
+  - Offer adapted tools, such as easy-grip scissors, so every child can use materials successfully.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - self-regulation
+  - materials
+  - cleanup
+  - responsibility
+standard_ids:
+  - ea.standard.elof.p-atl-3
+status: accepted
+locale: en-US

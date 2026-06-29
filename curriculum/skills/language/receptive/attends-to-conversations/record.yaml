@@ -1,0 +1,41 @@
+id: ea.skill.language.receptive.attends-to-conversations
+slug: attends-to-conversations
+title: Attends to Conversations
+short_description: Child attends to and acknowledges spoken or signed conversation from others.
+developmental_purpose: >-
+  Attending to the comments and questions of others, and showing connection to a
+  conversation, is the foundation for comprehension, turn-taking, and group
+  learning. It signals that the child is tuned in to communication, not just sound.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.language.receptive.understands-complex-language
+mastery_criteria:
+  - Acknowledges a comment or question with a verbal or non-verbal signal, such as nodding, answering, or looking toward the speaker.
+  - Sustains attention through a multi-turn conversation or short group discussion without drifting away.
+  - Shows ongoing connection to a story or presentation by responding to its content.
+observation_prompts:
+  - During a group discussion, does the child stay connected and respond to what others say?
+  - When spoken or signed to, does the child use a signal to show they are listening?
+accessibility_notes:
+  - Signed conversation and attention shown through gaze or AAC count fully as attending.
+  - For children who are DLLs, look for attending and acknowledgment in the home language.
+  - Reduce background noise and offer a clear view of the speaker's face and hands.
+common_misconceptions:
+  - Sitting quietly is not the same as attending; look for active acknowledgment of content.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - receptive-language
+  - listening
+  - conversation
+  - attention
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-lc-1
+status: accepted
+locale: en-US

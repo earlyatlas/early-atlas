@@ -1,0 +1,45 @@
+id: ea.activity.mathematics.addition-fact-chant
+slug: addition-fact-chant
+title: Addition Fact Chant
+summary: Children chant small addition facts in a steady rhythm, committing them to memory the classical way before practicing them on paper.
+supported_skill_ids:
+  - ea.skill.mathematics.number-sense.adds-single-digit
+age_range_months:
+  min: 48
+  max: 78
+group_size: 1-8 children
+duration_minutes: 5
+materials:
+  - Optional — counters or fingers to check a fact
+  - Optional — the "Addition Facts to 10 — Practice" worksheet to follow up
+setup: Pick one small set of facts to focus on for the week, such as the "plus one" facts.
+steps:
+  - Clap a steady beat and chant a fact family together, such as "one plus one is two".
+  - Repeat the same set several times so the rhythm carries the words.
+  - Pause before the answer and let the children call it out.
+  - Check one or two facts with counters or fingers so the chant stays meaningful.
+  - At the end of the week, practice the same facts on the worksheet.
+variations:
+  - Chant the "doubles" (1+1, 2+2, 3+3) or the "plus two" facts.
+  - Turn it into a call-and-response between two groups.
+differentiation:
+  - For beginners, chant only three facts and keep counters handy.
+  - For confident children, ask them to chant the matching subtraction fact too.
+assessment_opportunities:
+  - Notice whether children recall facts more quickly over the week and still connect them to real quantities.
+safety_notes:
+  - None — this is an oral, seated or circle-time activity.
+accessibility_notes:
+  - Pair each fact with finger or counter actions for children who learn through movement.
+  - Keep chants short and predictable to support every learner.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - addition
+  - math-facts
+  - memorization
+  - recitation
+methodologies:
+  - classical
+status: accepted
+locale: en-US

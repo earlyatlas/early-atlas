@@ -1,0 +1,36 @@
+id: ea.skill.social-emotional.emotional-understanding.shows-care-and-concern
+slug: shows-care-and-concern
+title: Shows Care and Concern for Others
+short_description: Toddler notices others' distress and responds with concern or simple comfort.
+developmental_purpose: >-
+  Early empathy — looking concerned when a peer cries, offering a toy or a hug — is
+  the toddler root of the prosocial caring that supports friendships and community.
+  It grows from emotional awareness into active helping.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 8
+  max: 36
+developmental_stage: infant_toddler
+related_skill_ids:
+  - ea.skill.social-emotional.emotional-understanding.expresses-range-of-emotions
+mastery_criteria:
+  - Shows concerned attention when another child or adult is hurt or upset.
+  - Tries to comfort or help with a simple action, such as offering a toy or patting.
+observation_prompts:
+  - When a peer is crying, does the child notice and look concerned?
+  - Does the child try to comfort or help others in distress?
+accessibility_notes:
+  - Model and name caring actions explicitly so the child sees what comforting looks like.
+  - Accept any caring response — a glance, a pat, fetching an adult — as a valid attempt.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - emotional-understanding
+  - empathy
+  - prosocial
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-se-8
+status: accepted
+locale: en-US

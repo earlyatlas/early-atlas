@@ -1,0 +1,43 @@
+id: ea.skill.social-studies.community.understands-rules-and-belonging
+slug: understands-rules-and-belonging
+title: Understands Rules and Belonging
+short_description: >-
+  Child follows shared group rules and shows a sense of being part of a
+  classroom community.
+developmental_purpose: >-
+  Recognizing that a group has agreements everyone helps keep is an early
+  civics skill. It builds the cooperation, fairness, and sense of belonging
+  that let children participate in a community larger than their family.
+domain_ids:
+  - ea.domain.social-studies
+age_range_months:
+  min: 30
+  max: 54
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.social-emotional.relationships.takes-turns
+mastery_criteria:
+  - Names one or two classroom rules and why they help the group.
+  - Follows shared agreements with occasional reminders.
+  - Describes themselves as a member of the class (for example, "I'm a helper").
+observation_prompts:
+  - >-
+    During group time, does the child remind a peer of an agreement such as
+    "We listen when a friend is talking"?
+  - Does the child show pride in classroom jobs or routines they share?
+accessibility_notes:
+  - >-
+    Pair spoken rules with simple pictures or signs so every child can follow
+    and reference them.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - community
+  - rules
+  - belonging
+  - cooperation
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-se-11
+status: accepted
+locale: en-US

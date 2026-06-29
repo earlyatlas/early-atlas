@@ -1,0 +1,25 @@
+id: ea.standard.elof.p-atl-5
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-ATL 5"
+title: "Child demonstrates an increasing ability to control impulses."
+domain_area: "Approaches to Learning"
+sub_domain: "Cognitive Self-Regulation (Executive Functioning)"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Frequently engages in impulsive behaviors, but inhibits them when directly supported by an adult."
+  - age_period: "48 to 60 Months"
+    text: "Sometimes controls impulses independently, while at other times needs support from an adult."
+  - age_period: "By 60 Months"
+    text: "Stops an engaging activity to transition to another less desirable activity with adult guidance and support."
+  - age_period: "By 60 Months"
+    text: "Delays having desires met, such as agreeing to wait turn to start an activity."
+  - age_period: "By 60 Months"
+    text: "Without adult reminders, waits to communicate information to a group."
+  - age_period: "By 60 Months"
+    text: "Refrains from responding impulsively, such as waiting to be called on during group discussion or requesting materials rather than grabbing them."
+source_url: https://headstart.gov/school-readiness/article/approaches-learning-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

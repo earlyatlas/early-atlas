@@ -1,0 +1,38 @@
+id: ea.skill.creative-arts.movement-dance.moves-to-music
+slug: moves-to-music
+title: Moves to Music
+short_description: Child responds to music with bouncing, swaying, and expressive movement.
+developmental_purpose: >-
+  Moving to music links what children hear to what their bodies do. Bouncing to a
+  beat, swaying with a scarf, or stopping when the music stops builds gross-motor
+  coordination, rhythmic awareness, body control, and a joyful, whole-body way to
+  express feeling.
+domain_ids:
+  - ea.domain.creative-arts
+age_range_months:
+  min: 12
+  max: 42
+developmental_stage: toddler_to_preschool
+prerequisite_skill_ids:
+  - ea.skill.creative-arts.music.responds-to-music
+mastery_criteria:
+  - Moves spontaneously when music plays, such as bouncing, swaying, or spinning.
+  - Begins to match movement to tempo, moving faster to lively music and slower to calm music.
+  - Starts and stops movement in response to the music beginning or ending.
+observation_prompts:
+  - Does the child move differently to a fast song than to a slow one?
+  - Does the child invent their own movements or mainly imitate others?
+accessibility_notes:
+  - Invite seated, hand, or wheelchair movement and add visual or vibration cues so every child can join.
+safety_notes:
+  - Clear a soft, open space and keep scarves or ribbons short enough to avoid tripping or wrapping.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - movement
+  - dance
+  - music
+  - rhythm
+  - gross-motor
+status: accepted
+locale: en-US

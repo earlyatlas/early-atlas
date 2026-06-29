@@ -1,0 +1,49 @@
+id: ea.skill.physical-development.fine-motor.uses-fine-motor-tools
+slug: uses-fine-motor-tools
+title: Uses Fine-Motor Tools
+short_description: >-
+  Child handles tools such as child scissors, tongs, and crayons with control.
+developmental_purpose: >-
+  Using fine-motor tools refines the hand strength, bilateral coordination, and
+  in-hand control that began with the pincer grasp. Snipping, grasping with
+  tongs, and gripping a crayon directly prepare the hand for the precise pencil
+  control writing requires.
+domain_ids:
+  - ea.domain.physical-development
+age_range_months:
+  min: 30
+  max: 54
+developmental_stage: preschool
+prerequisite_skill_ids:
+  - ea.skill.physical-development.fine-motor.develops-pincer-grasp
+related_skill_ids:
+  - ea.skill.literacy.writing.traces-letters
+mastery_criteria:
+  - Snips and then cuts along a line with child-safe scissors, opening and closing
+    the blades with one hand.
+  - Uses tongs or a clothespin to pick up and move small objects.
+  - Holds a crayon with fingers rather than a fist and colors with intention.
+observation_prompts:
+  - Does the child stabilize paper with the helper hand while cutting with the other?
+  - "When coloring, does the child use a tripod-style grip rather than a whole-fist\
+    \ grip?"
+accessibility_notes:
+  - Provide spring-loaded or loop scissors and chunky triangular crayons for children
+    building grip strength.
+  - Offer left-handed scissors and seat children so their working hand is not blocked.
+safety_notes:
+  - Use only blunt-tipped child scissors and supervise cutting; store tools out of
+    reach between sessions.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - fine-motor
+  - scissors
+  - tongs
+  - crayon
+  - coordination
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-pmp-3
+status: accepted
+locale: en-US

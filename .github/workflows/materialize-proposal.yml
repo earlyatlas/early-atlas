@@ -1,0 +1,114 @@
+name: Materialize proposal
+
+# Turns an admin-approved authoring proposal into a reviewable draft PR. Triggered
+# by the authoring service (repository_dispatch) with the validated change set.
+# The service can only TRIGGER this; the actual git writes happen here, gated by
+# the full `pnpm check`. main stays branch-protected — a human merges.
+
+on:
+  repository_dispatch:
+    types: [materialize-proposal]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9.12.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - name: Write the change set
+        env:
+          CHANGESET: ${{ toJSON(github.event.client_payload.changeset) }}
+        run: printf '%s' "$CHANGESET" > "$RUNNER_TEMP/changeset.json"
+
+      - name: Materialize into curriculum files
+        run: pnpm --filter @earlyatlas/curriculum-core materialize "$RUNNER_TEMP/changeset.json" "$PWD/curriculum"
+
+      - name: Validate (the full gate)
+        run: pnpm check
+
+      - name: Open draft PR
+        # Use a user token (not the Actions bot) for PR creation: orgs commonly
+        # block "GitHub Actions creating pull requests", but a PAT is unaffected.
+        env:
+          GH_TOKEN: ${{ secrets.AUTHORING_PR_TOKEN }}
+          PID: ${{ github.event.client_payload.proposal_id }}
+          TITLE: ${{ github.event.client_payload.title }}
+          RATIONALE: ${{ github.event.client_payload.rationale }}
+          AUTHOR: ${{ github.event.client_payload.author_email }}
+          SUB: ${{ github.event.client_payload.author_sub }}
+          CHANGESET: ${{ toJSON(github.event.client_payload.changeset) }}
+        run: |
+          set -euo pipefail
+          BRANCH="proposals/${PID}"
+          TITLE="${TITLE:-untitled proposal}"
+          AUTHOR="${AUTHOR:-unknown}"
+
+          # Per-op summary for the PR body.
+          OPS=$(printf '%s' "$CHANGESET" | jq -r '.operations[] |
+            if .op == "create_record" then "- create `\(.record.id)`"
+            elif .op == "update_fields" then "- update `\(.id)` (\(.fields | keys | length) field(s))"
+            elif .op == "replace_body" then "- replace body of `\(.id)`"
+            elif .op == "deprecate_record" then "- deprecate `\(.id)`"
+            else "- \(.op)" end')
+
+          git config user.name "Early Atlas Authoring"
+          git config user.email "authoring@earlyatlas.com"
+          git checkout -b "$BRANCH"
+          git add curriculum
+          git commit \
+            -m "Proposal: ${TITLE}" \
+            -m "Materialized from authoring proposal ${PID}, submitted by ${AUTHOR}." \
+            -m "Co-authored-by: ${AUTHOR} <${AUTHOR}>"
+          git push --force -u origin "$BRANCH"
+
+          # Idempotent labels.
+          gh label create proposal --color 0E8A16 --description "Authoring proposal" 2>/dev/null || true
+          gh label create needs-review --color FBCA04 --description "Awaiting editorial review" 2>/dev/null || true
+
+          BODY=$(cat <<EOF
+          ## Authoring proposal \`${PID}\`
+
+          **Submitted by:** ${AUTHOR} (\`${SUB}\`)
+          **Rationale:** ${RATIONALE:-_none given_}
+
+          ### Changes
+          ${OPS}
+
+          ### How to review
+          This was submitted through the Early Atlas authoring queue, validated at
+          submit, and re-validated by the full \`pnpm check\` gate in this run before
+          this PR was opened. Please check:
+
+          - [ ] Content is accurate and age-appropriate
+          - [ ] Correct domain / placement / sequencing
+          - [ ] Evidence / citations where claims are made
+          - [ ] Accessibility & inclusive language
+
+          Merging this PR (to \`main\`) publishes it. Close it to reject.
+
+          <sub>Materialized by the \`materialize-proposal\` workflow · proposal ${PID}</sub>
+          EOF
+          )
+
+          if gh pr view "$BRANCH" >/dev/null 2>&1; then
+            echo "PR already exists for ${BRANCH}; updated the branch."
+          else
+            gh pr create --draft --title "Proposal: ${TITLE}" --body "$BODY" \
+              --label proposal --label needs-review
+          fi
+          gh pr view "$BRANCH" --json url -q .url

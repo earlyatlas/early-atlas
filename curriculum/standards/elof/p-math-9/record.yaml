@@ -1,0 +1,25 @@
+id: ea.standard.elof.p-math-9
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-MATH 9"
+title: "Child identifies, describes, compares, and composes shapes."
+domain_area: "Mathematics Development"
+sub_domain: "Geometry and Spatial Sense"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Recognizes and names typical circle, square, and sometimes a triangle. With adult support, matches some shapes that are different sizes and orientations."
+  - age_period: "48 to 60 Months"
+    text: "Recognizes and compares a greater number of shapes of different sizes and orientations. Begins to identify sides and angles as distinct parts of shapes."
+  - age_period: "By 60 Months"
+    text: "Names and describes shapes in terms of length of sides, number of sides, and number of angles."
+  - age_period: "By 60 Months"
+    text: "Correctly names basic shapes regardless of size and orientation."
+  - age_period: "By 60 Months"
+    text: "Analyzes, compares and sorts two-and three-dimensional shapes and objects in different sizes. Describes their similarities, differences, and other attributes, such as size and shape."
+  - age_period: "By 60 Months"
+    text: "Creates and builds shapes from components."
+source_url: https://headstart.gov/school-readiness/article/math-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

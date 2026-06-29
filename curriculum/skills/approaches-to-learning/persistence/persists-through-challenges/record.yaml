@@ -1,0 +1,52 @@
+id: ea.skill.approaches-to-learning.persistence.persists-through-challenges
+slug: persists-through-challenges
+title: Persists Through Challenges
+short_description: >-
+  Child keeps working toward a goal after setbacks, trying new strategies rather
+  than giving up.
+developmental_purpose: >-
+  Persistence, or task tenacity, is the disposition to stay with a difficult
+  task and adjust the approach when the first attempt fails. It is closely tied
+  to a growth mindset and predicts how a child meets later academic and social
+  challenges.
+domain_ids:
+  - ea.domain.approaches-to-learning
+age_range_months:
+  min: 30
+  max: 60
+developmental_stage: preschool
+prerequisite_skill_ids:
+  - ea.skill.approaches-to-learning.executive-function.focuses-attention
+related_skill_ids:
+  - ea.skill.approaches-to-learning.executive-function.holds-information-in-mind
+mastery_criteria:
+  - Continues working on a challenging task after an initial failure.
+  - Tries a different strategy when the first approach does not work.
+  - "Expresses effort rather than ability, such as \"I almost did it, let me try again.\""
+observation_prompts:
+  - When a puzzle piece does not fit, does the child try another way or give up?
+  - "Does the child ask for a hint and then keep working, rather than abandoning the task?"
+common_misconceptions:
+  - >-
+    Persistence is not about never asking for help; seeking a small amount of
+    support and then continuing is a sign of healthy task tenacity.
+  - >-
+    Praising the child's effort and strategies supports persistence more than
+    praising how "smart" they are.
+accessibility_notes:
+  - >-
+    Adjust the challenge so it is hard but reachable; tasks far beyond a child's
+    reach teach giving up, not persistence.
+  - Offer brief, specific encouragement at the moment of difficulty rather than only at the end.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - persistence
+  - self-control
+  - growth-mindset
+  - problem-solving
+standard_ids:
+  - ea.standard.elof.p-atl-7
+  - ea.standard.elof.it-atl-4
+status: accepted
+locale: en-US

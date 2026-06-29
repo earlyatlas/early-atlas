@@ -1,0 +1,45 @@
+id: ea.activity.social-emotional.follow-the-leader-toddlers
+slug: follow-the-leader-toddlers
+title: Toddler Follow-the-Leader
+summary: Toddlers imitate each other's simple movements in a playful copying game.
+supported_skill_ids:
+  - ea.skill.social-emotional.relationships.imitates-peers-in-play
+age_range_months:
+  min: 14
+  max: 36
+group_size: 2-4 children
+duration_minutes: 15
+materials:
+  - Open floor space
+  - Optional simple props such as scarves or shakers
+setup: Clear a safe open area and gather a small group of toddlers.
+steps:
+  - Start a simple repeatable action, such as clapping or stomping.
+  - Invite the children to copy you, naming what you are doing.
+  - Let one child become the leader and encourage the others to imitate them.
+  - Cheer each child's turn and the group's copying.
+  - Keep actions big, slow, and easy to follow.
+variations:
+  - Add scarves to wave or shakers to shake for imitation.
+  - Pair the game with a familiar song so the actions repeat naturally.
+differentiation:
+  - For younger toddlers, keep to one action at a time.
+  - For older toddlers, chain two actions together to copy in sequence.
+assessment_opportunities:
+  - Note whether a child imitates a peer's action, not just the adult's.
+  - Watch for children taking a turn to lead.
+safety_notes:
+  - Keep the space clear of obstacles and supervise active movement.
+accessibility_notes:
+  - Offer seated versions of actions (clap, wave) for children who are not yet mobile.
+  - Pair each action with a clear verbal label for children who learn through hearing.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - imitation
+  - cooperative-play
+  - movement
+methodologies:
+  - play-based
+status: accepted
+locale: en-US

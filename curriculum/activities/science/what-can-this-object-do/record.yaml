@@ -1,0 +1,47 @@
+id: ea.activity.science.what-can-this-object-do
+slug: what-can-this-object-do
+title: What Can This Object Do?
+summary: A baby or toddler explores a tray of safe everyday objects, discovering how each one looks, feels, sounds, and moves.
+supported_skill_ids:
+  - ea.skill.science.inquiry-skills.explores-with-senses
+age_range_months:
+  min: 6
+  max: 30
+group_size: 1-2 children
+duration_minutes: 15
+materials:
+  - A shallow basket or tray
+  - 5 to 8 safe, varied objects (a metal cup, a wooden spoon, a fabric scrunchie, a large pinecone, a textured ball)
+  - A soft mat or blanket to sit on
+setup: Gather objects that are too large to swallow, with no small or breakable parts, and arrange them in the basket within the child's reach.
+steps:
+  - Sit on the floor with the child and place the basket between you.
+  - Let the child choose an object and explore it freely, with no rush to "use it right."
+  - Narrate what you see, such as "You are shaking it. It makes a rattle sound."
+  - Model a new action only if the child stalls, then hand the object back.
+  - Offer a fresh object when interest fades, keeping the pace led by the child.
+variations:
+  - Add a container so the child can drop objects in and tip them out.
+  - Swap in objects with new textures or temperatures, such as a cool metal lid.
+differentiation:
+  - For young infants, offer one object at a time during tummy time.
+  - For older toddlers, ask "What else can it do?" to invite new tests.
+assessment_opportunities:
+  - Note how many different actions the child uses to explore one object.
+  - Watch for intentional acts, such as moving one object to reach another.
+safety_notes:
+  - Use only objects larger than a choking-tube; supervise all mouthing closely.
+  - Wash objects between children.
+accessibility_notes:
+  - Choose high-contrast or noise-making objects for children with vision differences.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - exploration
+  - senses
+  - treasure-basket
+methodologies:
+  - montessori
+  - play-based
+status: accepted
+locale: en-US

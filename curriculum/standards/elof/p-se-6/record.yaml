@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-se-6
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-SE 6"
+title: "Child expresses a broad range of emotions and recognizes these emotions in self and others."
+domain_area: "Social and Emotional Development"
+sub_domain: "Emotional Functioning"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Expresses a broad range of emotions across contexts, such as during play and in interactions with adults. Notices when strong emotions are exhibited by others and begins to use words to describe some of these emotions, such as happy, sad, or mad."
+  - age_period: "48 to 60 Months"
+    text: "Expresses a broad range of emotions and begins to notice more subtle or complex emotions in self and others, such as embarrassed or worried. Uses words to describe own feelings when prompted, and may at times use these words without prompting, such as saying \"Don't be mad\" when engaged in play with other children."
+  - age_period: "By 60 Months"
+    text: "Recognizes and labels basic emotions in books or photographs."
+  - age_period: "By 60 Months"
+    text: "Uses words to describe own feelings."
+  - age_period: "By 60 Months"
+    text: "Uses words to describe the feelings of adults or other children."
+source_url: https://headstart.gov/school-readiness/article/social-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

@@ -1,0 +1,48 @@
+id: ea.skill.physical-development.health-safety.follows-safety-practices
+slug: follows-safety-practices
+title: Follows Personal Safety Practices
+short_description: >-
+  Child knows and follows basic personal safety rules and routines, identifying
+  and avoiding common dangers.
+developmental_purpose: >-
+  As preschoolers gain independence, knowing and following safety routines lets
+  them move through the world more safely. Recognizing hazards, following street
+  and transportation rules, and alerting others to danger build the judgment and
+  habits that protect children as adult supervision gradually loosens.
+domain_ids:
+  - ea.domain.physical-development
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.physical-development.health-safety.learns-safe-behaviors
+mastery_criteria:
+  - Identifies and avoids common dangers, such as keeping clear of moving swings.
+  - Alerts an adult or peer to a hazard they notice.
+  - Follows basic safety rules with guidance, such as street and transportation
+    safety practices.
+  - Follows familiar safety routines with growing independence.
+observation_prompts:
+  - On a walk, does the child stop at the curb and look before crossing with an
+    adult?
+  - When the child sees a hazard, do they move away or tell someone?
+accessibility_notes:
+  - Use picture sequences, songs, and consistent cue words to teach safety routines.
+  - Practice routines repeatedly in real settings for children who learn best by
+    doing.
+safety_notes:
+  - Adults still supervise closely; safety knowledge supplements but does not
+    replace supervision.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - health-safety
+  - safety
+  - rules
+  - routines
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-pmp-6
+status: accepted
+locale: en-US

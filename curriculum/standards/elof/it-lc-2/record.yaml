@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-lc-2
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-LC 2"
+title: "Child learns from communication and language experiences with others."
+domain_area: "Language and Communication"
+sub_domain: "Attending and Understanding"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Pays attention when familiar adults talk or sign about objects, people, or events during face-to-face interactions by changing focus, making eye contact, or looking at people or objects."
+  - age_period: "8 to 18 Months"
+    text: "Participates in joint attention with an adult by looking back and forth between the adult and object. Points or gestures when an adult is pointing, naming, or signing about a familiar or new object and learns names and uses of objects."
+  - age_period: "16 to 36 Months"
+    text: "Participates in increasingly complex and lengthy periods of joint attention with adults. Shows interest, understanding, or enjoyment when participating in language activities, such as demonstrating understanding of objects' functions and uses, or when joining in games, songs, rhymes, or stories."
+  - age_period: "By 36 Months"
+    text: "Acts on descriptions provided by others about people, objects, or events."
+  - age_period: "By 36 Months"
+    text: "Demonstrates interest and understanding when participating in language activities or games."
+source_url: https://headstart.gov/school-readiness/article/language-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

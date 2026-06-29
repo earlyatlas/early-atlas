@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-se-7
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-SE 7"
+title: "Child recognizes and interprets emotions of others with the support of familiar adults."
+domain_area: "Social and Emotional Development"
+sub_domain: "Emotional Functioning"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Attends with interest when others show they are happy, sad, or fearful by their facial expressions, voices, or actions."
+  - age_period: "8 to 18 Months"
+    text: "Responds to others' emotional expressions, often by sharing an emotional reaction, such as smiling when an adult smiles or showing excitement when other children are excited."
+  - age_period: "16 to 36 Months"
+    text: "Shows understanding of some emotional expressions of others by labeling the emotions, asking questions about them, or responding in appropriate non-verbal ways."
+  - age_period: "By 36 Months"
+    text: "Recognizes feelings and emotions of others."
+  - age_period: "By 36 Months"
+    text: "Responds to feelings and emotions of others with support from familiar adults."
+  - age_period: "By 36 Months"
+    text: "Describes feelings of characters in a book with support from an adult."
+source_url: https://headstart.gov/school-readiness/article/social-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

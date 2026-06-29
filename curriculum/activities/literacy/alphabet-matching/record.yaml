@@ -1,0 +1,42 @@
+id: ea.activity.literacy.alphabet-matching
+slug: alphabet-matching
+title: Alphabet Matching
+summary: Children match magnetic or card letters to a model and name them.
+supported_skill_ids:
+  - ea.skill.literacy.letter-knowledge.names-alphabet-letters
+age_range_months:
+  min: 36
+  max: 60
+group_size: 1-4 children
+duration_minutes: 15
+materials:
+  - Two sets of uppercase letter cards or magnetic letters
+  - A tray or cookie sheet
+setup: Lay out one set of letters; keep the second set in a pile to match.
+steps:
+  - Start with the letters in the child's name.
+  - Hold up a letter and ask the child to find its match.
+  - Name the letter together as they place the match.
+  - Add a few new letters each session.
+variations:
+  - Match uppercase to lowercase letters.
+  - Hide letters around the room for a letter hunt.
+differentiation:
+  - For beginners, use only 3-4 highly different letters.
+  - For older children, ask for the letter's sound after naming it.
+assessment_opportunities:
+  - Track which letters the child names on sight.
+accessibility_notes:
+  - Use tactile, magnetic, or sandpaper letters for multisensory learners.
+research_reference_ids:
+  - ea.citation.headstart.elof
+  - ea.citation.montessori.absorbent-mind
+tags:
+  - alphabet
+  - letter-knowledge
+  - matching
+methodologies:
+  - montessori
+  - play-based
+status: accepted
+locale: en-US

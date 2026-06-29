@@ -1,0 +1,25 @@
+id: ea.standard.elof.p-lit-2
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-LIT 2"
+title: "Child demonstrates an understanding of how print is used (functions of print) and the rules that govern how print works (conventions of print)."
+domain_area: "Literacy"
+sub_domain: "Print and Alphabet Knowledge"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Distinguishes print from pictures and shows an understanding that print is something meaningful, such as asking an adult \"What does this say?\" or \"Read this.\""
+  - age_period: "48 to 60 Months"
+    text: "Begins to demonstrate an understanding of the connection between speech and print. Shows a growing awareness that print is a system that has rules and conventions, such as holding a book correctly or following a book left to right."
+  - age_period: "By 60 Months"
+    text: "Understands that print is organized differently for different purposes, such as a note, list, or storybook."
+  - age_period: "By 60 Months"
+    text: "Understands that written words are made up of a group of individual letters."
+  - age_period: "By 60 Months"
+    text: "Begins to point to single-syllable words while reading simple, memorized texts."
+  - age_period: "By 60 Months"
+    text: "Identifies book parts and features, such as the front, back, title, and author."
+source_url: https://headstart.gov/school-readiness/article/literacy-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

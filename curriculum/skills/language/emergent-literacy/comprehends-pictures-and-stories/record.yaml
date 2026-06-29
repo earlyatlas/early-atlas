@@ -1,0 +1,42 @@
+id: ea.skill.language.emergent-literacy.comprehends-pictures-and-stories
+slug: comprehends-pictures-and-stories
+title: Comprehends Pictures and Stories
+short_description: Child draws meaning from pictures and stories, talking about and acting out what happens.
+developmental_purpose: >-
+  Making meaning from pictures and stories — naming what is happening, using new
+  words from a book, and answering questions about it — is the heart of early
+  comprehension. Shared book talk builds vocabulary, narrative thinking, and
+  empathy for characters.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 0
+  max: 36
+developmental_stage: infant_to_toddler
+related_skill_ids:
+  - ea.skill.language.emergent-literacy.handles-books
+mastery_criteria:
+  - Looks at picture books and attends as an adult talks about the pictures.
+  - Points at pictures and makes sounds or says words while sharing a book.
+  - Talks about books, acts out events from stories, or uses words encountered during reading.
+observation_prompts:
+  - During reading, does the child point to pictures and comment or make sounds?
+  - Can the child use the pictures to tell or retell part of a familiar story?
+accessibility_notes:
+  - Slow the pace and follow the child's lead on which pictures to linger on.
+  - Use books that reflect each child's family, culture, and home language.
+common_misconceptions:
+  - Talking about pictures out of order still shows comprehension; story sequence develops later.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - emergent-literacy
+  - comprehension
+  - storytelling
+  - books
+  - infant
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-lc-12
+status: accepted
+locale: en-US

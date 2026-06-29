@@ -1,0 +1,118 @@
+---
+import Base from "../layouts/Base.astro";
+
+// Prerendered static page.
+export const prerender = true;
+
+const sections = [
+  { id: "start", label: "Start with a child in mind" },
+  { id: "search", label: "Search by age, stage, or keyword" },
+  { id: "refine", label: "Refine with chips" },
+  { id: "hierarchy", label: "Find your way around" },
+  { id: "activities", label: "Activities and worksheets" },
+  { id: "print", label: "Printing a worksheet" },
+  { id: "approaches", label: "Following an approach" },
+  { id: "note", label: "A gentle note" },
+];
+---
+
+<Base title="How to use">
+  <h1>How to use Early Atlas</h1>
+  <p>
+    Early Atlas works whether you have five minutes or an afternoon. Here's how to get what you need
+    quickly.
+  </p>
+
+  <section id="start">
+    <h2>Start with a child in mind</h2>
+    <p>
+      Most people begin with a child's age. A two-year-old, a preschooler, and a child getting ready
+      for kindergarten are each working on different things — telling Early Atlas the age focuses
+      everything you see.
+    </p>
+  </section>
+
+  <section id="search">
+    <h2>Search by age, stage, or keyword</h2>
+    <p>On the <a href="/">Browse &amp; search</a> page you have three filters, all optional:</p>
+    <ul class="clean">
+      <li>
+        <strong>Child's age (months).</strong> Type a number of months — e.g. <code>36</code>
+        for a three-year-old. The library narrows to what fits that age.
+      </li>
+      <li>
+        <strong>Stage.</strong> Prefer grade-style language? Pick a stage like “Preschool” or “Kindergarten
+        readiness” and it maps to the right ages for you.
+      </li>
+      <li>
+        <strong>Keywords.</strong> Type a topic such as <code>color</code>,
+        <code>rhyming</code>, or <code>counting</code>. Order doesn't matter, and you can mix words
+        and an age together.
+      </li>
+    </ul>
+  </section>
+
+  <section id="refine">
+    <h2>Refine with chips</h2>
+    <p>
+      Under the search box, a row of <strong>Refine</strong> chips shows the most useful tags for what
+      you're currently looking at. Tap one to add it as a filter; the remaining chips update to show what's
+      still available. Tap a selected chip again to remove it. When a filter is active, Early Atlas only
+      shows skills that actually have something to do — no empty results to dig through.
+    </p>
+  </section>
+
+  <section id="hierarchy">
+    <h2>Find your way around</h2>
+    <p>
+      Results are shown as a tidy tree: a <strong>domain</strong> (a broad area like Mathematics) opens
+      to its <strong>skills</strong> (like “Counts to ten”), and each skill opens to the <strong
+        >activities</strong
+      > and <strong>worksheets</strong> that build it. The breadcrumb at the top of any page always shows
+      where you are.
+    </p>
+  </section>
+
+  <section id="activities">
+    <h2>Activities and worksheets</h2>
+    <p>
+      An <strong>activity</strong> is something to do together — materials you likely already have, simple
+      steps, and ways to make it easier or harder. A <strong>worksheet</strong>
+      is a printable practice page. Some worksheets stand on their own; others are paired with a specific
+      activity as a supporting handout.
+    </p>
+  </section>
+
+  <section id="print">
+    <h2>Printing a worksheet</h2>
+    <p>
+      Open any skill, activity, or worksheet and use the <strong>⤓ Download PDF</strong>
+      button. Worksheets are generated fresh each time, so the spacing and problems print cleanly on a
+      standard page — handy for handwriting practice or a quick set of math problems.
+    </p>
+  </section>
+
+  <section id="approaches">
+    <h2>Following an approach</h2>
+    <p>
+      If you lean toward a particular teaching style, open the
+      <strong>Methodologies</strong> section in the menu. Each approach — Montessori, Reggio Emilia, Waldorf,
+      and others — has a short explainer and a live list of the Early Atlas lessons inspired by it. Lessons
+      are marked “Inspired by” that approach wherever they appear.
+    </p>
+  </section>
+
+  <section id="note">
+    <h2>A gentle note</h2>
+    <p>
+      Ages and milestones here are guides, not deadlines — children grow on their own timelines.
+      Early Atlas is a learning resource, not medical or developmental advice. If you ever have
+      concerns about a child's development, reach out to a qualified professional.
+    </p>
+  </section>
+
+  <Fragment slot="toc">
+    <div class="toc-title">On this page</div>
+    {sections.map((s) => <a href={`#${s.id}`}>{s.label}</a>)}
+  </Fragment>
+</Base>

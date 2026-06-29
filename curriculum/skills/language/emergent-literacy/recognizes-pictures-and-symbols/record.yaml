@@ -1,0 +1,42 @@
+id: ea.skill.language.emergent-literacy.recognizes-pictures-and-symbols
+slug: recognizes-pictures-and-symbols
+title: Recognizes Pictures and Symbols
+short_description: Child recognizes pictures and some symbols, signs, letters, or words.
+developmental_purpose: >-
+  Understanding that a picture, logo, sign, or letter stands for something real
+  is the root of symbolic thinking and print awareness. Recognizing familiar
+  images and the first letters of one's name opens the door to reading and
+  writing.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 4
+  max: 36
+developmental_stage: infant_to_toddler
+related_skill_ids:
+  - ea.skill.language.emergent-literacy.comprehends-pictures-and-stories
+mastery_criteria:
+  - Looks at pictures of familiar people, animals, or objects as an adult names them.
+  - Points at, signs, or names people, animals, or objects in photos or drawings.
+  - Recognizes some letters, numbers, or familiar symbols such as letters in one's name or a known logo.
+observation_prompts:
+  - When shown a photo of a familiar person or pet, does the child point or name it?
+  - Does the child notice and react to a familiar sign or logo, such as a favorite store?
+accessibility_notes:
+  - Use large, high-contrast pictures and tactile symbols for children with vision differences.
+  - Accept signs, vocalizations, or AAC selections as recognition.
+common_misconceptions:
+  - Recognizing a logo or picture is meaningful early literacy, even before a child reads letters.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - emergent-literacy
+  - symbols
+  - print-awareness
+  - pictures
+  - infant
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-lc-11
+status: accepted
+locale: en-US

@@ -1,0 +1,51 @@
+id: ea.activity.approaches-to-learning.many-ways-to-solve-it
+slug: many-ways-to-solve-it
+title: Many Ways to Solve It
+summary: >-
+  Children tackle a small, open-ended challenge and are encouraged to find more
+  than one way to do it, building flexible thinking.
+supported_skill_ids:
+  - ea.skill.approaches-to-learning.executive-function.shows-flexible-thinking
+age_range_months:
+  min: 18
+  max: 60
+group_size: 1-4 children
+duration_minutes: 15
+materials:
+  - A simple challenge setup, such as blocks to bridge a gap or a ball to move across a rug
+  - A few different tools or objects that could each work
+setup: >-
+  Set out the challenge and the assorted objects. Pose the task in an open way,
+  such as "How can we get the ball across without touching it?"
+steps:
+  - Present the challenge and let the child try a first approach.
+  - When an approach does not work, say warmly, "That was one way. What is another way?"
+  - Offer the assorted objects so the child can try a different tool or method.
+  - Celebrate each new idea, even ones that do not fully work.
+  - Talk about how trying a second way helped solve the problem.
+variations:
+  - Make a tower that can survive a gentle bump, then rebuild it a new way.
+  - Find three different ways to sort the same set of objects.
+differentiation:
+  - For toddlers, model two simple ways and let them copy each.
+  - For older children, ask them to predict which way will work best and why.
+assessment_opportunities:
+  - Note whether the child tries a new approach after one fails rather than repeating it.
+  - Observe how many different strategies the child generates.
+safety_notes:
+  - Use lightweight, soft materials so building and bumping stay safe.
+accessibility_notes:
+  - Offer larger, easy-grip objects for children with motor differences.
+  - Accept ideas shown through gesture or pointing, not only words.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - flexibility
+  - problem-solving
+  - open-ended
+  - executive-function
+methodologies:
+  - reggio-emilia
+  - play-based
+status: accepted
+locale: en-US

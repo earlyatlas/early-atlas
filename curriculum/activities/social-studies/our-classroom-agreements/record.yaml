@@ -1,0 +1,51 @@
+id: ea.activity.social-studies.our-classroom-agreements
+slug: our-classroom-agreements
+title: Our Classroom Agreements Circle
+summary: >-
+  In a group circle, children help name a few shared rules for the classroom
+  and add their handprint or mark to show they belong and agree.
+supported_skill_ids:
+  - ea.skill.social-studies.community.understands-rules-and-belonging
+age_range_months:
+  min: 30
+  max: 54
+group_size: whole group
+duration_minutes: 20
+materials:
+  - A large sheet of chart paper titled "Our Agreements"
+  - Markers and washable paint or an ink-free stamp pad for handprints
+  - Simple picture cards showing actions like listening, sharing, and gentle hands
+setup: >-
+  Hang the chart paper at child height and arrange the group in a circle so
+  everyone can see and reach it.
+steps:
+  - "Ask the group: \"What helps everyone feel safe and happy here?\""
+  - Invite a few ideas and reword them into short, positive agreements with the children.
+  - Draw or attach a picture card next to each agreement so non-readers can follow.
+  - Have each child add a handprint or name mark to show they are part of the group.
+  - Read the finished agreements together and cheer that everyone belongs.
+variations:
+  - Revisit one agreement each morning and act it out together.
+  - Turn an agreement into a short song or chant the class can sing.
+differentiation:
+  - For younger children, keep to two simple agreements with clear pictures.
+  - For older children, invite them to suggest what happens when an agreement is hard to keep.
+assessment_opportunities:
+  - Note whether the child offers an idea or names an agreement later in the day.
+  - Watch for the child reminding a peer of a shared agreement kindly.
+safety_notes:
+  - If using paint, keep it washable and away from eyes and mouths.
+accessibility_notes:
+  - Pair every spoken agreement with a picture or sign.
+  - Offer a stamp or sticker instead of paint for children who dislike messy textures.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - community
+  - rules
+  - belonging
+methodologies:
+  - highscope
+  - play-based
+status: accepted
+locale: en-US

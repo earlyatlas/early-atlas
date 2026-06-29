@@ -1,0 +1,31 @@
+id: ea.printable.literacy.copywork-first-words
+slug: copywork-first-words
+title: Copywork — First Words
+printable_type: worksheet
+instructions: "Sound out each short word, then trace it. Read the word again when you finish the row."
+supported_skill_ids:
+  - ea.skill.literacy.writing.traces-letters
+age_range_months:
+  min: 48
+  max: 72
+generator:
+  type: handwriting
+  targets:
+    - sun
+    - cat
+    - dog
+    - red
+    - big
+    - mom
+  rows_per_target: 1
+  traces_per_row: 4
+  style: dotted-thirds
+tags:
+  - copywork
+  - cvc-words
+  - early-reading
+  - handwriting
+methodologies:
+  - classical
+status: accepted
+locale: en-US

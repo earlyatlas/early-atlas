@@ -1,0 +1,39 @@
+id: ea.skill.social-studies.world-around-us.explores-places-and-maps
+slug: explores-places-and-maps
+title: Explores Places and Maps
+short_description: >-
+  Child describes familiar places and uses or makes simple maps to show where
+  things are.
+developmental_purpose: >-
+  Connecting home, school, and neighborhood and representing them with simple
+  maps builds early geographic thinking and spatial reasoning. It helps
+  children understand that drawings can stand for real places.
+domain_ids:
+  - ea.domain.social-studies
+age_range_months:
+  min: 42
+  max: 66
+developmental_stage: preschool
+mastery_criteria:
+  - Names familiar places such as home, school, and the park, and tells what happens there.
+  - Uses position words like "next to," "behind," and "near" to describe where things are.
+  - Reads or draws a very simple map showing two or more places or objects.
+observation_prompts:
+  - >-
+    When drawing a map of the classroom, does the child place a few landmarks
+    in roughly the right spots?
+  - Does the child use a simple map to find an object during a hunt?
+accessibility_notes:
+  - >-
+    Offer tactile maps with raised paths or felt pieces for children who
+    benefit from touch.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - geography
+  - maps
+  - places
+  - spatial-reasoning
+  - preschool
+status: accepted
+locale: en-US

@@ -1,0 +1,39 @@
+id: ea.skill.science.inquiry-skills.predicts-and-tests
+slug: predicts-and-tests
+title: Predicts and Tests
+short_description: Child makes a prediction, tries it out, and compares the result to the guess.
+developmental_purpose: >-
+  Predicting and testing is the heart of the scientific method in miniature.
+  When a child guesses what will happen, carries out the test, and notices
+  whether the guess was right, they learn to use evidence to confirm or revise
+  their ideas.
+domain_ids:
+  - ea.domain.science
+age_range_months:
+  min: 42
+  max: 66
+developmental_stage: preschool
+prerequisite_skill_ids:
+  - ea.skill.science.inquiry-skills.observes-and-describes
+mastery_criteria:
+  - Makes a prediction before acting, such as guessing whether an object will sink or float.
+  - Compares the outcome to the prediction and says whether the guess was right or wrong.
+observation_prompts:
+  - "Before an experiment, does the child state what they think will happen?"
+  - "After testing, does the child compare the result to the original prediction?"
+accessibility_notes:
+  - Let children record predictions by pointing to picture cards or sorting objects rather than only speaking.
+safety_notes:
+  - Supervise closely around water and keep small test objects out of reach of mouthing.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - prediction
+  - inquiry
+  - testing
+  - cause-and-effect
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-sci-4
+status: accepted
+locale: en-US

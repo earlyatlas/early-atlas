@@ -1,0 +1,29 @@
+id: ea.domain.creative-arts
+slug: creative-arts
+title: Creative Arts
+description: >-
+  Children express ideas, feelings, and observations through visual art, music,
+  movement and dance, and dramatic play. The creative arts invite young children
+  to explore materials, sound, and story in open-ended ways, valuing the process
+  of making over any finished product.
+age_coverage:
+  min: 0
+  max: 66
+subdomains:
+  - visual-art
+  - music
+  - movement-dance
+  - dramatic-play
+references:
+  - ea.citation.headstart.elof
+  - ea.citation.naeyc.dap
+tags:
+  - visual-art
+  - music
+  - movement
+  - dance
+  - dramatic-play
+  - imagination
+  - expression
+status: accepted
+locale: en-US

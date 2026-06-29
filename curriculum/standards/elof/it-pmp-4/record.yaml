@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-pmp-4
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-PMP 4"
+title: "Child demonstrates effective and efficient use of large muscles to explore the environment."
+domain_area: "Perceptual, Motor, and Physical Development"
+sub_domain: "Gross Motor"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Uses each new posture (raising head, rolling onto back, sitting) to learn new ways to explore the environment. For example, sits up to be able to reach for or hold objects."
+  - age_period: "8 to 18 Months"
+    text: "Uses body position, balance, and especially movement to explore and examine materials, activities, and spaces."
+  - age_period: "16 to 36 Months"
+    text: "Uses a variety of increasingly complex movements, body positions, and postures to participate in active and quiet, indoor and outdoor play."
+  - age_period: "By 36 Months"
+    text: "Explores environments using motor skills, such as throwing, kicking, jumping, climbing, carrying, and running."
+  - age_period: "By 36 Months"
+    text: "Experiments with different ways of moving the body, such as dancing around the room."
+source_url: https://headstart.gov/school-readiness/article/perceptual-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

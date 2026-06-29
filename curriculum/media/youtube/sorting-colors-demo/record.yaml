@@ -1,0 +1,17 @@
+id: ea.media.youtube.sorting-colors-demo
+slug: sorting-colors-demo
+title: Sorting by color — demonstration
+provider: youtube
+# Placeholder example video (Big Buck Bunny). Replace youtube_id with a real
+# lesson video; the framework and rendering stay the same.
+youtube_id: aqz-KE-bpKQ
+description: A short demonstration of grouping everyday objects by color.
+supported_skill_ids:
+  - ea.skill.mathematics.classification.sorts-by-color
+attribution: Sample video — replace with a licensed lesson clip.
+tags:
+  - sorting
+  - color
+  - classification
+status: draft
+locale: en-US

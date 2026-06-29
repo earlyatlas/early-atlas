@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-lc-7
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-LC 7"
+title: "Child understands an increasing number of words used in communication with others."
+domain_area: "Language and Communication"
+sub_domain: "Vocabulary"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Looks at familiar people, animals, or objects when they are named such as mama, puppy, or ball."
+  - age_period: "8 to 18 Months"
+    text: "Looks or points at a person or object that has been named, follows simple directions, and responds appropriately to the meaning of words or signs."
+  - age_period: "16 to 36 Months"
+    text: "Comprehends an increasing number of words or signs used in simple sentences during conversation and interaction with familiar adults and children."
+  - age_period: "By 36 Months"
+    text: "Shows understanding of the meaning of common words used in daily activities."
+  - age_period: "By 36 Months"
+    text: "Attends to new words used in conversation with others."
+  - age_period: "By 36 Months"
+    text: "Understands most positional words, such as on, under, up, or down."
+source_url: https://headstart.gov/school-readiness/article/language-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

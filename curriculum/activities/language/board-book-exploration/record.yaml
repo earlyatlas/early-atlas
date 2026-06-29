@@ -1,0 +1,47 @@
+id: ea.activity.language.board-book-exploration
+slug: board-book-exploration
+title: Board Book Exploration
+summary: Children handle sturdy books at their own pace, turning pages and connecting pictures to words.
+supported_skill_ids:
+  - ea.skill.language.emergent-literacy.handles-books
+age_range_months:
+  min: 6
+  max: 30
+group_size: 1-4 children
+duration_minutes: 12
+materials:
+  - A basket of sturdy board, cloth, or touch-and-feel books
+  - A soft, comfortable reading spot
+setup: Set the basket of books within easy reach in a cozy area.
+steps:
+  - Let each child choose a book and explore it however they like.
+  - Sit alongside and notice what they look at without rushing.
+  - Name a picture the child is looking at and talk about it.
+  - Gently model turning pages, then let the child do it.
+  - Follow the child's lead, returning to favorite pages as often as they want.
+variations:
+  - Offer touch-and-feel books to invite exploration through texture.
+  - Read a favorite aloud while children hold their own copies.
+differentiation:
+  - For infants, choose cloth or chunky books that are easy to grasp and safe to mouth.
+  - For older toddlers, invite them to "read" the book to you.
+assessment_opportunities:
+  - Note whether the child holds the book upright and turns pages.
+  - Watch for the child relating pictures to words, sounds, or signs.
+safety_notes:
+  - Offer only sturdy books with no loose or small parts for children who mouth items.
+accessibility_notes:
+  - Provide high-contrast or tactile books for children with vision differences.
+  - Choose books reflecting each child's family, culture, and home language.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - books
+  - print-concepts
+  - emergent-literacy
+  - infant
+methodologies:
+  - montessori
+  - highscope
+status: accepted
+locale: en-US

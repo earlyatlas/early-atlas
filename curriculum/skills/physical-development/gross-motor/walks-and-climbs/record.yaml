@@ -1,0 +1,45 @@
+id: ea.skill.physical-development.gross-motor.walks-and-climbs
+slug: walks-and-climbs
+title: Walks and Climbs
+short_description: >-
+  Toddler walks independently and climbs onto and over low furniture and steps.
+developmental_purpose: >-
+  Upright walking and climbing build the leg strength, balance, and spatial
+  awareness that free a toddler's hands and widen their world. This locomotor
+  control is the platform for running, jumping, and the more complex gross-motor
+  skills that follow.
+domain_ids:
+  - ea.domain.physical-development
+age_range_months:
+  min: 9
+  max: 24
+developmental_stage: infant_to_toddler
+mastery_criteria:
+  - Walks several steps without holding on and recovers balance after a wobble.
+  - Climbs onto a low couch, step, or sturdy box and back down with care.
+  - Walks while carrying a small object or stops and changes direction on purpose.
+observation_prompts:
+  - Does the toddler pull to stand and cruise along furniture before letting go to
+    take free steps?
+  - "When a low obstacle is in the way, does the child climb over it rather than\
+    \ giving up?"
+accessibility_notes:
+  - Provide a stable push-toy or low rail for children building confidence or with
+    motor delays.
+  - Offer firm, non-slip surfaces and clear, predictable pathways for children with
+    visual or balance differences.
+safety_notes:
+  - Pad sharp corners, anchor furniture, and stay within arm's reach during
+    climbing.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - gross-motor
+  - walking
+  - climbing
+  - balance
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-pmp-3
+status: accepted
+locale: en-US

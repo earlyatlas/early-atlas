@@ -1,0 +1,40 @@
+id: ea.skill.literacy.letter-knowledge.names-alphabet-letters
+slug: names-alphabet-letters
+title: Names Alphabet Letters
+short_description: Child recognizes and names some uppercase alphabet letters.
+developmental_purpose: >-
+  Letter-name knowledge is one of the strongest early predictors of later
+  reading; naming letters supports learning their sounds and forming them.
+domain_ids:
+  - ea.domain.literacy
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+prerequisite_skill_ids:
+  - ea.skill.literacy.print-awareness.recognizes-print-in-environment
+related_skill_ids:
+  - ea.skill.literacy.writing.traces-letters
+mastery_criteria:
+  - Names at least ten uppercase letters on sight, including the letters of their own name.
+observation_prompts:
+  - When shown a letter, does the child name it without sounding it out from a song?
+supporting_activity_ids:
+  - ea.activity.literacy.alphabet-matching
+printable_ids:
+  - ea.printable.literacy.trace-lowercase-letters
+accessibility_notes:
+  - Offer tactile or magnetic letters and sandpaper letters for multisensory learners.
+common_misconceptions:
+  - Singing the alphabet is not the same as recognizing letters out of order.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+  - ea.citation.headstart.elof
+tags:
+  - letter-knowledge
+  - alphabet
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-lit-3
+status: accepted
+locale: en-US

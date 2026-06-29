@@ -1,0 +1,30 @@
+id: ea.printable.literacy.trace-uppercase-letters
+slug: trace-uppercase-letters
+title: Trace the Uppercase Letters
+printable_type: worksheet
+instructions: Trace each letter. Start at the top and follow the dots.
+supported_skill_ids:
+  - ea.skill.literacy.writing.traces-letters
+age_range_months:
+  min: 36
+  max: 60
+generator:
+  type: handwriting
+  targets:
+    - A
+    - B
+    - C
+    - D
+    - E
+    - F
+  rows_per_target: 1
+  traces_per_row: 6
+  style: dotted-thirds
+tags:
+  - writing
+  - letter-formation
+  - uppercase
+methodologies:
+  - montessori
+status: draft
+locale: en-US

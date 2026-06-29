@@ -1,0 +1,46 @@
+id: ea.activity.language.tell-me-how-to-make-it
+slug: tell-me-how-to-make-it
+title: Tell Me How to Make It
+summary: A child gives an adult step-by-step directions to build something, practicing enough detail to be understood and clarifying when misunderstood.
+supported_skill_ids:
+  - ea.skill.language.expressive.provides-sufficient-detail
+age_range_months:
+  min: 36
+  max: 60
+group_size: 1-3 children
+duration_minutes: 15
+materials:
+  - A small set of blocks, cups, or simple craft materials
+  - A duplicate set for the adult to follow along with
+setup: Sit across from the child with each of you having a matching set of materials and a low barrier so you cannot see the child's build.
+steps:
+  - Invite the child to build something simple and then tell you how to make the same thing.
+  - Follow the child's directions exactly, even when a step is unclear, so missing detail becomes visible.
+  - When you are stuck, ask, "What should I do next?" to prompt more detail.
+  - If you misunderstand, let the child notice and try clarifying with new words.
+  - Remove the barrier and compare the two builds together.
+variations:
+  - Switch roles so the child follows the adult's directions.
+  - Use a snack recipe, such as building a cracker stack, for a real-world purpose.
+differentiation:
+  - Offer picture steps as a scaffold for children who need a starting point.
+  - Accept directions given through signs, AAC, or gestures.
+assessment_opportunities:
+  - Note whether the child adds detail when you are confused and clarifies when misunderstood.
+safety_notes:
+  - Supervise small materials to prevent mouthing; use only food-safe items for snack builds.
+accessibility_notes:
+  - Allow extra time and avoid supplying the words for the child.
+  - Welcome directions and clarifications in a child's home language.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - detail
+  - clarification
+  - directions
+  - expressive-language
+methodologies:
+  - montessori
+  - play-based
+status: accepted
+locale: en-US

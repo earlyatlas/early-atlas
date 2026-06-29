@@ -1,0 +1,46 @@
+id: ea.activity.language.face-to-face-naming
+slug: face-to-face-naming
+title: Face-to-Face Naming Play
+summary: A caregiver shares attention with a child on a few favorite objects, naming each and following the child's gaze.
+supported_skill_ids:
+  - ea.skill.language.receptive.attends-to-communication
+age_range_months:
+  min: 4
+  max: 24
+group_size: 1 child with a caregiver
+duration_minutes: 10
+materials:
+  - Two or three favorite objects (a ball, a stuffed animal, a cup)
+  - A cozy spot where you can sit face-to-face or hold the child close
+setup: Sit so the child can see your face clearly, with the objects within reach.
+steps:
+  - Hold up one object near your face and name it warmly, pausing to let the child look.
+  - Follow the child's gaze; when they look at an object, name it and talk about it.
+  - Look back and forth between the child and the object to build shared attention.
+  - Add a simple action or sound, such as bouncing the ball, and name what is happening.
+  - Pause often and watch for the child to look back at you to keep the exchange going.
+variations:
+  - Narrate during diaper changes or meals, naming what the child is looking at.
+  - Use a song, naming each object as it appears, for children who love music.
+differentiation:
+  - For younger infants, use one high-contrast object and exaggerated facial expressions.
+  - For older toddlers, ask "Where is the ball?" and wait for them to find it.
+assessment_opportunities:
+  - Note whether the child looks between you and the object during shared attention.
+  - Watch for the child re-engaging after looking away to regulate.
+safety_notes:
+  - Use objects large enough not to be a choking hazard for infants who mouth items.
+accessibility_notes:
+  - For children who are deaf or hard of hearing, pair naming with signs and expressive faces.
+  - For children with vision differences, name objects as the child touches and explores them.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - joint-attention
+  - vocabulary
+  - infant
+methodologies:
+  - highscope
+  - reggio-emilia
+status: accepted
+locale: en-US

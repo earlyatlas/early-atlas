@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-c-8
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-C 8"
+title: "Child develops sense of number and quantity."
+domain_area: "Cognition"
+sub_domain: "Emergent Mathematical Thinking"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Attends to quantity in play with objects, such as reaching or looking for more than one object."
+  - age_period: "8 to 18 Months"
+    text: "Uses a few basic words to refer to change in the amount of objects, such as asking for \"more\" or saying \"all gone\" when a plate is empty."
+  - age_period: "16 to 36 Months"
+    text: "Uses language to refer to quantity, such as using some number words or signs to identify small amounts, or using other words referring to quantity, such as a little, too much, or a lot."
+  - age_period: "By 36 Months"
+    text: "Counts small number of objects (two or three), sometimes counting the same object twice or using numbers out of order."
+  - age_period: "By 36 Months"
+    text: "Identifies \"more\" or \"less\" with a small number of items without needing to count them."
+  - age_period: "By 36 Months"
+    text: "Uses fingers to show how old they are."
+source_url: https://headstart.gov/school-readiness/article/cognition-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

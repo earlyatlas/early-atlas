@@ -1,0 +1,27 @@
+id: ea.printable.mathematics.addition-within-five
+slug: addition-within-five
+title: Addition Within Five
+printable_type: worksheet
+instructions: Solve each problem. Use counters if you need them.
+supported_skill_ids:
+  - ea.skill.mathematics.number-sense.adds-single-digit
+age_range_months:
+  min: 48
+  max: 72
+generator:
+  type: arithmetic
+  operation: addition
+  operand_min: 0
+  operand_max: 5
+  max_result: 5
+  count: 15
+  layout: horizontal
+  answer_key: true
+tags:
+  - addition
+  - arithmetic
+  - early-numeracy
+methodologies:
+  - play-based
+status: draft
+locale: en-US

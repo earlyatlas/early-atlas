@@ -1,0 +1,41 @@
+id: ea.skill.literacy.comprehension.retells-stories
+slug: retells-stories
+title: Retells Stories
+short_description: Child shows an understanding of narrative structure by retelling or acting out a story in sequence.
+developmental_purpose: >-
+  Stories have a shape — characters, a beginning, events that build, and an
+  ending. When children retell a familiar tale or act it out in the right order,
+  using words like first and then, they show they grasp how events connect and
+  cause one another. This sense of narrative structure underpins later reading
+  comprehension and their own storytelling.
+domain_ids:
+  - ea.domain.literacy
+age_range_months:
+  min: 36
+  max: 66
+developmental_stage: preschool
+mastery_criteria:
+  - Retells two or three key events from a well-known story, usually in the right order.
+  - Uses simple sequencing words such as first, then, and last while retelling.
+  - Identifies the main characters and a main event in a familiar book or story.
+observation_prompts:
+  - "When retelling, does the child keep events in a sensible temporal order?"
+  - "Can the child name who the story was about and what happened?"
+  - "Does the child act out or use props to show parts of the story?"
+accessibility_notes:
+  - Offer story cards, felt pieces, or props so children can sequence events without relying only on speech.
+  - Accept retelling through gestures, signs, or a child's home language.
+common_misconceptions:
+  - Naming a favorite part is a start, but retelling means putting connected events in order.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - comprehension
+  - narrative
+  - retelling
+  - sequencing
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-lit-4
+status: accepted
+locale: en-US

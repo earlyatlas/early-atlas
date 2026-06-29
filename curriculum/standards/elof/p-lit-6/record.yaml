@@ -1,0 +1,27 @@
+id: ea.standard.elof.p-lit-6
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-LIT 6"
+title: "Child writes for a variety of purposes using increasingly sophisticated marks."
+domain_area: "Literacy"
+sub_domain: "Writing"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Engages in writing activities that consist largely of drawing and scribbling. Begins to convey meaning. With modeling and support, writes some letter-like forms and letters."
+  - age_period: "48 to 60 Months"
+    text: "Progressively uses drawing, scribbling, letter-like forms, and letters to intentionally convey meaning. With support, may use invented spelling consisting of salient or beginning sounds, such as L for elevator or B for bug."
+  - age_period: "By 60 Months"
+    text: "Creates a variety of written products that may or may not phonetically relate to intended messages."
+  - age_period: "By 60 Months"
+    text: "Shows an interest in copying simple words posted in the classroom."
+  - age_period: "By 60 Months"
+    text: "Attempts to independently write some words using invented spelling, such as K for kite."
+  - age_period: "By 60 Months"
+    text: "Writes first name correctly or close to correctly."
+  - age_period: "By 60 Months"
+    text: "Writes (draws, illustrates) for a variety of purposes and demonstrates evidence of many aspects of print conventions, such as creating a book that moves left to right."
+source_url: https://headstart.gov/school-readiness/article/literacy-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

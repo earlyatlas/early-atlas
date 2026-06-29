@@ -1,0 +1,38 @@
+{
+  "name": "earlyatlas",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Early Atlas — a free, open, schema-validated early-childhood curriculum, with an Astro site and a reviewed authoring pipeline.",
+  "scripts": {
+    "dev": "pnpm --filter @earlyatlas/web dev",
+    "build": "pnpm --filter @earlyatlas/web build",
+    "preview": "pnpm --filter @earlyatlas/web preview",
+    "lint": "eslint .",
+    "lint:css": "stylelint \"apps/web/src/**/*.css\"",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit -p packages/curriculum-schema/tsconfig.json && tsc --noEmit -p packages/curriculum-core/tsconfig.json && pnpm --filter @earlyatlas/web exec astro check",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "validate": "pnpm --filter @earlyatlas/curriculum-core validate",
+    "coverage": "pnpm --filter @earlyatlas/curriculum-core coverage",
+    "check:docs": "node scripts/check-docs-index.mjs",
+    "check": "pnpm lint && pnpm lint:css && pnpm format:check && pnpm typecheck && pnpm test && pnpm validate && pnpm check:docs && pnpm build"
+  },
+  "packageManager": "pnpm@9.12.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/node": "^22.9.0",
+    "eslint": "^9.15.0",
+    "prettier": "^3.4.1",
+    "prettier-plugin-astro": "^0.14.1",
+    "stylelint": "^17.14.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.16.0",
+    "vitest": "^2.1.6"
+  }
+}

@@ -1,0 +1,43 @@
+id: ea.skill.language.expressive.speaks-in-detailed-sentences
+slug: speaks-in-detailed-sentences
+title: Speaks in Detailed Sentences
+short_description: Child expresses ideas in increasingly long, clear, and complex sentences.
+developmental_purpose: >-
+  Producing longer, clearer, and more complex sentences lets a child tell stories,
+  explain reasoning, and organize multiple ideas on a topic. It is central to being
+  understood across settings and to later writing and academic language.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+prerequisite_skill_ids:
+  - ea.skill.language.expressive.uses-two-word-phrases
+related_skill_ids:
+  - ea.skill.language.expressive.provides-sufficient-detail
+mastery_criteria:
+  - Communicates clearly enough to be understood by familiar adults using three- to five-word sentences.
+  - Uses more complex sentences, such as ones involving cause and effect or sequence.
+  - Produces and organizes multiple sentences on a topic, such as telling a story or giving directions.
+observation_prompts:
+  - Does the child link ideas with words like because, so, or then?
+  - Can the child tell a short story or give directions using several connected sentences?
+accessibility_notes:
+  - Longer messages built through AAC or signs count fully; judge complexity by meaning, not speech.
+  - Expect isolated pronunciation and grammar errors; model the correct form by recasting rather than correcting.
+  - Children who are DLLs may show their most complex sentences in their home language.
+common_misconceptions:
+  - Frequent grammatical errors are typical at this age and do not signal a lack of progress.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - expressive-language
+  - sentences
+  - grammar
+  - narrative
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-lc-5
+status: accepted
+locale: en-US

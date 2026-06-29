@@ -1,0 +1,41 @@
+id: ea.skill.mathematics.classification.sorts-by-color
+slug: sorts-by-color
+title: Sorts Objects By Color
+short_description: Child groups familiar objects by visible color.
+developmental_purpose: >-
+  Sorting by a single attribute is an early classification skill that underpins
+  data, patterning, and logical reasoning.
+domain_ids:
+  - ea.domain.mathematics
+age_range_months:
+  min: 24
+  max: 48
+developmental_stage: toddler_to_preschool
+prerequisite_skill_ids:
+  - ea.skill.language.receptive.identifies-common-colors
+related_skill_ids:
+  - ea.skill.mathematics.patterning.copies-simple-pattern
+mastery_criteria:
+  - Sorts at least six familiar objects into two or more color groups.
+  - Explains or gestures why items belong together when prompted.
+observation_prompts:
+  - During cleanup, does the child group similar colors without direct instruction?
+supporting_activity_ids:
+  - ea.activity.practical-life.sorting-socks
+accessibility_notes:
+  - Provide texture or shape alternatives for children with color vision differences.
+research_reference_ids:
+  - ea.citation.headstart.elof
+  - ea.citation.naeyc.dap
+media_ids:
+  - ea.media.youtube.sorting-colors-demo
+tags:
+  - classification
+  - sorting
+  - color
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-sci-3
+  - ea.standard.elof.it-c-10
+status: accepted
+locale: en-US

@@ -1,0 +1,44 @@
+id: ea.activity.social-emotional.getting-to-know-you-interview
+slug: getting-to-know-you-interview
+title: Getting-to-Know-You Interview
+summary: A child and a trusted adult take turns asking and answering friendly questions, building a warm, reciprocal relationship.
+supported_skill_ids:
+  - ea.skill.social-emotional.relationships.connects-with-trusted-adults
+age_range_months:
+  min: 36
+  max: 60
+group_size: 1 child with 1 adult
+duration_minutes: 10
+materials:
+  - A few simple question prompts (favorite food, favorite game, something you did this weekend)
+  - Optional pretend or toy microphone
+setup: Sit together in a cozy, quiet spot where the child feels relaxed and unhurried.
+steps:
+  - Explain that you will take turns interviewing each other, like on a show.
+  - Ask the child a friendly question and listen warmly to the whole answer.
+  - Invite the child to ask you the same question, then answer honestly and briefly.
+  - Keep the back-and-forth going, following the child's lead onto topics they enjoy.
+  - End by telling the child one thing you learned and enjoyed about them today.
+variations:
+  - Record the interview and play it back, or draw a picture of a favorite answer.
+  - Send a question home so a family member can do the interview too.
+differentiation:
+  - Offer picture-choice answers for children who are still building language.
+  - Add follow-up questions ("Tell me more") for children ready for longer talk.
+assessment_opportunities:
+  - Note whether the child initiates questions and sustains the back-and-forth, not just answers.
+safety_notes:
+  - Keep questions light and let the child skip any they do not want to answer.
+accessibility_notes:
+  - Accept gestures, signs, or AAC as full answers and allow extra response time.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - relationships
+  - conversation
+  - adult-child-relationships
+methodologies:
+  - reggio-emilia
+  - play-based
+status: accepted
+locale: en-US

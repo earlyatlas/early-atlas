@@ -1,0 +1,24 @@
+{
+  "name": "@earlyatlas/web",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "start": "node ./dist/server/entry.mjs"
+  },
+  "dependencies": {
+    "@astrojs/node": "^8.3.4",
+    "@earlyatlas/curriculum-core": "workspace:*",
+    "@earlyatlas/curriculum-schema": "workspace:*",
+    "astro": "^4.16.18",
+    "jose": "^6.2.3",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@types/js-yaml": "^4.0.9",
+    "typescript": "^5.6.3"
+  }
+}

@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-sci-4
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-SCI 4"
+title: "Child asks a question, gathers information, and makes predictions."
+domain_area: "Scientific Reasoning"
+sub_domain: "Reasoning and Problem-Solving"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Asks simple questions. Uses adults as primary resources to gather information about questions. With adult support and modeling, makes simple predictions, such as \"I think that the golf ball will be heavier than the ping pong ball.\""
+  - age_period: "48 to 60 Months"
+    text: "Asks more complex questions. Uses other sources besides adults to gather information, such as books or other experts. Uses background knowledge and experiences to make predictions."
+  - age_period: "By 60 Months"
+    text: "Asks questions that can be answered through an investigation, such as \"What do plants need to grow?\" or \"What countries do the children in our class come from?\""
+  - age_period: "By 60 Months"
+    text: "Gathers information about a question by looking at books or discussing prior knowledge and observations."
+  - age_period: "By 60 Months"
+    text: "Makes predictions and brainstorms solutions based on background knowledge and experiences, such as \"I think that plants need water to grow,\" or \"I think adding yellow paint to purple will make brown.\""
+source_url: https://headstart.gov/school-readiness/article/science-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

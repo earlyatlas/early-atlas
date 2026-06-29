@@ -1,0 +1,48 @@
+id: ea.activity.literacy.rhyme-recitation
+slug: rhyme-recitation
+title: Rhyme of the Week
+summary: The child learns and recites one short rhyme over a week, tuning their ear to rhyming sounds while building memory and oral language.
+supported_skill_ids:
+  - ea.skill.literacy.phonological-awareness.identifies-rhyming-words
+age_range_months:
+  min: 36
+  max: 66
+group_size: 1-6 children
+duration_minutes: 5
+materials:
+  - One short nursery rhyme or simple poem (four to six lines)
+  - Optional — a picture card or small prop that matches the rhyme
+setup: Pick one rhyme to repeat all week so it becomes familiar and easy to join in.
+steps:
+  - Say the rhyme aloud with a steady, playful rhythm.
+  - Invite the child to clap or tap the beat as you say it again.
+  - Pause before the rhyming word and let the child fill it in ("The cat sat on the ___").
+  - Repeat once a day; by the end of the week, recite it together from memory.
+  - Talk about the two words that rhyme and listen for their matching endings.
+variations:
+  - Swap in a counting rhyme to connect recitation with early numbers.
+  - Add simple hand motions so the words are paired with movement.
+  - Let the child choose next week's rhyme.
+differentiation:
+  - For beginners, focus on filling in just the final rhyming word.
+  - For confident reciters, ask them to think of another word that rhymes.
+assessment_opportunities:
+  - Notice whether the child anticipates and supplies the rhyming word.
+  - Listen for the child generating their own rhymes, even nonsense ones.
+safety_notes:
+  - None — this is a seated or circle activity.
+accessibility_notes:
+  - Pair words with gestures or pictures to support every learner.
+  - Keep recitations short and predictable to reduce listening load.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - recitation
+  - memorization
+  - rhyming
+  - phonological-awareness
+  - oral-language
+methodologies:
+  - classical
+status: accepted
+locale: en-US

@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-pmp-3
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-PMP 3"
+title: "Child demonstrates effective and efficient use of large muscles for movement and position."
+domain_area: "Perceptual, Motor, and Physical Development"
+sub_domain: "Gross Motor"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Explores new body positions and movements, such as rolling over, sitting, crawling, hitting, or kicking at objects to achieve goals."
+  - age_period: "8 to 18 Months"
+    text: "Moves from crawling to cruising to walking, learning new muscle coordination for each new skill, and how to manage changing ground surfaces."
+  - age_period: "16 to 36 Months"
+    text: "Gains control of a variety of postures and movements including stooping, going from sitting to standing, running, and jumping."
+  - age_period: "By 36 Months"
+    text: "Coordinates movements and actions for a purpose."
+  - age_period: "By 36 Months"
+    text: "Walks and runs, adjusting speed or direction depending on the situation."
+source_url: https://headstart.gov/school-readiness/article/perceptual-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

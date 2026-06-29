@@ -1,0 +1,47 @@
+id: ea.activity.social-emotional.i-can-do-it-celebration-book
+slug: i-can-do-it-celebration-book
+title: I-Can-Do-It Celebration Book
+summary: Each child makes and shares a small book of things they can do, building pride and positive words about themselves.
+supported_skill_ids:
+  - ea.skill.social-emotional.self-concept.expresses-confidence
+age_range_months:
+  min: 36
+  max: 60
+group_size: 1-8 children
+duration_minutes: 20
+materials:
+  - A few sheets of paper folded or stapled into a small book per child
+  - Crayons or markers
+  - Optional printed photos of the child doing activities
+  - Optional stickers or "I did it!" stamps
+setup: Give each child a blank book and put drawing materials within easy reach.
+steps:
+  - Talk about things the children have learned to do, from zipping a coat to building a tall tower.
+  - Invite each child to draw or add a photo of one thing they are proud they can do on each page.
+  - Sit alongside and ask children to tell you about each page, writing their exact words down.
+  - Help children add a positive word about themselves, such as "I am a hard worker" or "I am kind."
+  - Let each child share one page with the group and lead a cheer for their accomplishment.
+variations:
+  - Keep the book open and add a new page whenever a child masters something new.
+  - Send the book home so families can celebrate and add accomplishments too.
+differentiation:
+  - Scribe for children who do not yet write and offer photo choices for those still building language.
+  - For older children, ask them to explain how they learned the skill and what was hard about it.
+assessment_opportunities:
+  - Note whether the child shows pride, shares an idea with the group, and uses a positive self-word.
+safety_notes:
+  - Supervise use of staplers and small materials.
+accessibility_notes:
+  - Notice effort and specific actions so every child can feel competent, and accept AAC or gesture for sharing.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - confidence
+  - self-concept
+  - accomplishment
+  - identity
+methodologies:
+  - reggio-emilia
+  - montessori
+status: accepted
+locale: en-US

@@ -1,0 +1,46 @@
+id: ea.activity.language.roll-and-respond-conversation
+slug: roll-and-respond-conversation
+title: Roll and Respond Conversation
+summary: Partners roll a die to draw conversation prompts and practice taking several back-and-forth turns with appropriate tone and volume.
+supported_skill_ids:
+  - ea.skill.language.expressive.takes-conversational-turns
+age_range_months:
+  min: 36
+  max: 60
+group_size: 2-4 children
+duration_minutes: 15
+materials:
+  - A large foam or paper die
+  - Six picture prompt cards, such as food, pets, weather, family, play, and feelings
+setup: Lay the six prompt cards in a row and number them one to six to match the die.
+steps:
+  - One child rolls the die and finds the matching prompt card.
+  - That child shares a sentence about the topic, such as "My favorite food is..."
+  - The partner responds by asking a related question or adding their own idea.
+  - Encourage at least three back-and-forth turns before rolling again.
+  - Practice matching voice to the moment, such as an excited voice for play and a calm voice for rest.
+variations:
+  - Add a "secret" card where partners whisper their turn.
+  - Play in a small group so a turn passes to the next listener.
+differentiation:
+  - Provide sentence stems and follow-up question cards for children who need support.
+  - Accept turns given through signs or AAC.
+assessment_opportunities:
+  - Note whether the child stays responsive across turns and adjusts tone and volume.
+safety_notes:
+  - Use a soft die and keep play seated to avoid bumps.
+accessibility_notes:
+  - Use clear, high-contrast picture cards and seat partners face to face.
+  - Welcome conversation across a child's languages.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - conversation
+  - turn-taking
+  - social-communication
+  - tone
+methodologies:
+  - play-based
+  - highscope
+status: accepted
+locale: en-US

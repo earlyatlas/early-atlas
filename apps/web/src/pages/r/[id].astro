@@ -1,0 +1,626 @@
+---
+import Base from "../../layouts/Base.astro";
+import VideoEmbed from "../../components/VideoEmbed.astro";
+import Worksheet from "../../components/Worksheet.astro";
+import { getCurriculum } from "../../lib/curriculum.js";
+import { ancestorsOf, skillsInDomain, typeLabel } from "../../lib/hierarchy.js";
+
+// Shown on every methodology page so the non-affiliation framing can never be
+// omitted. Names of approaches are used descriptively ("inspired by") only.
+const METHODOLOGY_DISCLAIMER =
+  "Early Atlas is an independent project and is not affiliated with, endorsed by, certified by, or sponsored by any organization associated with this approach. We use the name only to describe the tradition that inspired a lesson. Our materials are original works inspired by these ideas — not official curricula — and all trademarks and names belong to their respective owners.";
+
+// Prerendered: one static page per record for the CloudFront build.
+export const prerender = true;
+
+export function getStaticPaths() {
+  const store = getCurriculum();
+  return [...store.records.keys()].map((id) => ({ params: { id } }));
+}
+
+const { id } = Astro.params;
+const store = getCurriculum();
+const rec = id ? store.records.get(id) : undefined;
+if (!rec) return new Response(`No record: ${id}`, { status: 404 });
+
+const data = rec.data;
+const titleOf = (rid: string) => store.records.get(rid)?.data.title ?? rid;
+const exists = (rid: string) => store.records.has(rid);
+const age = data.age_range_months ?? data.age_coverage;
+
+// Place this record in the tree: Browse › Domain › Skill › (item).
+const ancestors = ancestorsOf(rec, store);
+const domainSkills = rec.kind === "domain" ? skillsInDomain(rec.id, store) : [];
+const showPdf = rec.kind === "skill" || rec.kind === "activity" || rec.kind === "printable";
+
+// Videos: own media_ids plus any media that links back to this record.
+const ownMedia = Array.isArray(data.media_ids) ? (data.media_ids as string[]) : [];
+const backMedia = [...store.records.values()]
+  .filter((m) => m.kind === "media" && (m.data.supported_skill_ids ?? []).includes(rec.id))
+  .map((m) => m.id);
+const videos = [...new Set([...ownMedia, ...backMedia])]
+  .map((mid) => store.records.get(mid))
+  .filter((m): m is NonNullable<typeof m> => !!m && m.data.provider === "youtube");
+
+const purpose: string | undefined = data.developmental_purpose;
+const lead: string | undefined =
+  data.short_description ?? data.summary ?? data.description ?? data.instructions;
+
+const listSpecs: [string, string][] = [
+  ["mastery_criteria", "What mastery looks like"],
+  ["observation_prompts", "How to observe it"],
+  ["materials", "Materials"],
+  ["steps", "Steps"],
+  ["variations", "Variations"],
+  ["differentiation", "Differentiation"],
+  ["accessibility_notes", "Accessibility"],
+  ["safety_notes", "Safety"],
+];
+const linkSpecs: [string, string][] = [
+  ["prerequisite_skill_ids", "Learn first"],
+  ["related_skill_ids", "Related skills"],
+  ["supported_skill_ids", "Practices these skills"],
+];
+
+const arr = (x: unknown): string[] => (Array.isArray(x) ? (x as string[]) : []);
+const methodologies = arr(data.methodologies);
+const tags = arr(data.tags);
+const citations = arr(data.research_reference_ids)
+  .map((cid) => store.records.get(cid))
+  .filter((c): c is NonNullable<typeof c> => !!c && c.kind === "citation");
+
+const isPrintable = rec.kind === "printable";
+const isSkill = rec.kind === "skill";
+const isActivity = rec.kind === "activity";
+const isMethodology = rec.kind === "methodology";
+const all = [...store.records.values()];
+
+// What kind of record this is, for the badge near the top.
+const kindLabel = typeLabel(rec.kind);
+
+// Milestone this record relates to (light reference, not the full indicators).
+// Skills carry standard_ids directly; activities/worksheets inherit them from the
+// skills they support. We show the goal statement + a link to the explorer.
+const FRAMEWORK_SHORT: Record<string, string> = { elof: "Head Start ELOF" };
+const stripChild = (s: string) => s.replace(/^Child\s+/, "");
+const milestoneStandardIds: string[] =
+  rec.kind === "skill"
+    ? arr(data.standard_ids)
+    : rec.kind === "activity" || rec.kind === "printable"
+      ? [
+          ...new Set(
+            arr(data.supported_skill_ids).flatMap((sid) =>
+              arr(store.records.get(sid)?.data.standard_ids),
+            ),
+          ),
+        ]
+      : [];
+const milestones = milestoneStandardIds
+  .map((sid) => store.records.get(sid))
+  .filter((s): s is NonNullable<typeof s> => !!s && s.kind === "standard")
+  .map((s) => ({
+    title: stripChild(String(s.data.title)),
+    area: String(s.data.domain_area ?? ""),
+    framework: FRAMEWORK_SHORT[String(s.data.framework)] ?? String(s.data.framework_title ?? ""),
+  }));
+const ageMin = (data.age_range_months ?? data.age_coverage)?.min;
+const milestoneHref = milestones[0]?.area
+  ? `/milestones?area=${encodeURIComponent(milestones[0].area)}${ageMin != null ? `&age=${ageMin}` : ""}`
+  : "/milestones";
+
+// Methodology page bits: approach principles, and the lessons it inspired.
+const methoTitle = (key: string) => store.records.get(`ea.methodology.${key}`)?.data.title ?? key;
+const principles = arr(data.principles);
+const inspiredLessons = isMethodology
+  ? all
+      .filter(
+        (r) =>
+          (r.kind === "skill" || r.kind === "activity" || r.kind === "printable") &&
+          arr(r.data.methodologies).includes(data.slug),
+      )
+      .sort((a, b) => (a.data.title ?? "").localeCompare(b.data.title ?? ""))
+  : [];
+
+// A skill's activities, and its worksheets (linked via printable_ids or the
+// worksheet's supported_skill_ids). Worksheets that name a supporting activity
+// render nested under it; the rest render standalone under the skill.
+//
+// Activities attach DYNAMICALLY: any activity whose `supported_skill_ids` names
+// this skill shows up here automatically (we also honour the skill's optional
+// `supporting_activity_ids` for back-compat). So a new activity links itself —
+// there is nothing to add on the skill, just like the methodology pages.
+const skillActivities = isSkill
+  ? all
+      .filter(
+        (a) =>
+          a.kind === "activity" &&
+          (arr(a.data.supported_skill_ids).includes(rec.id) ||
+            arr(data.supporting_activity_ids).includes(a.id)),
+      )
+      .sort((a, b) => (a.data.title ?? "").localeCompare(b.data.title ?? ""))
+  : [];
+const skillWorksheets = isSkill
+  ? all.filter(
+      (w) =>
+        w.kind === "printable" &&
+        (arr(data.printable_ids).includes(w.id) ||
+          arr(w.data.supported_skill_ids).includes(rec.id)),
+    )
+  : [];
+const activityIdSet = new Set(skillActivities.map((a) => a.id));
+const ownedBy = (actId: string) =>
+  skillWorksheets.filter((w) => arr(w.data.supported_activity_ids).includes(actId));
+const standaloneWorksheets = skillWorksheets.filter(
+  (w) => !arr(w.data.supported_activity_ids).some((aid) => activityIdSet.has(aid)),
+);
+
+// An activity's supporting worksheets (worksheets that name it).
+const activityWorksheets = isActivity
+  ? all.filter((w) => w.kind === "printable" && arr(w.data.supported_activity_ids).includes(rec.id))
+  : [];
+
+const lists = listSpecs
+  .map(([key, label]) => ({ key, label, items: Array.isArray(data[key]) ? data[key] : [] }))
+  .filter((s) => s.items.length > 0);
+const links = linkSpecs
+  .map(([key, label]) => ({
+    key,
+    label,
+    items: (Array.isArray(data[key]) ? data[key] : []).filter(exists),
+  }))
+  .filter((s) => s.items.length > 0);
+
+const sections = [
+  ...(isMethodology ? [{ id: "approach", label: "About this approach" }] : []),
+  ...(principles.length ? [{ id: "principles", label: "Principles" }] : []),
+  ...(domainSkills.length ? [{ id: "skills", label: "Skills" }] : []),
+  ...(isPrintable ? [{ id: "worksheet", label: "Worksheet" }] : []),
+  ...(videos.length ? [{ id: "watch", label: "Watch" }] : []),
+  ...(purpose ? [{ id: "why", label: "Why it matters" }] : []),
+  ...(milestones.length ? [{ id: "milestone", label: "Milestone" }] : []),
+  ...lists.map((s) => ({ id: s.key, label: s.label })),
+  ...(skillActivities.length ? [{ id: "activities", label: "Activities" }] : []),
+  ...(standaloneWorksheets.length ? [{ id: "worksheets", label: "Worksheets" }] : []),
+  ...(activityWorksheets.length ? [{ id: "printables", label: "Printables" }] : []),
+  ...(isMethodology ? [{ id: "inspired", label: "Lessons inspired by this" }] : []),
+  ...links.map((s) => ({ id: s.key, label: s.label })),
+  ...(citations.length ? [{ id: "evidence", label: "Evidence" }] : []),
+  ...(rec.body ? [{ id: "notes", label: "Notes" }] : []),
+];
+---
+
+<Base title={data.title}>
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="/">Browse</a>
+    {
+      ancestors.map((c) => (
+        <Fragment>
+          {" "}
+          / <a href={c.href}>{c.title}</a>
+        </Fragment>
+      ))
+    }
+    {" "}/ <span>{data.title}</span>
+  </nav>
+
+  <header class="rec-head">
+    <p class={`kind-eyebrow kind-${rec.kind}`}>{kindLabel}</p>
+    <h1>{data.title}</h1>
+    {lead && <p class="lead">{lead}</p>}
+    {
+      age && (
+        <p class="rec-age">
+          Ages {age.min}–{age.max} months
+        </p>
+      )
+    }
+    {
+      (methodologies.length > 0 || tags.length > 0) && (
+        <div class="chips">
+          {methodologies.length > 0 && (
+            <span class="inspired-by">
+              <span class="muted">Inspired by</span>{" "}
+              {methodologies.map((m) => (
+                <a class="chip method" href={`/r/ea.methodology.${m}`}>
+                  {methoTitle(m)}
+                </a>
+              ))}
+            </span>
+          )}
+          {tags.map((t) => (
+            <a class="chip" href={`/?q=${encodeURIComponent(t)}`}>
+              {t}
+            </a>
+          ))}
+        </div>
+      )
+    }
+    {
+      (isSkill || isActivity) && (
+        <p class="rec-edit no-print">
+          <a href={`/contribute/propose?edit=${rec.id}`}>✎ Suggest an edit</a>
+        </p>
+      )
+    }
+  </header>
+
+  {
+    isMethodology && (
+      <section id="approach">
+        {data.inspiration_note && <p>{data.inspiration_note}</p>}
+        {data.origin && <p class="approach-origin">{data.origin}</p>}
+        <div class="disclaimer" role="note">
+          <strong>Independent &amp; unaffiliated.</strong> {METHODOLOGY_DISCLAIMER}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    principles.length > 0 && (
+      <section id="principles">
+        <h2>Principles</h2>
+        <ul class="clean">
+          {principles.map((p: string) => (
+            <li>{p}</li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  {
+    showPdf && (
+      <div class="actions no-print">
+        <button type="button" class="btn-quiet" onclick="window.print()">
+          ⤓ Download PDF
+        </button>
+      </div>
+    )
+  }
+
+  {
+    rec.kind === "domain" && domainSkills.length > 0 && (
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-grid">
+          {domainSkills.map((s) => {
+            const sa = s.data.age_range_months;
+            return (
+              <a class="skill-card" href={`/r/${s.id}`}>
+                <span class="skill-card-title">{s.data.title}</span>
+                {s.data.short_description && (
+                  <span class="skill-card-desc">{s.data.short_description}</span>
+                )}
+                {sa && (
+                  <span class="skill-card-age">
+                    {sa.min}–{sa.max} months
+                  </span>
+                )}
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    isPrintable && (
+      <section id="worksheet">
+        <Worksheet record={rec} />
+      </section>
+    )
+  }
+
+  {
+    videos.length > 0 && (
+      <section id="watch">
+        <h2>Watch</h2>
+        {videos.map((v) => (
+          <div style="margin:var(--space-3) 0">
+            <VideoEmbed youtubeId={v.data.youtube_id} title={v.data.title} />
+            <div class="muted" style="margin-top:var(--space-1)">
+              {v.data.title}
+            </div>
+            <a class="print-only" href={`https://www.youtube.com/watch?v=${v.data.youtube_id}`}>
+              Video: {v.data.title} — youtube.com/watch?v={v.data.youtube_id}
+            </a>
+          </div>
+        ))}
+      </section>
+    )
+  }
+
+  {
+    purpose && (
+      <section id="why">
+        <h2>Why it matters</h2>
+        <p>{purpose}</p>
+      </section>
+    )
+  }
+
+  {
+    milestones.length > 0 && (
+      <section id="milestone">
+        <h2>{rec.kind === "skill" ? "Builds toward this milestone" : "Supports this milestone"}</h2>
+        <ul class="clean">
+          {milestones.map((m) => (
+            <li>
+              {m.title} <span class="muted">— {m.framework}</span>
+            </li>
+          ))}
+        </ul>
+        <p>
+          <a href={milestoneHref}>Explore milestones →</a>
+        </p>
+      </section>
+    )
+  }
+
+  {
+    lists.map((s) => (
+      <section id={s.key}>
+        <h2>{s.label}</h2>
+        <ul class="clean">
+          {s.items.map((x: string) => (
+            <li>{x}</li>
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+
+  {
+    skillActivities.length > 0 && (
+      <section id="activities">
+        <h2>Activities</h2>
+        <ul class="clean">
+          {skillActivities.map((a) => {
+            const owned = ownedBy(a.id);
+            return (
+              <li>
+                <a href={`/r/${a.id}`}>{a.data.title}</a>
+                {owned.length > 0 && (
+                  <ul class="clean">
+                    {owned.map((w) => (
+                      <li>
+                        <a href={`/r/${w.id}`}>{w.data.title}</a>{" "}
+                        <span class="chip">Worksheet</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    )
+  }
+
+  {
+    standaloneWorksheets.length > 0 && (
+      <section id="worksheets">
+        <h2>Worksheets</h2>
+        <ul class="clean">
+          {standaloneWorksheets.map((w) => (
+            <li>
+              <a href={`/r/${w.id}`}>{w.data.title}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  {
+    activityWorksheets.length > 0 && (
+      <section id="printables">
+        <h2>Printables</h2>
+        <p class="muted">Worksheets that go with this activity.</p>
+        <ul class="clean">
+          {activityWorksheets.map((w) => (
+            <li>
+              <a href={`/r/${w.id}`}>{w.data.title}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  {
+    isMethodology && (
+      <section id="inspired">
+        <h2>Lessons inspired by this approach</h2>
+        {inspiredLessons.length > 0 ? (
+          <a class="browse-link" href={`/?q=${encodeURIComponent(data.slug)}`}>
+            Browse {inspiredLessons.length} lessons inspired by {data.title}
+            <span class="browse-link-arrow" aria-hidden="true">
+              →
+            </span>
+          </a>
+        ) : (
+          <p class="muted">Early Atlas lessons inspired by this approach are coming soon.</p>
+        )}
+      </section>
+    )
+  }
+
+  {
+    links.map((s) => (
+      <section id={s.key}>
+        <h2>{s.label}</h2>
+        <ul class="clean">
+          {s.items.map((rid: string) => (
+            <li>
+              <a href={`/r/${rid}`}>{titleOf(rid)}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+
+  {
+    citations.length > 0 && (
+      <section id="evidence">
+        <h2>Evidence</h2>
+        <ul class="clean">
+          {citations.map((c) => {
+            const meta = [arr(c.data.authors).join(", "), c.data.year, c.data.publisher]
+              .filter(Boolean)
+              .join(" · ");
+            return (
+              <li>
+                {c.data.url ? (
+                  <a href={c.data.url} target="_blank" rel="noopener noreferrer">
+                    {c.data.title}
+                  </a>
+                ) : (
+                  c.data.title
+                )}
+                {meta && <span class="muted"> — {meta}</span>}
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    )
+  }
+
+  {
+    rec.body && (
+      <section id="notes">
+        <h2>Notes</h2>
+        <div class="prose">{rec.body}</div>
+      </section>
+    )
+  }
+
+  <p class="print-only" style="margin-top: var(--space-6); color: var(--muted)">Early Atlas</p>
+
+  {
+    sections.length > 0 && (
+      <Fragment slot="toc">
+        <div class="toc-title">On this page</div>
+        {sections.map((s) => (
+          <a href={`#${s.id}`}>{s.label}</a>
+        ))}
+      </Fragment>
+    )
+  }
+</Base>
+
+<!-- Self-contained, server-rendered UI → Astro-scoped styles (see docs/standards/ui.md).
+     Only this page renders the PDF action, so its styles live here, not in global. -->
+<style>
+  /* Record header presentation (.rec-head/.lead/.rec-age) lives in
+     components/record.css so the admin draft preview can reuse it. */
+  .rec-edit {
+    margin: var(--space-4) 0 0;
+    font-size: var(--text-sm);
+  }
+  .rec-edit a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+  .rec-edit a:hover {
+    color: var(--accent);
+  }
+
+  .actions {
+    display: flex;
+    gap: var(--space-2);
+    margin: var(--space-4) 0;
+  }
+  .btn-quiet {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    margin: 0;
+    padding: var(--space-1) var(--space-3);
+    background: var(--surface);
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    font: inherit;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .btn-quiet:hover {
+    border-color: var(--accent-border);
+  }
+
+  /* Domain page: the grid of skills in this area, in developmental order. */
+  .skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 270px), 1fr));
+    gap: var(--space-3);
+    margin-top: var(--space-3);
+  }
+  .skill-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+    padding: var(--space-4);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    background: var(--surface);
+    text-decoration: none;
+    color: inherit;
+    transition:
+      border-color 0.13s var(--ease-out),
+      background-color 0.13s var(--ease-out);
+  }
+  .skill-card:hover {
+    border-color: var(--accent-border);
+    background: var(--surface-2);
+  }
+  .skill-card-title {
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.3;
+  }
+  .skill-card:hover .skill-card-title {
+    color: var(--accent);
+  }
+  .skill-card-desc {
+    font-size: var(--text-sm);
+    color: var(--muted);
+    line-height: 1.45;
+  }
+  .skill-card-age {
+    margin-top: auto;
+    padding-top: var(--space-2);
+    font-size: var(--text-sm);
+    color: var(--muted);
+  }
+
+  /* Methodology page: origin meta + the "browse inspired lessons" call-to-action. */
+  .approach-origin {
+    font-size: var(--text-sm);
+    color: var(--muted);
+  }
+  .browse-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .browse-link:hover {
+    text-decoration: underline;
+  }
+  .browse-link-arrow {
+    transition: transform 0.13s var(--ease-out);
+  }
+  .browse-link:hover .browse-link-arrow {
+    transform: translateX(3px);
+  }
+</style>

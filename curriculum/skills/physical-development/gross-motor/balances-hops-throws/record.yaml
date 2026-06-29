@@ -1,0 +1,49 @@
+id: ea.skill.physical-development.gross-motor.balances-hops-throws
+slug: balances-hops-throws
+title: Balances, Hops, and Throws
+short_description: >-
+  Child balances on one foot, hops, and throws and catches a ball with growing
+  control.
+developmental_purpose: >-
+  Balancing, hopping, and throwing combine strength, dynamic balance, and
+  hand-eye coordination into purposeful movement. These skills build the body
+  control children need for sports, playground games, and the sustained physical
+  activity that supports lifelong health.
+domain_ids:
+  - ea.domain.physical-development
+age_range_months:
+  min: 36
+  max: 66
+developmental_stage: preschool
+prerequisite_skill_ids:
+  - ea.skill.physical-development.gross-motor.walks-and-climbs
+mastery_criteria:
+  - Balances on one foot for a few seconds without holding on.
+  - Hops forward on one foot and jumps with two feet together.
+  - Throws a ball overhand toward a target and catches a gently tossed ball.
+observation_prompts:
+  - During outdoor play, does the child hop, gallop, or balance along a line for
+    fun?
+  - "When playing catch, does the child track the ball with their eyes and move\
+    \ their hands to meet it?"
+accessibility_notes:
+  - Use larger, softer, or lighter balls and shorter throwing distances for children
+    building coordination.
+  - Provide a wall or partner's hand for balance support and seated throwing options
+    for children with mobility differences.
+safety_notes:
+  - Clear the play area of trip hazards and use soft balls; cushion landing zones
+    for hopping and jumping.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - gross-motor
+  - balance
+  - hopping
+  - throwing
+  - coordination
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-pmp-1
+status: accepted
+locale: en-US

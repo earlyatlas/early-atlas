@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-pmp-9
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-PMP 9"
+title: "Child demonstrates healthy behaviors with increasing independence as part of everyday routines."
+domain_area: "Perceptual, Motor, and Physical Development"
+sub_domain: "Health, Safety, and Nutrition"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Emerging"
+  - age_period: "8 to 18 Months"
+    text: "Anticipates and cooperates in daily routines, such as washing hands, blowing nose, or holding a toothbrush with assistance from adults."
+  - age_period: "16 to 36 Months"
+    text: "Participates in healthy care routines with more independence, such as washing hands, blowing nose, brushing teeth, or drinking from a cup."
+  - age_period: "By 36 Months"
+    text: "Shows increasing independence in self-care routines with guidance from adults."
+  - age_period: "By 36 Months"
+    text: "Puts on or takes off some articles of clothing, such as shoes, socks, coat, or hat."
+source_url: https://headstart.gov/school-readiness/article/perceptual-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

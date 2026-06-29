@@ -1,0 +1,47 @@
+id: ea.activity.science.ramps-and-rolling-balls
+slug: ramps-and-rolling-balls
+title: Ramps and Rolling Balls
+summary: Children build ramps and roll balls to investigate how height and force change motion.
+supported_skill_ids:
+  - ea.skill.science.physical-world.investigates-motion
+age_range_months:
+  min: 36
+  max: 60
+group_size: 2-6 children
+duration_minutes: 25
+materials:
+  - Smooth boards, cardboard tubes, or planks to use as ramps
+  - Blocks or boxes to prop the ramps at different heights
+  - An assortment of balls in different sizes and weights
+  - Masking tape to mark how far each ball rolls
+setup: Prop one ramp on a block and lay out balls and extra blocks where children can build freely.
+steps:
+  - Roll one ball down the ramp and watch together where it stops.
+  - Ask the children to guess what happens if the ramp is raised higher.
+  - Help them prop the ramp higher and roll the same ball again.
+  - Mark with tape how far the ball rolls each time and compare the distances.
+  - Invite children to try different balls and describe which rolls farthest.
+variations:
+  - Add a second ramp at the bottom to make a curved track.
+  - Roll balls onto different surfaces such as carpet and tile to compare.
+differentiation:
+  - For younger children, keep one ramp height and focus on rolling and watching.
+  - For older children, ask them to predict the order in which different balls will stop.
+assessment_opportunities:
+  - Note whether children connect a higher ramp or bigger push to faster or farther motion.
+safety_notes:
+  - Keep the rolling path clear of feet and use balls too large to be swallowed.
+accessibility_notes:
+  - Provide lightweight balls and low ramps so children with limited strength can create motion.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - motion
+  - ramps
+  - cause-and-effect
+  - physical-world
+methodologies:
+  - highscope
+  - play-based
+status: accepted
+locale: en-US

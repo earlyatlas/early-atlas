@@ -1,0 +1,46 @@
+id: ea.skill.approaches-to-learning.self-regulation.controls-impulses
+slug: controls-impulses
+title: Controls Impulses
+short_description: >-
+  Child increasingly inhibits impulsive responses — waiting a turn, delaying a
+  desire, and pausing before acting.
+developmental_purpose: >-
+  Impulse control, or inhibitory control, is a pillar of executive function. The
+  child who can pause before grabbing, raise a hand instead of calling out, or
+  wait briefly for a snack is building the self-command that supports focused
+  learning, fair play, and group discussion. It strengthens through playful
+  practice that makes waiting and stopping fun.
+domain_ids:
+  - ea.domain.approaches-to-learning
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.approaches-to-learning.self-regulation.manages-behavior
+  - ea.skill.approaches-to-learning.executive-function.shows-flexible-thinking
+mastery_criteria:
+  - Waits a turn or for a desire to be met, such as agreeing to wait to start an activity.
+  - Refrains from responding impulsively, such as waiting to be called on rather than calling out.
+  - Stops an engaging activity to transition to a less preferred one with adult guidance.
+observation_prompts:
+  - In a group discussion, can the child wait to be called on instead of blurting out?
+  - When the child wants a material another child is using, does the child request it rather than grab it?
+common_misconceptions:
+  - >-
+    Difficulty waiting is developmentally expected in preschoolers; impulse
+    control is still maturing and grows fastest through games, not scolding.
+accessibility_notes:
+  - Use a visual timer so waiting has a concrete, visible end point.
+  - Keep waits short and success-oriented for children who are still building tolerance for delay.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - self-regulation
+  - impulse-control
+  - inhibition
+  - waiting
+standard_ids:
+  - ea.standard.elof.p-atl-5
+status: accepted
+locale: en-US

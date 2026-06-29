@@ -1,0 +1,25 @@
+id: ea.standard.elof.p-pmp-2
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-PMP 2"
+title: "Child uses perceptual information to guide motions and interactions with objects and other people."
+domain_area: "Perceptual, Motor, and Physical Development"
+sub_domain: "Gross Motor"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Somewhat aware of own body, space, and relationship to other objects. May have difficulty consistently coordinating motions and interactions with objects and other people."
+  - age_period: "48 to 60 Months"
+    text: "Shows increasing awareness of body, space, and relationship to other objects in ways that allow for more coordinated movements, actions, and interactions with others."
+  - age_period: "By 60 Months"
+    text: "Demonstrates awareness of own body and other people's space during interactions."
+  - age_period: "By 60 Months"
+    text: "Moves body in relation to objects to effectively perform tasks, such as moving body in position to kick a ball."
+  - age_period: "By 60 Months"
+    text: "When asked, can move own body in front of, to the side, or behind something or someone else, such as getting in line with other children."
+  - age_period: "By 60 Months"
+    text: "Changes directions when moving with little difficulty."
+source_url: https://headstart.gov/school-readiness/article/perceptual-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

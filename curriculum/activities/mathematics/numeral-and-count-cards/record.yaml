@@ -1,0 +1,50 @@
+id: ea.activity.mathematics.numeral-and-count-cards
+slug: numeral-and-count-cards
+title: Numeral and Count Match Cards
+summary: Children match numeral cards 0 to 5 to sets of objects and trace the numerals.
+supported_skill_ids:
+  - ea.skill.mathematics.number-sense.matches-quantity-to-numeral
+age_range_months:
+  min: 36
+  max: 60
+group_size: 1-3 children
+duration_minutes: 15
+materials:
+  - Index cards labeled with numerals 0 through 5
+  - A bowl of small counters, such as buttons, pom-poms, or pebbles
+  - A tray of sand, salt, or shaving cream for tracing
+  - Crayons and paper for children ready to write numerals
+setup: Lay the numeral cards in a row and place the counters and tracing tray nearby.
+steps:
+  - Point to a numeral card and name it together.
+  - Invite the child to place that many counters below the card.
+  - Count the counters back to check they match the numeral.
+  - Have the child trace the numeral in the sand tray with a finger.
+  - Repeat with other cards, letting the child choose which to do next.
+  - "Offer paper and ask: can you make some marks to show how many?"
+variations:
+  - Hide a numeral card and ask the child to build the set from memory.
+  - Use tally marks or drawn dots instead of counters to record the amount.
+differentiation:
+  - For younger children, work only with numerals 0 to 3.
+  - For older children, extend to numerals up to 10 and have them write the numeral.
+assessment_opportunities:
+  - Note whether the child builds the correct quantity for each numeral.
+  - Observe how the child records a quantity with marks of their own.
+safety_notes:
+  - Supervise so small counters are not mouthed by younger children.
+accessibility_notes:
+  - Provide raised or sandpaper numerals for tactile learners.
+  - Allow tracing in a tray for children still developing pencil control.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - numerals
+  - counting
+  - writing-numbers
+  - number-sense
+methodologies:
+  - montessori
+  - play-based
+status: accepted
+locale: en-US

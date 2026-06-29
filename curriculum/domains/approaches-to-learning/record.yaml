@@ -1,0 +1,30 @@
+id: ea.domain.approaches-to-learning
+slug: approaches-to-learning
+title: Approaches to Learning
+description: >-
+  The "learning to learn" skills that shape how a child engages with people,
+  materials, and ideas: curiosity and initiative, attention and executive
+  function, working memory, and persistence. These dispositions describe how a
+  child approaches a task rather than what they feel about it, and they are
+  distinct from the relationship and emotion skills of social-emotional
+  development.
+age_coverage:
+  min: 0
+  max: 72
+subdomains:
+  - curiosity-initiative
+  - executive-function
+  - persistence
+  - self-regulation
+  - creativity
+references:
+  - ea.citation.headstart.elof
+  - ea.citation.naeyc.dap
+tags:
+  - approaches-to-learning
+  - curiosity
+  - executive-function
+  - attention
+  - persistence
+status: accepted
+locale: en-US

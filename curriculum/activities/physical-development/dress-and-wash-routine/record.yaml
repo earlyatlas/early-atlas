@@ -1,0 +1,54 @@
+id: ea.activity.physical-development.dress-and-wash-routine
+slug: dress-and-wash-routine
+title: Coat-and-Handwash Independence Routine
+summary: >-
+  Children practice the steps of putting on a coat and washing hands using a
+  picture sequence, building self-care independence.
+supported_skill_ids:
+  - ea.skill.physical-development.self-care.manages-self-care-routines
+age_range_months:
+  min: 30
+  max: 48
+group_size: 1-3 children
+duration_minutes: 15
+materials:
+  - A child-sized coat or jacket with an easy fastener
+  - Soap, running water, and paper towels at a reachable height
+  - A simple picture sequence card for each routine
+  - A low hook or chair to hang the coat
+setup: >-
+  Set up the handwashing station at child height and lay the coat flat on the
+  floor with the inside facing up. Post the picture sequence cards nearby.
+steps:
+  - "Coat flip: have the child stand at the collar, dip arms into the sleeves, and\
+    \ flip the coat over their head."
+  - Help only at the tricky fastener, naming each step as the child works.
+  - "Move to the sink and walk through the steps: wet, soap, scrub, rinse, dry."
+  - Point to each picture card so the child sequences the routine themselves.
+  - Praise the effort and let the child hang the coat and toss the towel away.
+variations:
+  - Practice with dolls or dress-up clothes first so steps feel playful and low
+    pressure.
+  - Sing a 20-second scrubbing song so children learn how long to wash.
+differentiation:
+  - For beginners, pre-start the fastener and do the routine alongside the child.
+  - For confident children, add buttons or a zipper and let them teach a peer the
+    steps.
+assessment_opportunities:
+  - Note how many steps the child completes without a prompt.
+  - Watch whether the child sequences handwashing in the correct order.
+safety_notes:
+  - Check that water is comfortably warm, not hot, and wipe spills to prevent slips.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - self-care
+  - dressing
+  - handwashing
+  - independence
+  - preschool
+methodologies:
+  - montessori
+  - play-based
+status: accepted
+locale: en-US

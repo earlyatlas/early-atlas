@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-pmp-10
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-PMP 10"
+title: "Child uses safe behaviors with support from adults."
+domain_area: "Perceptual, Motor, and Physical Development"
+sub_domain: "Health, Safety, and Nutrition"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Emerging"
+  - age_period: "8 to 18 Months"
+    text: "Emerging"
+  - age_period: "16 to 36 Months"
+    text: "Accepts adult guidance, support, and protection when encountering unsafe situations. Learns some differences between safe and unsafe play behaviors, such as not to stand on chairs or tables, or not to put small objects in mouth."
+  - age_period: "By 36 Months"
+    text: "Cooperates with adults when in unsafe situations, such as taking an adult's hand to cross a street or being cautious around an unfamiliar dog."
+  - age_period: "By 36 Months"
+    text: "Shows some understanding of safe and unsafe behaviors, such as not touching a hot stove."
+source_url: https://headstart.gov/school-readiness/article/perceptual-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

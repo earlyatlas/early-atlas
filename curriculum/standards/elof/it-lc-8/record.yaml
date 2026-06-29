@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-lc-8
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-LC 8"
+title: "Child uses an increasing number of words in communication and conversation with others."
+domain_area: "Language and Communication"
+sub_domain: "Vocabulary"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "May use signs or verbalizations for familiar people or objects."
+  - age_period: "8 to 18 Months"
+    text: "Imitates new words or signs and uses some words or signs for naming or making simple one-word requests, such as saying or signing \"milk\" when asking for a drink."
+  - age_period: "16 to 36 Months"
+    text: "Uses an increasing number of words in communication and conversation with others and adds new vocabulary words regularly. Children who are DLLs may have a combined vocabulary in both languages that is similar in number to other children's vocabulary in one language."
+  - age_period: "By 36 Months"
+    text: "Shows rapid growth in number of words or signs used in conversation with others."
+  - age_period: "By 36 Months"
+    text: "Demonstrates a vocabulary of at least 300 words in home language."
+  - age_period: "By 36 Months"
+    text: "Asks questions about the meaning of new words."
+source_url: https://headstart.gov/school-readiness/article/language-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

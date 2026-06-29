@@ -1,0 +1,40 @@
+id: ea.activity.literacy.rhyming-picture-pairs
+slug: rhyming-picture-pairs
+title: Rhyming Picture Pairs
+summary: Children match picture cards whose names rhyme, tuning their ear to ending sounds.
+supported_skill_ids:
+  - ea.skill.literacy.phonological-awareness.identifies-rhyming-words
+age_range_months:
+  min: 42
+  max: 60
+group_size: 1-4 children
+duration_minutes: 15
+materials:
+  - Picture cards in rhyming pairs (cat/hat, dog/log, star/car)
+setup: Choose three or four rhyming pairs and shuffle the cards.
+steps:
+  - Name two cards aloud, stretching the ending sounds.
+  - Ask "Do cat and hat sound the same at the end?"
+  - Invite the child to find the card that rhymes with one you hold.
+  - Cheer the match and say the rhyming pair together.
+variations:
+  - Sing a familiar rhyming song and pause for the child to fill in the rhyme.
+differentiation:
+  - For beginners, offer just one correct match against one non-rhyme.
+  - For older children, ask them to make up a rhyming word (real or silly).
+assessment_opportunities:
+  - Note whether the child judges rhymes by ending sound, not picture.
+accessibility_notes:
+  - Always pair spoken words with pictures so the task is not hearing-only.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+  - ea.citation.headstart.elof
+tags:
+  - rhyming
+  - phonological-awareness
+  - matching
+methodologies:
+  - play-based
+  - waldorf
+status: accepted
+locale: en-US

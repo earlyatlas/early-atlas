@@ -1,0 +1,21 @@
+/* @layer utilities — small single-purpose helpers (highest non-print layer). */
+@layer utilities {
+  .muted {
+    color: var(--muted);
+  }
+
+  ul.clean {
+    padding-left: var(--space-5);
+  }
+  ul.clean li {
+    margin: var(--space-2) 0;
+    line-height: 1.55;
+  }
+  ul.clean li::marker {
+    color: var(--accent);
+  }
+
+  .print-only {
+    display: none;
+  }
+}

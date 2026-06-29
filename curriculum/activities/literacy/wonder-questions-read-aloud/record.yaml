@@ -1,0 +1,50 @@
+id: ea.activity.literacy.wonder-questions-read-aloud
+slug: wonder-questions-read-aloud
+title: Wonder Questions Read-Aloud
+summary: During an interactive read-aloud, children answer who-what-where questions and make predictions, then ask their own.
+supported_skill_ids:
+  - ea.skill.literacy.comprehension.asks-and-answers-questions-about-books
+age_range_months:
+  min: 36
+  max: 66
+group_size: 2-8 children
+duration_minutes: 15
+materials:
+  - A picture book children have not heard before
+  - A simple "I wonder" prompt card or a wondering puppet
+setup: >-
+  Choose a book with a clear plot and expressive pictures. Gather the children
+  close so everyone can see the illustrations.
+steps:
+  - Before reading, look at the cover and ask what the children think the story will be about.
+  - Pause at a key page and ask a detail question, such as who, what, where, or when.
+  - 'Pause before a turning point and ask: "What do you think will happen next, and why?"'
+  - Ask an inferential question about how a character might be feeling and why.
+  - At the end, invite each child to ask one of their own wonder questions about the story.
+variations:
+  - Use the wondering puppet to "ask" the questions and have children answer it.
+  - Reread the book and let children predict together before each page turn.
+differentiation:
+  - For younger children, offer two picture choices to point to as an answer.
+  - For older children, ask them to support an answer with a clue from the story.
+assessment_opportunities:
+  - Note whether the child answers detail questions with information from the book.
+  - Observe whether the child makes a reasonable prediction or inference with support.
+  - Note whether the child poses a question of their own.
+safety_notes:
+  - Keep the group seated comfortably with room to see, avoiding crowding.
+accessibility_notes:
+  - Allow answers by pointing to illustrations or choosing between picture options.
+  - Give extra wait time and rephrase questions for children developing expressive language.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - comprehension
+  - questions
+  - read-aloud
+  - inference
+methodologies:
+  - charlotte-mason
+  - play-based
+status: accepted
+locale: en-US

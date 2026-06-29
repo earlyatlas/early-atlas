@@ -1,0 +1,36 @@
+id: ea.skill.literacy.print-awareness.recognizes-print-in-environment
+slug: recognizes-print-in-environment
+title: Recognizes Print in the Environment
+short_description: Child notices that print carries meaning in signs, labels, and books.
+developmental_purpose: >-
+  Realizing that the marks around us stand for words is the gateway insight of
+  literacy; it motivates a child to attend to letters and how books work.
+domain_ids:
+  - ea.domain.literacy
+age_range_months:
+  min: 30
+  max: 54
+developmental_stage: toddler_to_preschool
+related_skill_ids:
+  - ea.skill.literacy.letter-knowledge.names-alphabet-letters
+mastery_criteria:
+  - Points to print (not pictures) when asked where to read on a page.
+  - Recognizes a few familiar logos, signs, or their own written name.
+observation_prompts:
+  - When sharing a book, does the child point to words or "pretend read" the text?
+  - Does the child notice and comment on signs and labels in daily settings?
+supporting_activity_ids:
+  - ea.activity.literacy.environmental-print-walk
+accessibility_notes:
+  - Use large-print or high-contrast materials, or tactile/braille labels, for children with low vision.
+research_reference_ids:
+  - ea.citation.headstart.elof
+  - ea.citation.naeyc.dap
+tags:
+  - print-awareness
+  - emergent-literacy
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-lit-2
+status: accepted
+locale: en-US

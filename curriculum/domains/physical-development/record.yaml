@@ -1,0 +1,28 @@
+id: ea.domain.physical-development
+slug: physical-development
+title: Physical Development & Health
+description: >-
+  Gross-motor, fine-motor, health, and self-care growth as the bodily foundation
+  for all early learning. As children gain strength, coordination, and control,
+  they build the stability and independence that let them explore, play, and
+  engage with every other domain.
+age_coverage:
+  min: 0
+  max: 72
+subdomains:
+  - perceptual
+  - gross-motor
+  - fine-motor
+  - self-care
+  - health-safety
+references:
+  - ea.citation.cdc.learn-the-signs
+  - ea.citation.headstart.elof
+tags:
+  - physical-development
+  - gross-motor
+  - fine-motor
+  - self-care
+  - health
+status: accepted
+locale: en-US

@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-atl-1
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-ATL 1"
+title: "Child manages emotions with increasing independence."
+domain_area: "Approaches to Learning"
+sub_domain: "Emotional and Behavioral Self-Regulation"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Manages less intense emotions, such as mild frustration, independently. May require adult support to manage more intense emotions."
+  - age_period: "48 to 60 Months"
+    text: "Has an expanding range of strategies for managing emotions, both less intense emotions as well as those that cause greater distress. May still look to adults for support in managing the most intense emotions, but shows increasing skill in successfully using strategies suggested by adults."
+  - age_period: "By 60 Months"
+    text: "Expresses emotions in ways that are appropriate to the situation."
+  - age_period: "By 60 Months"
+    text: "Looks for adult assistance when emotions are most intense."
+  - age_period: "By 60 Months"
+    text: "Uses a range of coping strategies to manage emotions with the support of an adult, such as using words or taking deep breaths."
+source_url: https://headstart.gov/school-readiness/article/approaches-learning-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

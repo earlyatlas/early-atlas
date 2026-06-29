@@ -1,0 +1,25 @@
+id: ea.standard.elof.p-se-4
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-SE 4"
+title: "Child engages in cooperative play with other children."
+domain_area: "Social and Emotional Development"
+sub_domain: "Relationships with Other Children"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Often plays cooperatively with other children. For at least short periods during this play, works with other children to plan and enact this play in a coordinated way."
+  - age_period: "48 to 60 Months"
+    text: "Cooperatively plays with other children in an increasingly coordinated way. Works with other children to make plans for what and how they will play together. When given the opportunity, these coordinated play periods get longer."
+  - age_period: "By 60 Months"
+    text: "Engages in joint play, such as using coordinated goals, planning, roles, and games with rules, with at least one other child at a time."
+  - age_period: "By 60 Months"
+    text: "Demonstrates willingness to include others' ideas during interactions and play."
+  - age_period: "By 60 Months"
+    text: "Shows enjoyment of play with other children, such as through verbal exchanges, smiles, and laughter."
+  - age_period: "By 60 Months"
+    text: "Engages in reflection and conversation about past play experiences."
+source_url: https://headstart.gov/school-readiness/article/social-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

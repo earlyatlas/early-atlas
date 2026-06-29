@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-se-8
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-SE 8"
+title: "Child expresses care and concern towards others."
+domain_area: "Social and Emotional Development"
+sub_domain: "Emotional Functioning"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "May cry when another child cries."
+  - age_period: "8 to 18 Months"
+    text: "Looks sad or concerned when another child is crying or upset. May seek adult's help or offer something, such as a blanket, food, or a soft toy."
+  - age_period: "16 to 36 Months"
+    text: "Expresses empathy toward other children or adults who have been hurt or are crying by showing concerned attention. May try to comfort them with words or actions."
+  - age_period: "By 36 Months"
+    text: "Shows care and concern for others, including comforting others in distress."
+  - age_period: "By 36 Months"
+    text: "Responds to needs of others and tries to help others with simple tasks."
+source_url: https://headstart.gov/school-readiness/article/social-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

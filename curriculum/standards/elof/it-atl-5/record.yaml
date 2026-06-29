@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-atl-5
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-ATL 5"
+title: "Child demonstrates the ability to be flexible in actions and behavior."
+domain_area: "Approaches to Learning"
+sub_domain: "Cognitive Self-Regulation (Executive Functioning)"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Shows repetitive patterns in actions or behaviors but sometimes tries more than one approach to solving a problem or engaging someone in interaction."
+  - age_period: "8 to 18 Months"
+    text: "Shows ability to shift focus in order to attend to something else, participate in a new activity or try a new approach to solving a problem."
+  - age_period: "16 to 36 Months"
+    text: "Modifies actions or behavior in social situations, daily routines, and problem solving, such as playing quietly when asked or adjusting to changes in schedule."
+  - age_period: "By 36 Months"
+    text: "Adjusts to changes in routines or usual activities when informed ahead of time by adults."
+  - age_period: "By 36 Months"
+    text: "Makes common, everyday transitions that are part of a daily schedule."
+  - age_period: "By 36 Months"
+    text: "Shows flexibility in problem solving by trying more than one approach."
+source_url: https://headstart.gov/school-readiness/article/approaches-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

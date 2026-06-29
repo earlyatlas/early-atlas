@@ -1,0 +1,25 @@
+id: ea.standard.elof.p-se-3
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-SE 3"
+title: "Child engages in and maintains positive interactions and relationships with other children."
+domain_area: "Social and Emotional Development"
+sub_domain: "Relationships with Other Children"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Sometimes engages in and maintains interactions with other children without support from an adult, or demonstrates skills in doing this when prompted by an adult. May spontaneously engage in prosocial behaviors with other children, such as sharing and taking turns with materials and in conversations, or may engage in these with prompting from adults."
+  - age_period: "48 to 60 Months"
+    text: "Sustains interactions with other children more often and for increasing periods of time. Demonstrates prosocial behaviors with other children with and without prompting from adults. Likely to show at least some preference for playing with particular children."
+  - age_period: "By 60 Months"
+    text: "Engages in and maintains positive interactions with other children."
+  - age_period: "By 60 Months"
+    text: "Uses a variety of skills for entering social situations with other children, such as suggesting something to do together, joining an existing activity, or sharing a toy."
+  - age_period: "By 60 Months"
+    text: "Takes turns in conversations and interactions with other children."
+  - age_period: "By 60 Months"
+    text: "Develops friendships with one or two preferred other children."
+source_url: https://headstart.gov/school-readiness/article/social-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

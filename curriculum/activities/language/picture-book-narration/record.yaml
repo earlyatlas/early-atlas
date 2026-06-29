@@ -1,0 +1,48 @@
+id: ea.activity.language.picture-book-narration
+slug: picture-book-narration
+title: Tell It Back
+summary: After sharing a short picture book, the child retells the story in their own words, building memory and expressive language.
+supported_skill_ids:
+  - ea.skill.language.expressive.names-familiar-objects
+  - ea.skill.language.expressive.uses-two-word-phrases
+age_range_months:
+  min: 24
+  max: 48
+group_size: 1-3 children
+duration_minutes: 10
+materials:
+  - One short, well-illustrated picture book with a clear, simple story
+setup: Choose a calm moment and sit close so the child can see every page.
+steps:
+  - Read the book slowly, pausing to enjoy the pictures together.
+  - Close the book and ask warmly, "Can you tell me what happened?"
+  - Let the child retell freely; accept single words, gestures, or short phrases.
+  - If they pause, point back to a picture or offer a gentle prompt like "And then?"
+  - Thank them for telling the story their way — there is no wrong version.
+variations:
+  - Retell using the pictures as a guide for children who need more support.
+  - Act out a favorite part with simple movements instead of words.
+  - Let the child "read" the book back to you from the pictures.
+differentiation:
+  - Younger children may name one object or character — celebrate that as narration.
+  - Older children can be invited to tell the beginning, middle, and end.
+assessment_opportunities:
+  - Notice whether the child recalls events in order and uses new words from the story.
+  - Listen for two- and three-word phrases emerging in the retelling.
+safety_notes:
+  - None — this is a quiet, seated activity.
+accessibility_notes:
+  - Accept retelling in any language the child speaks, or through signs and pointing.
+  - Keep books short to match early attention spans.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - narration
+  - living-books
+  - storytelling
+  - expressive-language
+  - vocabulary
+methodologies:
+  - charlotte-mason
+status: accepted
+locale: en-US

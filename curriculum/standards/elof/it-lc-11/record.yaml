@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-lc-11
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-LC 11"
+title: "Child recognizes pictures and some symbols, signs, or words."
+domain_area: "Language and Communication"
+sub_domain: "Emergent Literacy"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Looks at pictures of familiar people, animals, or objects while an adult points at and/ or names the person, animal, or object."
+  - age_period: "8 to 18 Months"
+    text: "Points at, signs, or says name of, or talks about animals, people, or objects in photos, pictures, or drawings."
+  - age_period: "16 to 36 Months"
+    text: "Recognizes and uses some letters or numbers, such as letters in one's name, and shows increasing interest in written forms of language, such as print in books or signs on buildings. Children who are DLLs recognize and use written forms of each of their languages."
+  - age_period: "By 36 Months"
+    text: "Points to and names some letters or characters in their names."
+  - age_period: "By 36 Months"
+    text: "Recognizes familiar signs on a building or street."
+  - age_period: "By 36 Months"
+    text: "Attributes meaning to some symbols, such as a familiar logo or design."
+source_url: https://headstart.gov/school-readiness/article/language-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

@@ -1,0 +1,35 @@
+id: ea.skill.approaches-to-learning.executive-function.tries-strategies-to-solve-problems
+slug: tries-strategies-to-solve-problems
+title: Tries Strategies to Solve Problems
+short_description: Child uses a variety of strategies, including persistence and trial and error, to solve everyday problems.
+developmental_purpose: >-
+  Flexible problem-solving grows from trying an action, noticing it did not work,
+  and trying another. Persisting through several attempts and combining behaviors
+  builds the cognitive flexibility at the heart of executive function.
+domain_ids:
+  - ea.domain.approaches-to-learning
+age_range_months:
+  min: 6
+  max: 36
+developmental_stage: infant_to_toddler
+mastery_criteria:
+  - Repeats and varies actions to make something happen, such as filling and emptying a container.
+  - Stays with a challenging problem and tries several times.
+  - Uses more than one strategy, such as trial and error, a simple tool, or asking for help.
+observation_prompts:
+  - When one approach fails, does the child try a different one?
+  - How long does the child persist before giving up or seeking help?
+accessibility_notes:
+  - Offer problems with large, easy-to-grip pieces for children with motor differences.
+  - Break a problem into smaller steps for children who become overwhelmed.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - problem-solving
+  - persistence
+  - trial-and-error
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-c-6
+status: accepted
+locale: en-US

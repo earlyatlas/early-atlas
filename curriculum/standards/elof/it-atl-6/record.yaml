@@ -1,0 +1,27 @@
+id: ea.standard.elof.it-atl-6
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-ATL 6"
+title: "Child demonstrates emerging initiative in interactions, experiences, and explorations."
+domain_area: "Approaches to Learning"
+sub_domain: "Initiative and Curiosity"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Initiates interactions with familiar adults through expressions, actions, or behaviors."
+  - age_period: "8 to 18 Months"
+    text: "Points to desired people, objects, or places, and initiates actions, such as looking for a favorite toy or bringing a book to an adult to read. Actively resists actions or items not wanted."
+  - age_period: "16 to 36 Months"
+    text: "Prepares for or starts some activities without being directed by others, such as getting ready for the next activity or bringing a ball to a new child at the playground."
+  - age_period: "By 36 Months"
+    text: "Engages others in interactions or shared activities."
+  - age_period: "By 36 Months"
+    text: "Demonstrates initiative by making choices or expressing preferences."
+  - age_period: "By 36 Months"
+    text: "Attempts challenging tasks with or without adult help."
+  - age_period: "By 36 Months"
+    text: "Shows eagerness to try new things."
+source_url: https://headstart.gov/school-readiness/article/approaches-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

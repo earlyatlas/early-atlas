@@ -1,0 +1,46 @@
+id: ea.activity.language.story-stretch-retelling
+slug: story-stretch-retelling
+title: Story Stretch Retelling
+summary: After a read-aloud, children retell the story in their own words using sequence and cause-effect language across several connected sentences.
+supported_skill_ids:
+  - ea.skill.language.expressive.speaks-in-detailed-sentences
+age_range_months:
+  min: 36
+  max: 60
+group_size: 1-6 children
+duration_minutes: 20
+materials:
+  - A short, familiar picture book
+  - Three or four sequence cards or sticky notes for first, next, then, and last
+setup: Read the book aloud once, then place the sequence cards in a row to anchor the retelling.
+steps:
+  - Invite the child to retell the story starting with what happened first.
+  - Point to each sequence card to prompt the next connected sentence.
+  - Ask cause-effect questions, such as "Why did that happen?" to stretch sentences.
+  - Recast any grammar slips by repeating the sentence correctly, without correcting the child.
+  - Celebrate a full retelling that links several sentences on the topic.
+variations:
+  - Retell from a different character's point of view.
+  - Have the child invent a new ending and explain why it fits.
+differentiation:
+  - Offer the pictures as memory props for children who need support.
+  - Accept retelling through signs, AAC, or drawing.
+assessment_opportunities:
+  - Note whether the child links multiple sentences and uses words like because, so, and then.
+safety_notes:
+  - None beyond normal supervision.
+accessibility_notes:
+  - Choose books with clear illustrations and predictable structure.
+  - Welcome retelling in a child's home language, which may show their richest sentences.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - narrative
+  - retelling
+  - sentences
+  - sequence
+methodologies:
+  - charlotte-mason
+  - reggio-emilia
+status: accepted
+locale: en-US

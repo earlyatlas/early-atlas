@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-c-2
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-C 2"
+title: "Child uses understanding of causal relationships to act on social and physical environments."
+domain_area: "Cognition"
+sub_domain: "Exploration and Discovery"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Repeats an action to make things happen or to get an adult to repeat an action, such as dropping a toy from the high chair repeatedly and waiting for an adult to pick it up."
+  - age_period: "8 to 18 Months"
+    text: "Engages in purposeful actions to cause things to happen, such as making splashes in a puddle or rolling a ball to knock over a tower."
+  - age_period: "16 to 36 Months"
+    text: "Identifies the cause of an observed outcome, such as the tower fell over because it was built too high. Predicts outcomes of actions or events, such as turning the faucet will make water come out."
+  - age_period: "By 36 Months"
+    text: "Makes simple predictions about what will happen next, such as in a story or in everyday routines."
+  - age_period: "By 36 Months"
+    text: "Anticipates some cause and effects of own actions, such as what happens while running with a cup of water."
+source_url: https://headstart.gov/school-readiness/article/cognition-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

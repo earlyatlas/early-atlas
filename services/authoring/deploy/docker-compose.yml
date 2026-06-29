@@ -1,0 +1,23 @@
+# Deploy definition for the Early Atlas authoring service. The container joins an
+# external reverse-proxy network so the edge proxy reaches it as
+# http://authoring:8080. Env comes from a rendered secret bundle (not committed).
+#
+# See DEPLOY.md.
+services:
+  authoring:
+    build: . # services/authoring
+    image: earlyatlas-authoring:latest
+    container_name: authoring # must equal the proxy upstream name
+    restart: unless-stopped
+    environment:
+      PORT: "8080"
+      RUN_MIGRATIONS: "0" # schema is migrated out-of-band by an operator, not the app role
+    env_file:
+      - .env # rendered from the secrets manager at deploy time
+    networks:
+      - edge
+    # No published ports: the proxy reaches it over the edge network by container name.
+
+networks:
+  edge:
+    external: true

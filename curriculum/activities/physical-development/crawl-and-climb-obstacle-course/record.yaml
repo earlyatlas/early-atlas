@@ -1,0 +1,55 @@
+id: ea.activity.physical-development.crawl-and-climb-obstacle-course
+slug: crawl-and-climb-obstacle-course
+title: Crawl-and-Climb Obstacle Course
+summary: >-
+  Toddlers walk, crawl, and climb through a simple course of cushions and boxes,
+  building leg strength and balance.
+supported_skill_ids:
+  - ea.skill.physical-development.gross-motor.walks-and-climbs
+age_range_months:
+  min: 12
+  max: 24
+group_size: 1-4 children
+duration_minutes: 20
+materials:
+  - Couch cushions or firm pillows
+  - A sturdy low box or step the child can climb onto
+  - A blanket draped over two chairs to make a tunnel
+  - A favorite toy to retrieve at the end
+setup: >-
+  Arrange the cushions, box, and tunnel in a short line on a soft, non-slip floor.
+  Place the toy at the far end as a goal.
+steps:
+  - Walk the course yourself first so the toddler sees each part.
+  - Invite the child to walk across the cushions, holding a hand if needed.
+  - Encourage the child to climb onto and off the low box with care.
+  - Cheer the child as they crawl through the blanket tunnel to reach the toy.
+  - Reset the course and let the child go again as many times as they like.
+variations:
+  - Turn it into a forest course outdoors using logs, low slopes, and stumps.
+  - Add a "stepping stone" path of flat cushions to step from one to the next.
+differentiation:
+  - For new walkers, lower the climbing height and offer a steadying hand throughout.
+  - For confident movers, add a balance beam made from a taped line or a plank flat
+    on the floor.
+assessment_opportunities:
+  - Observe whether the child recovers balance after a wobble and climbs with
+    control.
+  - Note how much physical support the child needs at each obstacle.
+safety_notes:
+  - Keep climbing heights low, use a soft non-slip surface, and stay within arm's
+    reach during climbing.
+  - Anchor or weight any box so it cannot tip.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - gross-motor
+  - climbing
+  - crawling
+  - balance
+  - toddler
+methodologies:
+  - play-based
+  - forest-school
+status: accepted
+locale: en-US

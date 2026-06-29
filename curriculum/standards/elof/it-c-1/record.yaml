@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-c-1
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-C 1"
+title: "Child actively explores people and objects to understand self, others, and objects."
+domain_area: "Cognition"
+sub_domain: "Exploration and Discovery"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Uses the senses and a variety of actions to examine people and objects, such as mouthing, touching, shaking, or dropping."
+  - age_period: "8 to 18 Months"
+    text: "Acts intentionally to achieve a goal or when manipulating an object, such as trying to get an adult to do something or trying different ways to reach a toy under a table."
+  - age_period: "16 to 36 Months"
+    text: "Observes and experiments with how things work, seeks information from others, or experiments with different behaviors to see how people and objects react."
+  - age_period: "By 36 Months"
+    text: "Learns about characteristics of people and properties and uses of objects through the senses and active exploration."
+  - age_period: "By 36 Months"
+    text: "Experiments with everyday objects or materials to answer \"What?\" \"Why?\" or \"How?\" questions."
+source_url: https://headstart.gov/school-readiness/article/cognition-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

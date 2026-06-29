@@ -1,0 +1,41 @@
+id: ea.skill.social-studies.self-and-family.knows-self-and-family
+slug: knows-self-and-family
+title: Knows About Self and Family
+short_description: >-
+  Child shares basic facts about themselves and names the people in their
+  family and what those people do.
+developmental_purpose: >-
+  Knowing one's own name and age and recognizing family members and their
+  roles is the foundation of identity and belonging. It anchors later
+  understanding of community, culture, and how people relate to one another.
+domain_ids:
+  - ea.domain.social-studies
+age_range_months:
+  min: 24
+  max: 48
+developmental_stage: toddler_to_preschool
+mastery_criteria:
+  - States their own first name and, when asked, their age.
+  - Names several family members and tells one thing each person does.
+  - Recognizes that families can include many kinds of people who care for them.
+observation_prompts:
+  - >-
+    When looking at a family photo, does the child name the people and describe
+    how they are connected?
+  - Does the child use words like "my mom," "my grandpa," or "my baby sister"?
+accessibility_notes:
+  - >-
+    Welcome every family shape; let the child define who counts as family
+    rather than expecting a fixed list of roles.
+  - Offer photos, drawings, or signs for children who communicate non-verbally.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - self-identity
+  - family
+  - belonging
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-se-9
+status: accepted
+locale: en-US

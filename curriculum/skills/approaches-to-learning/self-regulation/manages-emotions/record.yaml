@@ -1,0 +1,47 @@
+id: ea.skill.approaches-to-learning.self-regulation.manages-emotions
+slug: manages-emotions
+title: Manages Emotions
+short_description: >-
+  Child handles strong feelings, first by seeking a familiar adult and later by
+  using simple coping strategies with growing independence.
+developmental_purpose: >-
+  Emotional self-regulation begins as co-regulation: a baby calms in the arms of
+  a trusted adult. Over time the child internalizes those soothing routines into
+  their own strategies — naming a feeling, taking a breath, or asking for help.
+  This shift from being calmed to calming oneself underlies every later learning
+  disposition, because a dysregulated child cannot attend, explore, or persist.
+domain_ids:
+  - ea.domain.approaches-to-learning
+age_range_months:
+  min: 6
+  max: 60
+developmental_stage: infant_to_preschool
+related_skill_ids:
+  - ea.skill.approaches-to-learning.self-regulation.manages-behavior
+  - ea.skill.approaches-to-learning.self-regulation.controls-impulses
+mastery_criteria:
+  - Seeks a familiar adult for comfort when feelings become overwhelming.
+  - Uses at least one self-soothing strategy, such as hugging a lovey or taking a deep breath.
+  - Expresses emotions in ways that fit the situation, with adult support when feelings are most intense.
+observation_prompts:
+  - "When the child is upset, what does the child do first — look for an adult, withdraw, or try a calming strategy?"
+  - Does the child accept and use a coping strategy an adult offers, such as breathing or counting?
+common_misconceptions:
+  - >-
+    A young child melting down is not "being manipulative"; intense emotion
+    reflects an immature regulatory system that still needs an adult's help.
+accessibility_notes:
+  - Offer visual feeling cards or photos for children who communicate non-verbally.
+  - Provide a predictable, low-stimulation calm-down space for children who are easily overwhelmed.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - self-regulation
+  - emotions
+  - coping
+  - co-regulation
+standard_ids:
+  - ea.standard.elof.it-atl-1
+  - ea.standard.elof.p-atl-1
+status: accepted
+locale: en-US

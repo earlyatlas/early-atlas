@@ -1,0 +1,60 @@
+id: ea.activity.physical-development.position-and-move-game
+slug: position-and-move-game
+title: In Front, Behind, Beside Movement Game
+summary: >-
+  A guided group game where preschoolers position their bodies in relation to
+  objects and peers, changing direction and keeping safe spacing.
+supported_skill_ids:
+  - ea.skill.physical-development.perceptual.guides-movement-with-perception
+age_range_months:
+  min: 36
+  max: 60
+group_size: 3-8 children
+duration_minutes: 20
+materials:
+  - A few cones, chairs, or hoops as markers
+  - An open indoor or outdoor space
+  - Optional soft ball for the kicking station
+setup: >-
+  Spread the markers around the space with plenty of room between them. Gather the
+  children and remind them to keep a "bubble" of space around their bodies.
+steps:
+  - Call out a position cue, such as "stand behind a cone" or "sit beside a hoop."
+  - Let the children find a spot and check their position against the marker.
+  - Mix in movement cues, such as "walk to a new cone and change direction halfway."
+  - At the ball station, ask each child to move into position to kick the ball
+    toward a target.
+  - Pause now and then to notice who is keeping a safe bubble from others.
+variations:
+  - Play a freeze version where children move, then freeze in the named position.
+  - Turn it into a follow-the-leader path through the markers.
+differentiation:
+  - For children who need support, demonstrate each position and pair them with a
+    partner.
+  - For a challenge, chain two cues together, such as "go behind a cone, then
+    beside a friend."
+assessment_opportunities:
+  - Note whether the child positions their body correctly for in front, behind, and
+    beside.
+  - Watch whether they change direction smoothly and keep a safe distance from peers.
+safety_notes:
+  - Space markers widely and remind children to watch for others to avoid collisions.
+  - Use a soft ball and keep the area clear of trip hazards.
+accessibility_notes:
+  - Use floor markers and clear spoken cues for children who benefit from visual or
+    verbal structure.
+  - Offer seated or partner-supported versions for children with mobility
+    differences.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - perception
+  - spatial-awareness
+  - positioning
+  - group-game
+  - preschool
+methodologies:
+  - play-based
+  - highscope
+status: accepted
+locale: en-US

@@ -1,0 +1,46 @@
+id: ea.activity.approaches-to-learning.reach-the-toy-puzzle
+slug: reach-the-toy-puzzle
+title: Reach the Toy Puzzle
+summary: A toddler works out how to get a desirable toy that is just out of reach, trying several strategies until one works.
+supported_skill_ids:
+  - ea.skill.approaches-to-learning.executive-function.tries-strategies-to-solve-problems
+age_range_months:
+  min: 9
+  max: 36
+group_size: 1-2 children
+duration_minutes: 10
+materials:
+  - A favorite toy
+  - A light scarf or towel
+  - A small, safe container with a loose lid
+setup: Place the toy slightly out of reach, resting on the end of a scarf or inside a container, so the child must do something to get it.
+steps:
+  - Show the child the toy and let them want it, without handing it over.
+  - Wait and watch as the child tries to reach it, offering quiet encouragement.
+  - Resist solving it too fast; let the child experiment with pulling the scarf or opening the lid.
+  - If the child stays stuck, model one small hint, then return the problem to them.
+  - Cheer the strategy, not just the result, such as "You pulled the scarf to bring it close."
+variations:
+  - Put the toy inside a container with a lid the child must remove.
+  - Set the toy under a low table so the child must crawl or reach around.
+differentiation:
+  - For younger children, leave the scarf almost in their hand.
+  - For older toddlers, add a second step, such as opening a lid then pulling a string.
+assessment_opportunities:
+  - Note how many different strategies the child tries.
+  - Watch whether the child persists or asks for help when stuck.
+safety_notes:
+  - Keep scarves short and supervise closely; never leave a child alone with loose fabric.
+accessibility_notes:
+  - Use a toy that makes noise or has high contrast to keep the goal motivating.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - problem-solving
+  - persistence
+  - trial-and-error
+methodologies:
+  - play-based
+  - montessori
+status: accepted
+locale: en-US

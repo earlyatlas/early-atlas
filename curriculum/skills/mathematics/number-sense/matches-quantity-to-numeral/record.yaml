@@ -1,0 +1,41 @@
+id: ea.skill.mathematics.number-sense.matches-quantity-to-numeral
+slug: matches-quantity-to-numeral
+title: Matches Quantity to Numeral
+short_description: Child links a written numeral to a set of objects and begins to write numbers.
+developmental_purpose: >-
+  Connecting a written numeral to a quantity is how children bridge concrete
+  counting and symbolic math. Recognizing that "5" means five objects, and
+  beginning to form numerals themselves, prepares children for written
+  arithmetic and everyday uses of number symbols.
+domain_ids:
+  - ea.domain.mathematics
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.mathematics.number-sense.counts-to-ten
+mastery_criteria:
+  - Matches a written numeral 0 to 5 to a group with that many objects.
+  - Uses informal marks, such as tallies or drawn dots, to record how many.
+  - With adult support, writes some numerals up to 10.
+observation_prompts:
+  - When shown a numeral card, can the child build or point to a matching set of objects?
+  - Does the child use marks of their own to keep track of a quantity?
+accessibility_notes:
+  - Provide raised, sandpaper, or magnetic numerals for tactile learners.
+  - Allow tracing in sand or shaving cream for children still building pencil control.
+common_misconceptions:
+  - "Recognizing the shape of a numeral is not the same as knowing the quantity it stands for."
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - number-sense
+  - numerals
+  - writing-numbers
+  - symbol-quantity
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-math-5
+status: accepted
+locale: en-US

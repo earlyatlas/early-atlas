@@ -1,0 +1,45 @@
+id: ea.skill.physical-development.health-safety.learns-safe-behaviors
+slug: learns-safe-behaviors
+title: Learns Safe Behaviors with Adult Support
+short_description: >-
+  Toddler accepts adult guidance in unsafe situations and begins to tell safe
+  from unsafe behaviors.
+developmental_purpose: >-
+  Before children can keep themselves safe, they learn to trust and cooperate
+  with caring adults. Accepting a held hand to cross a street or pausing at a hot
+  stove builds the early understanding of cause, consequence, and limits that
+  grows into independent safety skills.
+domain_ids:
+  - ea.domain.physical-development
+age_range_months:
+  min: 16
+  max: 36
+developmental_stage: toddler
+mastery_criteria:
+  - Accepts adult guidance and protection when in an unsafe situation.
+  - Cooperates with safety routines, such as holding a hand to cross a street.
+  - Shows early understanding of some unsafe behaviors, such as not touching a hot
+    stove.
+observation_prompts:
+  - When an adult says "stop" or offers a hand near a hazard, does the toddler
+    respond and cooperate?
+  - Does the child show caution around something new, such as an unfamiliar dog or
+    a steep step?
+accessibility_notes:
+  - Pair spoken safety cues with gestures, signs, or pictures for children who
+    benefit from added cues.
+  - Keep routines and warning words consistent so children can learn and predict
+    them.
+safety_notes:
+  - Adults remain the primary safeguard; close supervision is essential at this age.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - health-safety
+  - safety
+  - cooperation
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-pmp-10
+status: accepted
+locale: en-US

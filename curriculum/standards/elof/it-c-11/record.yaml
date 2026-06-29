@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-c-11
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-C 11"
+title: "Child observes and imitates sounds, words, gestures, actions, and behaviors."
+domain_area: "Cognition"
+sub_domain: "Imitation and Symbolic Representation and Play"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Engages in reciprocal imitation games, such as patting on a table or handing an object back and forth."
+  - age_period: "8 to 18 Months"
+    text: "Imitates what other people did earlier, such as wiping up a spill or closing a door."
+  - age_period: "16 to 36 Months"
+    text: "Imitates more complex actions, words, or signs at a later time in order to communicate, make, or do something."
+  - age_period: "By 36 Months"
+    text: "Watches and imitates adult actions involving multiple steps, such as getting spoons and forks to set a table."
+  - age_period: "By 36 Months"
+    text: "Imitates someone else's conversation, such as in pretend play or on a toy phone."
+source_url: https://headstart.gov/school-readiness/article/cognition-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

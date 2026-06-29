@@ -1,0 +1,41 @@
+id: ea.skill.mathematics.geometry.identifies-and-composes-shapes
+slug: identifies-and-composes-shapes
+title: Identifies and Composes Shapes
+short_description: Child names, describes, and builds shapes by their sides and angles.
+developmental_purpose: >-
+  Geometry grows from recognizing whole shapes to analyzing their parts. When
+  children name shapes regardless of size or orientation, describe sides and
+  angles, and combine smaller shapes into larger ones, they build the spatial
+  and analytical thinking that underlies later geometry and design.
+domain_ids:
+  - ea.domain.mathematics
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.mathematics.classification.sorts-by-color
+mastery_criteria:
+  - Names circle, square, and triangle regardless of size or orientation.
+  - Describes a shape by its number of sides and angles.
+  - Combines smaller shapes to compose a larger shape or picture.
+observation_prompts:
+  - Can the child still name a triangle when it is rotated or stretched?
+  - "When building, does the child notice parts of shapes, such as \"this one has three sides\"?"
+accessibility_notes:
+  - Provide foam or wooden shapes with distinct edges for tactile exploration.
+  - Describe shapes aloud by their sides and corners for children with low vision.
+common_misconceptions:
+  - "A shape does not stop being a triangle when it is turned upside down or made larger."
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - geometry
+  - shapes
+  - sides-and-angles
+  - composing
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-math-9
+status: accepted
+locale: en-US

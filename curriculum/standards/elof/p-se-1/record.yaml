@@ -1,0 +1,25 @@
+id: ea.standard.elof.p-se-1
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-SE 1"
+title: "Child engages in and maintains positive relationships and interactions with adults."
+domain_area: "Social and Emotional Development"
+sub_domain: "Relationships with Adults"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Engages in positive interactions with adults, such as by demonstrating affection or talking about ideas. Is able to separate from trusted adults when in familiar settings. Uses adults as a resource to solve problems."
+  - age_period: "48 to 60 Months"
+    text: "Clearly shows enjoyment in interactions with trusted adults while also demonstrating skill in separating from these adults with minimal distress when in a familiar setting. Initiates interactions with adults and participates in longer and more reciprocal interactions with both trusted and new adults."
+  - age_period: "By 60 Months"
+    text: "Interacts readily with trusted adults."
+  - age_period: "By 60 Months"
+    text: "Engages in some positive interactions with less familiar adults, such as parent volunteers."
+  - age_period: "By 60 Months"
+    text: "Shows affection and preference for adults who interact with them on a regular basis."
+  - age_period: "By 60 Months"
+    text: "Seeks help from adults when needed."
+source_url: https://headstart.gov/school-readiness/article/social-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

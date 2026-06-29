@@ -1,0 +1,41 @@
+id: ea.skill.language.expressive.engages-others-in-interaction
+slug: engages-others-in-interaction
+title: Engages Others in Interaction
+short_description: Child uses sounds, gestures, words, or signs to start and keep social exchanges going.
+developmental_purpose: >-
+  Using communication to engage another person — a smile, a babble, a repeated
+  word, or a short conversation — builds the social turn-taking that all later
+  language rests on. It teaches a child that communication is a shared,
+  reciprocal exchange.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 0
+  max: 36
+developmental_stage: infant_to_toddler
+related_skill_ids:
+  - ea.skill.language.expressive.communicates-needs-and-wants
+mastery_criteria:
+  - Uses smiles, coos, babbles, or gestures to draw a familiar adult into interaction.
+  - Repeats actions or words to start or keep up an exchange with another person.
+  - Uses words, signs, or short sentences to begin, continue, or extend a simple conversation.
+observation_prompts:
+  - Does the child do something to get your attention and keep an interaction going?
+  - In a back-and-forth game, does the child take a turn to keep it going?
+accessibility_notes:
+  - Build turn-taking around whatever signal the child offers, including eye gaze or body movement.
+  - Slow your pace and pause expectantly to give the child time to take a turn.
+common_misconceptions:
+  - Initiating interaction counts even without words; gestures and sounds are meaningful conversational turns.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - expressive-language
+  - turn-taking
+  - conversation
+  - infant
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-lc-4
+status: accepted
+locale: en-US

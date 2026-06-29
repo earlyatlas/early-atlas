@@ -1,0 +1,19 @@
+id: ea.standard.elof.p-math-2
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-MATH 2"
+title: "Child recognizes the number of objects in a small set."
+domain_area: "Mathematics Development"
+sub_domain: "Counting and Cardinality"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Develops an understanding of what whole numbers mean. Begins to recognize the number of small objects in groups without counting (referred to as \"subitizing\")."
+  - age_period: "48 to 60 Months"
+    text: "Quickly recognizes the number of objects in a small set (referred to as \"subitizing\")."
+  - age_period: "By 60 Months"
+    text: "Instantly recognizes, without counting, small quantities of up to five objects and says or signs the number."
+source_url: https://headstart.gov/school-readiness/article/math-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

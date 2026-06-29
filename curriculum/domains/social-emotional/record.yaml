@@ -1,0 +1,26 @@
+id: ea.domain.social-emotional
+slug: social-emotional
+title: Social-Emotional Development
+description: >-
+  The growing capacity to understand and manage emotions, build secure
+  relationships, regulate behavior, and develop empathy. Recognized by Head Start
+  ELOF and CDC as a foundational domain that underpins all other learning.
+age_coverage:
+  min: 0
+  max: 72
+subdomains:
+  - emotional-understanding
+  - self-regulation
+  - relationships
+tags:
+  - social-emotional
+  - self-regulation
+  - relationships
+  - emotions
+  - foundational
+references:
+  - ea.citation.headstart.elof
+  - ea.citation.cdc.learn-the-signs
+  - ea.citation.naeyc.dap
+status: accepted
+locale: en-US

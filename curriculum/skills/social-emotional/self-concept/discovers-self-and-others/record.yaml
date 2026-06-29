@@ -1,0 +1,36 @@
+id: ea.skill.social-emotional.self-concept.discovers-self-and-others
+slug: discovers-self-and-others
+title: Discovers Self and Others
+short_description: Infant or toddler explores their own body and grows aware of self as separate from others.
+developmental_purpose: >-
+  Discovering hands, feet, and movement, then realizing that others have their own
+  thoughts and feelings, is the beginning of self-awareness. This sense of self is
+  the platform for identity, perspective-taking, and intentional connection.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 3
+  max: 30
+developmental_stage: infant_toddler
+related_skill_ids:
+  - ea.skill.social-emotional.self-concept.recognizes-own-characteristics
+mastery_criteria:
+  - Explores own body and uses hands, gestures, or movement to relate to others.
+  - Shows awareness of own preferences and that others have separate thoughts and feelings.
+observation_prompts:
+  - Does the child explore their own hands, feet, or reflection with interest?
+  - Does the child show awareness that other people want or feel different things?
+accessibility_notes:
+  - Use unbreakable mirrors and narrate body parts during care routines.
+  - Adapt exploration for sensory or motor differences — guide hands gently, offer varied textures.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - self-concept
+  - self-awareness
+  - body-awareness
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-se-10
+status: accepted
+locale: en-US

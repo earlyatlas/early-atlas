@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-lc-3
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-LC 3"
+title: "Child varies the amount of information provided to meet the demands of the situation."
+domain_area: "Language and Communication"
+sub_domain: "Communicating and Speaking"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Uses language, spoken or sign, for different purposes and is sometimes able to provide sufficient detail to get needs met from a variety of adults."
+  - age_period: "48 to 60 Months"
+    text: "Uses language, spoken or sign, for a variety of purposes and can typically provide sufficient detail in order to get needs met from a variety of adults."
+  - age_period: "By 60 Months"
+    text: "Usually provides sufficient detail in order to get needs met, such as explaining a point of difficulty in a task or sharing a request from home with the teacher."
+  - age_period: "By 60 Months"
+    text: "Uses language, spoken or sign, to clarify a word or statement when misunderstood."
+  - age_period: "By 60 Months"
+    text: "Children who are DLLs may switch between their languages."
+source_url: https://headstart.gov/school-readiness/article/language-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

@@ -1,0 +1,21 @@
+id: ea.standard.elof.p-atl-3
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-ATL 3"
+title: "Child appropriately handles and takes care of classroom materials."
+domain_area: "Approaches to Learning"
+sub_domain: "Emotional and Behavioral Self-Regulation"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Handles classroom materials, such as putting them where they belong, with adult support."
+  - age_period: "48 to 60 Months"
+    text: "Usually handles, takes care of, and manages classroom materials, such as using them in appropriate ways and not throwing them from the sensory table onto the floor."
+  - age_period: "By 60 Months"
+    text: "Appropriately handles materials during activities."
+  - age_period: "By 60 Months"
+    text: "Cleans up and puts materials away appropriately, such as places blocks back on correct shelf or places markers in the correct bin."
+source_url: https://headstart.gov/school-readiness/article/approaches-learning-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

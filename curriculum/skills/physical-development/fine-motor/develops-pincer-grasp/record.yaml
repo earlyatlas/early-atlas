@@ -1,0 +1,43 @@
+id: ea.skill.physical-development.fine-motor.develops-pincer-grasp
+slug: develops-pincer-grasp
+title: Develops a Pincer Grasp
+short_description: >-
+  Infant picks up small objects using the thumb and index finger together.
+developmental_purpose: >-
+  The pincer grasp is a foundational fine-motor milestone that gives infants
+  precise control of the hand. It underpins self-feeding, tool use, and the
+  later hand strength and dexterity needed for drawing and writing.
+domain_ids:
+  - ea.domain.physical-development
+age_range_months:
+  min: 6
+  max: 14
+developmental_stage: infant_to_toddler
+mastery_criteria:
+  - Picks up a small piece of food or object using thumb and forefinger, not a
+    raking whole-hand motion.
+  - Transfers a small object from one hand to the other with control.
+  - Releases an object into a container on purpose.
+observation_prompts:
+  - "During snack, does the infant pick up a single small piece of food with the\
+    \ tips of the thumb and index finger?"
+  - Does the child poke or point with one index finger at objects of interest?
+accessibility_notes:
+  - For infants with low muscle tone, offer slightly larger, easy-to-grip pieces
+    and stabilize the wrist on the tray.
+  - Children with visual differences benefit from high-contrast objects against a
+    plain surface.
+safety_notes:
+  - Use only pieces too large to fully fit in the mouth or that dissolve safely;
+    supervise closely to prevent choking.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - fine-motor
+  - pincer-grasp
+  - hand-strength
+  - infant
+standard_ids:
+  - ea.standard.elof.it-pmp-7
+status: accepted
+locale: en-US

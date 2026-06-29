@@ -1,0 +1,21 @@
+id: ea.methodology.highscope
+slug: highscope
+title: HighScope
+short_description: A research-based approach centered on "Plan-Do-Review" and active, hands-on learning.
+origin: Grew out of the Perry Preschool research in Ypsilanti, Michigan, beginning in the 1960s.
+principles:
+  - Active participatory learning — children learn by doing with real materials.
+  - The Plan-Do-Review sequence — children plan, carry out, then reflect.
+  - Warm adult-child interaction that scaffolds thinking.
+  - A consistent, predictable daily routine.
+  - Progress tracked through key developmental indicators.
+inspiration_note: >-
+  Lessons tagged HighScope are inspired by these ideas — planning, doing, and
+  reflecting through active learning. They are original Early Atlas activities, not
+  an official HighScope curriculum.
+tags:
+  - plan-do-review
+  - active-learning
+  - routine
+status: accepted
+locale: en-US

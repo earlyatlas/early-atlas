@@ -1,0 +1,48 @@
+id: ea.skill.physical-development.perceptual.guides-movement-with-perception
+slug: guides-movement-with-perception
+title: Guides Movement with Perception
+short_description: >-
+  Child uses awareness of body, space, and other people to coordinate movements
+  and interact with objects and peers.
+developmental_purpose: >-
+  By the preschool years, perception and movement work together so a child can
+  aim, dodge, line up, and share space. This body-and-space awareness lets
+  children join group games, navigate a busy room, and interact with objects and
+  peers without collisions, supporting both physical play and social cooperation.
+domain_ids:
+  - ea.domain.physical-development
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.physical-development.perceptual.moves-body-with-sensory-awareness
+mastery_criteria:
+  - Moves body into position to perform a task, such as lining up to kick a ball.
+  - On request, moves in front of, behind, or beside a person or object.
+  - Changes direction while moving with little difficulty.
+  - Keeps an appropriate distance from others during active play.
+observation_prompts:
+  - During group games, does the child position their body to catch, kick, or pass
+    without bumping into others?
+  - Can the child follow directions like "stand behind the line" or "move to the
+    side"?
+accessibility_notes:
+  - Use clear floor markers and spoken position cues for children who benefit from
+    visual or verbal structure.
+  - Offer seated or partner-supported versions for children with mobility
+    differences.
+safety_notes:
+  - Keep the play area clear of hazards and space children out to prevent collisions.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - perception
+  - spatial-awareness
+  - coordination
+  - positioning
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-pmp-2
+status: accepted
+locale: en-US

@@ -1,0 +1,54 @@
+id: ea.activity.physical-development.safe-and-not-safe-walk
+slug: safe-and-not-safe-walk
+title: Stop-and-Go Safety Walk
+summary: >-
+  A toddler practices cooperating with adult safety cues on a short indoor or
+  outdoor walk, learning to stop, hold a hand, and pause near simple hazards.
+supported_skill_ids:
+  - ea.skill.physical-development.health-safety.learns-safe-behaviors
+age_range_months:
+  min: 16
+  max: 36
+group_size: 1-3 children
+duration_minutes: 10
+materials:
+  - A safe walking route with a doorway or curb to stop at
+  - Optional picture cards of a stop sign and a held hand
+setup: >-
+  Choose a short, familiar route with one or two natural stopping points. Decide
+  on a consistent cue word, such as "stop and hold," before you begin.
+steps:
+  - Tell the child you will practice stopping and holding hands to stay safe.
+  - Walk a few steps, then say your cue word and offer your hand.
+  - Praise the child warmly when they stop and take your hand.
+  - At a doorway or curb, pause together and say "we stop and look before we go."
+  - Repeat the stop-and-go pattern a few times, keeping it light and playful.
+variations:
+  - Play a freeze-dance version indoors where "stop" means hold still and hold a
+    hand.
+  - Use picture cards so the child can show "stop" back to you.
+differentiation:
+  - For younger toddlers, keep the walk very short with one stopping point.
+  - For older toddlers, add a simple "why" such as looking for cars or bikes.
+assessment_opportunities:
+  - Note whether the child stops and takes a hand when given the cue.
+  - Watch for early caution near hazards, such as pausing at a step or curb.
+safety_notes:
+  - The adult remains the primary safeguard and keeps the child within reach at all
+    times.
+  - Choose low-traffic, hazard-checked routes for practice.
+accessibility_notes:
+  - Pair the spoken cue with a gesture, sign, or picture for children who benefit
+    from added cues.
+  - Keep the cue word and routine consistent so the child can learn and predict it.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - health-safety
+  - safety
+  - cooperation
+  - toddler
+methodologies:
+  - play-based
+status: accepted
+locale: en-US

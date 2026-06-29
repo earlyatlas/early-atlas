@@ -1,0 +1,49 @@
+id: ea.activity.mathematics.shape-builder-pictures
+slug: shape-builder-pictures
+title: Shape Builder Pictures
+summary: Children name shapes, count their sides, and combine them into new pictures.
+supported_skill_ids:
+  - ea.skill.mathematics.geometry.identifies-and-composes-shapes
+age_range_months:
+  min: 36
+  max: 60
+group_size: 2-6 children
+duration_minutes: 20
+materials:
+  - A set of paper or foam shapes in circles, squares, triangles, and rectangles of various sizes
+  - A sheet of paper or a tray as a building base
+  - Glue sticks or a felt board, optional
+setup: Spread the shapes face up so children can see the full variety of sizes and orientations.
+steps:
+  - Hold up a shape and ask the child to name it, even when it is turned or large.
+  - Count the sides and corners of the shape together.
+  - Invite the child to find another shape with the same number of sides.
+  - "Ask the child to combine shapes to build something, such as a house or rocket."
+  - Talk about which shapes they joined and how many sides each has.
+  - Display the finished pictures and name the shapes inside them.
+variations:
+  - Cut a large square along its diagonal to show it makes two triangles.
+  - Hunt the room for objects that match each shape.
+differentiation:
+  - For younger children, focus on naming circles, squares, and triangles.
+  - For older children, include pentagons and hexagons and describe sides and angles.
+assessment_opportunities:
+  - Note whether the child names shapes correctly despite size or rotation.
+  - Observe whether the child combines shapes intentionally to compose a new one.
+safety_notes:
+  - Use rounded-edge shapes and supervise the use of glue or small pieces.
+accessibility_notes:
+  - Provide thick foam or wooden shapes with distinct edges for tactile learners.
+  - Describe each shape aloud by sides and corners for children with low vision.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - geometry
+  - shapes
+  - composing
+  - sides-and-angles
+methodologies:
+  - reggio-emilia
+  - play-based
+status: accepted
+locale: en-US

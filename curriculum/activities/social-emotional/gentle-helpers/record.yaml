@@ -1,0 +1,45 @@
+id: ea.activity.social-emotional.gentle-helpers
+slug: gentle-helpers
+title: Gentle Helpers
+summary: Caregivers model comforting a sad teddy so toddlers practice caring responses.
+supported_skill_ids:
+  - ea.skill.social-emotional.emotional-understanding.shows-care-and-concern
+age_range_months:
+  min: 14
+  max: 36
+group_size: 1-4 children
+duration_minutes: 15
+materials:
+  - A few soft toys or dolls
+  - A small blanket and a toy bandage or cloth
+setup: Gather the soft toys and sit with the children in a cozy circle.
+steps:
+  - Pretend a teddy is sad or has a hurt knee and name its feeling.
+  - Wonder aloud, for example "Teddy is sad — how can we help?"
+  - Model a gentle action such as a soft pat, a hug, or covering Teddy with a blanket.
+  - Invite each child to offer their own comforting action and warmly name it.
+  - Connect it to real life, for example "you can help a friend feel better too."
+variations:
+  - Act out caring for a doll who dropped a toy or bumped a knee.
+  - Read a short story about helping and pause to comfort the character.
+differentiation:
+  - For younger toddlers, demonstrate the action and let them copy.
+  - For older toddlers, ask what the toy might need and follow their ideas.
+assessment_opportunities:
+  - Note whether the child shows concern and offers a comforting action.
+  - Watch for the child transferring caring behavior to a real peer.
+safety_notes:
+  - Keep props soft and free of small parts; supervise gentle handling.
+accessibility_notes:
+  - Model caring actions clearly and slowly for children who learn by watching.
+  - Accept any caring attempt, including a glance or fetching an adult.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - empathy
+  - prosocial
+  - caring
+methodologies:
+  - waldorf
+status: accepted
+locale: en-US

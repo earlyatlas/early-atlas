@@ -1,0 +1,27 @@
+id: ea.standard.elof.p-lc-2
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-LC 2"
+title: "Child understands and responds to increasingly complex communication and language from others."
+domain_area: "Language and Communication"
+sub_domain: "Attending and Understanding"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Understands and responds (verbally and non-verbally) to increasingly longer sentences, simple questions, and simple stories."
+  - age_period: "48 to 60 Months"
+    text: "Shows an understanding of complex statements, questions, and stories containing multiple phrases and ideas, and responds appropriately."
+  - age_period: "By 60 Months"
+    text: "Shows an ability to recall (in order) multiple step directions."
+  - age_period: "By 60 Months"
+    text: "Demonstrates understanding of a variety of question types, such as \"Yes/No?\" or \"Who/What/When/Where?\" or \"How/ Why?\""
+  - age_period: "By 60 Months"
+    text: "Shows understanding of a variety of sentence types, such as multi-clause, cause-effect, sequential order, or if-then."
+  - age_period: "By 60 Months"
+    text: "Shows an understanding of talk related to the past or future."
+  - age_period: "By 60 Months"
+    text: "Shows understanding, such as nodding or gestures, in response to the content of books read aloud, stories that are told, or lengthy explanations given on a topic. Children who are DLLs may demonstrate more complex communication and language in their home language than in English."
+source_url: https://headstart.gov/school-readiness/article/language-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

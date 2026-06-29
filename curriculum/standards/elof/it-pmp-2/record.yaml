@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-pmp-2
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-PMP 2"
+title: "Child uses perceptual information in directing own actions, experiences, and interactions."
+domain_area: "Perceptual, Motor, and Physical Development"
+sub_domain: "Perception"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Adjusts balance and movement with the changing size and proportion of own body in response to opportunities in the environment."
+  - age_period: "8 to 18 Months"
+    text: "Uses depth perception, scans for obstacles, and makes a plan on how to move based on that information while learning to crawl, walk, or move in another way."
+  - age_period: "16 to 36 Months"
+    text: "Coordinates perceptual information and motor actions to participate in play and daily routines, such as singing songs with hand motions or practicing self-care skills."
+  - age_period: "By 36 Months"
+    text: "Adjusts walking or running to the type of surface, such as a rocky, sandy, or slippery surface."
+  - age_period: "By 36 Months"
+    text: "Handles or explores objects or materials in different ways depending on perceptual information about the objects or materials, such as fragile, messy, or sticky properties."
+source_url: https://headstart.gov/school-readiness/article/perceptual-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

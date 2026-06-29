@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-se-1
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-SE 1"
+title: "Child develops expectations of consistent, positive interactions through secure relationships with familiar adults."
+domain_area: "Social and Emotional Development"
+sub_domain: "Relationships with Adults"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Interacts in predictable ways with familiar adults. Responds positively to familiar adults' efforts to help with stressful moments."
+  - age_period: "8 to 18 Months"
+    text: "Looks to familiar adults for emotional support and encouragement. Reacts or may become distressed when separated from familiar adults."
+  - age_period: "16 to 36 Months"
+    text: "Engages in positive interactions in a wide variety of situations with familiar adults. Looks to or seeks familiar adults for comfort when distressed or tired."
+  - age_period: "By 36 Months"
+    text: "Shows emotional connection and attachment to familiar adults."
+  - age_period: "By 36 Months"
+    text: "Turns to familiar adults for protection, comfort, and getting needs met."
+source_url: https://headstart.gov/school-readiness/article/social-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

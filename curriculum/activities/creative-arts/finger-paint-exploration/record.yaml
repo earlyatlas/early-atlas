@@ -1,0 +1,47 @@
+id: ea.activity.creative-arts.finger-paint-exploration
+slug: finger-paint-exploration
+title: Open-Ended Finger Painting
+summary: Toddlers explore washable finger paint freely, focusing on the sensory process rather than a finished picture.
+supported_skill_ids:
+  - ea.skill.creative-arts.visual-art.explores-art-materials
+age_range_months:
+  min: 12
+  max: 36
+group_size: 1-3 children
+duration_minutes: 20
+materials:
+  - Non-toxic, washable finger paint in two or three colors
+  - Large sheets of sturdy paper, or a wipeable tray
+  - Smocks or old shirts and a damp cloth for cleanup
+setup: Tape paper to a low table or tray, set out a small dab of each color, and dress children in smocks.
+steps:
+  - Invite the child to touch the paint and notice how it feels, without showing them what to make.
+  - Let the child smear, pat, and drag the paint however they choose.
+  - Describe what you see, such as "you are spreading the red all the way across."
+  - Offer a second color and let the child discover what happens where colors meet.
+  - Let the child decide when they are finished, then wash hands together.
+variations:
+  - Paint on a window or mirror for a new surface and easy cleanup.
+  - Add a comb or sponge so children can explore different textures and marks.
+differentiation:
+  - For younger toddlers, offer one color and a large surface; for older toddlers, add tools and a second color.
+assessment_opportunities:
+  - Notice whether the child makes intentional marks and explores more than one way to move the paint.
+  - Observe how long the child stays absorbed in the process.
+safety_notes:
+  - Use only non-toxic, washable paint and supervise closely to prevent mouthing.
+accessibility_notes:
+  - Offer edible paint for children who mouth materials, and tape the paper down for children who need a stable surface.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - visual-art
+  - painting
+  - sensory
+  - color
+  - process-art
+methodologies:
+  - reggio-emilia
+  - play-based
+status: accepted
+locale: en-US

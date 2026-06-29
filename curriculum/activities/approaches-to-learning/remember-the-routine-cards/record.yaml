@@ -1,0 +1,45 @@
+id: ea.activity.approaches-to-learning.remember-the-routine-cards
+slug: remember-the-routine-cards
+title: Remember the Routine Cards
+summary: A toddler uses simple photo cards of a daily routine to recall and tell what comes next, drawing on memory to guide the steps.
+supported_skill_ids:
+  - ea.skill.approaches-to-learning.executive-function.draws-on-memory
+age_range_months:
+  min: 18
+  max: 36
+group_size: 1-4 children
+duration_minutes: 10
+materials:
+  - 3 to 5 photos of steps in a familiar routine (wash hands, sit down, eat, clear plate)
+  - Optional ring or board to hold the cards in order
+setup: Take simple photos of one routine the child does every day and arrange them in order.
+steps:
+  - Look at the first card together and name what is happening.
+  - Ask, "What do we do next?" and let the child recall before turning the card.
+  - Move through the cards, letting the child lead as much as possible.
+  - During the real routine later, glance at the cards to confirm the child's memory.
+  - Celebrate when the child anticipates a step on their own.
+variations:
+  - Mix up two cards and ask the child to put them back in the right order.
+  - Use the cards to talk about a routine from earlier in the day.
+differentiation:
+  - For younger toddlers, use just two cards for a two-step routine.
+  - For older toddlers, leave a card out and ask what is missing.
+assessment_opportunities:
+  - Note whether the child predicts the next step before seeing the card.
+  - Listen for the child describing a past routine in their own words.
+safety_notes:
+  - Use sturdy, laminated or thick cards with no sharp edges.
+accessibility_notes:
+  - Pair each photo with a spoken word or sign for children who are not yet matching pictures.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - memory
+  - routines
+  - sequencing
+methodologies:
+  - highscope
+  - play-based
+status: accepted
+locale: en-US

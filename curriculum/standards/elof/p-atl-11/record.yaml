@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-atl-11
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-ATL 11"
+title: "Child shows interest in and curiosity about the world around them."
+domain_area: "Approaches to Learning"
+sub_domain: "Initiative and Curiosity"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Seeks out new information and explores new play and tasks with adult support."
+  - age_period: "48 to 60 Months"
+    text: "Seeks out new information and explores new play and tasks both independently and with adult support."
+  - age_period: "By 60 Months"
+    text: "Asks questions and seeks new information."
+  - age_period: "By 60 Months"
+    text: "Is willing to participate in new activities or experiences even if they are perceived as challenging."
+  - age_period: "By 60 Months"
+    text: "Demonstrates eagerness to learn about and discuss a range of topics, ideas, and activities."
+source_url: https://headstart.gov/school-readiness/article/approaches-learning-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

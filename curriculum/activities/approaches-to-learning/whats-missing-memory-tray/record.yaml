@@ -1,0 +1,52 @@
+id: ea.activity.approaches-to-learning.whats-missing-memory-tray
+slug: whats-missing-memory-tray
+title: What's Missing Memory Tray
+summary: >-
+  Children study a small tray of objects, then identify which one has been
+  removed, exercising working memory in a playful guessing game.
+supported_skill_ids:
+  - ea.skill.approaches-to-learning.executive-function.holds-information-in-mind
+age_range_months:
+  min: 30
+  max: 54
+group_size: 1-6 children
+duration_minutes: 15
+materials:
+  - A tray
+  - Four to six familiar objects, such as a toy car, a spoon, a block, and a ball
+  - A cloth to cover the tray
+setup: >-
+  Place three or four objects on the tray and have the cloth ready. Sit where all
+  children can see the tray clearly.
+steps:
+  - Name each object on the tray together and look at them carefully.
+  - Cover the tray with the cloth and quietly remove one object.
+  - "Uncover the tray and ask, \"What's missing?\""
+  - Invite children to recall and name the object that was taken away.
+  - Reveal the hidden object and play again, adding more items over time.
+variations:
+  - Rearrange the remaining objects instead of removing one and ask what changed.
+  - Let a child be the one who hides an object for the group.
+differentiation:
+  - For younger children, start with just two or three objects.
+  - For older children, use up to six objects or remove two at once.
+assessment_opportunities:
+  - Note how many objects a child can hold in mind before guessing accurately.
+  - Watch whether the child scans systematically or guesses at random.
+safety_notes:
+  - Use objects large enough to be safe for the youngest child present.
+accessibility_notes:
+  - Name and let children touch each object before covering the tray.
+  - Pair object names with picture cards as an extra memory anchor.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - working-memory
+  - executive-function
+  - recall
+  - game
+methodologies:
+  - highscope
+  - play-based
+status: accepted
+locale: en-US

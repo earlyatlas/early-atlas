@@ -1,0 +1,46 @@
+id: ea.activity.language.listening-circle-check-in
+slug: listening-circle-check-in
+title: Listening Circle Check-In
+summary: Children take turns sharing news in a circle while practicing attending to and acknowledging each speaker.
+supported_skill_ids:
+  - ea.skill.language.receptive.attends-to-conversations
+age_range_months:
+  min: 36
+  max: 60
+group_size: 3-8 children
+duration_minutes: 15
+materials:
+  - A soft "talking object" to pass, such as a small stuffed animal
+  - Optional picture cards showing listening signals, such as eyes, ears, and a nod
+setup: Gather the children in a circle on the floor or on cushions where everyone can see each other.
+steps:
+  - Introduce the talking object and explain that the person holding it is the speaker.
+  - Invite the speaker to share one thing about their day in a sentence or two.
+  - Ask the listeners to show they are tuned in by looking, nodding, or signing.
+  - After each share, invite one listener to acknowledge with a comment or a related question.
+  - Pass the object around so every child has a turn to speak and to listen.
+variations:
+  - Use a theme for sharing, such as "something that made you laugh."
+  - Lengthen the conversation by inviting two follow-up questions per speaker.
+differentiation:
+  - Offer a sentence starter, such as "Today I..." for children who need a model.
+  - Let children share through signs, AAC, or a drawing.
+assessment_opportunities:
+  - Note whether the child acknowledges the speaker and stays connected across several turns.
+safety_notes:
+  - Keep shares voluntary and respect a child's choice to pass.
+accessibility_notes:
+  - Seat children so everyone can see faces and hands; reduce background noise.
+  - Honor sharing and acknowledgment in a child's home language.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - listening
+  - conversation
+  - circle-time
+  - attention
+methodologies:
+  - highscope
+  - reggio-emilia
+status: accepted
+locale: en-US

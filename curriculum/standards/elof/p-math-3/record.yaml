@@ -1,0 +1,27 @@
+id: ea.standard.elof.p-math-3
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-MATH 3"
+title: "Child understands the relationship between numbers and quantities."
+domain_area: "Mathematics Development"
+sub_domain: "Counting and Cardinality"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Begins to coordinate verbal counting with objects by pointing to or moving objects for small groups of objects laid in a line (referred to as one-to-one correspondence). Begins to understand that the last number represents how many objects are in a group (referred to as \"cardinality\")."
+  - age_period: "48 to 60 Months"
+    text: "Understands that number words refer to quantity. May point to or move objects while counting objects to 10 and beyond (one-to-one correspondence). Understands that the last number represents how many objects are in a group (cardinality)."
+  - age_period: "By 60 Months"
+    text: "When counting objects, says or signs the number names in order, pairing one number word that corresponds with one object, up to at least 10."
+  - age_period: "By 60 Months"
+    text: "Counts and answers \"How many?\" questions for approximately 10 objects."
+  - age_period: "By 60 Months"
+    text: "Accurately counts as many as five objects in a scattered configuration."
+  - age_period: "By 60 Months"
+    text: "Understands that each successive number name refers to a quantity that is one larger."
+  - age_period: "By 60 Months"
+    text: "Understands that the last number said represents the number of objects in a set."
+source_url: https://headstart.gov/school-readiness/article/math-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

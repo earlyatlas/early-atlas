@@ -1,0 +1,42 @@
+id: ea.skill.creative-arts.visual-art.explores-art-materials
+slug: explores-art-materials
+title: Explores Art Materials
+short_description: Toddler investigates crayons, paint, and dough through open-ended marks.
+developmental_purpose: >-
+  Before children make pictures of things, they explore what art materials can
+  do: how a crayon drags, how finger paint smears, how dough squishes. This
+  sensory, process-focused exploration builds fine-motor control, cause-and-effect
+  understanding, and the confidence to make a mark of one's own.
+domain_ids:
+  - ea.domain.creative-arts
+age_range_months:
+  min: 12
+  max: 36
+developmental_stage: toddler
+related_skill_ids:
+  - ea.skill.creative-arts.visual-art.creates-representational-art
+mastery_criteria:
+  - Makes intentional marks, scribbles, or impressions with a chosen material.
+  - Explores at least two properties of a material, such as pressing and smearing paint.
+  - Stays engaged with the process rather than seeking a finished product.
+observation_prompts:
+  - "Does the toddler experiment freely, or wait to be shown what to do?"
+  - Which materials draw the child back again and again?
+common_misconceptions:
+  - Scribbles are not random; they are deliberate practice in controlling marks and tools.
+accessibility_notes:
+  - Offer chunky grips, taped-down paper, or edible dough for children who mouth materials or need adapted tools.
+safety_notes:
+  - Use non-toxic, washable materials and supervise closely to prevent mouthing of small or hazardous items.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - visual-art
+  - painting
+  - scribbling
+  - sensory
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-atl-8
+status: accepted
+locale: en-US

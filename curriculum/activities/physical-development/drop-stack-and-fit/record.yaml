@@ -1,0 +1,56 @@
+id: ea.activity.physical-development.drop-stack-and-fit
+slug: drop-stack-and-fit
+title: Drop, Stack, and Fit
+summary: >-
+  An infant or toddler practices hand-eye coordination by dropping objects into a
+  container, stacking cups or blocks, and fitting large pieces together.
+supported_skill_ids:
+  - ea.skill.physical-development.fine-motor.coordinates-hand-and-eye
+age_range_months:
+  min: 8
+  max: 30
+group_size: 1-2 children
+duration_minutes: 12
+materials:
+  - A wide-mouth container or bowl
+  - Several large blocks, stacking cups, or rings
+  - A few large pom-poms or soft balls too big to swallow
+  - An optional simple chunky-piece puzzle
+setup: >-
+  Place the container and a small pile of objects on a low table or the floor in
+  front of the child. Keep the set small so the child can focus on placement.
+steps:
+  - Show the child how to pick up one object and drop it into the container.
+  - Let the child fill and empty the container at their own pace.
+  - Move to stacking, building a short tower of cups or blocks together.
+  - Invite the child to knock it down and rebuild, watching where each piece goes.
+  - If using a puzzle, hand over one piece at a time to fit into its space.
+variations:
+  - Use a container with a smaller opening to increase the aiming challenge.
+  - Thread large-holed beads onto a stiff cord for a fitting variation.
+differentiation:
+  - For younger infants, use a very wide bowl and large, easy-to-grip objects.
+  - For older toddlers, ask for a taller tower or add a sorting step by color.
+assessment_opportunities:
+  - Note whether the child lines up an object by looking before releasing it.
+  - Watch for accurate reaching and placement rather than swiping or missing.
+safety_notes:
+  - Use objects too large to swallow and supervise to prevent mouthing of small
+    parts.
+accessibility_notes:
+  - Use larger, high-contrast pieces and a non-slip tray for children with visual
+    or motor differences.
+  - Stabilize the container and bead cord so the child can focus on placement.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - fine-motor
+  - hand-eye-coordination
+  - stacking
+  - infant
+  - toddler
+methodologies:
+  - montessori
+  - play-based
+status: accepted
+locale: en-US

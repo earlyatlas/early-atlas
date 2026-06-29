@@ -1,0 +1,30 @@
+id: ea.printable.literacy.copywork-kind-words
+slug: copywork-kind-words
+title: Copywork — Kind Words
+printable_type: worksheet
+instructions: Trace each kind word along the dotted lines, then say it out loud. Use it when you have a kind moment to talk about.
+supported_skill_ids:
+  - ea.skill.literacy.writing.traces-letters
+age_range_months:
+  min: 48
+  max: 78
+generator:
+  type: handwriting
+  targets:
+    - kind
+    - help
+    - share
+    - please
+    - thank
+  rows_per_target: 1
+  traces_per_row: 5
+  style: dotted-thirds
+tags:
+  - copywork
+  - handwriting
+  - letter-formation
+  - character
+methodologies:
+  - classical
+status: accepted
+locale: en-US

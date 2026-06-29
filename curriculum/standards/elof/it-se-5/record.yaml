@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-se-5
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-SE 5"
+title: "Child imitates and engages in play with other children."
+domain_area: "Social and Emotional Development"
+sub_domain: "Relationships with Other Children"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Responds to another child's actions or sounds during play with a toy by watching attentively, touching the other child, or reaching for or taking the toy."
+  - age_period: "8 to 18 Months"
+    text: "Participates in simple imitation games, such as making similar sounds or running after another child. Plays next to other children with similar toys or materials."
+  - age_period: "16 to 36 Months"
+    text: "Joins in play with other children by sometimes taking turns or doing joint activities with a common goal, such as building block structures with others or pretending to eat together."
+  - age_period: "By 36 Months"
+    text: "Uses multiple strategies, such as imitating or responding, in order to enter play with other children."
+  - age_period: "By 36 Months"
+    text: "Engages in extended play with other children with a common focus."
+  - age_period: "By 36 Months"
+    text: "Engages in simple cooperative play with other children."
+source_url: https://headstart.gov/school-readiness/article/social-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

@@ -1,0 +1,47 @@
+id: ea.skill.physical-development.fine-motor.coordinates-hand-and-eye
+slug: coordinates-hand-and-eye
+title: Coordinates Hand and Eye Movements
+short_description: >-
+  Child uses sight to guide the hands when reaching, releasing, stacking, and
+  fitting objects together.
+developmental_purpose: >-
+  Hand-eye coordination links the visual and motor systems so a child can place,
+  fit, and combine objects on purpose. Reaching accurately, dropping objects into
+  a container, stacking, and completing puzzles build the controlled, guided hand
+  movements that underlie tool use, self-care, and later drawing and writing.
+domain_ids:
+  - ea.domain.physical-development
+age_range_months:
+  min: 6
+  max: 36
+developmental_stage: infant_to_toddler
+related_skill_ids:
+  - ea.skill.physical-development.fine-motor.develops-pincer-grasp
+mastery_criteria:
+  - Reaches for and grasps a stable or slowly moving object accurately.
+  - Releases objects into a container or stacks cups, rings, or blocks.
+  - Fits puzzle pieces or threads large-holed beads using sight to guide the hands.
+  - Turns pages and points to pictures while handling a book.
+observation_prompts:
+  - When stacking or nesting toys, does the child line pieces up by looking before
+    placing them?
+  - Does the child reach smoothly and accurately rather than swiping or missing?
+accessibility_notes:
+  - Use larger pieces, high-contrast colors, and non-slip trays for children with
+    visual or motor differences.
+  - Stabilize containers and bead strings so children can focus on placement.
+safety_notes:
+  - Use pieces too large to swallow and supervise threading and stacking to prevent
+    mouthing of small parts.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - fine-motor
+  - hand-eye-coordination
+  - stacking
+  - puzzles
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-pmp-6
+status: accepted
+locale: en-US

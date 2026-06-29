@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-lc-9
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-LC 9"
+title: "Child attends to, repeats, and uses some rhymes, phrases, or refrains from stories or songs."
+domain_area: "Language and Communication"
+sub_domain: "Emergent Literacy"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Listens and attends to culturally and linguistically familiar words or signs in rhymes or songs."
+  - age_period: "8 to 18 Months"
+    text: "Says a few words of culturally and linguistically familiar rhymes and repetitive refrains in stories or songs."
+  - age_period: "16 to 36 Months"
+    text: "Says or repeats culturally and linguistically familiar rhymes, phrases, or refrains from songs or stories."
+  - age_period: "By 36 Months"
+    text: "Repeats simple familiar rhymes or sings favorite songs."
+  - age_period: "By 36 Months"
+    text: "Retells familiar stories using props."
+source_url: https://headstart.gov/school-readiness/article/language-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

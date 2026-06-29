@@ -1,0 +1,231 @@
+---
+import Base from "../layouts/Base.astro";
+export const prerender = true;
+---
+
+<Base title="Draft preview" noncanonical={true}>
+  <div class="draft-preview">
+    <div id="draft"><p class="muted">Loading…</p></div>
+  </div>
+</Base>
+
+<!-- global (not scoped): the preview is built in client JS, which never receives
+     Astro's scope hash. Record presentation classes (.rec-head/.lead/.clean/.chips/
+     .kind-eyebrow) come from the global stylesheets the real record page uses. -->
+<style is:global>
+  .draft-preview {
+    .preview-meta {
+      margin: 0 0 var(--space-6);
+      padding-bottom: var(--space-4);
+      border-bottom: 1px solid var(--line);
+    }
+    .preview-meta h1 {
+      margin: 0 0 var(--space-2);
+    }
+    .preview-sub {
+      font-size: var(--text-sm);
+      color: var(--muted);
+    }
+    .preview-rationale {
+      margin: var(--space-3) 0 0;
+      max-width: var(--prose);
+    }
+    .op-preview + .op-preview {
+      margin-top: var(--space-6);
+      padding-top: var(--space-6);
+      border-top: 1px solid var(--line);
+    }
+    .op-label {
+      margin: 0 0 var(--space-4);
+      font-size: var(--text-sm);
+      color: var(--muted);
+    }
+    .changed-pill {
+      margin-left: var(--space-2);
+      vertical-align: middle;
+      font-size: 0.62rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 2px 7px;
+      border-radius: var(--radius-pill);
+      background: var(--accent-soft);
+      color: var(--accent);
+      border: 1px solid var(--accent-border);
+    }
+    .badge {
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      font-size: 0.68rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: var(--radius-pill);
+      background: var(--surface-2);
+      color: var(--muted);
+      border: 1px solid var(--line);
+    }
+  }
+</style>
+
+<script>
+  import { getUser, login, api, isAuthConfigured } from "../lib/auth/browser";
+
+  const esc = (s: any) =>
+    String(s).replace(
+      /[&<>"]/g,
+      (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!,
+    );
+  const kindOf = (rec: any) => rec.kind ?? rec.id?.split(".")[1] ?? "record";
+  const KIND_LABEL: Record<string, string> = { skill: "Skill", activity: "Activity" };
+  const stripChild = (s: string) => String(s).replace(/^Child\s+/, "");
+
+  // Public record index → resolve linked ids to human titles (no metadata shown).
+  let index: Map<string, { title: string; code?: string }> | null = null;
+  async function loadIndex() {
+    if (index) return index;
+    const recs: any[] = await (await fetch("/records.json")).json();
+    index = new Map(recs.map((r) => [r.id, { title: r.title, code: r.code }]));
+    return index;
+  }
+  const titleOf = (id: string) => index?.get(id)?.title ?? id;
+  const milestoneLabel = (id: string) => stripChild(index?.get(id)?.title ?? id);
+
+  function section(label: string, inner: string, key: string, changed: Set<string>) {
+    const pill = changed.has(key) ? ` <span class="changed-pill">changed</span>` : "";
+    return `<section><h2>${esc(label)}${pill}</h2>${inner}</section>`;
+  }
+  function listSection(label: string, items: any, key: string, changed: Set<string>) {
+    if (!Array.isArray(items) || !items.length) return "";
+    const lis = items.map((i) => `<li>${esc(i)}</li>`).join("");
+    return section(label, `<ul class="clean">${lis}</ul>`, key, changed);
+  }
+  function linkSection(label: string, ids: any, key: string, changed: Set<string>) {
+    if (!Array.isArray(ids) || !ids.length) return "";
+    const lis = ids
+      .map((id) => `<li><a href="/r/${encodeURIComponent(id)}">${esc(titleOf(id))}</a></li>`)
+      .join("");
+    return section(label, `<ul class="clean">${lis}</ul>`, key, changed);
+  }
+
+  // Mirrors the real /r/[id] record page's main content for skills + activities,
+  // so a reviewer sees the page as it will publish — not raw fields.
+  function renderRecordView(rec: any, changed: Set<string>): string {
+    const kind = kindOf(rec);
+    const lead = rec.short_description ?? rec.summary ?? rec.description ?? "";
+    const age = rec.age_range_months
+      ? `<p class="rec-age">Ages ${esc(rec.age_range_months.min)}–${esc(rec.age_range_months.max)} months</p>`
+      : "";
+    const tags =
+      Array.isArray(rec.tags) && rec.tags.length
+        ? `<div class="chips">${rec.tags.map((t: string) => `<span class="chip">${esc(t)}</span>`).join("")}</div>`
+        : "";
+    const milestoneIds = Array.isArray(rec.standard_ids) ? rec.standard_ids : [];
+    const milestone = milestoneIds.length
+      ? section(
+          kind === "skill" ? "Builds toward this milestone" : "Supports this milestone",
+          `<ul class="clean">${milestoneIds.map((id: string) => `<li>${esc(milestoneLabel(id))}</li>`).join("")}</ul>`,
+          "standard_ids",
+          changed,
+        )
+      : "";
+    return `<article class="rec-render">
+      <header class="rec-head">
+        <p class="kind-eyebrow kind-${esc(kind)}">${esc(KIND_LABEL[kind] ?? kind)}</p>
+        <h1>${esc(rec.title ?? rec.id)}</h1>
+        ${lead ? `<p class="lead">${esc(lead)}</p>` : ""}
+        ${age}
+        ${tags}
+      </header>
+      ${rec.developmental_purpose ? section("Why it matters", `<p>${esc(rec.developmental_purpose)}</p>`, "developmental_purpose", changed) : ""}
+      ${milestone}
+      ${listSection("What mastery looks like", rec.mastery_criteria, "mastery_criteria", changed)}
+      ${listSection("How to observe it", rec.observation_prompts, "observation_prompts", changed)}
+      ${listSection("Materials", rec.materials, "materials", changed)}
+      ${listSection("Steps", rec.steps, "steps", changed)}
+      ${listSection("Variations", rec.variations, "variations", changed)}
+      ${listSection("Differentiation", rec.differentiation, "differentiation", changed)}
+      ${listSection("Accessibility", rec.accessibility_notes, "accessibility_notes", changed)}
+      ${listSection("Safety", rec.safety_notes, "safety_notes", changed)}
+      ${linkSection("Learn first", rec.prerequisite_skill_ids, "prerequisite_skill_ids", changed)}
+      ${linkSection("Related skills", rec.related_skill_ids, "related_skill_ids", changed)}
+      ${linkSection("Practices these skills", rec.supported_skill_ids, "supported_skill_ids", changed)}
+    </article>`;
+  }
+
+  // For an edit we need the record's current values to show the *resulting* page.
+  async function baseRecord(id: string): Promise<any | null> {
+    try {
+      const r = await fetch(`/records/${encodeURIComponent(id)}.json`);
+      return r.ok ? await r.json() : null;
+    } catch {
+      return null;
+    }
+  }
+
+  async function renderOp(op: any): Promise<string> {
+    if (op.op === "create_record") {
+      return `<div class="op-preview"><p class="op-label">New ${esc(KIND_LABEL[kindOf(op.record)] ?? kindOf(op.record)).toLowerCase()} — full preview</p>${renderRecordView(op.record, new Set())}</div>`;
+    }
+    if (op.op === "update_fields") {
+      const base = await baseRecord(op.id);
+      const changed = new Set(Object.keys(op.fields ?? {}));
+      if (!base) {
+        // can't load the current record — at least show what's changing
+        const rows = Object.entries(op.fields ?? {})
+          .map(([k, v]) => `<li><strong>${esc(k)}:</strong> ${esc(JSON.stringify(v))}</li>`)
+          .join("");
+        return `<div class="op-preview"><p class="op-label">Edit to <code>${esc(op.id)}</code> (current version unavailable)</p><ul class="clean">${rows}</ul></div>`;
+      }
+      const merged = { ...base.data, ...op.fields, id: op.id, kind: base.kind };
+      return `<div class="op-preview"><p class="op-label">Edit to <code>${esc(op.id)}</code> — ${changed.size} field${changed.size === 1 ? "" : "s"} changed, shown on the live page</p>${renderRecordView(merged, changed)}</div>`;
+    }
+    if (op.op === "replace_body") {
+      return `<div class="op-preview"><p class="op-label">Replaces the notes of <code>${esc(op.id)}</code></p><section><h2>Notes</h2><p>${esc(op.body ?? "")}</p></section></div>`;
+    }
+    if (op.op === "deprecate_record") {
+      return `<div class="op-preview"><p class="op-label">Marks <code>${esc(op.id)}</code> as deprecated${op.replaced_by ? `, replaced by <code>${esc(op.replaced_by)}</code>` : ""}.</p></div>`;
+    }
+    return `<div class="op-preview"><p class="op-label">${esc(op.op)} ${esc(op.id ?? op.from_id ?? "")}</p></div>`;
+  }
+
+  (async function main() {
+    const root = document.getElementById("draft")!;
+    if (!isAuthConfigured()) {
+      root.innerHTML = '<div class="notice bad">Sign-in isn’t configured for this build.</div>';
+      return;
+    }
+    if (!getUser()) {
+      root.innerHTML =
+        '<p>Sign in to preview this proposal.</p><p><button id="si">Sign in</button></p>';
+      document
+        .getElementById("si")!
+        .addEventListener("click", () => login(location.pathname + location.search));
+      return;
+    }
+    const id = new URLSearchParams(location.search).get("id");
+    if (!id) {
+      root.innerHTML = '<p class="muted">No proposal id.</p>';
+      return;
+    }
+    const res = await api(`/api/proposals/${id}`);
+    if (res.status === 403) {
+      root.innerHTML = '<div class="notice bad">Admin access required to preview proposals.</div>';
+      return;
+    }
+    if (!res.ok) {
+      root.innerHTML = `<div class="notice bad">Couldn’t load this proposal (${res.status}).</div>`;
+      return;
+    }
+    const p = await res.json();
+    await loadIndex();
+    const ops: any[] = p.changeset?.operations ?? [];
+    const rendered = (await Promise.all(ops.map(renderOp))).join("");
+    root.innerHTML = `
+      <div class="preview-meta">
+        <h1>${esc(p.title ?? "Proposal preview")}</h1>
+        <p class="preview-sub"><span class="badge">${esc(p.status)}</span> · by ${esc(p.author_email ?? p.author_sub ?? "unknown")} · <a href="/admin">← back to queue</a></p>
+        ${p.rationale ? `<p class="preview-rationale">${esc(p.rationale)}</p>` : ""}
+      </div>
+      ${rendered}`;
+  })();
+</script>

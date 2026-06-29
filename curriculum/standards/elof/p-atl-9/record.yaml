@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-atl-9
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-ATL 9"
+title: "Child demonstrates flexibility in thinking and behavior."
+domain_area: "Approaches to Learning"
+sub_domain: "Cognitive Self-Regulation (Executive Functioning)"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Demonstrates flexibility, or the ability to switch gears, in thinking and behavior when prompted by an adult, such as trying a new way to climb a structure when the first attempt does not work."
+  - age_period: "48 to 60 Months"
+    text: "Demonstrates flexibility in thinking and behavior without prompting at times. Also responds consistently to adult suggestions to show flexibility in approaching tasks or solving problems, such as taking turns to share toys when many children want to use them."
+  - age_period: "By 60 Months"
+    text: "Tries different strategies to complete work or solve problems, including with other children."
+  - age_period: "By 60 Months"
+    text: "Applies different rules in contexts that require different behaviors, such as using indoor voices or feet instead of outdoor voices or feet."
+  - age_period: "By 60 Months"
+    text: "Transitions between activities without getting upset."
+source_url: https://headstart.gov/school-readiness/article/approaches-learning-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

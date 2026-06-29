@@ -1,0 +1,53 @@
+id: ea.activity.social-studies.community-helper-dress-up
+slug: community-helper-dress-up
+title: Community Helper Dress-Up
+summary: >-
+  Children explore a basket of community-helper costumes and tools, take on a
+  helper's role in dramatic play, and act out how that helper assists others.
+supported_skill_ids:
+  - ea.skill.social-studies.community.recognizes-community-helpers
+age_range_months:
+  min: 36
+  max: 60
+group_size: 2-6 children
+duration_minutes: 30
+materials:
+  - Dress-up pieces such as a firefighter hat, doctor coat, and mail bag
+  - Pretend tools like a toy stethoscope, hose, and envelopes
+  - Picture books showing community helpers at work
+setup: >-
+  Arrange the costumes and tools in a dramatic-play area and set out a few
+  books nearby to spark ideas.
+steps:
+  - Read a short book or talk about helpers the children have seen.
+  - Invite each child to choose a helper to be and put on the matching pieces.
+  - "Ask: \"What does your helper do? Who do they help?\""
+  - Let children act out scenes, such as a doctor checking a patient or a mail carrier making deliveries.
+  - Gather to share what each helper did to make the community better.
+variations:
+  - Add a "neighborhood" backdrop with a pretend fire station, clinic, and post office.
+  - Invite a real community helper to visit and answer the children's questions.
+differentiation:
+  - For younger children, focus on one helper and one obvious tool.
+  - For older children, encourage a story where two helpers work together.
+assessment_opportunities:
+  - Note whether the child names their helper and explains what that helper does.
+  - Listen for the child connecting a tool to the right helper.
+safety_notes:
+  - Check costumes for choking hazards and keep play tools soft and blunt.
+accessibility_notes:
+  - >-
+    Offer helpers of many genders, abilities, and backgrounds so every child
+    sees themselves in these roles.
+  - Provide easy-on costume pieces with hook-and-loop fasteners.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - community
+  - helpers
+  - dramatic-play
+methodologies:
+  - play-based
+  - reggio-emilia
+status: accepted
+locale: en-US

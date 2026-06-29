@@ -1,0 +1,41 @@
+id: ea.skill.mathematics.spatial-sense.follows-positional-directions
+slug: follows-positional-directions
+title: Follows Positional Directions
+short_description: Child understands and uses spatial words to follow and give directions.
+developmental_purpose: >-
+  Spatial language lets children describe where things are and move themselves
+  and objects on purpose. Understanding words like up, down, in front, and
+  behind supports following directions, map reading, and the spatial reasoning
+  woven through math, movement, and everyday routines.
+domain_ids:
+  - ea.domain.mathematics
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.mathematics.geometry.identifies-and-composes-shapes
+mastery_criteria:
+  - Follows directions about their own position, such as "move to the front of the line."
+  - Places an object in a named position, such as behind, in front of, or under.
+  - Uses spatial words like up, down, in front, and behind to describe locations.
+observation_prompts:
+  - "Can the child act on a direction like \"put the bear behind the box\" without a model?"
+  - Does the child use position words when describing where something is?
+accessibility_notes:
+  - Pair each spatial word with a gesture or physical prompt for children who benefit from modeling.
+  - Offer wheelchair-friendly directions, such as forward and back, rather than stand and sit.
+common_misconceptions:
+  - "\"Behind\" depends on which way an object faces, so the same spot can be in front or behind."
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - spatial-sense
+  - positional-language
+  - directions
+  - directionality
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-math-10
+status: accepted
+locale: en-US

@@ -1,0 +1,42 @@
+id: ea.skill.social-studies.diversity-belonging.appreciates-similarities-and-differences
+slug: appreciates-similarities-and-differences
+title: Appreciates Similarities and Differences
+short_description: >-
+  Child notices ways people and families are alike and different and shows
+  that everyone belongs.
+developmental_purpose: >-
+  Recognizing that people share much in common while also being wonderfully
+  different builds empathy, fairness, and respect. Affirming that everyone
+  belongs lays the groundwork for inclusive, caring community membership.
+domain_ids:
+  - ea.domain.social-studies
+age_range_months:
+  min: 36
+  max: 66
+developmental_stage: preschool
+mastery_criteria:
+  - Names one way they are similar to and one way they are different from a friend.
+  - Talks respectfully about differences in families, foods, languages, or traditions.
+  - States that everyone belongs in the group regardless of these differences.
+observation_prompts:
+  - >-
+    When a peer shares a family tradition, does the child show curiosity and
+    respect rather than judgment?
+  - Does the child include classmates who are different from themselves in play?
+accessibility_notes:
+  - >-
+    Use books, dolls, and images that reflect many cultures, abilities, skin
+    tones, and family structures so each child feels seen.
+  - >-
+    Frame differences as something to celebrate, never as something that makes
+    a person "less" or "strange."
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - diversity
+  - belonging
+  - family
+  - inclusion
+  - preschool
+status: accepted
+locale: en-US

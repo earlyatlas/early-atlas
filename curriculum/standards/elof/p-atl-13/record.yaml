@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-atl-13
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-ATL 13"
+title: "Child uses imagination in play and interactions with others."
+domain_area: "Approaches to Learning"
+sub_domain: "Creativity"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Consistently uses imagination in play and other creative works. Begins to communicate creative ideas to other children and adults."
+  - age_period: "48 to 60 Months"
+    text: "Develops more elaborate imaginary play, stories, and other creative works with children and adults."
+  - age_period: "By 60 Months"
+    text: "Engages in social and pretend play."
+  - age_period: "By 60 Months"
+    text: "Uses imagination with materials to create stories or works of art."
+  - age_period: "By 60 Months"
+    text: "Uses objects or materials to represent something else during play, such as using a paper plate or Frisbee as a steering wheel."
+source_url: https://headstart.gov/school-readiness/article/approaches-learning-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

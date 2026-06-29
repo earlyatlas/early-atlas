@@ -1,0 +1,34 @@
+id: ea.skill.language.receptive.identifies-common-colors
+slug: identifies-common-colors
+title: Identifies Common Colors
+short_description: Child points to or names common colors when asked.
+developmental_purpose: >-
+  Connecting a spoken color word to a visual attribute supports vocabulary
+  growth and is a building block for classification and patterning.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 24
+  max: 48
+developmental_stage: toddler_to_preschool
+mastery_criteria:
+  - Points to at least four named colors on request.
+  - Names at least four common colors when shown an object.
+observation_prompts:
+  - When asked "Can you find something red?", does the child locate a red object?
+supporting_activity_ids:
+  - ea.activity.language.color-hunt
+accessibility_notes:
+  - For children with color vision differences, pair color words with labels or patterns.
+research_reference_ids:
+  - ea.citation.headstart.elof
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - receptive-language
+  - vocabulary
+  - color
+  - toddler
+standard_ids:
+  - ea.standard.elof.p-lc-6
+status: accepted
+locale: en-US

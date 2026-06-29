@@ -1,0 +1,41 @@
+id: ea.activity.language.color-hunt
+slug: color-hunt
+title: Color Hunt
+summary: Children find objects of a named color around the room, building color vocabulary.
+supported_skill_ids:
+  - ea.skill.language.receptive.identifies-common-colors
+age_range_months:
+  min: 24
+  max: 48
+group_size: 1-6 children
+duration_minutes: 10
+materials:
+  - Familiar objects in several common colors already in the room
+  - Optional color cards to hold up
+setup: Make sure objects of each target color are visible around the space.
+steps:
+  - Name a color and say "Let's find something red!"
+  - Invite the child to point to or bring an object of that color.
+  - Confirm and name the object and its color together.
+  - Repeat with a new color, keeping the pace playful.
+variations:
+  - Go on a color hunt outdoors.
+  - Let the child choose the color to search for next.
+differentiation:
+  - For younger children, hold up a matching color card as a cue.
+  - For older children, ask them to find two things of the same color.
+assessment_opportunities:
+  - Note which colors the child finds without a card cue.
+accessibility_notes:
+  - For color vision differences, name objects by label or pattern as well as color.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - color
+  - vocabulary
+  - movement
+methodologies:
+  - play-based
+  - montessori
+status: accepted
+locale: en-US

@@ -1,0 +1,51 @@
+id: ea.activity.science.bridge-building-results-chart
+slug: bridge-building-results-chart
+title: Bridge Building Results Chart
+summary: Children load toy weights onto bridges they build, then count, compare, and chart the results to draw a conclusion.
+supported_skill_ids:
+  - ea.skill.science.inquiry-skills.draws-conclusions-from-data
+age_range_months:
+  min: 42
+  max: 66
+group_size: 2-4 children
+duration_minutes: 20
+materials:
+  - Blocks, craft sticks, or cardboard strips to build small bridges
+  - Two stacks of books to act as the bridge supports
+  - A basket of small uniform weights, such as toy dolls or counting bears
+  - A large sheet of paper and markers for a results chart
+setup: >-
+  Set up two book stacks a short distance apart so children can span them with a
+  bridge. Place the building materials and the weights nearby.
+steps:
+  - Ask each child to predict how many weights their bridge will hold and note the guesses.
+  - Have children build a bridge across the two book stacks.
+  - Add weights one at a time, counting aloud together until the bridge bends or falls.
+  - 'Record the result on the chart and ask: "What did the data show us?"'
+  - Compare the result to each child's prediction and talk about why a sturdier design held more.
+variations:
+  - Build a second bridge with a different design and chart which one held more.
+  - Sort the bridges from strongest to weakest using the chart.
+differentiation:
+  - For younger children, focus on building and counting the weights aloud.
+  - For older children, ask them to explain why one bridge held more than another.
+assessment_opportunities:
+  - Note whether the child can say what the chart shows.
+  - Listen for the child comparing the result to their prediction.
+safety_notes:
+  - Keep weights small but not small enough to swallow, and clear the area when a bridge falls.
+accessibility_notes:
+  - Let children show conclusions by pointing to the chart or sorting result cards.
+  - Provide a sentence starter such as "We found out that ..." to support spoken conclusions.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - data
+  - conclusions
+  - engineering
+  - communicating-results
+methodologies:
+  - highscope
+  - play-based
+status: accepted
+locale: en-US

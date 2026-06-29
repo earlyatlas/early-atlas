@@ -1,0 +1,43 @@
+id: ea.skill.physical-development.health-safety.explores-healthy-eating
+slug: explores-healthy-eating
+title: Explores Healthy Eating
+short_description: >-
+  Toddler shows interest in trying new nutritious foods and communicates hunger
+  and fullness.
+developmental_purpose: >-
+  Early eating habits form through repeated, pressure-free chances to see, smell,
+  and taste healthy foods. As toddlers explore new foods, express preferences,
+  and signal when they are hungry or full, they build the curiosity and body
+  awareness that support lifelong nutritious eating.
+domain_ids:
+  - ea.domain.physical-development
+age_range_months:
+  min: 8
+  max: 36
+developmental_stage: infant_to_toddler
+mastery_criteria:
+  - Shows interest in and tries new nutritious foods when they are offered.
+  - Tries a new food after it has been offered on several occasions.
+  - Communicates to an adult when hungry, thirsty, or finished eating.
+observation_prompts:
+  - When a new fruit or vegetable is offered, does the child explore or taste it?
+  - Does the toddler use words, signs, or gestures to show "more" or "all done"?
+accessibility_notes:
+  - Offer foods in textures and sizes matched to each child's chewing and motor
+    skills.
+  - Honor sensory sensitivities by letting children touch and smell foods before
+    tasting.
+safety_notes:
+  - Cut foods to reduce choking risk, seat children upright to eat, and follow each
+    family's allergy and feeding plan.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - health-safety
+  - nutrition
+  - eating
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-pmp-11
+status: accepted
+locale: en-US

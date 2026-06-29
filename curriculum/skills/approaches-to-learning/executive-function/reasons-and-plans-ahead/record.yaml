@@ -1,0 +1,35 @@
+id: ea.skill.approaches-to-learning.executive-function.reasons-and-plans-ahead
+slug: reasons-and-plans-ahead
+title: Reasons and Plans Ahead
+short_description: Child reasons about a problem and plans a sequence of actions to reach a goal.
+developmental_purpose: >-
+  Planning ahead means holding a goal in mind, reasoning about what will work,
+  and ordering actions toward it, such as fetching a stool to reach a shelf. This
+  goal-directed thinking is a cornerstone of executive function and self-direction.
+domain_ids:
+  - ea.domain.approaches-to-learning
+age_range_months:
+  min: 8
+  max: 36
+developmental_stage: infant_to_toddler
+mastery_criteria:
+  - Tries different solutions to an everyday problem until one works.
+  - Uses reasoning to figure out a solution, including in social situations like taking turns.
+  - Plans a way to reach a goal based on experience, such as getting a stool to reach something high.
+observation_prompts:
+  - Does the child gather a tool or object in advance to solve a problem?
+  - Does the child reason aloud or pause to think before acting?
+accessibility_notes:
+  - Offer visual or spoken reminders of the goal for children who lose track of the plan.
+  - Provide sturdy, stable supports for children who plan to climb or reach.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - planning
+  - reasoning
+  - problem-solving
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-c-7
+status: accepted
+locale: en-US

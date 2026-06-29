@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-atl-1
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-ATL 1"
+title: "Child manages feelings and emotions with support of familiar adults."
+domain_area: "Approaches to Learning"
+sub_domain: "Emotional and Behavioral Self-Regulation"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Engages with familiar adults for calming and comfort, to focus attention, and to share joy."
+  - age_period: "8 to 18 Months"
+    text: "Seeks to be close, makes contact, or looks to familiar adults for help with strong emotions."
+  - age_period: "16 to 36 Months"
+    text: "Uses various strategies to help manage strong emotions, such as removing oneself from the situation, covering eyes or ears, or seeking support from a familiar adult."
+  - age_period: "By 36 Months"
+    text: "Looks to others for help in coping with strong feelings and emotions."
+  - age_period: "By 36 Months"
+    text: "Uses strategies, such as seeking contact with a familiar adult or removing oneself from a situation, to handle strong feelings and emotions."
+source_url: https://headstart.gov/school-readiness/article/approaches-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

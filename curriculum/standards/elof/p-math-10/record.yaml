@@ -1,0 +1,21 @@
+id: ea.standard.elof.p-math-10
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-MATH 10"
+title: "Child explores the positions of objects in space."
+domain_area: "Mathematics Development"
+sub_domain: "Geometry and Spatial Sense"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Begins to understand spatial vocabulary. With adult support, follows directions involving their own position in space, such as \"Stand up and stretch your arms to the sky.\""
+  - age_period: "48 to 60 Months"
+    text: "Increasingly understands spatial vocabulary. Follows directions involving their own position in space, such as \"Move to the front of the line.\""
+  - age_period: "By 60 Months"
+    text: "Understands and uses language related to directionality, order, and the position of objects, including up/down and in front/behind."
+  - age_period: "By 60 Months"
+    text: "Correctly follows directions involving their own position in space, such as \"Stand up\" and \"Move forward.\""
+source_url: https://headstart.gov/school-readiness/article/math-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

@@ -1,0 +1,82 @@
+/* @layer components — browse + search controls (home, milestones). */
+@layer components {
+  .filters {
+    display: flex;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-bottom: var(--space-3);
+  }
+  .filter {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+    align-items: stretch;
+  }
+  .filter > label {
+    margin: 0;
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: var(--muted);
+  }
+  .age-input {
+    width: 7rem;
+  }
+  #stage {
+    min-width: 14rem;
+    width: auto;
+  }
+  .filter.keyword {
+    margin-bottom: var(--space-2);
+  }
+  .search-box {
+    max-width: 520px;
+  }
+  .hints {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    align-items: center;
+    margin-top: var(--space-1);
+    font-size: var(--text-sm);
+  }
+  .hint {
+    margin: 0;
+    padding: 1px var(--space-2);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    background: var(--surface-2);
+    color: var(--muted);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+  }
+  .hint:hover {
+    color: var(--ink);
+    border-color: var(--accent-border);
+  }
+  .selected {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-top: var(--space-2);
+  }
+  .selected:empty {
+    display: none;
+  }
+  .chip-selected {
+    margin: 0;
+    padding: 1px var(--space-2);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    background: var(--accent-soft);
+    color: var(--accent);
+    border: 1px solid var(--accent-border);
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+  }
+  .chip-selected:hover {
+    background: var(--accent);
+    color: var(--accent-ink);
+  }
+}

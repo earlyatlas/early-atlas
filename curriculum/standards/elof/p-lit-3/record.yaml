@@ -1,0 +1,21 @@
+id: ea.standard.elof.p-lit-3
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-LIT 3"
+title: "Child identifies letters of the alphabet and produces correct sounds associated with letters."
+domain_area: "Literacy"
+sub_domain: "Print and Alphabet Knowledge"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Shows an awareness of alphabet letters, such as singing the ABC song, recognizing letters from one's name, or naming some letters that are encountered often."
+  - age_period: "48 to 60 Months"
+    text: "Recognizes and names at least half of the letters in the alphabet, including letters in own name (first name and last name), as well as letters encountered often in the environment. Produces the sound of many recognized letters."
+  - age_period: "By 60 Months"
+    text: "Names 18 upper- and 15 lower-case letters."
+  - age_period: "By 60 Months"
+    text: "Knows the sounds associated with several letters."
+source_url: https://headstart.gov/school-readiness/article/literacy-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

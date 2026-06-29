@@ -1,0 +1,25 @@
+id: ea.standard.elof.p-se-5
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-SE 5"
+title: "Child uses basic problem-solving skills to resolve conflicts with other children."
+domain_area: "Social and Emotional Development"
+sub_domain: "Relationships with Other Children"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Begins to recognize and describe social problems. Suggests solutions to conflicts with adult guidance and support."
+  - age_period: "48 to 60 Months"
+    text: "Often recognizes and describes social problems, suggests solutions to conflicts, and compromises when working or playing in a group. Although simple conflicts may be resolved without adult assistance, may seek out or need adult support in more challenging moments."
+  - age_period: "By 60 Months"
+    text: "Recognizes and describes basic social problems in books or pictures, such as both children wanting the same toy, and during interactions with other children, such as \"Why do you think your friend might be sad?\""
+  - age_period: "By 60 Months"
+    text: "Uses basic strategies for dealing with common conflicts, such as sharing, taking turns, and compromising."
+  - age_period: "By 60 Months"
+    text: "Expresses feelings, needs, and opinions in conflict situations."
+  - age_period: "By 60 Months"
+    text: "Seeks adult help when needed to resolve conflicts."
+source_url: https://headstart.gov/school-readiness/article/social-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

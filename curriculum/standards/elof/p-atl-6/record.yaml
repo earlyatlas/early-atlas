@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-atl-6
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-ATL 6"
+title: "Child maintains focus and sustains attention with minimal adult support."
+domain_area: "Approaches to Learning"
+sub_domain: "Cognitive Self-Regulation (Executive Functioning)"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "With adult support, focuses attention on tasks and experiences for short periods of time, despite interruptions or distractions."
+  - age_period: "48 to 60 Months"
+    text: "With increasing independence, focuses attention on tasks and experiences for longer periods of time, despite interruptions or distractions."
+  - age_period: "By 60 Months"
+    text: "Maintains focus on activities for extended periods of time, such as 15 minutes or more."
+  - age_period: "By 60 Months"
+    text: "Engages in purposeful play for extended periods of time."
+  - age_period: "By 60 Months"
+    text: "Attends to adult during large and small group activities with minimal support."
+source_url: https://headstart.gov/school-readiness/article/approaches-learning-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

@@ -1,0 +1,46 @@
+id: ea.activity.social-emotional.baby-face-mirror-play
+slug: baby-face-mirror-play
+title: Baby-Face Mirror Play
+summary: Two babies share floor and mirror time so they notice and respond to each other.
+supported_skill_ids:
+  - ea.skill.social-emotional.relationships.shows-interest-in-peers
+age_range_months:
+  min: 6
+  max: 18
+group_size: 2 children with a caregiver
+duration_minutes: 10
+materials:
+  - A large unbreakable floor mirror
+  - A soft blanket
+setup: Lay the blanket near the mirror and place two babies side by side facing it and each other.
+steps:
+  - Settle the babies close enough to see and touch one another safely.
+  - Narrate what each baby is doing, naming them by name.
+  - Pause to let the babies look at, reach for, or touch each other.
+  - Point to their faces in the mirror and say each name warmly.
+  - Follow the babies' lead, keeping the mood gentle and unhurried.
+variations:
+  - Offer two identical rattles so each baby has one and can watch the other.
+  - Sing a simple name song that includes both children.
+differentiation:
+  - For younger infants, prop them securely so they can see their peer.
+  - For older babies, allow gentle reaching and touching with close supervision.
+assessment_opportunities:
+  - Note whether each baby looks at, touches, or vocalizes toward the other.
+  - Watch for smiles or sounds directed at the peer.
+safety_notes:
+  - Supervise closely to keep touch gentle and prevent grabbing of faces or hair.
+  - Ensure the mirror is shatterproof and securely placed.
+accessibility_notes:
+  - Add a gentle verbal cue when introducing the peer for children with vision differences.
+  - Keep the group tiny and the space calm for easily overwhelmed children.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - peers
+  - social-interest
+  - mirror-play
+methodologies:
+  - reggio-emilia
+status: accepted
+locale: en-US

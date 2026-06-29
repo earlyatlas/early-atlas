@@ -1,0 +1,46 @@
+id: ea.skill.physical-development.perceptual.explores-objects-with-senses
+slug: explores-objects-with-senses
+title: Explores Objects with the Senses
+short_description: >-
+  Child uses looking, touching, mouthing, and handling to learn the properties
+  of objects and how they work.
+developmental_purpose: >-
+  Perception is how the brain turns raw sensation into understanding. As infants
+  and toddlers feel textures, watch cause and effect, and combine what they see,
+  hear, and touch, they build the mental models of objects and people that all
+  later thinking and problem-solving rest on.
+domain_ids:
+  - ea.domain.physical-development
+age_range_months:
+  min: 4
+  max: 30
+developmental_stage: infant_to_toddler
+mastery_criteria:
+  - Explores an object by looking, touching, and handling it to learn how it feels.
+  - Notices differences in texture, weight, or sound and reacts to them.
+  - Adjusts how they handle a material based on its properties, such as pressing
+    harder on stiff clay than on soft play dough.
+observation_prompts:
+  - Does the infant turn an object over, mouth it, or pat it to find out what it is
+    like?
+  - When given a new texture, does the child pause and change how they touch it?
+accessibility_notes:
+  - Offer high-contrast and lit objects for children with visual differences and
+    objects with strong textures or sounds as alternate cues.
+  - Stabilize objects on a tray or in a bowl for children who cannot yet hold them.
+safety_notes:
+  - Use objects too large to swallow and free of small parts, since infants explore
+    by mouthing.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - perception
+  - senses
+  - texture
+  - exploration
+  - infant
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-pmp-1
+status: accepted
+locale: en-US

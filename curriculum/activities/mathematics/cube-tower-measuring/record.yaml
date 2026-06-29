@@ -1,0 +1,49 @@
+id: ea.activity.mathematics.cube-tower-measuring
+slug: cube-tower-measuring
+title: How Tall With Cubes
+summary: Children measure and order classroom objects using snap cubes as units.
+supported_skill_ids:
+  - ea.skill.mathematics.measurement.compares-measurable-attributes
+age_range_months:
+  min: 36
+  max: 60
+group_size: 2-4 children
+duration_minutes: 20
+materials:
+  - A tub of snap cubes or other same-size stacking units
+  - Three to five familiar objects of different heights, such as a book, cup, and toy
+  - A recording sheet or whiteboard
+setup: Set the objects and a pile of cubes on a low table where children can stand them upright.
+steps:
+  - Pick one object and stand it next to a tower of cubes.
+  - Snap on cubes until the tower is as tall as the object.
+  - Count the cubes together and record the number.
+  - Measure a second object the same way, lining up the bottoms.
+  - "Ask: which object is taller, and how do the cube numbers show it?"
+  - Line the objects up from shortest to tallest as a group.
+variations:
+  - Measure length by laying objects and cube trains flat on the floor.
+  - Use a balance to compare which of two objects is heavier instead of taller.
+differentiation:
+  - For younger children, compare just two objects and name the taller one.
+  - For older children, order five objects and label each with its cube count.
+assessment_opportunities:
+  - Note whether the child lines up the starting ends before measuring.
+  - Listen for comparative words like taller, shorter, and heaviest.
+safety_notes:
+  - Keep small cubes away from children who still mouth objects and supervise closely.
+accessibility_notes:
+  - Use large interlocking units for children with motor differences.
+  - Offer objects with clear height and weight contrasts for children comparing by touch.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - measurement
+  - height
+  - comparing
+  - non-standard-units
+methodologies:
+  - montessori
+  - play-based
+status: accepted
+locale: en-US

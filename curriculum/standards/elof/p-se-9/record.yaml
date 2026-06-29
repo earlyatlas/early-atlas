@@ -1,0 +1,21 @@
+id: ea.standard.elof.p-se-9
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-SE 9"
+title: "Child recognizes self as a unique individual having own abilities, characteristics, emotions, and interests."
+domain_area: "Social and Emotional Development"
+sub_domain: "Sense of Identity and Belonging"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Describes own physical characteristics and behaviors and indicates likes and dislikes when asked."
+  - age_period: "48 to 60 Months"
+    text: "Describes a larger range of individual characteristics and interests and communicates how these are similar or different from those of other people."
+  - age_period: "By 60 Months"
+    text: "Describes self using several different characteristics."
+  - age_period: "By 60 Months"
+    text: "Demonstrates knowledge of uniqueness of self, such as talents, interests, preferences, or culture."
+source_url: https://headstart.gov/school-readiness/article/social-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

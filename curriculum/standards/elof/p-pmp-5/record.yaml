@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-pmp-5
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-PMP 5"
+title: "Child develops knowledge and skills that help promote nutritious food choices and eating habits."
+domain_area: "Perceptual, Motor, and Physical Development"
+sub_domain: "Health, Safety, and Nutrition"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Demonstrates a basic knowledge of the role of foods and nutrition in healthy development. Often requires adult guidance and supervision to make healthy eating choices."
+  - age_period: "48 to 60 Months"
+    text: "Demonstrates an increasing understanding of the ways in which foods and nutrition help the body grow and be healthy. Makes healthy eating choices both independently and with support."
+  - age_period: "By 60 Months"
+    text: "Identifies a variety of healthy and unhealthy foods."
+  - age_period: "By 60 Months"
+    text: "Demonstrates basic understanding that eating a variety of foods helps the body grow and be healthy."
+  - age_period: "By 60 Months"
+    text: "Moderates food consumption based on awareness of own hunger and fullness."
+source_url: https://headstart.gov/school-readiness/article/perceptual-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-c-7
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-C 7"
+title: "Child uses reasoning and planning ahead to solve problems."
+domain_area: "Cognition"
+sub_domain: "Reasoning and Problem-Solving"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Uses own actions or movements to solve simple problems, such as rolling to the side to reach an object or kicking to make something move."
+  - age_period: "8 to 18 Months"
+    text: "Tries different solutions to everyday problems until discovering one that works. May try the same strategy multiple times even if it is not working."
+  - age_period: "16 to 36 Months"
+    text: "Uses problem-solving and experimenting to figure out solutions to everyday problems, including in social situations, such as when two children who both want to fit into a small car agree to take turns."
+  - age_period: "By 36 Months"
+    text: "Tries to fix things that are broken, such as putting a toy back together or using tape to repair a torn paper."
+  - age_period: "By 36 Months"
+    text: "Plans ways to solve problems based on knowledge and experience, such as getting a stool to reach a book that is on a shelf after trying to reach it on tiptoes."
+source_url: https://headstart.gov/school-readiness/article/cognition-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

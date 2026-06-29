@@ -1,0 +1,47 @@
+id: ea.activity.language.fill-in-the-rhyme
+slug: fill-in-the-rhyme
+title: Fill-in-the-Rhyme Songs
+summary: A caregiver sings familiar rhymes and pauses for the child to fill in words, refrains, or motions.
+supported_skill_ids:
+  - ea.skill.language.emergent-literacy.joins-in-rhymes-and-songs
+age_range_months:
+  min: 6
+  max: 36
+group_size: 1-6 children
+duration_minutes: 10
+materials:
+  - A few familiar rhymes or songs the children know
+  - Optional props such as scarves or finger puppets
+setup: Gather close in a comfortable spot where children can see your face and hands.
+steps:
+  - Begin a well-known rhyme or song with its usual gestures.
+  - Sing it through once together, inviting movements.
+  - On the next round, pause before a key word and wait for children to fill it in.
+  - Celebrate every attempt — a sound, sign, word, or motion all count.
+  - Repeat favorites, since repetition is how children learn the words.
+variations:
+  - Sing rhymes in children's home languages.
+  - Let a child choose the next song from picture cards.
+differentiation:
+  - For younger children, focus on motions and repeated refrains.
+  - For older toddlers, pause more often and invite whole phrases.
+assessment_opportunities:
+  - Note whether the child fills in words, signs, or motions on the pause.
+  - Watch for the child requesting or starting a favorite song.
+safety_notes:
+  - Keep props soft and large; supervise any small items.
+accessibility_notes:
+  - Pair songs with signs and movement so every child can join.
+  - Use songs from each child's culture and home language.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - rhymes
+  - songs
+  - phonological-awareness
+  - toddler
+methodologies:
+  - waldorf
+  - play-based
+status: accepted
+locale: en-US

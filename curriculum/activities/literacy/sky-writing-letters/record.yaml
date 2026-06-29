@@ -1,0 +1,42 @@
+id: ea.activity.literacy.sky-writing-letters
+slug: sky-writing-letters
+title: Sky Writing Letters
+summary: Children form large letter shapes in the air and in sensory trays before tracing on paper.
+supported_skill_ids:
+  - ea.skill.literacy.writing.traces-letters
+age_range_months:
+  min: 36
+  max: 60
+group_size: 1-6 children
+duration_minutes: 15
+materials:
+  - Open space for big arm movements
+  - A shallow tray of sand, salt, or shaving cream
+  - Model letter cards
+setup: Set out the sensory tray and a few model letters to copy.
+steps:
+  - Show a model letter and trace it in the air with a big arm motion.
+  - Have the child sky-write the same letter, naming the strokes ("top to bottom").
+  - Move to the sensory tray and trace the letter with a finger.
+  - Finish by tracing the letter on a worksheet.
+variations:
+  - Trace letters on a peer's back and guess the letter.
+differentiation:
+  - Start with straight-line letters (L, T, I) before curves.
+  - Offer a pencil grip and thicker guide lines on paper.
+assessment_opportunities:
+  - Note whether the child starts strokes at the top and follows the shape.
+accessibility_notes:
+  - Sensory trays give tactile feedback for children developing fine-motor control.
+research_reference_ids:
+  - ea.citation.montessori.absorbent-mind
+  - ea.citation.naeyc.dap
+tags:
+  - writing
+  - fine-motor
+  - multisensory
+methodologies:
+  - montessori
+  - play-based
+status: accepted
+locale: en-US

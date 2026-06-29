@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-se-2
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-SE 2"
+title: "Child uses expectations learned through repeated experiences in primary relationships to develop relationships with other adults."
+domain_area: "Social and Emotional Development"
+sub_domain: "Relationships with Adults"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Shows recognition of familiar adults by turning head toward familiar voice, smiling, reaching, or quieting when held. May avoid or withdraw from unfamiliar adults."
+  - age_period: "8 to 18 Months"
+    text: "Moves or stays close to familiar adults for emotional security when unfamiliar adult approaches. May look at familiar adults to gauge comfort level with unfamiliar adult."
+  - age_period: "16 to 36 Months"
+    text: "Often watches from a distance or waits for reassurance from familiar adult before approaching someone new. May engage in positive interactions when meeting new people, such as sharing a book with a visitor."
+  - age_period: "By 36 Months"
+    text: "Engages in and may initiate behaviors that build relationships with familiar adults."
+  - age_period: "By 36 Months"
+    text: "Uses familiar adults for reassurance when engaging with new adults."
+source_url: https://headstart.gov/school-readiness/article/social-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

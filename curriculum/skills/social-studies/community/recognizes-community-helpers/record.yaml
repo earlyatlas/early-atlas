@@ -1,0 +1,38 @@
+id: ea.skill.social-studies.community.recognizes-community-helpers
+slug: recognizes-community-helpers
+title: Recognizes Community Helpers
+short_description: >-
+  Child identifies common community helpers and tells what each one does to
+  help people.
+developmental_purpose: >-
+  Learning who helps in a community and how their work connects to daily life
+  expands a child's understanding of the world beyond home. It nurtures
+  gratitude, civic awareness, and early ideas about jobs and interdependence.
+domain_ids:
+  - ea.domain.social-studies
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+mastery_criteria:
+  - Names at least three community helpers, such as a firefighter, doctor, or mail carrier.
+  - Tells one thing each helper does to keep people safe or healthy.
+  - Connects a helper to a tool or place, such as a doctor and a stethoscope.
+observation_prompts:
+  - >-
+    In dramatic play, does the child act out a helper's role and explain what
+    they are doing?
+  - Does the child point out helpers they notice in books or in the neighborhood?
+accessibility_notes:
+  - >-
+    Show helpers of many genders, abilities, and backgrounds so every child
+    can picture themselves in these roles.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - community
+  - helpers
+  - careers
+  - preschool
+status: accepted
+locale: en-US

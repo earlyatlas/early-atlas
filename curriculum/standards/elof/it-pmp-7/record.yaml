@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-pmp-7
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-PMP 7"
+title: "Child uses hands for exploration, play, and daily routines."
+domain_area: "Perceptual, Motor, and Physical Development"
+sub_domain: "Fine Motor"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Uses single actions to explore shape, size, texture, or weight of objects, such as turning an object over or around, or dropping or pushing away an object."
+  - age_period: "8 to 18 Months"
+    text: "Explores properties of objects and materials by using various hand actions, such as pulling at them, picking them up to examine them, pointing to learn their names, turning knobs on objects, or turning pages in a board book."
+  - age_period: "16 to 36 Months"
+    text: "Plans ways to use hands for various activities, such as stacking, building, connecting, drawing, painting, and doing self-care skills or routines."
+  - age_period: "By 36 Months"
+    text: "Uses hands efficiently for a variety of actions or activities, such as building with blocks, wiping up a spill, or feeding self."
+  - age_period: "By 36 Months"
+    text: "Coordinates use of both hands to put things together, such as connecting blocks or linking toys."
+source_url: https://headstart.gov/school-readiness/article/perceptual-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-lc-3
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-LC 3"
+title: "Child communicates needs and wants non-verbally and by using language."
+domain_area: "Language and Communication"
+sub_domain: "Communicating and Speaking"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Learns how to use different means of communication to signal distress or discomfort, solicit help, and to communicate interests and needs to others."
+  - age_period: "8 to 18 Months"
+    text: "Uses a variety of ways to communicate interests, needs and wants, such as saying or making a sign for \"More\" when eating."
+  - age_period: "16 to 36 Months"
+    text: "Combines words or signs from one or more languages into phrases and sentences to communicate needs, wants, or ideas, such as \"More milk,\" \"I want juice,\" \"Mas leche,\" or \"Quiero juice.\" Children who are dual language learners may combine their two languages or switch between them."
+  - age_period: "By 36 Months"
+    text: "Uses combinations of words and simple sentences or signs in a variety of situations."
+  - age_period: "By 36 Months"
+    text: "Uses simple sentences, such as three- and four-word sentences, to communicate needs and wants."
+source_url: https://headstart.gov/school-readiness/article/language-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

@@ -1,0 +1,48 @@
+id: ea.activity.science.plant-a-seed-and-watch-it-grow
+slug: plant-a-seed-and-watch-it-grow
+title: Plant a Seed and Watch It Grow
+summary: Children plant a fast-growing seed and care for it to learn what living things need.
+supported_skill_ids:
+  - ea.skill.science.living-things.explores-living-things
+age_range_months:
+  min: 30
+  max: 60
+group_size: 1-6 children
+duration_minutes: 25
+materials:
+  - Large fast-sprouting seeds such as beans or sunflower seeds
+  - A clear cup or small pot per child
+  - Potting soil and a small watering can
+  - A sunny windowsill
+setup: Fill each cup with soil and set out seeds and water where children can reach them.
+steps:
+  - Talk about what plants need, naming soil, water, and sunlight.
+  - Help each child poke a hole, drop in a seed, and cover it with soil.
+  - Let the children water their cup gently until the soil is damp.
+  - Place the cups on a sunny windowsill and decide together how often to water.
+  - Check the plants each day and describe any changes you see.
+variations:
+  - Plant seeds in a clear cup against the side so children can watch roots grow.
+  - Compare a seed kept in the dark with one in the sun to see what happens.
+differentiation:
+  - For younger children, pre-poke the hole and focus on covering and watering.
+  - For older children, keep a simple drawing log of the plant each few days.
+assessment_opportunities:
+  - Note whether children can name what their plant needs and notice changes over time.
+safety_notes:
+  - Supervise so seeds and soil are not mouthed and have children wash hands after planting.
+accessibility_notes:
+  - Use large seeds and wide cups for easier handling and offer hand-over-hand help as needed.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - living-things
+  - plants
+  - observation
+  - inquiry
+methodologies:
+  - forest-school
+  - charlotte-mason
+  - play-based
+status: accepted
+locale: en-US

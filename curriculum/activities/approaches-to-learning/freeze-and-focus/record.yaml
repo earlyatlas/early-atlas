@@ -1,0 +1,53 @@
+id: ea.activity.approaches-to-learning.freeze-and-focus
+slug: freeze-and-focus
+title: Freeze and Focus Music Game
+summary: >-
+  Children dance while music plays and hold still when it stops, practicing
+  sustained attention and impulse control in a playful movement game.
+supported_skill_ids:
+  - ea.skill.approaches-to-learning.executive-function.focuses-attention
+age_range_months:
+  min: 24
+  max: 42
+group_size: 2-8 children
+duration_minutes: 12
+materials:
+  - A music player or instrument
+  - An open, clear floor space
+setup: >-
+  Clear a movement space free of obstacles. Choose lively music you can start
+  and stop easily.
+steps:
+  - "Explain the rule: move while the music plays, freeze like a statue when it stops."
+  - Start the music and dance along with the children.
+  - Pause the music and freeze, drawing attention to who is holding still.
+  - "Notice focused effort out loud: \"You stopped right away and held so still.\""
+  - Gradually make the music stretches longer to build sustained attention.
+variations:
+  - Call out a body part to freeze in place, such as "freeze your hands."
+  - Move slowly like turtles or quickly like rabbits between freezes.
+differentiation:
+  - For younger children, keep music stretches short and model the freeze each time.
+  - For older children, add a rule like "freeze and balance on one foot" to raise the challenge.
+assessment_opportunities:
+  - Note how quickly each child shifts from moving to holding still.
+  - Watch whether children sustain focus through gradually longer stretches.
+safety_notes:
+  - Ensure the floor is clear and non-slip so children can stop without falling.
+accessibility_notes:
+  - >-
+    For children who are deaf or hard of hearing, add a visual cue such as
+    raising and lowering a scarf alongside the music.
+  - Offer a seated version where children move and still their arms only.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - attention
+  - self-control
+  - executive-function
+  - movement
+methodologies:
+  - play-based
+  - highscope
+status: accepted
+locale: en-US

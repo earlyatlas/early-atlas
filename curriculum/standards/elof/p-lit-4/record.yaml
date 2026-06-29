@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-lit-4
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-LIT 4"
+title: "Child demonstrates an understanding of narrative structure through storytelling/re-telling."
+domain_area: "Literacy"
+sub_domain: "Comprehension and Text Structure"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "With support, may be able to tell one or two key events from a story or may act out a story with pictures or props."
+  - age_period: "48 to 60 Months"
+    text: "Retells two or three key events from a well-known story, typically in the right temporal order and using some simple sequencing terms, such as first … and then."
+  - age_period: "By 60 Months"
+    text: "Re-tells or acts out a story that was read, putting events in the appropriate sequence, and demonstrating more sophisticated understanding of how events relate, such as cause and effect relationships."
+  - age_period: "By 60 Months"
+    text: "Tells fictional or personal stories using a sequence of at least two or three connected events."
+  - age_period: "By 60 Months"
+    text: "Identifies characters and main events in books and stories."
+source_url: https://headstart.gov/school-readiness/article/literacy-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

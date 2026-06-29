@@ -1,0 +1,47 @@
+id: ea.activity.language.word-category-sort
+slug: word-category-sort
+title: Word Category Sort
+summary: Children sort picture cards into categories, name shared traits, and match opposite pairs to build word relationships.
+supported_skill_ids:
+  - ea.skill.language.vocabulary.categorizes-words
+age_range_months:
+  min: 36
+  max: 60
+group_size: 1-4 children
+duration_minutes: 20
+materials:
+  - Picture cards from three categories, such as animals, food, and vehicles
+  - Category header cards or labeled bins
+  - A few opposite pairs, such as big and small or up and down
+setup: Place the category headers on the table and shuffle the picture cards into a pile.
+steps:
+  - Show a card, name it, and ask, "Which group does this belong to?"
+  - Invite the child to place it under the matching category header.
+  - Once sorted, ask the child to name a shared trait, such as "Both have wheels."
+  - Bring out the opposite pairs and ask the child to match each one and name the opposite.
+  - Challenge older children to list more examples of a category from memory.
+variations:
+  - Use real objects instead of cards for a hands-on sort.
+  - Add a synonym game, such as matching glad with happy.
+differentiation:
+  - Start with two clearly different categories for children who need an easier entry.
+  - Accept sorting and naming through pointing, signs, or AAC.
+assessment_opportunities:
+  - Note whether the child sorts accurately, names shared traits, and identifies opposites.
+safety_notes:
+  - Use sturdy cards or large objects to prevent mouthing of small pieces.
+accessibility_notes:
+  - Use clear, high-contrast images and offer real objects alongside cards.
+  - Welcome category words in a child's home language.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - vocabulary
+  - categories
+  - antonyms
+  - sorting
+methodologies:
+  - montessori
+  - play-based
+status: accepted
+locale: en-US

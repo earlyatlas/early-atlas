@@ -1,0 +1,67 @@
+---
+interface Props {
+  target: string;
+  traces: number;
+}
+const { target, traces } = Astro.props;
+const slots = Array.from({ length: traces }, (_, i) => i);
+const slotW = 1000 / traces;
+---
+
+{
+  /* Three-line guide (cap / dashed mid / baseline) with a solid model letter
+    followed by dashed copies to trace. Pure SVG so it prints crisp. */
+}
+<svg
+  class="trace-row"
+  viewBox="0 0 1000 132"
+  preserveAspectRatio="xMidYMid meet"
+  role="img"
+  aria-label={`Trace the letter ${target}`}
+>
+  <line x1="0" y1="18" x2="1000" y2="18" class="guide"></line>
+  <line x1="0" y1="62" x2="1000" y2="62" class="guide dashed"></line>
+  <line x1="0" y1="106" x2="1000" y2="106" class="guide"></line>
+  {
+    slots.map((i) => (
+      <text
+        x={i * slotW + slotW / 2}
+        y="104"
+        text-anchor="middle"
+        class={i === 0 ? "model" : "trace"}
+      >
+        {target}
+      </text>
+    ))
+  }
+</svg>
+
+<style>
+  .trace-row {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: var(--space-2) 0;
+  }
+  .trace-row text {
+    font-family: "Comic Sans MS", "Comic Neue", "Chalkboard SE", "Century Gothic", sans-serif;
+    font-size: 78px;
+  }
+  .trace-row .model {
+    fill: #8a93a6;
+  }
+  .trace-row .trace {
+    fill: none;
+    stroke: #8a93a6;
+    stroke-width: 1.6;
+    stroke-dasharray: 2.5 3.6;
+    stroke-linecap: round;
+  }
+  .guide {
+    stroke: #c8cfdc;
+    stroke-width: 1.2;
+  }
+  .guide.dashed {
+    stroke-dasharray: 5 6;
+  }
+</style>

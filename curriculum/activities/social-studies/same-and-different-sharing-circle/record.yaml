@@ -1,0 +1,55 @@
+id: ea.activity.social-studies.same-and-different-sharing-circle
+slug: same-and-different-sharing-circle
+title: Same and Different Sharing Circle
+summary: >-
+  Children gather to share a favorite family food or tradition, then notice
+  together the ways their families are alike and different and how everyone
+  belongs.
+supported_skill_ids:
+  - ea.skill.social-studies.diversity-belonging.appreciates-similarities-and-differences
+age_range_months:
+  min: 36
+  max: 66
+group_size: whole group
+duration_minutes: 25
+materials:
+  - A "sharing object" such as a soft toy that passes around the circle
+  - Photos or drawings of family foods, celebrations, or traditions from home
+  - A two-column chart labeled "Same" and "Different"
+setup: >-
+  Invite families ahead of time to send a photo or note about a food or
+  tradition. Arrange the children in a circle with the chart nearby.
+steps:
+  - Pass the sharing object and invite each child to tell about one family food or tradition.
+  - Listen warmly and thank each child for sharing something special.
+  - "Wonder together: \"Whose family also eats this? Whose is different?\""
+  - Mark a few similarities and differences on the chart as the children notice them.
+  - Close by celebrating that every family is special and everyone belongs in the class.
+variations:
+  - Host a tasting day where families contribute a small, allergy-safe sample to try.
+  - Make a class book with a page for each family's tradition.
+differentiation:
+  - For younger children, let them simply point to a photo they brought.
+  - For older children, invite them to ask a classmate a respectful question about a tradition.
+assessment_opportunities:
+  - Note whether the child names a similarity and a difference between families.
+  - Watch for respectful, curious responses to differences.
+safety_notes:
+  - If food is shared, check allergies and dietary needs with every family first.
+accessibility_notes:
+  - >-
+    Honor all cultures, languages, and family structures; never rank a
+    tradition as better or stranger than another.
+  - Offer photos or signs for children who prefer not to speak in the group.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - diversity
+  - belonging
+  - family
+  - inclusion
+methodologies:
+  - reggio-emilia
+  - play-based
+status: accepted
+locale: en-US

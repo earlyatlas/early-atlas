@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-pmp-5
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-PMP 5"
+title: "Child uses sensory information and body awareness to understand how their body relates to the environment."
+domain_area: "Perceptual, Motor, and Physical Development"
+sub_domain: "Gross Motor"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Responds to sounds and sights in the environment by orienting head or body to understand the information in the event. For example, a young infant will turn towards an adult and re-position their body to be picked up."
+  - age_period: "8 to 18 Months"
+    text: "Shows awareness as an accomplished crawler or walker of new challenges or dangers in the environment, such as steep inclines or drop-offs."
+  - age_period: "16 to 36 Months"
+    text: "Shows understanding of what size openings are needed for their body to move through. Learns about body size, such as doll clothes won't fit on a child's body or a child's body won't fit on dollhouse furniture."
+  - age_period: "By 36 Months"
+    text: "Maintains balance and posture while seated and concentrating, such as working with clay, blocks, or markers or looking at a book."
+  - age_period: "By 36 Months"
+    text: "Adjusts position of body to fit through or into small spaces."
+source_url: https://headstart.gov/school-readiness/article/perceptual-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

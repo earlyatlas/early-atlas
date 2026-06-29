@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-lc-13
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-LC 13"
+title: "Child makes marks and uses them to represent objects or actions."
+domain_area: "Language and Communication"
+sub_domain: "Emergent Literacy"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Emerging"
+  - age_period: "8 to 18 Months"
+    text: "Makes marks on a paper with a large crayon or marker to explore writing materials."
+  - age_period: "16 to 36 Months"
+    text: "Makes scribbles on paper to represent an object or action even though an adult might not recognize what it is."
+  - age_period: "By 36 Months"
+    text: "Draws pictures using scribbles and talks with others about what they have made."
+  - age_period: "By 36 Months"
+    text: "Draws straight lines or curved lines."
+  - age_period: "By 36 Months"
+    text: "Makes letter-like marks or scribbles on paper."
+source_url: https://headstart.gov/school-readiness/article/language-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

@@ -1,0 +1,59 @@
+id: ea.activity.physical-development.tunnel-and-tabletop-path
+slug: tunnel-and-tabletop-path
+title: Tunnel and Tabletop Path
+summary: >-
+  A toddler navigates a simple indoor path that asks them to scan for obstacles,
+  fit through a tunnel, and adjust to changing surfaces.
+supported_skill_ids:
+  - ea.skill.physical-development.perceptual.moves-body-with-sensory-awareness
+age_range_months:
+  min: 10
+  max: 36
+group_size: 1-3 children
+duration_minutes: 15
+materials:
+  - A play tunnel or a large open box with both ends opened
+  - A few soft cushions or pillows to step over or around
+  - A textured mat or rug and a smooth floor section
+  - One or two sturdy chairs to crawl under
+setup: >-
+  Clear a safe space and lay out a short path that goes over a cushion, under a
+  chair, through the tunnel, and across the textured mat onto smooth floor. Keep
+  the route simple and visible.
+steps:
+  - Walk the path yourself first so the child can watch where it goes.
+  - Invite the child to start, pausing at the cushion so they choose to step over
+    or around it.
+  - At the tunnel or box, let the child judge whether and how to fit through.
+  - As they move from rug to smooth floor, name the change, such as "now it is
+    slippery, go slow."
+  - Cheer their planning and let them loop the path again at their own pace.
+variations:
+  - Place a favorite toy at the end as a goal to crawl or walk toward.
+  - Add a low, wide balance line to step along between stations.
+differentiation:
+  - For new walkers, shorten the path and offer a hand at the trickiest spot.
+  - For confident movers, narrow the gaps and add a new "fit through" challenge.
+assessment_opportunities:
+  - Note whether the child scans ahead and chooses a path around obstacles.
+  - Watch whether they adjust their body to fit the tunnel and slow on the smooth
+    floor.
+safety_notes:
+  - Keep the route low to the ground, anchor chairs, and stay within arm's reach.
+  - Clear the surrounding area of hard or sharp objects.
+accessibility_notes:
+  - Add textured or sound cues at edges for children with visual differences.
+  - Allow extra time and offer a steady handhold for children with motor
+    differences.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - perception
+  - spatial-awareness
+  - obstacle-course
+  - toddler
+methodologies:
+  - play-based
+  - highscope
+status: accepted
+locale: en-US

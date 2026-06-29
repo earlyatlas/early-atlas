@@ -1,0 +1,57 @@
+id: ea.activity.physical-development.snip-and-tong-workshop
+slug: snip-and-tong-workshop
+title: Snip-and-Tong Workshop
+summary: >-
+  Children strengthen their hands by snipping paper strips with child scissors and
+  moving pom-poms with tongs.
+supported_skill_ids:
+  - ea.skill.physical-development.fine-motor.uses-fine-motor-tools
+age_range_months:
+  min: 30
+  max: 54
+group_size: 1-4 children
+duration_minutes: 20
+materials:
+  - Blunt-tipped child-safe scissors
+  - Strips of stiff paper or cardstock about one inch wide
+  - Child-sized tongs or large tweezers
+  - A handful of pom-poms and two small bowls
+  - A tray to keep snippings contained
+setup: >-
+  Set a tray at each child's place with scissors, a few paper strips, the tongs,
+  the pom-poms in one bowl, and an empty bowl beside it.
+steps:
+  - Show how to hold the scissors with thumb up and snip across a narrow strip.
+  - Let the child make single snips, collecting the confetti on the tray.
+  - Once snipping is comfortable, draw a line and invite cutting along it.
+  - Switch to tongs and model squeezing to pick up one pom-pom at a time.
+  - Have the child move all the pom-poms from the full bowl to the empty one.
+variations:
+  - Glue the paper snippings into a collage to give the cutting a purpose.
+  - Sort pom-poms by color into a muffin tin while using the tongs.
+differentiation:
+  - For beginners, offer spring-loaded loop scissors and pre-cut narrow strips.
+  - For advanced children, have them cut curved and zigzag lines and use small
+    tweezers.
+assessment_opportunities:
+  - Note whether the child opens and closes the blades with one hand and stabilizes
+    the paper with the other.
+  - Observe the crayon-style grip and control when squeezing the tongs.
+safety_notes:
+  - Use only blunt-tipped scissors, supervise cutting, and collect tools when the
+    session ends.
+  - Pom-poms are a choking hazard for younger children, so keep them away from
+    infants and toddlers.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - fine-motor
+  - scissors
+  - tongs
+  - hand-strength
+  - coordination
+methodologies:
+  - montessori
+  - play-based
+status: accepted
+locale: en-US

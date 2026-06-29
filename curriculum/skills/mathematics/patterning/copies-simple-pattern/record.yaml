@@ -1,0 +1,34 @@
+id: ea.skill.mathematics.patterning.copies-simple-pattern
+slug: copies-simple-pattern
+title: Copies a Simple Pattern
+short_description: Child reproduces an AB pattern using objects or movement.
+developmental_purpose: >-
+  Recognizing and extending patterns is foundational for algebraic thinking and
+  for noticing regularity in number and the world.
+domain_ids:
+  - ea.domain.mathematics
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.mathematics.classification.sorts-by-color
+mastery_criteria:
+  - Copies an AB pattern (e.g., red-blue-red-blue) with at least three repetitions.
+observation_prompts:
+  - During play, does the child line up objects in a repeating order on their own?
+supporting_activity_ids:
+  - ea.activity.mathematics.pattern-trains
+accessibility_notes:
+  - Offer pattern items that differ by shape or texture as well as color.
+research_reference_ids:
+  - ea.citation.headstart.elof
+  - ea.citation.naeyc.dap
+tags:
+  - patterning
+  - algebraic-thinking
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-math-7
+status: accepted
+locale: en-US

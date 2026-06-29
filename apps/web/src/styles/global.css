@@ -1,0 +1,28 @@
+/*
+ * Global entry stylesheet. Imported once (Base.astro).
+ *
+ * Architecture: design tokens are the contract; everything else lives in a
+ * cascade layer by reach — base < layout < components < utilities — so the
+ * cascade is controlled by intent, not specificity or source order. Component-
+ * specific styles for SELF-CONTAINED, server-rendered components belong in that
+ * component's scoped <style> block, NOT here. Styles for client-JS-rendered DOM
+ * (the browse tree, the milestones cards) must stay global, in components/.
+ *
+ * See docs/standards/ui.md. Tokens and print stay UNLAYERED on purpose.
+ */
+@layer base, layout, components, utilities;
+
+@import "./tokens.css";
+
+@import "./base.css";
+@import "./layout.css";
+
+@import "./components/filters.css";
+@import "./components/tree.css";
+@import "./components/chips.css";
+@import "./components/milestones.css";
+@import "./components/record.css";
+
+@import "./utilities.css";
+
+@import "./print.css";

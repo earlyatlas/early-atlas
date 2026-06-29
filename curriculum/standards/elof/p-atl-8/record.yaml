@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-atl-8
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-ATL 8"
+title: "Child holds information in mind and manipulates it to perform tasks."
+domain_area: "Approaches to Learning"
+sub_domain: "Cognitive Self-Regulation (Executive Functioning)"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Holds small amounts of information in mind, such as two-step directions, to successfully complete simple tasks."
+  - age_period: "48 to 60 Months"
+    text: "Holds an increasing amount of information in mind in order to successfully complete tasks."
+  - age_period: "By 60 Months"
+    text: "Accurately recounts recent experiences in the correct order and includes relevant details."
+  - age_period: "By 60 Months"
+    text: "Successfully follows detailed, multi-step directions, sometimes with reminders."
+  - age_period: "By 60 Months"
+    text: "Remembers actions to go with stories or songs shortly after being taught."
+source_url: https://headstart.gov/school-readiness/article/approaches-learning-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

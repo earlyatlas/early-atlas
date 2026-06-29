@@ -1,0 +1,51 @@
+id: ea.activity.science.science-word-of-the-day-explorations
+slug: science-word-of-the-day-explorations
+title: Science Word of the Day Explorations
+summary: Children learn and use a featured science practice word while exploring a real object at a discovery table.
+supported_skill_ids:
+  - ea.skill.science.inquiry-skills.uses-science-vocabulary
+age_range_months:
+  min: 36
+  max: 66
+group_size: 2-6 children
+duration_minutes: 15
+materials:
+  - A featured word card with a picture, such as observe, compare, or measure
+  - A tray of real objects to explore, such as shells, leaves, rocks, or fruit
+  - Magnifying glasses
+  - A non-stretchy measuring tape or linking cubes
+setup: >-
+  Set the objects on a low table with the magnifiers and the word card propped
+  where everyone can see it.
+steps:
+  - 'Introduce the word of the day and act it out, for example: "Observe means to look very closely."'
+  - Invite each child to pick an object and use the featured word as they explore it.
+  - 'Model the word in a full sentence, such as: "I observe tiny lines on this leaf."'
+  - Ask children to use the word themselves and describe what they notice.
+  - Add a content word for the object, like stem or shell, and have children repeat and use it.
+variations:
+  - Feature compare and give each child two objects to find one thing that is the same and one that is different.
+  - Feature measure and have children measure objects with linking cubes.
+differentiation:
+  - For younger children, pair the word with a clear gesture and accept one-word answers.
+  - For older children, challenge them to use two science words in the same sentence.
+assessment_opportunities:
+  - Note which children use the featured word spontaneously after the model.
+  - Listen for content words children pick up and reuse later in the day.
+safety_notes:
+  - Use objects too large to swallow and supervise so small natural items are not mouthed.
+accessibility_notes:
+  - Pair each word with a picture and a sign so meaning is shown, not just spoken.
+  - Welcome the word in a child's home language and link it to the English term.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - vocabulary
+  - scientific-talk
+  - observation
+  - language
+methodologies:
+  - reggio-emilia
+  - play-based
+status: accepted
+locale: en-US

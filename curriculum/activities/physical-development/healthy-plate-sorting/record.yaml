@@ -1,0 +1,55 @@
+id: ea.activity.physical-development.healthy-plate-sorting
+slug: healthy-plate-sorting
+title: Build a Healthy Plate Sorting Game
+summary: >-
+  Preschoolers sort food picture cards into everyday foods and sometimes foods,
+  then build a balanced pretend plate and talk about how foods help the body grow.
+supported_skill_ids:
+  - ea.skill.physical-development.health-safety.makes-nutritious-choices
+age_range_months:
+  min: 36
+  max: 60
+group_size: 2-6 children
+duration_minutes: 20
+materials:
+  - Picture cards of a variety of foods, including fruits, vegetables, grains,
+    proteins, and a few treats
+  - Two labeled trays or hoops for "everyday foods" and "sometimes foods"
+  - A paper plate for each child
+setup: >-
+  Spread the food cards face up. Set out the two sorting trays and give each child
+  a paper plate. Keep the tone curious and positive, not about good or bad foods.
+steps:
+  - Hold up a few cards and ask what each food is and whether anyone has tried it.
+  - Invite children to sort cards into "everyday foods" and "sometimes foods."
+  - Talk about how everyday foods like fruits and vegetables help us grow and play.
+  - Ask each child to build a colorful plate using a variety of everyday foods.
+  - Let children share what is on their plate and why they chose it.
+variations:
+  - Use real, washed foods or grocery flyers instead of cards.
+  - Add a "what does your body say" step about feeling hungry or full.
+differentiation:
+  - For children who need support, sort alongside a partner and use fewer cards.
+  - For a challenge, ask children to name a food from each color of the rainbow.
+assessment_opportunities:
+  - Note whether the child can identify healthy and less-healthy foods.
+  - Listen for understanding that a variety of foods helps the body grow.
+safety_notes:
+  - Keep the conversation positive and pressure-free and follow each child's allergy
+    and dietary plan if real food is used.
+accessibility_notes:
+  - Use clear picture cards and real foods so children can choose without relying on
+    text.
+  - Respect cultural foods and family practices in the discussion.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - health-safety
+  - nutrition
+  - sorting
+  - preschool
+methodologies:
+  - play-based
+  - reggio-emilia
+status: accepted
+locale: en-US

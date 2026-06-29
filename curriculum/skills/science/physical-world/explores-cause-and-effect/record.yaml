@@ -1,0 +1,39 @@
+id: ea.skill.science.physical-world.explores-cause-and-effect
+slug: explores-cause-and-effect
+title: Explores Cause and Effect
+short_description: Infant or toddler acts on objects to make something happen and repeats the action.
+developmental_purpose: >-
+  Discovering that "I did that" is the root of scientific thinking. When a baby
+  drops, pushes, or pops a toy and watches the result, they learn their actions
+  have predictable consequences, building the early reasoning that later becomes
+  prediction and testing.
+domain_ids:
+  - ea.domain.science
+age_range_months:
+  min: 8
+  max: 20
+developmental_stage: infant_to_toddler
+related_skill_ids:
+  - ea.skill.science.physical-world.investigates-motion
+mastery_criteria:
+  - Repeats an action on purpose to produce the same result, such as dropping a toy again and again.
+  - Shows anticipation, such as looking toward where a ball will roll before it moves.
+observation_prompts:
+  - "During play, does the child intentionally repeat an action to make an effect happen again?"
+  - "Does the child show surprise or delight at a result, then try to recreate it?"
+accessibility_notes:
+  - Offer cause-and-effect toys with sound, light, or texture so the effect is reachable through more than one sense.
+safety_notes:
+  - Use objects too large to be swallowed and supervise to prevent mouthing of small parts.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - cause-and-effect
+  - exploration
+  - senses
+  - infant
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-c-2
+status: accepted
+locale: en-US

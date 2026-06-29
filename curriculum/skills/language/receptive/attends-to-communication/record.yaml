@@ -1,0 +1,41 @@
+id: ea.skill.language.receptive.attends-to-communication
+slug: attends-to-communication
+title: Attends to Communication and Language
+short_description: Child attends to and learns from language experiences, joining in joint attention with familiar adults.
+developmental_purpose: >-
+  Tuning in to a caregiver's words, signs, and gestures — and sharing attention
+  on the same object or event — is how infants and toddlers extract meaning from
+  language. Joint attention is a foundation for vocabulary, social communication,
+  and later comprehension.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 0
+  max: 36
+developmental_stage: infant_to_toddler
+related_skill_ids:
+  - ea.skill.language.receptive.understands-spoken-words
+mastery_criteria:
+  - Shifts gaze or focus toward a familiar adult who is talking or signing during face-to-face interaction.
+  - Looks back and forth between an adult and an object during shared attention.
+  - Shows interest or understanding during songs, rhymes, stories, or naming games.
+observation_prompts:
+  - When you talk or sign about a nearby toy, does the child look between you and the toy?
+  - During a familiar song or finger-play, does the child watch, smile, or try to join in?
+accessibility_notes:
+  - For children who are deaf or hard of hearing, share attention visually with signs, gestures, and expressive faces.
+  - For children with vision differences, build joint attention through touch, sound, and named handling of objects.
+common_misconceptions:
+  - Looking away is not always disinterest; infants take breaks to regulate before re-engaging.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - receptive-language
+  - joint-attention
+  - listening
+  - infant
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-lc-2
+status: accepted
+locale: en-US

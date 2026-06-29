@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-c-9
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-C 9"
+title: "Child uses spatial awareness to understand objects and their movement in space."
+domain_area: "Cognition"
+sub_domain: "Emergent Mathematical Thinking"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Explores or examines objects and watches objects when they move."
+  - age_period: "8 to 18 Months"
+    text: "Explores how things fit together, how they fit with other things, and how they move through space, such as a ball thrown under a table."
+  - age_period: "16 to 36 Months"
+    text: "Predicts or anticipates how things move through space, or fit together or inside other things, such as putting smaller objects into a small box and larger objects into a large box."
+  - age_period: "By 36 Months"
+    text: "Does puzzles with interlocking pieces, different colors, and shapes."
+  - age_period: "By 36 Months"
+    text: "Understands some effects of size or weight when picking up or moving objects."
+source_url: https://headstart.gov/school-readiness/article/cognition-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

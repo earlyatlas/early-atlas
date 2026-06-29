@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-atl-9
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-ATL 9"
+title: "Child shows imagination in play and interactions with others."
+domain_area: "Approaches to Learning"
+sub_domain: "Creativity"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Emerging"
+  - age_period: "8 to 18 Months"
+    text: "Uses sounds, gestures, signs, or words playfully through songs, finger plays, or games."
+  - age_period: "16 to 36 Months"
+    text: "Uses imagination to explore possible uses of objects and materials. Engages in pretend or make-believe play with other children."
+  - age_period: "By 36 Months"
+    text: "Uses pretend and imaginary objects or people in play or interaction with others."
+  - age_period: "By 36 Months"
+    text: "Uses materials such as paper, paint, crayons, or blocks to make novel things."
+source_url: https://headstart.gov/school-readiness/article/approaches-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

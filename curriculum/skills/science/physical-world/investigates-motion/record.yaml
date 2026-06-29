@@ -1,0 +1,39 @@
+id: ea.skill.science.physical-world.investigates-motion
+slug: investigates-motion
+title: Investigates How Things Move
+short_description: Child explores how objects move by pushing, pulling, rolling, and using ramps.
+developmental_purpose: >-
+  Investigating motion introduces children to forces in everyday play. By
+  changing the height of a ramp, the size of a ball, or the force of a push,
+  children notice how speed and distance change, building intuition about cause,
+  effect, and the physical world.
+domain_ids:
+  - ea.domain.science
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.science.physical-world.explores-cause-and-effect
+mastery_criteria:
+  - Predicts or describes how changing a ramp or a push changes how far or fast something moves.
+  - Compares the motion of two objects and explains a difference, such as which rolls farther.
+observation_prompts:
+  - "Does the child adjust a ramp or a push on purpose to make an object go faster or farther?"
+  - "Can the child describe what made one object move differently from another?"
+accessibility_notes:
+  - Provide lightweight balls and low-effort ramps so children with limited strength can still create motion.
+safety_notes:
+  - Keep ramps clear of tripping hazards and use balls too large to be swallowed.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - motion
+  - ramps
+  - cause-and-effect
+  - physical-world
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-sci-1
+status: accepted
+locale: en-US

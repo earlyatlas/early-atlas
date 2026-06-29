@@ -1,0 +1,35 @@
+id: ea.skill.approaches-to-learning.executive-function.distinguishes-familiar-and-unfamiliar
+slug: distinguishes-familiar-and-unfamiliar
+title: Distinguishes Familiar from Unfamiliar
+short_description: Child recognizes familiar people, objects, and routines and notices when something is new or unexpected.
+developmental_purpose: >-
+  Holding a memory of "what is usual" lets a child notice and react to what is
+  new. This comparison underlies attention, prediction, and the working memory
+  that supports later self-regulation and learning.
+domain_ids:
+  - ea.domain.approaches-to-learning
+age_range_months:
+  min: 4
+  max: 36
+developmental_stage: infant_to_toddler
+mastery_criteria:
+  - Recognizes familiar people by face or voice and reacts differently to strangers.
+  - Remembers usual locations of objects and steps of familiar routines.
+  - Notices and comments on, or shows surprise at, new or unexpected people, objects, or events.
+observation_prompts:
+  - Does the child respond differently to a familiar caregiver than to a new visitor?
+  - When a routine changes, does the child notice or ask about it?
+accessibility_notes:
+  - Pair faces with consistent voice or scent cues for children with vision differences.
+  - Keep routines and object placement predictable for children who rely on sameness.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - memory
+  - familiarity
+  - routines
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-c-3
+status: accepted
+locale: en-US

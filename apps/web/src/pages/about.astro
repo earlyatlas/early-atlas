@@ -1,0 +1,104 @@
+---
+import Base from "../layouts/Base.astro";
+
+// Prerendered static page.
+export const prerender = true;
+
+const sections = [
+  { id: "what", label: "What Early Atlas is" },
+  { id: "beliefs", label: "What we believe" },
+  { id: "how", label: "How it's organized" },
+  { id: "approaches", label: "Many approaches, no dogma" },
+  { id: "trust", label: "Open and evidence-based" },
+  { id: "independence", label: "Independence" },
+];
+---
+
+<Base title="About">
+  <h1>About Early Atlas</h1>
+  <p>
+    Early Atlas is a free, openly built library of early-childhood learning — skills, activities,
+    and printable worksheets for the people who spend their days with young children, from birth
+    through the early school years.
+  </p>
+
+  <section id="what">
+    <h2>What Early Atlas is</h2>
+    <p>
+      It is a map of what young children are learning to do, and simple, real ways to support them.
+      Every skill comes with plain-language guidance, hands-on activities, and — where it helps —
+      printable practice pages. It is written for parents, caregivers, home educators, and
+      early-childhood teachers alike. You do not need a degree, an account, or a subscription to use
+      it.
+    </p>
+  </section>
+
+  <section id="beliefs">
+    <h2>What we believe</h2>
+    <ul class="clean">
+      <li>
+        <strong>Children learn through play and everyday moments.</strong> Sorting laundry, naming what
+        you see on a walk, and counting steps are real learning.
+      </li>
+      <li>
+        <strong>Every child develops at their own pace.</strong> Ages here are gentle guides, not finish
+        lines. We describe what to look for, not a test to pass.
+      </li>
+      <li>
+        <strong>Good early learning should be free.</strong> The whole library is public and open, so
+        a great activity is never behind a paywall.
+      </li>
+      <li>
+        <strong>Observation beats pressure.</strong> We help you notice and encourage, rather than drill
+        or rank.
+      </li>
+    </ul>
+  </section>
+
+  <section id="how">
+    <h2>How it's organized</h2>
+    <p>
+      Learning is grouped into broad <strong>domains</strong> (such as Language or Mathematics). Each
+      domain holds <strong>skills</strong> — the specific things a child is learning to do, like “Sorts
+      objects by color.” Under each skill you'll find
+      <strong>activities</strong> to try and <strong>worksheets</strong> to print. You can browse this
+      map or search it by a child's age, a stage, or a keyword.
+    </p>
+  </section>
+
+  <section id="approaches">
+    <h2>Many approaches, no dogma</h2>
+    <p>
+      Families and teachers draw on many respected traditions — Montessori, Reggio Emilia, Waldorf,
+      play-based learning, and more. Early Atlas borrows the best ideas from each and labels which
+      approach inspired a lesson, so you can lean toward the styles that fit your child. We don't
+      insist on a single “right” way to teach a two-year-old.
+    </p>
+  </section>
+
+  <section id="trust">
+    <h2>Open and evidence-based</h2>
+    <p>
+      Developmental guidance here is grounded in widely used frameworks and research, and lessons
+      cite their sources so you can check them. The content is structured and version-controlled
+      like an open-source project, which keeps it consistent, reviewable, and improvable over time.
+    </p>
+  </section>
+
+  <section id="independence">
+    <h2>Independence</h2>
+    <p>
+      Early Atlas is an independent project. It is not affiliated with, endorsed by, or certified by
+      any of the educational organizations whose approaches inspire our lessons. Our materials are
+      original works inspired by those traditions — not official curricula — and all trademarks and
+      names belong to their respective owners. Early Atlas is a learning resource, not medical or
+      developmental advice; if you have concerns about a child's development, talk with a qualified
+      professional.
+    </p>
+  </section>
+
+  <Fragment slot="toc">
+    <div class="toc-title">On this page</div>
+    {sections.map((s) => <a href={`#${s.id}`}>{s.label}</a>)}
+  </Fragment>
+</Base>

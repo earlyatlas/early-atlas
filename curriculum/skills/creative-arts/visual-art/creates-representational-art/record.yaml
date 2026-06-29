@@ -1,0 +1,40 @@
+id: ea.skill.creative-arts.visual-art.creates-representational-art
+slug: creates-representational-art
+title: Creates Representational Art
+short_description: Child draws and builds recognizable people, objects, and scenes.
+developmental_purpose: >-
+  As children gain control and intention, their marks begin to stand for real
+  things: a circle with lines becomes a person, a box becomes a house. Creating
+  representational art reveals a child's growing ability to plan, symbolize, and
+  tell a visual story, and to share how they see their world.
+domain_ids:
+  - ea.domain.creative-arts
+age_range_months:
+  min: 36
+  max: 66
+developmental_stage: preschool
+prerequisite_skill_ids:
+  - ea.skill.creative-arts.visual-art.explores-art-materials
+mastery_criteria:
+  - Draws or builds something recognizable and can name what it represents.
+  - Includes intentional details, such as eyes, fingers, or windows.
+  - Plans a picture or describes the story behind it before or while making it.
+observation_prompts:
+  - "When asked, can the child tell you about their drawing: who is in it and what is happening?"
+  - Does the child add details over time, such as moving from a head to a head with arms and legs?
+common_misconceptions:
+  - A drawing need not look realistic to an adult; what matters is that it carries meaning for the child.
+accessibility_notes:
+  - Provide adaptive grips, stencils, or three-dimensional materials so children can represent ideas in the medium that suits them.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - visual-art
+  - drawing
+  - representation
+  - symbolic-thinking
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-atl-12
+status: accepted
+locale: en-US

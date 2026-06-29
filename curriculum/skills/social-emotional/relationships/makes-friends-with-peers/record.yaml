@@ -1,0 +1,43 @@
+id: ea.skill.social-emotional.relationships.makes-friends-with-peers
+slug: makes-friends-with-peers
+title: Makes Friends With Peers
+short_description: Child joins and sustains friendly play and conversation with other children.
+developmental_purpose: >-
+  Building and keeping peer relationships — entering play, taking turns in
+  conversation, forming early friendships — is how preschoolers practice
+  cooperation, negotiation, and belonging within a group.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+prerequisite_skill_ids:
+  - ea.skill.social-emotional.relationships.takes-turns
+related_skill_ids:
+  - ea.skill.social-emotional.relationships.shows-empathy
+mastery_criteria:
+  - Uses a strategy to enter play, such as suggesting an idea, joining an activity, or offering a toy.
+  - Sustains positive interactions and back-and-forth conversation with peers for increasing periods.
+  - Shows preference for and begins to form friendships with one or two particular children.
+observation_prompts:
+  - When a child wants to join others, do they use a friendly strategy to get in?
+  - Can the child keep a play interaction going and take turns talking?
+  - Does the child seek out particular friends to play with?
+accessibility_notes:
+  - Coach entry phrases and offer a buddy or smaller group for children who find big groups overwhelming.
+  - Use picture or AAC supports so non-speaking children can offer ideas and join play.
+common_misconceptions:
+  - Watching peers before joining (onlooker play) is a normal part of learning to enter a group, not avoidance.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - relationships
+  - friendship
+  - peer-interaction
+  - joining-play
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-se-3
+status: accepted
+locale: en-US

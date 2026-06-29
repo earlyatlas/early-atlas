@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-se-4
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-SE 4"
+title: "Child shows interest in, interacts with, and develops personal relationships with other children."
+domain_area: "Social and Emotional Development"
+sub_domain: "Relationships with Other Children"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Looks at attentively, touches or explores another child's face. Shows recognition of familiar children through actions or behaviors, such as smiling, reaching, touching, or making sounds directed to the child."
+  - age_period: "8 to 18 Months"
+    text: "Participates in simple back-and-forth interactions with another child. Interacts with a few children on a regular basis, knows some of their names, likes or dislikes."
+  - age_period: "16 to 36 Months"
+    text: "Seeks out other children for social interaction, including initiating contact and responding to others. Develops friendships and engages in more elaborate play with friends."
+  - age_period: "By 36 Months"
+    text: "Shows increasing interest in interacting with other children."
+  - age_period: "By 36 Months"
+    text: "Shows preference for particular playmates, such as greeting friends by name."
+source_url: https://headstart.gov/school-readiness/article/social-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

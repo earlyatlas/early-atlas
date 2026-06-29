@@ -1,0 +1,47 @@
+id: ea.activity.creative-arts.scarf-dance
+slug: scarf-dance
+title: Scarf and Ribbon Dance
+summary: Children move expressively to music with flowing scarves, matching their motion to the mood of the song.
+supported_skill_ids:
+  - ea.skill.creative-arts.movement-dance.moves-to-music
+age_range_months:
+  min: 12
+  max: 42
+group_size: 1-6 children
+duration_minutes: 15
+materials:
+  - Light scarves or short ribbon wands, one or two per child
+  - Music with a clear change between lively and calm songs
+  - A clear, soft open space
+setup: Clear a safe open area, give each child a scarf, and have your music ready to start and stop.
+steps:
+  - Play a gentle song and sway your scarf slowly, inviting children to float theirs like clouds.
+  - Switch to a lively song and shake or twirl the scarf quickly, letting children speed up too.
+  - Play a stop-and-go game, freezing when the music pauses and moving when it returns.
+  - Invite children to lead with their own moves, such as spinning, jumping, or making waves.
+  - End with a slow song and a calm, settling sway.
+variations:
+  - Trade scarves for streamers, bells, or simply hands and bodies.
+  - Name movements together, such as "high," "low," "fast," and "slow."
+differentiation:
+  - For younger children, focus on free movement; for older children, invite them to match tempo and lead the group.
+assessment_opportunities:
+  - Observe whether the child changes movement with the music's tempo and stops when it stops.
+  - Notice whether the child invents original movements or mainly imitates.
+safety_notes:
+  - Keep scarves short, space children apart, and clear the floor to prevent trips and collisions.
+accessibility_notes:
+  - Welcome seated, hand, or wheelchair movement and add visual cues for children who do not hear the music.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - movement
+  - dance
+  - music
+  - rhythm
+  - scarves
+methodologies:
+  - waldorf
+  - play-based
+status: accepted
+locale: en-US

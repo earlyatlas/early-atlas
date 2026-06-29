@@ -1,0 +1,52 @@
+id: ea.skill.physical-development.fine-motor.adjusts-grasp-to-use-tools
+slug: adjusts-grasp-to-use-tools
+title: Adjusts Reach and Grasp to Use Tools
+short_description: >-
+  Child changes how the hand reaches and grips to use simple tools such as
+  spoons, markers, and toy shovels.
+developmental_purpose: >-
+  Matching the grip to the task is the heart of early tool use. As infants and
+  toddlers refine grasps, extend their reach with simple tools, and adjust their
+  hold for a spoon, paintbrush, or rolling pin, they gain the dexterity and
+  problem-solving that make self-feeding, art, and everyday tasks possible.
+domain_ids:
+  - ea.domain.physical-development
+age_range_months:
+  min: 9
+  max: 36
+developmental_stage: infant_to_toddler
+prerequisite_skill_ids:
+  - ea.skill.physical-development.fine-motor.develops-pincer-grasp
+related_skill_ids:
+  - ea.skill.physical-development.fine-motor.uses-fine-motor-tools
+mastery_criteria:
+  - Matches the grasp to the task, such as a pincer grip for cereal and a whole
+    hand for banging.
+  - Uses a simple tool to extend reach, such as a stick or rake to pull an object
+    closer.
+  - Adjusts grasp for different tools, such as a spoon, marker, or paintbrush.
+  - Uses a hand tool to act on materials, such as a rolling pin with play dough.
+observation_prompts:
+  - At mealtime, does the child hold a spoon and bring it to the mouth with growing
+    control?
+  - When given a new tool, does the child change how they hold it to make it work?
+accessibility_notes:
+  - Offer built-up or weighted handles and adaptive utensils for children building
+    grip strength.
+  - Stabilize bowls and paper and allow extra time for children with motor
+    differences.
+safety_notes:
+  - Use child-safe, blunt tools and supervise to prevent mouthing of small tools or
+    materials.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - fine-motor
+  - tool-use
+  - grasp
+  - self-feeding
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-pmp-8
+status: accepted
+locale: en-US

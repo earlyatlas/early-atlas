@@ -1,0 +1,19 @@
+id: ea.domain.language
+slug: language
+title: Language
+description: >-
+  Receptive and expressive language: understanding words and directions,
+  building vocabulary, and communicating needs and ideas.
+age_coverage:
+  min: 0
+  max: 72
+subdomains:
+  - receptive
+  - expressive
+  - vocabulary
+tags:
+  - language
+  - communication
+  - vocabulary
+status: accepted
+locale: en-US

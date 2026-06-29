@@ -1,0 +1,63 @@
+id: ea.activity.physical-development.sensory-discovery-basket
+slug: sensory-discovery-basket
+title: Sensory Discovery Basket
+summary: >-
+  An infant or toddler explores a basket of safe everyday objects with varied
+  textures, weights, and sounds to learn their properties through the senses.
+supported_skill_ids:
+  - ea.skill.physical-development.perceptual.explores-objects-with-senses
+age_range_months:
+  min: 4
+  max: 24
+group_size: 1-2 children
+duration_minutes: 10
+materials:
+  - A shallow basket or bin
+  - Six to eight safe household objects too large to swallow, such as a wooden
+    spoon, a metal whisk, a soft scrub brush, a fabric scrap, a small loofah, and
+    a sealed crinkly bottle
+setup: >-
+  Choose objects with clearly different textures, weights, and sounds. Wash them,
+  check that none have small or loose parts, and arrange them in the basket within
+  the child's reach.
+steps:
+  - Sit with the child and place the basket between you.
+  - Let the child reach in and choose an object to explore on their own.
+  - Name what they notice, such as "that brush feels rough" or "the spoon is
+    smooth."
+  - Offer a second object and pause so the child can compare how each one feels.
+  - Follow the child's lead, letting them mouth, pat, bang, or turn objects over.
+variations:
+  - Swap in cold or warm items for a temperature theme, or all soft items for a
+    gentle-touch day.
+  - Hide one object under a cloth and let the child find it by feel.
+differentiation:
+  - For young infants, hold one object at a time within reach and describe it.
+  - For older toddlers, ask them to find "something soft" or "something that
+    rattles."
+assessment_opportunities:
+  - Note whether the child changes how they handle an object based on its texture or
+    weight.
+  - Watch for early comparing, such as dropping a heavy item and choosing a lighter
+    one.
+safety_notes:
+  - Use only objects too large to fully enter the mouth and free of small or sharp
+    parts.
+  - Supervise the whole time, since infants explore by mouthing.
+accessibility_notes:
+  - Choose high-contrast objects for children with visual differences and ones with
+    strong textures or sounds as alternate cues.
+  - Stabilize the basket and prop the child for support as needed.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - perception
+  - senses
+  - texture
+  - infant
+  - toddler
+methodologies:
+  - montessori
+  - reggio-emilia
+status: accepted
+locale: en-US

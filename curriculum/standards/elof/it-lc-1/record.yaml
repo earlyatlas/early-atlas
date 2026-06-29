@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-lc-1
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-LC 1"
+title: "Child attends to, understands, and responds to communication and language from others."
+domain_area: "Language and Communication"
+sub_domain: "Attending and Understanding"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Attends to verbal and non-verbal communication by turning toward or looking at a person. Participates in reciprocal interactions by exchanging facial expressions and language sounds with familiar adults."
+  - age_period: "8 to 18 Months"
+    text: "Shows understanding of the meaning of familiar caregivers' verbal and non-verbal communication and responds with facial expressions, gestures, words, or actions, such as looking at people or objects being referred to."
+  - age_period: "16 to 36 Months"
+    text: "Shows recognition of words, phrases, and simple sentences. Participates in conversations in ways that show understanding by following comments or suggestions with actions or behavior."
+  - age_period: "By 36 Months"
+    text: "Shows understanding of some words and phrases used in conversation, such as by responding to simple questions."
+  - age_period: "By 36 Months"
+    text: "Shows comprehension of simple sentences, such as by listening to and following one- or two-step directions."
+source_url: https://headstart.gov/school-readiness/article/language-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

@@ -1,0 +1,27 @@
+id: ea.printable.mathematics.subtraction-facts-within-five
+slug: subtraction-facts-within-five
+title: Subtraction Facts Within 5 — Practice
+printable_type: worksheet
+instructions: "Solve each subtraction fact. Say the whole fact aloud as you write the answer, such as \"five take away two is three.\""
+supported_skill_ids:
+  - ea.skill.mathematics.number-sense.adds-single-digit
+age_range_months:
+  min: 54
+  max: 78
+generator:
+  type: arithmetic
+  operation: subtraction
+  operand_min: 0
+  operand_max: 5
+  count: 16
+  layout: vertical
+  answer_key: true
+tags:
+  - subtraction
+  - math-facts
+  - memorization
+  - arithmetic
+methodologies:
+  - classical
+status: accepted
+locale: en-US

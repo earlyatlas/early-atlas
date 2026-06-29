@@ -1,0 +1,48 @@
+id: ea.activity.mathematics.teddy-bear-positions
+slug: teddy-bear-positions
+title: Where Is Teddy
+summary: Children place a stuffed toy in named positions to practice spatial words.
+supported_skill_ids:
+  - ea.skill.mathematics.spatial-sense.follows-positional-directions
+age_range_months:
+  min: 36
+  max: 60
+group_size: 2-6 children
+duration_minutes: 15
+materials:
+  - One stuffed animal or small toy per child
+  - A box, chair, or basket to position the toy around
+setup: Give each child a toy and a box, with room to move the toy and themselves.
+steps:
+  - "Name a position and ask the child to place the toy there, such as \"on top of the box.\""
+  - Try positions like under, behind, in front of, and next to the box.
+  - Let a child be the leader and call out the next position.
+  - "Switch to body directions, such as \"stand up\" and \"take one step forward.\""
+  - "Ask each child: where is your teddy now? and listen for position words."
+  - Finish with a short "move to the front of the line" transition.
+variations:
+  - Hide the toy and give position clues until children find it.
+  - Play a follow-the-leader movement game using forward, back, up, and down.
+differentiation:
+  - For younger children, model each position before they try it.
+  - For older children, give two-step directions, such as "behind the box and then under the chair."
+assessment_opportunities:
+  - Note whether the child acts on position words without a model.
+  - Listen for the child using spatial words to describe locations.
+safety_notes:
+  - Clear the floor of tripping hazards before movement directions.
+accessibility_notes:
+  - Pair each position word with a gesture for children who benefit from modeling.
+  - Use wheelchair-friendly directions like forward and back instead of stand and sit.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - spatial-sense
+  - positional-language
+  - directions
+  - movement
+methodologies:
+  - play-based
+  - highscope
+status: accepted
+locale: en-US

@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-pmp-8
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-PMP 8"
+title: "Child adjusts reach and grasp to use tools."
+domain_area: "Perceptual, Motor, and Physical Development"
+sub_domain: "Fine Motor"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Uses increasingly refined grasps, matching the grasp to the task, such as using an index finger and thumb to pick up pieces of cereal or using the whole hand to bang objects together."
+  - age_period: "8 to 18 Months"
+    text: "Extends reach by using simple tools, such as a pull string, stick, or rake to pull a distant object closer."
+  - age_period: "16 to 36 Months"
+    text: "Adjusts grasp to use different tools for different purposes, such as a spoon, paintbrush, or marker."
+  - age_period: "By 36 Months"
+    text: "Adjusts grasp with ease to new tools and materials."
+  - age_period: "By 36 Months"
+    text: "Uses pincer grasp with thumb and fingers to manipulate small objects or handle tools, such as stringing small beads."
+  - age_period: "By 36 Months"
+    text: "Uses hand tools in a variety of ways, such as a rolling pin with clay or play dough, or a toy shovel with sand."
+source_url: https://headstart.gov/school-readiness/article/perceptual-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

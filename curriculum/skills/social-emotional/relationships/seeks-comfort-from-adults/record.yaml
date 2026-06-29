@@ -1,0 +1,36 @@
+id: ea.skill.social-emotional.relationships.seeks-comfort-from-adults
+slug: seeks-comfort-from-adults
+title: Seeks Comfort from Familiar Adults
+short_description: Infant or toddler turns to trusted adults for comfort and expects positive responses.
+developmental_purpose: >-
+  A secure attachment — knowing a familiar adult will reliably respond — is the
+  foundation for emotional security, exploration, and every later relationship. A
+  child who can seek and accept comfort learns the world is predictable and safe.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 0
+  max: 30
+developmental_stage: infant_toddler
+related_skill_ids:
+  - ea.skill.social-emotional.relationships.seeks-help-from-adults
+mastery_criteria:
+  - Quiets, relaxes, or settles when a familiar adult holds or soothes them.
+  - Turns to, reaches for, or moves toward a familiar adult when tired, hurt, or distressed.
+observation_prompts:
+  - When upset, does the child seek out a familiar caregiver for comfort?
+  - Does the child settle more easily with a familiar adult than alone?
+accessibility_notes:
+  - Offer consistent caregivers and predictable soothing routines for children who are slow to settle.
+  - Honor each child's comfort cues — some prefer rocking, others firm holding, swaddling, or quiet.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - relationships
+  - attachment
+  - comfort
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-se-1
+status: accepted
+locale: en-US

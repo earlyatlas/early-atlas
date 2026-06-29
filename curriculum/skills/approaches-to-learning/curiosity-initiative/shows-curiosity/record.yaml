@@ -1,0 +1,49 @@
+id: ea.skill.approaches-to-learning.curiosity-initiative.shows-curiosity
+slug: shows-curiosity
+title: Shows Curiosity and Asks Questions
+short_description: >-
+  Child notices novel or puzzling things and seeks more information by
+  exploring, commenting, and asking questions.
+developmental_purpose: >-
+  Curiosity expressed through questioning marks a shift from acting on the world
+  to actively inquiring about it. Asking "what," "why," and "how" drives
+  vocabulary, reasoning, and the disposition to investigate rather than passively
+  receive information.
+domain_ids:
+  - ea.domain.approaches-to-learning
+age_range_months:
+  min: 24
+  max: 54
+developmental_stage: toddler_to_preschool
+prerequisite_skill_ids:
+  - ea.skill.approaches-to-learning.curiosity-initiative.explores-with-senses
+related_skill_ids:
+  - ea.skill.approaches-to-learning.executive-function.holds-information-in-mind
+mastery_criteria:
+  - Asks questions about how or why something works.
+  - Investigates a new object or event without being directed to.
+  - "Makes a guess or prediction, such as \"Maybe it floats,\" before testing it."
+observation_prompts:
+  - When something surprising happens, does the child ask about it or try to find out more?
+  - "Does the child offer their own theories, even when they are not yet accurate?"
+common_misconceptions:
+  - >-
+    A "wrong" answer to a child's own question is part of inquiry; correcting
+    too quickly can shut down the questioning the skill is meant to grow.
+accessibility_notes:
+  - Accept questions offered through signs, gestures, or pointing, not spoken words alone.
+  - >-
+    Give children who process language slowly extra wait time after a wondering
+    before stepping in with an answer.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - curiosity
+  - inquiry
+  - questioning
+  - initiative
+standard_ids:
+  - ea.standard.elof.p-atl-11
+  - ea.standard.elof.it-atl-7
+status: accepted
+locale: en-US

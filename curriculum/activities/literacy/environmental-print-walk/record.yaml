@@ -1,0 +1,41 @@
+id: ea.activity.literacy.environmental-print-walk
+slug: environmental-print-walk
+title: Print Walk
+summary: Children take a walk and spot print on signs, labels, and packages.
+supported_skill_ids:
+  - ea.skill.literacy.print-awareness.recognizes-print-in-environment
+age_range_months:
+  min: 30
+  max: 54
+group_size: 1-6 children
+duration_minutes: 15
+materials:
+  - The everyday environment (room, hallway, or neighborhood)
+  - Optional clipboard and crayon to "write down" finds
+setup: Plan a short route with several signs, labels, or familiar logos.
+steps:
+  - Walk together and pause when you reach print.
+  - Point to the words and say "These letters tell us something."
+  - Ask the child what they think it says and read it aloud.
+  - Invite the child to find more print along the way.
+variations:
+  - Hunt for the first letter of the child's name on packages and signs.
+differentiation:
+  - For beginners, focus on one familiar logo or their own name card.
+  - For older children, ask them to point to where reading starts on a sign.
+assessment_opportunities:
+  - Note whether the child points to print rather than pictures.
+accessibility_notes:
+  - Use large-print or high-contrast targets, or tactile labels, for low vision.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+  - ea.citation.headstart.elof
+tags:
+  - print-awareness
+  - environmental-print
+  - walk
+methodologies:
+  - reggio-emilia
+  - play-based
+status: accepted
+locale: en-US

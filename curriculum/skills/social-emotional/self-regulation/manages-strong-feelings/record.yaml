@@ -1,0 +1,45 @@
+id: ea.skill.social-emotional.self-regulation.manages-strong-feelings
+slug: manages-strong-feelings
+title: Manages Strong Feelings
+short_description: Child uses a simple strategy to calm down when upset, with support.
+developmental_purpose: >-
+  Self-regulation — recovering from big feelings without harming self or others —
+  is foundational for learning, friendships, and later executive function.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 30
+  max: 60
+developmental_stage: preschool
+prerequisite_skill_ids:
+  - ea.skill.social-emotional.emotional-understanding.identifies-basic-emotions
+related_skill_ids:
+  - ea.skill.social-emotional.relationships.takes-turns
+mastery_criteria:
+  - Uses a calming strategy (deep breath, hug a toy, go to a calm space) when upset, with reminders.
+  - Recovers from frustration without hurting others most of the time.
+observation_prompts:
+  - When frustrated, does the child try a calming strategy instead of only melting down?
+  - Does the child accept comfort and settle within a few minutes?
+supporting_activity_ids:
+  - ea.activity.social-emotional.calm-down-corner
+accessibility_notes:
+  - Offer a predictable calm space and visual strategy cards.
+  - Honor sensory needs (quiet, dim light, a weighted item) when co-regulating.
+common_misconceptions:
+  - Toddlers and young preschoolers still need an adult to co-regulate; full independence is not expected.
+safety_notes:
+  - Stay close during big feelings to keep the child and others safe.
+research_reference_ids:
+  - ea.citation.headstart.elof
+  - ea.citation.naeyc.dap
+tags:
+  - self-regulation
+  - calming
+  - emotions
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-se-8
+  - ea.standard.elof.it-se-9
+status: accepted
+locale: en-US

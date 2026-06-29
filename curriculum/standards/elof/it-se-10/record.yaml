@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-se-10
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-SE 10"
+title: "Child shows awareness about self and how to connect with others."
+domain_area: "Social and Emotional Development"
+sub_domain: "Sense of Identity and Belonging"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Learns about self by exploring hands, feet, body, and movement."
+  - age_period: "8 to 18 Months"
+    text: "Experiments with use of hands and body, discovering new capacities, and how movement and gestures can be used to relate to others."
+  - age_period: "16 to 36 Months"
+    text: "Shows awareness of own thoughts, feelings, and preferences as well as those of others. Uses different words or signs to refer to self and others."
+  - age_period: "By 36 Months"
+    text: "Shows awareness of self, including own body, abilities, thoughts, and feelings."
+  - age_period: "By 36 Months"
+    text: "Shows awareness of others as having thoughts and feelings separate from own."
+source_url: https://headstart.gov/school-readiness/article/social-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

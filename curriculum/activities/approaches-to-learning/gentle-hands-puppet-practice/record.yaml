@@ -1,0 +1,51 @@
+id: ea.activity.approaches-to-learning.gentle-hands-puppet-practice
+slug: gentle-hands-puppet-practice
+title: Gentle Hands Puppet Practice
+summary: >-
+  Using a friendly puppet, children rehearse what to do instead of grabbing or
+  hitting, practicing words and gentle actions during pretend conflicts.
+supported_skill_ids:
+  - ea.skill.approaches-to-learning.self-regulation.manages-behavior
+age_range_months:
+  min: 18
+  max: 60
+group_size: 2-6 children
+duration_minutes: 15
+materials:
+  - One or two hand puppets or stuffed animals
+  - A single shared toy for the puppets to "want"
+setup: >-
+  Sit with the children in a small circle. Have the puppet and one toy ready in
+  your lap.
+steps:
+  - Introduce the puppet and let it "want" the toy another puppet is holding.
+  - Pause and ask the children, "What can puppet do instead of grabbing?"
+  - Help the puppet practice words, such as "Can I have a turn?" or "My turn next."
+  - Show the puppet using gentle hands and waiting for a turn.
+  - Invite children to take the puppet and try the friendly words themselves.
+variations:
+  - Act out other moments, such as wanting a turn on a swing or in line.
+  - Let an older child be the puppet that models the calm response.
+differentiation:
+  - For toddlers, focus on one word and one gentle action, such as a soft pat.
+  - For older preschoolers, talk about how the other puppet felt.
+assessment_opportunities:
+  - Note whether children offer words or gestures rather than grabbing during the play.
+  - Watch later for a child using a rehearsed phrase in a real moment.
+safety_notes:
+  - Keep the pretend conflict light and friendly; never let it become a real tussle.
+accessibility_notes:
+  - Pair each phrase with a simple gesture or sign so all children can join.
+  - Keep the group small and the turns short for children who wait with difficulty.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - behavior
+  - turn-taking
+  - conflict
+  - puppets
+methodologies:
+  - play-based
+  - highscope
+status: accepted
+locale: en-US

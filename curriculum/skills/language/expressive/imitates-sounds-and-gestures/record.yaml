@@ -1,0 +1,35 @@
+id: ea.skill.language.expressive.imitates-sounds-and-gestures
+slug: imitates-sounds-and-gestures
+title: Imitates Sounds, Words, and Gestures
+short_description: Child observes and imitates sounds, words, gestures, and actions to communicate and connect.
+developmental_purpose: >-
+  Imitation is how young children acquire the sounds, words, and gestures of
+  their language and culture. Copying what others say and do, even after a delay,
+  drives expressive communication and shared meaning.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 4
+  max: 36
+developmental_stage: infant_to_toddler
+mastery_criteria:
+  - Engages in back-and-forth imitation games, such as patting a table in turn.
+  - Imitates a sound, word, or gesture soon after seeing or hearing it.
+  - Imitates more complex actions or words at a later time to communicate or do something.
+observation_prompts:
+  - Does the child copy a new sound or gesture you make?
+  - Does the child reuse a word or action they imitated earlier?
+accessibility_notes:
+  - Pair sounds with gestures or signs so children can imitate in more than one way.
+  - Face the child and exaggerate mouth movements for children with hearing differences.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - imitation
+  - expressive-language
+  - gestures
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-c-11
+status: accepted
+locale: en-US

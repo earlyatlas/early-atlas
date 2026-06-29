@@ -1,0 +1,41 @@
+id: ea.skill.language.expressive.communicates-needs-and-wants
+slug: communicates-needs-and-wants
+title: Communicates Needs and Wants
+short_description: Child signals needs and wants, first non-verbally and then with words or signs.
+developmental_purpose: >-
+  Communicating needs and wants is one of the earliest and most motivating uses
+  of language. Moving from cries and gestures to words, signs, and short phrases
+  lets a child influence the world, get help, and build the back-and-forth that
+  language depends on.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 0
+  max: 36
+developmental_stage: infant_to_toddler
+related_skill_ids:
+  - ea.skill.language.expressive.engages-others-in-interaction
+mastery_criteria:
+  - Uses sounds, gestures, or signs to signal distress, request help, or show interest.
+  - Uses words or signs such as "more" or "up" to communicate a specific want.
+  - Combines words or signs into short phrases to communicate needs and ideas.
+observation_prompts:
+  - When the child wants something out of reach, how do they let you know?
+  - During snack or play, does the child use a word, sign, or phrase to ask for more?
+accessibility_notes:
+  - Honor gestures, signs, picture exchange, and AAC selections as full communication.
+  - For children who are dual language learners, accept words from either language or a mix of both.
+common_misconceptions:
+  - Gestures and signs are not a delay; they are real communication and often support spoken-word growth.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - expressive-language
+  - requesting
+  - communication
+  - infant
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-lc-3
+status: accepted
+locale: en-US

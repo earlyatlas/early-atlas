@@ -1,0 +1,21 @@
+id: ea.standard.elof.p-lc-1
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-LC 1"
+title: "Child attends to communication and language from others."
+domain_area: "Language and Communication"
+sub_domain: "Attending and Understanding"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Shows acknowledgment of comments or questions and is able to attend to conversations, either spoken or signed."
+  - age_period: "48 to 60 Months"
+    text: "Shows acknowledgment of complex comments or questions. Is able to attend to longer, multi-turn conversations, either spoken or signed."
+  - age_period: "By 60 Months"
+    text: "Uses verbal and non-verbal signals appropriately to acknowledge the comments or questions of others."
+  - age_period: "By 60 Months"
+    text: "Shows ongoing connection to a conversation, group discussion, or presentation."
+source_url: https://headstart.gov/school-readiness/article/language-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

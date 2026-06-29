@@ -1,0 +1,50 @@
+id: ea.activity.literacy.story-retelling-with-props
+slug: story-retelling-with-props
+title: Story Retelling with Props
+summary: After a read-aloud, children use props and picture cards to retell or act out the story's events in order.
+supported_skill_ids:
+  - ea.skill.literacy.comprehension.retells-stories
+age_range_months:
+  min: 36
+  max: 66
+group_size: 1-6 children
+duration_minutes: 15
+materials:
+  - A familiar, well-loved picture book with a clear sequence of events
+  - Simple props or stuffed animals matching the main characters
+  - Three or four picture cards showing the key events of the story
+setup: >-
+  Read the book aloud at least once so it is familiar. Lay the props and the
+  shuffled event cards out on a rug.
+steps:
+  - Look at the cover together and recall who the story was about.
+  - Invite a child to find the picture card that shows what happened first.
+  - 'Encourage sequencing words by asking: "What happened first, and then what?"'
+  - Have children continue ordering the cards and acting out each event with the props.
+  - Retell the whole story together, pointing to each card in order.
+variations:
+  - Hide the props and let children pull one out to recall where it belongs in the story.
+  - Have children retell the story to a puppet or a younger friend.
+differentiation:
+  - For younger children, use just two event cards and retell one or two key events.
+  - For older children, ask them to explain how one event caused the next.
+assessment_opportunities:
+  - Note whether the child keeps events in the correct order.
+  - Listen for sequencing words such as first, then, and last.
+safety_notes:
+  - Use soft, child-safe props with no small detachable parts.
+accessibility_notes:
+  - Offer felt pieces or large picture cards so children can sequence without speaking.
+  - Welcome retelling through gestures, signs, or a child's home language.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - comprehension
+  - retelling
+  - sequencing
+  - narrative
+methodologies:
+  - waldorf
+  - play-based
+status: accepted
+locale: en-US

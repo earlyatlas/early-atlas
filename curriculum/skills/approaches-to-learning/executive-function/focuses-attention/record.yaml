@@ -1,0 +1,49 @@
+id: ea.skill.approaches-to-learning.executive-function.focuses-attention
+slug: focuses-attention
+title: Focuses Attention
+short_description: >-
+  Child sustains attention on a chosen activity for a developmentally
+  appropriate stretch, resisting minor distractions.
+developmental_purpose: >-
+  Sustained, focused attention is a core component of executive function. The
+  ability to stay engaged with a task, return to it after an interruption, and
+  filter out competing input underlies problem solving, early literacy, and
+  self-directed play.
+domain_ids:
+  - ea.domain.approaches-to-learning
+age_range_months:
+  min: 18
+  max: 42
+developmental_stage: toddler_to_preschool
+prerequisite_skill_ids:
+  - ea.skill.approaches-to-learning.curiosity-initiative.explores-with-senses
+related_skill_ids:
+  - ea.skill.approaches-to-learning.persistence.persists-through-challenges
+mastery_criteria:
+  - Stays engaged with a self-chosen activity for several minutes without prompting.
+  - Returns to an activity after a brief, expected interruption.
+  - Ignores minor background noise or movement while concentrating on a task.
+observation_prompts:
+  - "During free play, how long does the child stay with one activity before moving on?"
+  - Does the child look back at their work after a distraction and continue where they left off?
+common_misconceptions:
+  - >-
+    A short attention span at this age is typical, not a deficit; expected focus
+    grows roughly with age, and brief engagement is developmentally normal.
+accessibility_notes:
+  - >-
+    Reduce visual and auditory clutter in the work area for children who are
+    easily overstimulated.
+  - Offer a defined work surface, such as a tray or mat, to anchor attention.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - executive-function
+  - attention
+  - self-regulation
+  - concentration
+standard_ids:
+  - ea.standard.elof.p-atl-6
+  - ea.standard.elof.it-atl-3
+status: accepted
+locale: en-US

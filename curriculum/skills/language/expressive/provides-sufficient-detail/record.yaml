@@ -1,0 +1,41 @@
+id: ea.skill.language.expressive.provides-sufficient-detail
+slug: provides-sufficient-detail
+title: Provides Sufficient Detail
+short_description: Child gives enough detail to get needs met and clarifies when misunderstood.
+developmental_purpose: >-
+  Adjusting how much information to share — and clarifying when not understood —
+  lets a child get needs met by a range of adults and communicate effectively
+  across settings, a key step toward independent, purposeful language use.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.language.expressive.speaks-in-detailed-sentences
+mastery_criteria:
+  - Uses language for a variety of purposes, such as requesting, explaining, or describing a problem.
+  - Provides enough detail for a variety of adults to understand and meet a need.
+  - Rephrases or adds information to clarify a word or statement when misunderstood.
+observation_prompts:
+  - When the child wants something, do they give enough detail for an adult to help?
+  - If an adult misunderstands, does the child try again with a clearer or fuller message?
+accessibility_notes:
+  - Detail expressed through AAC, signs, or drawing counts fully.
+  - Children who are DLLs may switch between languages to provide detail; honor both.
+  - Give wait time and ask open prompts rather than supplying the words for the child.
+common_misconceptions:
+  - A one-word request is not always insufficient; judge detail against what the situation requires.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - expressive-language
+  - detail
+  - clarification
+  - communication
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-lc-3
+status: accepted
+locale: en-US

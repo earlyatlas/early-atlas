@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-atl-8
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-ATL 8"
+title: "Child uses creativity to increase understanding and learning."
+domain_area: "Approaches to Learning"
+sub_domain: "Creativity"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Uses a variety of ways to interact with other people. Modifies expressions, actions, or behaviors based on responses of others."
+  - age_period: "8 to 18 Months"
+    text: "Finds new things to do with familiar, everyday objects, such as using a cooking pot for a hat or a spoon as a drumstick."
+  - age_period: "16 to 36 Months"
+    text: "Combines objects or materials in new and unexpected ways. Shows delight in creating something new."
+  - age_period: "By 36 Months"
+    text: "Pays attention to new or unusual things."
+  - age_period: "By 36 Months"
+    text: "Shows willingness to participate in new activities or experiences."
+  - age_period: "By 36 Months"
+    text: "Uses language in creative ways, sometimes making up words or rhymes."
+source_url: https://headstart.gov/school-readiness/article/approaches-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

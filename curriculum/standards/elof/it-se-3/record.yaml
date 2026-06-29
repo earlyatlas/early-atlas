@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-se-3
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-SE 3"
+title: "Child learns to use adults as a resource to meet needs."
+domain_area: "Social and Emotional Development"
+sub_domain: "Relationships with Adults"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Communicates needs to familiar adults by using a variety of behaviors, such as, crying, looking, smiling, pointing, dropping, reaching, or banging objects."
+  - age_period: "8 to 18 Months"
+    text: "Looks to or seeks help from a familiar adults, such as taking the adult's hand and leading them to something the child wants or needs."
+  - age_period: "16 to 36 Months"
+    text: "Asks familiar adult for help or assistance when encountering difficult tasks or situations."
+  - age_period: "By 36 Months"
+    text: "Seeks assistance from familiar adults in new or difficult situations, such as reaching for a toy on a high shelf."
+  - age_period: "By 36 Months"
+    text: "Shows preference for familiar adults when in distress."
+source_url: https://headstart.gov/school-readiness/article/social-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

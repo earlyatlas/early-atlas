@@ -1,0 +1,51 @@
+id: ea.activity.approaches-to-learning.this-could-be-anything-pretend
+slug: this-could-be-anything-pretend
+title: This Could Be Anything
+summary: >-
+  With a basket of open-ended objects, children pretend each item is something
+  new, growing imagination and symbolic play.
+supported_skill_ids:
+  - ea.skill.approaches-to-learning.creativity.uses-imagination-in-play
+age_range_months:
+  min: 12
+  max: 36
+group_size: 1-4 children
+duration_minutes: 15
+materials:
+  - A basket of safe open-ended objects, such as wooden blocks, scarves, cardboard tubes, and cups
+  - A doll or stuffed animal to play alongside
+setup: >-
+  Place the basket of objects and the doll on a rug or low table where children
+  can reach everything.
+steps:
+  - Pick up one object and wonder aloud, "What could this be?"
+  - Model a pretend idea, such as holding a block to your ear like a phone.
+  - Hand the object to a child and invite their own pretend idea.
+  - Follow the child's lead, joining the play and narrating what is happening.
+  - Offer the doll so children can pretend to feed, call, or care for it.
+variations:
+  - Use one scarf and brainstorm many things it could become, such as a blanket or a river.
+  - Add simple drawing materials so children make a "novel thing" to bring into the play.
+differentiation:
+  - For young toddlers, model one clear pretend action and celebrate any imitation.
+  - For older toddlers, encourage a short pretend story with two or three actions.
+assessment_opportunities:
+  - Note whether the child lets one object stand for another.
+  - Observe whether the child invents a pretend action without a model.
+safety_notes:
+  - Use objects large enough to avoid choking and check for small or broken parts.
+accessibility_notes:
+  - Include objects with varied textures and weights for sensory exploration.
+  - Join in and narrate to model pretend ideas for children who are just beginning.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - imagination
+  - pretend-play
+  - symbolic-thinking
+  - creativity
+methodologies:
+  - waldorf
+  - play-based
+status: accepted
+locale: en-US

@@ -1,0 +1,42 @@
+id: ea.activity.mathematics.count-and-drop
+slug: count-and-drop
+title: Count and Drop
+summary: Children count objects one at a time as they drop them into a container.
+supported_skill_ids:
+  - ea.skill.mathematics.number-sense.counts-to-ten
+age_range_months:
+  min: 30
+  max: 54
+group_size: 1-4 children
+duration_minutes: 10
+materials:
+  - 10 large counters, pom-poms, or blocks
+  - A container or muffin tin
+setup: Place the counters and the container in front of the child.
+steps:
+  - Drop one counter and say "one" as it lands.
+  - Invite the child to drop the next and say "two."
+  - Continue together to ten, one number per drop.
+  - Tip them out and count again, letting the child lead.
+variations:
+  - Use a muffin tin so one counter goes in each cup.
+  - Count claps, jumps, or steps instead of objects.
+differentiation:
+  - For beginners, count to five before extending to ten.
+  - For older children, ask "How many?" after counting to check for the last number.
+assessment_opportunities:
+  - Note whether the child says exactly one number per object.
+accessibility_notes:
+  - Use large, easy-to-grasp counters or let the child slide items in a row.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+  - ea.citation.headstart.elof
+tags:
+  - counting
+  - number-sense
+  - one-to-one-correspondence
+methodologies:
+  - montessori
+  - play-based
+status: accepted
+locale: en-US

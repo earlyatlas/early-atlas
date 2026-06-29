@@ -1,0 +1,21 @@
+id: ea.standard.elof.p-sci-2
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-SCI 2"
+title: "Child engages in scientific talk."
+domain_area: "Scientific Reasoning"
+sub_domain: "Scientific Inquiry"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Begins to use scientific vocabulary words with modeling and support from an adult. Sometimes repeats new words offered by adults."
+  - age_period: "48 to 60 Months"
+    text: "Uses a greater number of scientific vocabulary words. Repeats new words offered by adults and may ask questions about unfamiliar words."
+  - age_period: "By 60 Months"
+    text: "Uses scientific practice words or signs, such as observe, describe, compare, contrast, question, predict, experiment, reflect, cooperate, or measure."
+  - age_period: "By 60 Months"
+    text: "Uses scientific content words when investigating and describing observable phenomena, such as parts of a plant, animal, or object."
+source_url: https://headstart.gov/school-readiness/article/science-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

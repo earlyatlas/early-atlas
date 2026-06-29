@@ -1,0 +1,43 @@
+id: ea.skill.literacy.comprehension.asks-and-answers-questions-about-books
+slug: asks-and-answers-questions-about-books
+title: Asks and Answers Questions About Books
+short_description: Child asks and answers questions about a book read aloud, including who, what, where, and why.
+developmental_purpose: >-
+  Comprehension grows in the dialogue around a book. When children answer
+  questions about details — who, what, when, where — and reach for inferential
+  questions such as predicting what comes next or why a character feels a certain
+  way, they move from simply hearing a story to actively making meaning from it.
+  Asking their own questions shows they are thinking alongside the text.
+domain_ids:
+  - ea.domain.literacy
+age_range_months:
+  min: 36
+  max: 66
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.literacy.comprehension.retells-stories
+mastery_criteria:
+  - Answers basic who, what, where, and when questions about details of a story.
+  - With support, answers inferential questions, such as predicting what might happen next or how a character feels.
+  - Asks questions of their own about characters or events in a book.
+observation_prompts:
+  - "Can the child answer specific questions about story details with information from the book?"
+  - "With support, does the child make a reasonable prediction or infer a character's feeling?"
+  - "Does the child ask their own questions during or after the read-aloud?"
+accessibility_notes:
+  - Allow answers by pointing to illustrations or choosing between picture options.
+  - Give extra wait time and rephrase questions for children developing expressive language.
+common_misconceptions:
+  - Answering yes or no is a beginning; inferential questions ask the child to use clues from the story.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - comprehension
+  - questions
+  - read-aloud
+  - inference
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-lit-5
+status: accepted
+locale: en-US

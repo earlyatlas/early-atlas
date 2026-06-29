@@ -1,0 +1,46 @@
+id: ea.skill.approaches-to-learning.creativity.uses-imagination-in-play
+slug: uses-imagination-in-play
+title: Uses Imagination in Play
+short_description: >-
+  Child shows imagination by pretending, exploring new uses for objects, and
+  making novel things with simple materials.
+developmental_purpose: >-
+  Imaginative play is where young children rehearse ideas, roles, and
+  possibilities. A toddler who feeds a doll or turns a block into a phone is
+  practicing symbolic thinking — letting one thing stand for another — which
+  underlies language, storytelling, and abstract reasoning. Creativity in play
+  also supports flexibility and emotional expression.
+domain_ids:
+  - ea.domain.approaches-to-learning
+age_range_months:
+  min: 8
+  max: 36
+developmental_stage: infant_to_toddler
+related_skill_ids:
+  - ea.skill.approaches-to-learning.curiosity-initiative.shows-initiative
+  - ea.skill.approaches-to-learning.executive-function.shows-flexible-thinking
+mastery_criteria:
+  - Uses pretend or imaginary objects and people in play.
+  - Explores more than one possible use for an everyday object.
+  - Uses materials such as paper, crayons, or blocks to make novel things.
+observation_prompts:
+  - Does the child let one object stand for another, such as a block becoming a phone?
+  - In play with others, does the child take on a pretend role or scenario?
+common_misconceptions:
+  - >-
+    Pretend play is serious developmental work, not just "fooling around"; it
+    builds the symbolic thinking behind language and literacy.
+accessibility_notes:
+  - Offer open-ended objects with varied textures so children with sensory or motor differences can explore.
+  - Join a child's play and narrate it to model pretend ideas for children who are just beginning.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - creativity
+  - imagination
+  - pretend-play
+  - symbolic-thinking
+standard_ids:
+  - ea.standard.elof.it-atl-9
+status: accepted
+locale: en-US

@@ -1,0 +1,46 @@
+id: ea.activity.science.hide-the-toy-under-the-cup
+slug: hide-the-toy-under-the-cup
+title: Hide the Toy Under the Cup
+summary: A baby or toddler watches a small toy disappear under a cup or cloth and searches to find it again, discovering that hidden things still exist.
+supported_skill_ids:
+  - ea.skill.science.physical-world.understands-object-permanence
+age_range_months:
+  min: 6
+  max: 30
+group_size: 1-2 children
+duration_minutes: 10
+materials:
+  - A favorite small toy that is too large to swallow
+  - 1 to 3 opaque cups or a soft cloth
+  - A low table or the floor
+setup: Sit facing the child with the toy and the cup within easy reach.
+steps:
+  - Show the child the toy and let them touch it.
+  - Slowly cover the toy with the cup while the child watches.
+  - Pause and ask, "Where did it go?" then encourage the child to find it.
+  - Celebrate warmly when the toy is uncovered.
+  - Repeat, and over time hide the toy under one of two or three cups.
+variations:
+  - Hide the toy under a cloth instead of a cup for an easier first version.
+  - Partly cover the toy so a curious infant can see an edge to grab.
+differentiation:
+  - For young infants, leave part of the toy showing.
+  - For older toddlers, move the cups around after hiding, or hide it in a new place.
+assessment_opportunities:
+  - Note whether the child searches, and whether they look in the last place it was hidden.
+  - Watch for the child trying a second spot if the first is empty.
+safety_notes:
+  - Use cups and toys with no small detachable parts; supervise closely.
+accessibility_notes:
+  - Use a toy that jingles so the child can locate it by sound.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - object-permanence
+  - searching
+  - peekaboo
+methodologies:
+  - play-based
+  - montessori
+status: accepted
+locale: en-US

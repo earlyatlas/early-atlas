@@ -1,0 +1,61 @@
+id: ea.activity.physical-development.move-and-explore-stations
+slug: move-and-explore-stations
+title: Move-and-Explore Movement Stations
+summary: >-
+  Toddlers use a range of whole-body movements, crawling, climbing, carrying,
+  throwing, and dancing, at simple stations that invite active exploration.
+supported_skill_ids:
+  - ea.skill.physical-development.gross-motor.uses-large-muscles-to-explore
+age_range_months:
+  min: 12
+  max: 36
+group_size: 2-6 children
+duration_minutes: 20
+materials:
+  - A low, sturdy climbing cushion, step, or couch cushion stack
+  - A laundry basket and a few soft balls or beanbags
+  - Lightweight items to carry, such as empty boxes or soft toys
+  - A music player or a simple song to dance to
+setup: >-
+  Set up three or four low stations around a clear, padded space: a climbing
+  spot, a throw-into-the-basket spot, a carry-and-deliver path, and an open dance
+  area. Keep each station low and safe.
+steps:
+  - Show the children each station with a quick demonstration.
+  - Let children climb onto and down from the cushion with you spotting nearby.
+  - At the basket, invite them to toss soft balls in and dump them out again.
+  - On the carry path, ask them to move a box or toy from one end to the other.
+  - Finish in the dance area, encouraging them to move their bodies in new ways to
+    music.
+variations:
+  - Take the stations outdoors and add running and kicking on grass.
+  - Add a tunnel to crawl through between stations.
+differentiation:
+  - For new walkers, lower the climbing height and shorten the carry path.
+  - For active toddlers, add a jump-off-a-low-step or kick-the-ball challenge.
+assessment_opportunities:
+  - Note the variety of movements the child uses to explore the stations.
+  - Watch whether they try new ways of moving, such as spinning, climbing, or
+    galloping.
+safety_notes:
+  - Keep climbing surfaces low, pad landing areas, anchor furniture, and spot
+    children closely.
+  - Use only soft throwing objects and space children to avoid collisions.
+accessibility_notes:
+  - Offer ramps, low platforms, and supports so children of all mobility levels can
+    take part.
+  - Provide reachable cause-and-effect toys for children who move from seated or
+    supported positions.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - gross-motor
+  - climbing
+  - throwing
+  - movement
+  - toddler
+methodologies:
+  - play-based
+  - forest-school
+status: accepted
+locale: en-US

@@ -1,0 +1,366 @@
+---
+import Base from "../layouts/Base.astro";
+import { getCurriculum } from "../lib/curriculum.js";
+import { skillsInDomain, resourcesForSkill, typeLabel } from "../lib/hierarchy.js";
+
+// Prerendered: the full tree ships to the page and filters client-side.
+export const prerender = true;
+
+const store = getCurriculum();
+const arr = (x: unknown): string[] => (Array.isArray(x) ? (x as string[]) : []);
+const lower = (...xs: (string | undefined)[]) => xs.filter(Boolean).join(" ").toLowerCase();
+const ageOf = (data: any) => {
+  const a = data.age_range_months ?? data.age_coverage;
+  return { min: a?.min ?? 0, max: a?.max ?? 216 };
+};
+// A record's OWN searchable keywords include its methodologies.
+const ownText = (data: any) => [...arr(data.tags), ...arr(data.methodologies)].join(" ");
+// Ancestor CONTEXT inherited by descendants is TOPICAL only — methodologies
+// describe the specific record and must not bleed down (an abstract worksheet is
+// not "montessori" just because its skill is).
+const topicText = (data: any) => arr(data.tags).join(" ");
+
+const domains = [...store.records.values()]
+  .filter((r) => r.kind === "domain")
+  .sort((a, b) => (a.data.title ?? "").localeCompare(b.data.title ?? ""))
+  .map((d) => {
+    const dCtx = lower(d.data.title, topicText(d.data));
+    return {
+      id: d.id,
+      title: d.data.title ?? d.id,
+      desc: d.data.description ?? "",
+      text: lower(d.data.title, d.data.description, ownText(d.data)),
+      skills: skillsInDomain(d.id, store).map((s) => {
+        const age = ageOf(s.data);
+        const sCtx = lower(s.data.title, topicText(s.data));
+        return {
+          id: s.id,
+          title: s.data.title ?? s.id,
+          desc: s.data.short_description ?? "",
+          min: age.min,
+          max: age.max,
+          facets: [...arr(s.data.tags), ...arr(s.data.methodologies)],
+          text: [
+            lower(
+              s.data.title,
+              s.data.short_description,
+              s.data.developmental_purpose,
+              ownText(s.data),
+            ),
+            dCtx,
+          ].join(" "),
+          resources: resourcesForSkill(s, store).map((r) => {
+            const ra = ageOf(r.data);
+            return {
+              id: r.id,
+              title: r.data.title ?? r.id,
+              type: typeLabel(r.kind),
+              min: ra.min,
+              max: ra.max,
+              facets: [...arr(r.data.tags), ...arr(r.data.methodologies)],
+              text: [
+                lower(
+                  r.data.title,
+                  r.data.summary,
+                  r.data.instructions,
+                  r.data.generator?.operation,
+                  ownText(r.data),
+                  r.kind,
+                ),
+                sCtx,
+                dCtx,
+              ].join(" "),
+            };
+          }),
+        };
+      }),
+    };
+  });
+
+// Default hint chips = the most common topical tags overall (the client
+// recomputes these for the current age/stage window).
+const tagCounts = new Map<string, number>();
+for (const d of domains)
+  for (const s of d.skills) {
+    for (const t of s.facets) tagCounts.set(t, (tagCounts.get(t) ?? 0) + 1);
+    for (const r of s.resources)
+      for (const t of r.facets) tagCounts.set(t, (tagCounts.get(t) ?? 0) + 1);
+  }
+const initialHints = [...tagCounts.entries()]
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+  .slice(0, 8)
+  .map((e) => e[0]);
+---
+
+<Base title="Browse">
+  <div class="filters">
+    <div class="filter">
+      <label for="age">Child's age (months)</label>
+      <input
+        id="age"
+        type="number"
+        inputmode="numeric"
+        min="0"
+        max="99"
+        class="age-input"
+        placeholder="e.g. 36"
+      />
+    </div>
+    <div class="filter">
+      <label for="stage">Stage</label>
+      <select id="stage">
+        <option value="">Any</option>
+        <option value="0-12">Infant (0–12 mo)</option>
+        <option value="12-24">Toddler (12–24 mo)</option>
+        <option value="24-36">Older toddler (24–36 mo)</option>
+        <option value="36-48">Preschool (36–48 mo)</option>
+        <option value="48-60">Pre-K (48–60 mo)</option>
+        <option value="60-72">Kindergarten readiness (60–72 mo)</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="filter keyword">
+    <label for="q">Keywords</label>
+    <input
+      id="q"
+      class="search-box"
+      placeholder="Search activities, worksheets, topics…"
+      autocomplete="off"
+    />
+    <div id="selected" class="selected"></div>
+    <div class="hints muted" id="hints">
+      Refine:
+      {
+        initialHints.map((h) => (
+          <button type="button" class="hint" data-hint={h}>
+            {h}
+          </button>
+        ))
+      }
+    </div>
+  </div>
+
+  <p class="muted" id="count"></p>
+
+  <div class="tree">
+    {
+      domains.map((d) => (
+        <details class="node d-node" data-text={d.text}>
+          <summary class="node-row">
+            <span class="node-toggle" aria-hidden="true">
+              <span class="tw">▸</span>
+            </span>
+            <a class="node-link" href={`/r/${d.id}`}>
+              {d.title}
+            </a>
+            <span class="node-type">Domain</span>
+            <span class="node-count">{d.skills.length} skills</span>
+          </summary>
+          <div class="node-children">
+            {d.skills.map((s) => (
+              <details
+                class="node s-node"
+                data-text={s.text}
+                data-min={s.min}
+                data-max={s.max}
+                data-tags={s.facets.join(",")}
+              >
+                <summary class="node-row">
+                  <span class="node-toggle" aria-hidden="true">
+                    <span class="tw">▸</span>
+                  </span>
+                  <a class="node-link" href={`/r/${s.id}`}>
+                    {s.title}
+                  </a>
+                  <span class="node-type">Skill</span>
+                </summary>
+                <div class="node-children">
+                  {s.resources.length > 0 ? (
+                    s.resources.map((r) => (
+                      <a
+                        class="node-row leaf r-link"
+                        href={`/r/${r.id}`}
+                        data-text={r.text}
+                        data-min={r.min}
+                        data-max={r.max}
+                        data-tags={r.facets.join(",")}
+                      >
+                        <span class="twisty-spacer" aria-hidden="true" />
+                        <span class="node-link">{r.title}</span>
+                        <span class="node-type">{r.type}</span>
+                      </a>
+                    ))
+                  ) : (
+                    <p class="muted r-empty">No activities or worksheets yet.</p>
+                  )}
+                </div>
+              </details>
+            ))}
+          </div>
+        </details>
+      ))
+    }
+  </div>
+
+  <script is:inline>
+    (() => {
+      const ageEl = document.getElementById("age");
+      const stageEl = document.getElementById("stage");
+      const q = document.getElementById("q");
+      const count = document.getElementById("count");
+      const hintsEl = document.getElementById("hints");
+      const selectedEl = document.getElementById("selected");
+      const domains = Array.from(document.querySelectorAll(".d-node"));
+      const skills = Array.from(document.querySelectorAll(".s-node"));
+      const split = (x) => (x || "").split(",").filter(Boolean);
+
+      // Selected facet tags (AND-ed with the keyword text and age window).
+      const selected = new Set();
+
+      // A title link inside a summary navigates without toggling the disclosure;
+      // the chevron / rest of the row still toggles.
+      document
+        .querySelectorAll("summary a.node-link")
+        .forEach((a) => a.addEventListener("click", (e) => e.stopPropagation()));
+
+      // Click an available hint → add it as a facet. Click a selected chip → remove.
+      hintsEl.addEventListener("click", (e) => {
+        const b = e.target.closest(".hint");
+        if (!b || !b.dataset.hint) return;
+        selected.add(b.dataset.hint);
+        refresh();
+      });
+      selectedEl.addEventListener("click", (e) => {
+        const b = e.target.closest(".chip-selected");
+        if (!b) return;
+        selected.delete(b.dataset.tag);
+        refresh();
+      });
+
+      // Age (a point) and stage (a range) combine into one optional age window.
+      function ageWindow() {
+        const ranges = [];
+        const a = parseInt(ageEl.value, 10);
+        if (!isNaN(a)) ranges.push([a, a]);
+        if (stageEl.value) {
+          const [lo, hi] = stageEl.value.split("-").map(Number);
+          ranges.push([lo, hi]);
+        }
+        if (!ranges.length) return null;
+        return [Math.max(...ranges.map((r) => r[0])), Math.min(...ranges.map((r) => r[1]))];
+      }
+      const overlaps = (el, w) =>
+        !w || (w[0] <= w[1] && +el.dataset.min <= w[1] && +el.dataset.max >= w[0]);
+
+      // Active terms = free-text words + selected facet tags (all AND-matched).
+      function activeTerms() {
+        const kw = q.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+        return [...new Set([...kw, ...selected])];
+      }
+
+      function renderSelected() {
+        selectedEl.textContent = "";
+        for (const t of selected) {
+          const b = document.createElement("button");
+          b.type = "button";
+          b.className = "chip-selected";
+          b.dataset.tag = t;
+          b.textContent = t + " ✕";
+          selectedEl.append(b, document.createTextNode(" "));
+        }
+      }
+
+      // Remaining facets: most common tags among records that still match the
+      // current age window + selected facets + keyword, minus already-selected.
+      function renderHints() {
+        const w = ageWindow();
+        const terms = activeTerms();
+        const active = terms.length > 0 || w != null;
+        const matches = (txt) => terms.every((t) => txt.includes(t));
+        const counts = new Map();
+        const bump = (t) => {
+          if (!selected.has(t)) counts.set(t, (counts.get(t) || 0) + 1);
+        };
+        // Only count facets reachable in the tree under the current filter: a
+        // skill contributes only when it has a matching leaf to actually do.
+        for (const s of skills) {
+          let anyRes = false;
+          const leafTags = [];
+          for (const r of s.querySelectorAll(".r-link")) {
+            if ((terms.length === 0 || matches(r.dataset.text)) && overlaps(r, w)) {
+              anyRes = true;
+              leafTags.push(...split(r.dataset.tags));
+            }
+          }
+          if (active && !anyRes) continue;
+          for (const t of split(s.dataset.tags)) bump(t);
+          for (const t of leafTags) bump(t);
+        }
+        const top = [...counts.entries()]
+          .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+          .slice(0, 10)
+          .map((e) => e[0]);
+        hintsEl.textContent = top.length ? "Refine: " : "";
+        for (const t of top) {
+          const b = document.createElement("button");
+          b.type = "button";
+          b.className = "hint";
+          b.dataset.hint = t;
+          b.textContent = t;
+          hintsEl.append(b, document.createTextNode(" "));
+        }
+      }
+
+      function apply() {
+        const w = ageWindow();
+        const terms = activeTerms();
+        const active = terms.length > 0 || w != null;
+        const matches = (txt) => terms.every((t) => txt.includes(t));
+        let shown = 0;
+        for (const d of domains) {
+          let domainVisible = false;
+          for (const s of d.querySelectorAll(".s-node")) {
+            let anyRes = false;
+            for (const r of s.querySelectorAll(".r-link")) {
+              const rOk = (terms.length === 0 || matches(r.dataset.text)) && overlaps(r, w);
+              r.style.display = rOk ? "" : "none";
+              if (rOk) anyRes = true;
+            }
+            // When filtering, only show a skill that has something to do under
+            // the filter (a matching activity/worksheet). No empty drill-downs.
+            const visible = !active || anyRes;
+            s.style.display = visible ? "" : "none";
+            if (visible) {
+              domainVisible = true;
+              shown++;
+            }
+            if (active) {
+              s.open = anyRes;
+            } else {
+              s.open = false;
+              for (const r of s.querySelectorAll(".r-link")) r.style.display = "";
+            }
+          }
+          d.style.display = !active || domainVisible ? "" : "none";
+          d.open = active ? domainVisible : false;
+        }
+        const ageLabel = w ? (w[0] === w[1] ? `${w[0]} mo` : `${w[0]}–${w[1]} mo`) : "";
+        count.textContent = active ? `${shown} skill(s)` + (ageLabel ? ` · ${ageLabel}` : "") : "";
+      }
+
+      function refresh() {
+        renderSelected();
+        renderHints();
+        apply();
+      }
+
+      const initial = new URLSearchParams(location.search).get("q");
+      if (initial) q.value = initial;
+      ageEl.addEventListener("input", refresh);
+      stageEl.addEventListener("change", refresh);
+      q.addEventListener("input", refresh);
+      refresh();
+    })();
+  </script>
+</Base>

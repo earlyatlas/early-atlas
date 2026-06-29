@@ -1,0 +1,45 @@
+id: ea.activity.creative-arts.pretend-object-swap
+slug: pretend-object-swap
+title: This Could Be Anything
+summary: A toddler explores a basket of open-ended objects and pretends each one is something else, such as a block becoming a phone or a scarf becoming a blanket.
+supported_skill_ids:
+  - ea.skill.creative-arts.dramatic-play.uses-objects-as-symbols
+age_range_months:
+  min: 15
+  max: 36
+group_size: 1-4 children
+duration_minutes: 15
+materials:
+  - A basket of open-ended objects (wooden blocks, scarves, cardboard tubes, empty bowls, large pinecones)
+  - A doll or stuffed animal as a play partner
+setup: Arrange the open-ended objects within reach and have the doll nearby.
+steps:
+  - Pick up an object and pretend with it, such as holding a block to your ear and saying "Hello?"
+  - Invite the child to try, asking "What could this be?"
+  - Follow the child's idea and play along, even if it differs from yours.
+  - Offer the doll a turn, such as "Should we give teddy some soup?" with an empty bowl.
+  - Keep the play open, letting one object become many things.
+variations:
+  - Use a scarf and explore the many things it can become, such as a blanket, a cape, or water.
+  - Set up a pretend snack where blocks or pinecones become food.
+differentiation:
+  - For younger toddlers, model one clear substitution and let them copy it.
+  - For older toddlers, invite a short pretend story using two or three objects.
+assessment_opportunities:
+  - Note whether the child uses an object to stand for something else.
+  - Watch for the child improvising a new use for a familiar object.
+safety_notes:
+  - Use objects too large to swallow with no sharp edges; supervise pretend eating.
+accessibility_notes:
+  - Choose objects with rich textures and sounds so symbolic play does not rely on sight.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - symbolic-play
+  - pretend
+  - representation
+methodologies:
+  - reggio-emilia
+  - play-based
+status: accepted
+locale: en-US

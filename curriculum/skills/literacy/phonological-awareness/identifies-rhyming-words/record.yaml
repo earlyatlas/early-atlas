@@ -1,0 +1,36 @@
+id: ea.skill.literacy.phonological-awareness.identifies-rhyming-words
+slug: identifies-rhyming-words
+title: Identifies Rhyming Words
+short_description: Child notices and produces words that rhyme.
+developmental_purpose: >-
+  Hearing that words share ending sounds is a phonological-awareness skill that
+  prepares a child to map sounds to letters when decoding begins.
+domain_ids:
+  - ea.domain.literacy
+age_range_months:
+  min: 42
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.literacy.letter-knowledge.names-alphabet-letters
+mastery_criteria:
+  - Tells whether two words rhyme.
+  - Supplies a rhyming word for a familiar word, with a real or nonsense word.
+observation_prompts:
+  - During rhyming songs, does the child fill in or play with the rhyming word?
+supporting_activity_ids:
+  - ea.activity.literacy.rhyming-picture-pairs
+accessibility_notes:
+  - Pair spoken rhymes with pictures so the task does not rely on hearing alone.
+  - For children who are deaf or hard of hearing, substitute a visual sound-pattern game.
+research_reference_ids:
+  - ea.citation.headstart.elof
+  - ea.citation.naeyc.dap
+tags:
+  - phonological-awareness
+  - rhyming
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-lit-1
+status: accepted
+locale: en-US

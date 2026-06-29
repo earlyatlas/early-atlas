@@ -1,0 +1,44 @@
+id: ea.activity.social-emotional.meeting-someone-new
+slug: meeting-someone-new
+title: Meeting Someone New, Together
+summary: A familiar caregiver stays close as a secure base while a toddler warms up to a visiting adult.
+supported_skill_ids:
+  - ea.skill.social-emotional.relationships.warms-up-to-new-adults
+age_range_months:
+  min: 10
+  max: 36
+group_size: 1 child with a familiar caregiver and one visitor
+duration_minutes: 15
+materials:
+  - A favorite book or familiar toy
+setup: Choose a calm time and let the visiting adult arrive gently, without rushing toward the child.
+steps:
+  - Hold or sit beside the child so they feel your steady presence.
+  - Let the visitor settle nearby and do something inviting, such as opening a book.
+  - Narrate calmly, for example "this is Grandpa, he likes books too."
+  - Wait for the child to look to you; offer a reassuring smile and nod.
+  - Let the child approach the visitor at their own pace — never force contact.
+variations:
+  - Have the visitor roll a ball or stack blocks to invite low-pressure play.
+  - Share a photo of the visitor before they arrive so the face is familiar.
+differentiation:
+  - For very cautious children, keep the first meeting brief and from a distance.
+  - For eager children, suggest a simple shared activity to deepen the interaction.
+assessment_opportunities:
+  - Note whether the child checks in with you before approaching the new adult.
+  - Watch for the child warming up and engaging after reassurance.
+safety_notes:
+  - Keep the child within reach and stop if they become distressed.
+accessibility_notes:
+  - Allow extra warm-up time; respect a child's "no" and try again later.
+  - Keep introductions in a quiet space for children sensitive to noise or crowds.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - secure-base
+  - new-adults
+  - relationships
+methodologies:
+  - play-based
+status: accepted
+locale: en-US

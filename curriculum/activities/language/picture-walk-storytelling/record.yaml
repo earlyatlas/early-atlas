@@ -1,0 +1,47 @@
+id: ea.activity.language.picture-walk-storytelling
+slug: picture-walk-storytelling
+title: Picture-Walk Storytelling
+summary: A caregiver and child walk through a picture book's images, naming and acting out what is happening.
+supported_skill_ids:
+  - ea.skill.language.emergent-literacy.comprehends-pictures-and-stories
+age_range_months:
+  min: 10
+  max: 36
+group_size: 1-4 children
+duration_minutes: 12
+materials:
+  - A favorite picture book with clear, expressive illustrations
+  - Optional simple props or stuffed animals to act out the story
+setup: Settle in a cozy spot with the book where everyone can see the pictures.
+steps:
+  - Instead of reading every word, "walk" through the pictures together.
+  - Point to a picture and ask, "What is happening here?"
+  - Build on what the child says, adding a new word or detail.
+  - Wonder about the characters, "How do you think she feels?"
+  - Invite children to act out a favorite part with props or movement.
+variations:
+  - Retell the story afterward using the props alone.
+  - Pause at a turning point and ask, "What happens next?"
+differentiation:
+  - For younger toddlers, name one thing per page and keep it short.
+  - For older toddlers, ask questions about feelings and what comes next.
+assessment_opportunities:
+  - Note whether the child comments on pictures or uses new story words.
+  - Watch for the child answering questions about what is happening.
+safety_notes:
+  - Keep any props soft and large enough not to be a choking hazard.
+accessibility_notes:
+  - Follow the child's pace and lead on which pictures to explore.
+  - Choose stories that reflect each child's family, culture, and home language.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - comprehension
+  - storytelling
+  - books
+  - toddler
+methodologies:
+  - reggio-emilia
+  - play-based
+status: accepted
+locale: en-US

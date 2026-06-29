@@ -1,0 +1,45 @@
+id: ea.skill.social-emotional.self-regulation.solves-peer-conflicts
+slug: solves-peer-conflicts
+title: Solves Peer Conflicts
+short_description: Child uses simple problem-solving to work through conflicts with other children.
+developmental_purpose: >-
+  Naming a social problem, voicing feelings, and trying a fair solution — sharing,
+  taking turns, compromising — lets a preschooler resolve disputes without
+  aggression and is the root of later negotiation and self-advocacy.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+prerequisite_skill_ids:
+  - ea.skill.social-emotional.relationships.takes-turns
+related_skill_ids:
+  - ea.skill.social-emotional.self-regulation.manages-strong-feelings
+mastery_criteria:
+  - Recognizes and describes a basic social problem, such as two children wanting the same toy.
+  - Tries a strategy for common conflicts, such as sharing, taking turns, or compromising.
+  - Expresses own feelings and needs in a conflict and seeks adult help when needed.
+observation_prompts:
+  - In a picture or real moment, can the child say what the social problem is?
+  - When two children want the same thing, does the child try a fair solution?
+  - Does the child use words for their feelings and ask for help when stuck?
+accessibility_notes:
+  - Provide a small set of visual solution cards (share, take turns, get help) to point to.
+  - Pre-teach and rehearse conflict scripts one-on-one before expecting them in the moment.
+common_misconceptions:
+  - Needing adult support in heated moments is expected; independent conflict resolution emerges only for simple disputes at this age.
+safety_notes:
+  - Step in promptly if a conflict risks hurting a child; safety comes before practicing the steps.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - self-regulation
+  - conflict-resolution
+  - problem-solving
+  - prosocial
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-se-5
+status: accepted
+locale: en-US

@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-atl-3
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-ATL 3"
+title: "Child maintains focus and sustains attention with support."
+domain_area: "Approaches to Learning"
+sub_domain: "Cognitive Self-Regulation (Executive Functioning)"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Develops some ability to filter out distracting sensory stimuli in order to focus on and attend to important people or objects in the environment with support."
+  - age_period: "8 to 18 Months"
+    text: "Shows increasing ability to attend to people, objects, and activities in order to extend or complete an activity, or to join others in a common focus."
+  - age_period: "16 to 36 Months"
+    text: "Participates in activities and experiences with people, objects, or materials that require attention and common focus."
+  - age_period: "By 36 Months"
+    text: "Maintains engagement in interactions with familiar adults and children."
+  - age_period: "By 36 Months"
+    text: "Chooses to join in activities or pays attention to tasks and activities that are self-initiated."
+  - age_period: "By 36 Months"
+    text: "Maintains focus and attention on a simple task or activity for short periods of time."
+source_url: https://headstart.gov/school-readiness/article/approaches-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

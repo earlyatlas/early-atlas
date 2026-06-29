@@ -1,0 +1,21 @@
+id: ea.standard.elof.p-atl-7
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-ATL 7"
+title: "Child persists in tasks."
+domain_area: "Approaches to Learning"
+sub_domain: "Cognitive Self-Regulation (Executive Functioning)"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Persists on preferred tasks when presented with small challenges with or without adult support, such as continuing to try to build a tall tower with blocks, even when some pieces fall."
+  - age_period: "48 to 60 Months"
+    text: "Frequently persists on preferred tasks. Sometimes persists on less preferred activities with or without adult support, such as working to clean up an activity area."
+  - age_period: "By 60 Months"
+    text: "Completes tasks that are challenging or less preferred despite frustration, either by persisting independently or seeking help from an adult or other child."
+  - age_period: "By 60 Months"
+    text: "Returns with focus to an activity or project after having been away from it."
+source_url: https://headstart.gov/school-readiness/article/approaches-learning-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

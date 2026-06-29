@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-c-10
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-C 10"
+title: "Child uses matching and sorting of objects or people to understand similar and different characteristics."
+domain_area: "Cognition"
+sub_domain: "Emergent Mathematical Thinking"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Explores or examines differences between familiar or unfamiliar people or between different types of objects, such as by mouthing or shaking a toy."
+  - age_period: "8 to 18 Months"
+    text: "Matches objects by similar or related characteristics, such as matching shapes with openings in a shape-sorting box or by putting a toy bottle with a baby doll."
+  - age_period: "16 to 36 Months"
+    text: "Sorts objects into two groups based on a single characteristic, such as grouping toy animals separately from toy cars, or putting red socks and white socks in different piles."
+  - age_period: "By 36 Months"
+    text: "Sorts toys or other objects by color, shape, or size."
+  - age_period: "By 36 Months"
+    text: "Orders some objects by size."
+  - age_period: "By 36 Months"
+    text: "Identifies characteristics of people, such as \"Mom has black hair like me.\""
+source_url: https://headstart.gov/school-readiness/article/cognition-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

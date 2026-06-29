@@ -1,0 +1,54 @@
+/* @layer components — record-page presentation. The header block lives here (not
+ * in the page's scoped <style>) because the admin draft preview rebuilds the same
+ * record markup in client JS, which never receives Astro's scope hash. */
+@layer components {
+  /* Record header: a calm, composed unit — eyebrow, title, lead, meta, chips. */
+  .rec-head {
+    margin-bottom: var(--space-6);
+  }
+  .rec-head h1 {
+    margin: var(--space-1) 0 0;
+  }
+  .lead {
+    margin: var(--space-3) 0 0;
+    max-width: var(--prose);
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: var(--ink);
+    text-wrap: pretty;
+  }
+  .rec-age {
+    margin: var(--space-2) 0 0;
+    font-size: var(--text-sm);
+    color: var(--muted);
+  }
+  .rec-head .chips {
+    margin: var(--space-3) 0 0;
+  }
+
+  .disclaimer {
+    margin: var(--space-3) 0;
+    padding: var(--space-3) var(--space-4);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    background: var(--surface-2);
+    color: var(--muted);
+    font-size: var(--text-sm);
+    line-height: 1.5;
+    max-width: var(--prose);
+  }
+  .disclaimer strong {
+    color: var(--ink);
+  }
+
+  .notice {
+    padding: var(--space-3) var(--space-4);
+    border-radius: var(--radius-sm);
+    background: var(--notice-ok);
+    border: 1px solid var(--notice-ok-border);
+  }
+  .notice.bad {
+    background: var(--notice-bad);
+    border-color: var(--notice-bad-border);
+  }
+}

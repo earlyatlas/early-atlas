@@ -1,0 +1,47 @@
+id: ea.activity.mathematics.count-say-write-numbers
+slug: count-say-write-numbers
+title: Count, Say, and Write
+summary: The child counts a set of objects, says the number, then forms the numeral — pairing spoken number names with written symbols.
+supported_skill_ids:
+  - ea.skill.mathematics.number-sense.matches-quantity-to-numeral
+age_range_months:
+  min: 42
+  max: 66
+group_size: 1-4 children
+duration_minutes: 10
+materials:
+  - A handful of small counters (buttons, beans, blocks)
+  - A tray or mat and a way to write — chalkboard, dry-erase, or paper
+  - Optional — the "Trace the Numbers 1–10" worksheet
+setup: Put a small pile of counters and the writing surface in front of the child.
+steps:
+  - Count a few objects together, touching each one and saying the number.
+  - "Ask: how many are there? Say the last number again — that tells how many."
+  - Name the matching numeral, then write it large while the child watches.
+  - Invite the child to say the number and form it themselves.
+  - Repeat with a new amount, working up from small numbers.
+variations:
+  - Roll a die, say the number, and write it.
+  - Hide a numeral card and have the child make that many counters.
+differentiation:
+  - For beginners, stay within 1–5 and let them trace over your model.
+  - For confident writers, go to 10 and ask them to write the number before counting to check.
+assessment_opportunities:
+  - Notice whether the child connects the spoken number, the quantity, and the written numeral.
+safety_notes:
+  - Use child-safe counters; supervise to prevent mouthing of small items.
+accessibility_notes:
+  - Offer large counters and a chunky crayon or stylus for developing fine-motor control.
+  - Accept numerals formed in sand, paint, or the air for children not yet writing on paper.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - numerals
+  - counting
+  - number-formation
+  - recitation
+methodologies:
+  - classical
+  - play-based
+status: accepted
+locale: en-US

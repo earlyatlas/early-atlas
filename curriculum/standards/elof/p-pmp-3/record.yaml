@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-pmp-3
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-PMP 3"
+title: "Child demonstrates increasing control, strength, and coordination of small muscles."
+domain_area: "Perceptual, Motor, and Physical Development"
+sub_domain: "Fine Motor"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Performs simple hand-eye tasks, such as drawing simple shapes like circles and cutting paper with scissors. May demonstrate limited precision and control in more complex tasks."
+  - age_period: "48 to 60 Months"
+    text: "Performs tasks that require more complex hand-eye coordination, such as cutting out shapes and drawing letter-like forms, with moderate levels of precision and control."
+  - age_period: "By 60 Months"
+    text: "Easily coordinates hand and eye movements to carry out tasks, such as working on puzzles or stringing beads together."
+  - age_period: "By 60 Months"
+    text: "Uses a pincer grip to hold and manipulate tools for writing, drawing, and painting."
+  - age_period: "By 60 Months"
+    text: "Uses coordinated movements to complete complex tasks, such as cutting along a line, pouring, or buttoning."
+source_url: https://headstart.gov/school-readiness/article/perceptual-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

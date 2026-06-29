@@ -1,0 +1,82 @@
+/*
+ * Design tokens — the single source of truth for color, space, type, and radius.
+ * Components must consume these variables, never hardcoded values. Theming is
+ * driven by [data-theme] on <html>; default is dark. See docs/standards/ui.md.
+ */
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-pill: 999px;
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.18);
+  --shadow-2: 0 4px 14px rgba(0, 0, 0, 0.28);
+  --scrim: rgba(0, 0, 0, 0.45); /* mobile nav-drawer overlay */
+
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.15rem;
+  --text-xl: 1.6rem;
+  /* Confident, calm heading hierarchy (kept well under display-shout territory). */
+  --text-h2: 1.3rem;
+  --text-h1: 1.95rem;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1); /* ease-out-quint */
+
+  /* Wiki shell layout */
+  --shell-max: 1280px; /* overall app width */
+  --sidebar-w: 248px; /* left nav tree */
+  --toc-w: 200px; /* right "on this page" rail */
+  --prose: 70ch; /* readable text measure */
+  --header-h: 56px;
+}
+
+:root[data-theme="dark"] {
+  --bg: #0f1420;
+  --surface: #161c2b;
+  --surface-2: #1b2233;
+  --ink: #e6e9f0;
+  --muted: #98a2b8;
+  --line: #242c3e;
+  --accent: #7d97ff;
+  --accent-ink: #0c1020;
+  --accent-soft: #1b2440;
+  --accent-border: #2c3a63;
+  --header: #131927;
+  --notice-ok: #14241a;
+  --notice-ok-border: #244a32;
+  --notice-bad: #2a1718;
+  --notice-bad-border: #5a2b2d;
+  --required: #ef6f6f;
+}
+
+/* Light theme draws from the Early Atlas compass logo: warm map-paper surfaces
+   and a terracotta accent (the compass needle). Tuned to hold WCAG AA against the
+   warm background. Dark theme stays cool/neutral by design. */
+:root[data-theme="light"] {
+  --bg: #faf6f0;
+  --surface: #fffdfa;
+  --surface-2: #f3ece1;
+  --ink: #2a2620;
+  --muted: #6f6657;
+  --line: #e7ddcf;
+  --accent: #b0592f;
+  --accent-ink: #ffffff;
+  --accent-soft: #f6e8db;
+  --accent-border: #e6cdb5;
+  --header: #fffdfa;
+  --notice-ok: #eef3e6;
+  --notice-ok-border: #d2e0bf;
+  --notice-bad: #fbede7;
+  --notice-bad-border: #e6c9bb;
+  --required: #b23b2a;
+}

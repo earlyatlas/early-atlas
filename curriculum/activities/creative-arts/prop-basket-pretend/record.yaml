@@ -1,0 +1,46 @@
+id: ea.activity.creative-arts.prop-basket-pretend
+slug: prop-basket-pretend
+title: Pretend-Play Prop Basket
+summary: A themed basket of simple props invites children to invent roles and act out everyday scenarios.
+supported_skill_ids:
+  - ea.skill.creative-arts.dramatic-play.engages-in-pretend-play
+age_range_months:
+  min: 24
+  max: 54
+group_size: 1-4 children
+duration_minutes: 25
+materials:
+  - A basket of themed props, such as a doctor kit, kitchen items, or dolls and blankets
+  - A few open-ended objects, such as scarves, boxes, or blocks
+setup: Fill a basket around one familiar theme and place it in an inviting open space.
+steps:
+  - Open the basket together and let children discover the props without assigning roles.
+  - Follow a child's lead, asking open questions such as "what is happening here?"
+  - Take a simple role if invited, such as the patient or a hungry customer.
+  - Offer an open-ended object and wonder aloud what it could become.
+  - Let the story unfold and shift as the children direct it.
+variations:
+  - Rotate the theme weekly, such as a vet clinic, a bakery, or a campsite.
+  - Add real, child-safe items, such as empty food boxes, for richer pretend.
+differentiation:
+  - For younger children, model one clear role; for older children, encourage multi-step stories and shared roles.
+assessment_opportunities:
+  - Note whether the child takes on a role, uses objects symbolically, and sustains a simple storyline.
+  - Watch how the child negotiates roles and props with play partners.
+safety_notes:
+  - Check that all props are clean, child-safe, and free of small parts for the youngest players.
+accessibility_notes:
+  - Choose familiar, easy-to-grasp props and offer a clear example role for children who need an entry point.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - dramatic-play
+  - pretend-play
+  - imagination
+  - role-play
+  - props
+methodologies:
+  - play-based
+  - reggio-emilia
+status: accepted
+locale: en-US

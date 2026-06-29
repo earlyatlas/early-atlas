@@ -1,0 +1,41 @@
+id: ea.skill.creative-arts.dramatic-play.engages-in-pretend-play
+slug: engages-in-pretend-play
+title: Engages in Pretend Play
+short_description: Child takes on roles and uses objects symbolically in imaginative play.
+developmental_purpose: >-
+  In pretend play a child becomes a parent, a doctor, or a dog, and a block
+  becomes a phone. This symbolic thinking is the seedbed of literacy, empathy, and
+  problem-solving: children rehearse real life, negotiate roles with others, and
+  give shape to feelings through story.
+domain_ids:
+  - ea.domain.creative-arts
+age_range_months:
+  min: 24
+  max: 54
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.creative-arts.movement-dance.moves-to-music
+mastery_criteria:
+  - Takes on a familiar role and sustains it through several actions, such as feeding and rocking a doll.
+  - Uses an object to stand in for something else, such as a block for a phone.
+  - Plays out a short sequence or simple story, alone or with others.
+observation_prompts:
+  - "Does the child narrate their play, giving voices or intentions to characters?"
+  - How does the child handle sharing roles or props with a play partner?
+common_misconceptions:
+  - Pretend play is serious developmental work, not idle time; it is where children practice real social and cognitive skills.
+accessibility_notes:
+  - Offer familiar, easy-to-grasp props and model simple roles for children who need an entry point into pretend.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - dramatic-play
+  - pretend-play
+  - imagination
+  - role-play
+  - storytelling
+standard_ids:
+  - ea.standard.elof.p-atl-13
+  - ea.standard.elof.it-c-13
+status: accepted
+locale: en-US

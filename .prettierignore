@@ -1,0 +1,9 @@
+node_modules
+dist
+.astro
+pnpm-lock.yaml
+# Curriculum is authored content; keep it as written.
+curriculum
+# Local agent tooling (not part of the project)
+.claude
+LICENSE

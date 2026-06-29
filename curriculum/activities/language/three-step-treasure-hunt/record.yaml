@@ -1,0 +1,46 @@
+id: ea.activity.language.three-step-treasure-hunt
+slug: three-step-treasure-hunt
+title: Three-Step Treasure Hunt
+summary: Children listen to multi-step directions and answer who, what, and where questions to find a hidden treasure.
+supported_skill_ids:
+  - ea.skill.language.receptive.understands-complex-language
+age_range_months:
+  min: 36
+  max: 60
+group_size: 1-6 children
+duration_minutes: 20
+materials:
+  - A small "treasure," such as a sticker box or a class mascot
+  - A few household or classroom landmarks to hide near, such as a shelf, a door, and a chair
+setup: Hide the treasure and plan a short path of two or three places that lead to it.
+steps:
+  - Give a two-step direction, such as "Walk to the blue door, then look under the chair."
+  - Let the child carry out both steps in order before giving the next clue.
+  - At each stop, ask a question, such as "What did you find?" or "Where will you look next?"
+  - Build to three-step directions as the child succeeds.
+  - When the treasure is found, ask the child to retell how they got there in order.
+variations:
+  - Add an "if-then" clue, such as "If the box is red, look by the window."
+  - Let a child be the leader and give directions to a partner.
+differentiation:
+  - Pair directions with pictures or gestures for children who need support.
+  - Start with one step and add steps as confidence grows.
+assessment_opportunities:
+  - Note whether the child recalls the steps in order and answers different question types.
+safety_notes:
+  - Choose hiding spots that are safe to reach and free of climbing hazards.
+accessibility_notes:
+  - Offer directions in sign or with picture cards and allow extra processing time.
+  - Accept answers and retelling in a child's home language.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - directions
+  - comprehension
+  - questions
+  - listening
+methodologies:
+  - play-based
+  - montessori
+status: accepted
+locale: en-US

@@ -1,0 +1,23 @@
+id: ea.standard.elof.it-lc-10
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-LC 10"
+title: "Child handles books and relates them to their stories or information."
+domain_area: "Language and Communication"
+sub_domain: "Emergent Literacy"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Explores a book by touching it, patting it, or putting it in mouth."
+  - age_period: "8 to 18 Months"
+    text: "Holds books, turns pages, looks at the pictures, and uses sounds, signs, or words to identify actions or objects in a book."
+  - age_period: "16 to 36 Months"
+    text: "Pretends to read books by turning pages and talking about or using signs to describe what is happening in the book."
+  - age_period: "By 36 Months"
+    text: "Asks to have several favorite books read over and over."
+  - age_period: "By 36 Months"
+    text: "Holds book, turns pages, and pretends to read."
+source_url: https://headstart.gov/school-readiness/article/language-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

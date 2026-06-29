@@ -1,0 +1,35 @@
+id: ea.skill.creative-arts.dramatic-play.uses-objects-as-symbols
+slug: uses-objects-as-symbols
+title: Uses Objects as Symbols
+short_description: Child uses one object to stand for another and understands that symbols can carry meaning.
+developmental_purpose: >-
+  Letting a block "be" a car or a towel "be" a blanket is symbolic thinking, the
+  same mental leap that underlies language, drawing, and reading. Representing one
+  thing with another is the seed of abstract thought and imaginative play.
+domain_ids:
+  - ea.domain.creative-arts
+age_range_months:
+  min: 12
+  max: 36
+developmental_stage: infant_to_toddler
+mastery_criteria:
+  - Uses a toy object in a way similar to the real object it represents.
+  - Uses one object to stand for a different object during pretend play.
+  - Improvises with props, such as using a towel for a blanket.
+observation_prompts:
+  - Does the child use an object to stand for something else in play?
+  - Does the child treat a picture or sign as if it means something?
+accessibility_notes:
+  - Offer open-ended objects with varied textures so symbolic play is not vision-dependent.
+  - Model one substitution at a time for children who need a clear example.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - symbolic-play
+  - pretend
+  - representation
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-c-12
+status: accepted
+locale: en-US

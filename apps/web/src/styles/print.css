@@ -1,0 +1,73 @@
+/* Print: a clean single-column lesson handout. Intentionally UNLAYERED so its
+   token overrides and `!important` hides win over every cascade layer. */
+@media print {
+  :root,
+  :root[data-theme="dark"],
+  :root[data-theme="light"] {
+    --bg: #fff;
+    --surface: #fff;
+    --surface-2: #fff;
+    --header: #fff;
+    --ink: #111;
+    --muted: #444;
+    --line: #ccc;
+    --accent: #111;
+    --accent-ink: #fff;
+    --accent-soft: #fff;
+    --accent-border: #ccc;
+  }
+  .site-header,
+  .sidebar,
+  .toc,
+  .scrim,
+  .breadcrumbs,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+    color: #111;
+  }
+  .shell,
+  .shell[data-toc="true"] {
+    display: block;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .content p,
+  .content li {
+    max-width: none;
+  }
+  a {
+    color: #111;
+  }
+  .video {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  section {
+    break-inside: avoid;
+  }
+  h1,
+  h2 {
+    break-after: avoid;
+  }
+
+  /* Non-canonical (draft preview): never let an unapproved draft print as a
+     handout. Hide the content; leave only the "not official" banner. */
+  html[data-noncanonical] .shell,
+  html[data-noncanonical] .site-header {
+    display: none !important;
+  }
+  html[data-noncanonical] .draft-banner {
+    position: static;
+    display: block !important;
+    border: 2px solid #111;
+    padding: 24px;
+    font-size: 1rem;
+    text-align: center;
+  }
+}

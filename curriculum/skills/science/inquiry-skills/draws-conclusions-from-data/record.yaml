@@ -1,0 +1,45 @@
+id: ea.skill.science.inquiry-skills.draws-conclusions-from-data
+slug: draws-conclusions-from-data
+title: Draws Conclusions from Data
+short_description: Child looks at what an investigation showed, draws a conclusion, and shares the results.
+developmental_purpose: >-
+  Gathering data is only useful when a child makes sense of it. By counting,
+  comparing results to a prediction, explaining cause and effect, and telling
+  others what they found, children learn to ground their ideas in evidence and to
+  communicate conclusions through talk, drawings, graphs, or maps — the final and
+  most reflective steps of scientific inquiry.
+domain_ids:
+  - ea.domain.science
+age_range_months:
+  min: 36
+  max: 66
+developmental_stage: preschool
+prerequisite_skill_ids:
+  - ea.skill.science.inquiry-skills.plans-and-conducts-investigations
+related_skill_ids:
+  - ea.skill.science.inquiry-skills.predicts-and-tests
+mastery_criteria:
+  - With support, interprets simple data and states a conclusion, such as which group of seeds grew taller.
+  - Compares the result to the original prediction and tells whether it matched.
+  - Communicates results to others through at least one method, such as telling an adult, drawing, or adding to a class graph.
+observation_prompts:
+  - "After an investigation, can the child say what the data showed?"
+  - "Does the child connect the result back to what they predicted would happen?"
+  - "How does the child share conclusions — by talking, drawing, charting, or pointing?"
+accessibility_notes:
+  - Let children show conclusions by sorting result cards or pointing to a graph rather than only explaining aloud.
+  - Provide sentence starters such as "We found out that ..." to support children building expressive language.
+common_misconceptions:
+  - A conclusion should describe what actually happened, even when the result was different from the prediction.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - data
+  - conclusions
+  - inquiry
+  - communicating-results
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-sci-6
+status: accepted
+locale: en-US

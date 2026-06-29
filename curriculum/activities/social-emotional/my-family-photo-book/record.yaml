@@ -1,0 +1,44 @@
+id: ea.activity.social-emotional.my-family-photo-book
+slug: my-family-photo-book
+title: My Family Photo Book
+summary: A toddler explores a small book of family photos to build a sense of belonging.
+supported_skill_ids:
+  - ea.skill.social-emotional.self-concept.sense-of-belonging-in-family
+age_range_months:
+  min: 10
+  max: 36
+group_size: 1-2 children
+duration_minutes: 10
+materials:
+  - A small sturdy photo book of the child's family and familiar people
+setup: Ask families to share photos and make each child a simple, durable book.
+steps:
+  - Sit close with the child and open their family book together.
+  - Point to and name each person, for example "there is your grandma."
+  - Pause to let the child point to or name people they recognize.
+  - Talk about recent family moments, such as a visit or a meal together.
+  - Let the child turn the pages and revisit favorite photos.
+variations:
+  - Add photos of pets, home, or familiar routines.
+  - Display the books on a low shelf so children can revisit them anytime.
+differentiation:
+  - For younger toddlers, keep books to a few key people.
+  - For older toddlers, ask them to talk about a family member who is not present.
+assessment_opportunities:
+  - Note whether the child identifies family members and themselves.
+  - Watch for the child referring to recent family experiences.
+safety_notes:
+  - Use sturdy, child-safe books with no loose small parts.
+accessibility_notes:
+  - Use clear, high-contrast photos and name people aloud for children with vision differences.
+  - Honor every family structure; the child's real people are always the content.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - belonging
+  - family
+  - identity
+methodologies:
+  - reggio-emilia
+status: accepted
+locale: en-US

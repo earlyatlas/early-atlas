@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-math-8
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-MATH 8"
+title: "Child measures objects by their various attributes using standard and non-standard measurement. Uses differences in attributes to make comparisons."
+domain_area: "Mathematics Development"
+sub_domain: "Measurement"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "With adult support, begins to understand that attributes can be compared, such as one child can be taller than another child."
+  - age_period: "48 to 60 Months"
+    text: "With some adult support, uses measurable attributes to make comparisons, such as identifies objects as the same/different and more/less."
+  - age_period: "By 60 Months"
+    text: "Measures using the same unit, such as putting together snap cubes to see how tall a book is."
+  - age_period: "By 60 Months"
+    text: "Compares or orders up to five objects based on their measurable attributes, such as height or weight."
+  - age_period: "By 60 Months"
+    text: "Uses comparative language, such as shortest, heavier, or biggest."
+source_url: https://headstart.gov/school-readiness/article/math-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

@@ -1,0 +1,40 @@
+id: ea.skill.language.expressive.asks-questions-to-learn
+slug: asks-questions-to-learn
+title: Asks Questions to Learn
+short_description: Child uses gestures, signs, or words to seek information and the names of things.
+developmental_purpose: >-
+  Asking questions — pointing with a rising "huh?", signing, or saying "What's
+  that?" and "Why?" — shows a child is using communication as a tool to learn.
+  Inquiry drives vocabulary growth and is the engine of curiosity-led learning.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 6
+  max: 36
+developmental_stage: infant_to_toddler
+related_skill_ids:
+  - ea.skill.language.expressive.engages-others-in-interaction
+mastery_criteria:
+  - Takes a turn in non-verbal exchanges to seek a response, using sounds, gestures, or signs.
+  - Asks a simple question with a point and rising intonation, a sign, or a word.
+  - Asks questions in words or signs such as "What's that?" or "Why?" to seek meaning.
+observation_prompts:
+  - When the child sees something new, do they look to you with a sound, gesture, or word as if to ask about it?
+  - Does the child use "What's that?" or "Why?" to seek information?
+accessibility_notes:
+  - Treat a point with rising intonation, a questioning look, or an AAC question as asking.
+  - Respond warmly to every bid so the child learns that questions bring answers.
+common_misconceptions:
+  - A pointing gesture with a questioning sound is a real question, even before spoken question words appear.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - expressive-language
+  - questions
+  - inquiry
+  - infant
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-lc-6
+status: accepted
+locale: en-US

@@ -1,0 +1,35 @@
+id: ea.skill.science.inquiry-skills.explores-with-senses
+slug: explores-with-senses
+title: Explores People and Objects with the Senses
+short_description: Infant or toddler uses senses and actions to investigate people and objects and how they work.
+developmental_purpose: >-
+  Active, multisensory exploration is how very young children gather their first
+  data about the world. Mouthing, touching, shaking, and dropping objects, then
+  watching what happens, is the root of all later scientific inquiry.
+domain_ids:
+  - ea.domain.science
+age_range_months:
+  min: 2
+  max: 36
+developmental_stage: infant_to_toddler
+mastery_criteria:
+  - Uses several actions on an object to learn about it, such as mouthing, shaking, banging, or dropping.
+  - Acts intentionally to reach a goal, such as moving one object to get another.
+  - Experiments with how things work and watches how people and objects react.
+observation_prompts:
+  - When given a new object, does the child try more than one way to explore it?
+  - Does the child repeat an action to see if the same thing happens again?
+accessibility_notes:
+  - Offer objects with strong contrast, scent, sound, or texture for children with vision differences.
+  - Secure objects on a tray or with a tether so children with motor differences can explore without losing them.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - exploration
+  - senses
+  - inquiry
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-c-1
+status: accepted
+locale: en-US

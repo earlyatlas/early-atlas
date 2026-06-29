@@ -1,0 +1,41 @@
+id: ea.skill.language.emergent-literacy.joins-in-rhymes-and-songs
+slug: joins-in-rhymes-and-songs
+title: Joins in Rhymes and Songs
+short_description: Child attends to, repeats, and uses rhymes, phrases, or refrains from songs and stories.
+developmental_purpose: >-
+  Rhymes, songs, and repeated refrains tune a child's ear to the sounds and
+  rhythms of language. Joining in builds phonological awareness, memory for
+  language, and the joyful, shared experience that motivates early literacy.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 0
+  max: 36
+developmental_stage: infant_to_toddler
+related_skill_ids:
+  - ea.skill.language.receptive.attends-to-communication
+mastery_criteria:
+  - Listens and attends to familiar rhymes or songs.
+  - Says or signs a few words of a familiar rhyme or repeated refrain.
+  - Repeats or sings familiar rhymes, phrases, or refrains from songs or stories.
+observation_prompts:
+  - During a familiar song, does the child join in with sounds, words, or gestures?
+  - When you pause before the last word of a known rhyme, does the child fill it in?
+accessibility_notes:
+  - Pair songs with signs, gestures, or movement so all children can take part.
+  - Choose rhymes and songs from each child's home language and culture.
+common_misconceptions:
+  - Joining in with movements or approximate sounds counts; perfect words are not required.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - emergent-literacy
+  - rhymes
+  - songs
+  - phonological-awareness
+  - infant
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-lc-9
+status: accepted
+locale: en-US

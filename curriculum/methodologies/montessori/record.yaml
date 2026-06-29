@@ -1,0 +1,23 @@
+id: ea.methodology.montessori
+slug: montessori
+title: Montessori
+short_description: A prepared-environment approach centered on self-directed, hands-on learning with concrete materials.
+origin: Developed by physician and educator Dr. Maria Montessori in Italy in the early 1900s.
+principles:
+  - Follow the child — let the child choose purposeful work and repeat it freely.
+  - A prepared environment with orderly, self-correcting, concrete materials.
+  - Hands-on, sensory learning before abstract symbols.
+  - Mixed-age, uninterrupted work periods that build concentration and independence.
+  - The adult observes and guides rather than directs.
+inspiration_note: >-
+  Lessons tagged Montessori are inspired by these principles — for example, using
+  real objects a child can manipulate and self-check. They are original Early
+  Atlas activities, not official Montessori curriculum or training.
+research_reference_ids:
+  - ea.citation.montessori.absorbent-mind
+tags:
+  - hands-on
+  - self-directed
+  - prepared-environment
+status: accepted
+locale: en-US

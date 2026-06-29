@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-c-13
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-C 13"
+title: "Child uses pretend play to increase understanding of culture, environment, and experiences."
+domain_area: "Cognition"
+sub_domain: "Imitation and Symbolic Representation and Play"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Emerging"
+  - age_period: "8 to 18 Months"
+    text: "Imitates everyday actions of others, such as pretending to feed a doll or stuffed toy."
+  - age_period: "16 to 36 Months"
+    text: "Acts out routines, stories, or social roles using toys and other materials as props, such as setting toy dishes and cups on a table or pretending to shop for groceries."
+  - age_period: "By 36 Months"
+    text: "Seeks to involve others in pretend or make-believe play."
+  - age_period: "By 36 Months"
+    text: "Looks for props to use when telling or making up a story."
+  - age_period: "By 36 Months"
+    text: "Uses pretend play to try out solutions to everyday problems, such as ways to respond to stressful situations."
+source_url: https://headstart.gov/school-readiness/article/cognition-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

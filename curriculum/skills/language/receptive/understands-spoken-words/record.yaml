@@ -1,0 +1,42 @@
+id: ea.skill.language.receptive.understands-spoken-words
+slug: understands-spoken-words
+title: Understands an Increasing Number of Words
+short_description: Child understands a growing number of words and signs used in everyday communication.
+developmental_purpose: >-
+  Receptive vocabulary — the words a child understands — grows well ahead of the
+  words a child says. Recognizing names of people and objects, responding to
+  simple sentences, and grasping positional words like on and under let a child
+  follow conversation and participate in daily routines.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 4
+  max: 36
+developmental_stage: infant_to_toddler
+related_skill_ids:
+  - ea.skill.language.receptive.attends-to-communication
+  - ea.skill.language.expressive.communicates-needs-and-wants
+mastery_criteria:
+  - Looks at or points to a familiar person, animal, or object when it is named.
+  - Responds appropriately to the meaning of a growing number of everyday words.
+  - Understands common positional words such as on, under, up, or down.
+observation_prompts:
+  - When you name a familiar object without pointing, does the child look toward it?
+  - When you ask the child to put a toy "under" or "on" something, do they understand the word?
+accessibility_notes:
+  - Accept eye gaze, reaching, or AAC selections as evidence of understanding for children with motor differences.
+  - Pair spoken words with signs or pictures for children who are deaf or hard of hearing.
+common_misconceptions:
+  - A child who does not yet speak may still understand many words; comprehension leads production.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+tags:
+  - receptive-language
+  - vocabulary
+  - comprehension
+  - infant
+  - toddler
+standard_ids:
+  - ea.standard.elof.it-lc-7
+status: accepted
+locale: en-US

@@ -1,0 +1,25 @@
+id: ea.standard.elof.p-sci-1
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-SCI 1"
+title: "Child observes and describes observable phenomena (objects, materials, organisms, and events)."
+domain_area: "Scientific Reasoning"
+sub_domain: "Scientific Inquiry"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Uses the five senses to observe objects, materials, organisms, and events. Provides simple verbal or signed descriptions. With adult support, represents observable phenomena, such as draws a picture."
+  - age_period: "48 to 60 Months"
+    text: "Makes increasingly complex observations of objects, materials, organisms, and events. Provides greater detail in descriptions. Represents observable phenomena in more complex ways, such as pictures that include more detail."
+  - age_period: "By 60 Months"
+    text: "Identifies the five senses (smell, touch, sight, sound, taste) and uses them to make observations."
+  - age_period: "By 60 Months"
+    text: "Uses observational tools to extend the five senses, such as a magnifying glass, microscope, binoculars, or stethoscope."
+  - age_period: "By 60 Months"
+    text: "Describes observable phenomena using adjectives and labels, such as lemons taste sour and play dough feels sticky."
+  - age_period: "By 60 Months"
+    text: "Represents observable phenomena with pictures, diagrams, and 3-D models."
+source_url: https://headstart.gov/school-readiness/article/science-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

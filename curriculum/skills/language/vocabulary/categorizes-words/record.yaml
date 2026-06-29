@@ -1,0 +1,41 @@
+id: ea.skill.language.vocabulary.categorizes-words
+slug: categorizes-words
+title: Categorizes Words
+short_description: Child groups words into categories and understands how words relate.
+developmental_purpose: >-
+  Understanding word categories and relationships — examples of a group, synonyms,
+  antonyms, and shared traits — deepens vocabulary into a connected network. This
+  supports comprehension, reasoning, and the precise use of words.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.language.expressive.speaks-in-detailed-sentences
+mastery_criteria:
+  - Sorts objects or words into categories, such as putting tools together or naming several farm animals.
+  - Identifies shared characteristics among things, such as noting that cats and dogs are both furry with four legs.
+  - Identifies common antonyms, such as up and down, and a synonym for a very familiar word.
+observation_prompts:
+  - Can the child give several examples of a familiar category, such as animals or vehicles?
+  - Does the child notice opposites or near-synonyms, such as big and gigantic?
+accessibility_notes:
+  - Offer picture cards or real objects so children can sort without relying on spoken labels.
+  - Pair category words with signs or AAC symbols for children who use them.
+  - Children who are DLLs may categorize most readily in their home language.
+common_misconceptions:
+  - Naming a word is not the same as understanding its category; look for grouping and relating.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - vocabulary
+  - categories
+  - word-relationships
+  - antonyms
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-lc-7
+status: accepted
+locale: en-US

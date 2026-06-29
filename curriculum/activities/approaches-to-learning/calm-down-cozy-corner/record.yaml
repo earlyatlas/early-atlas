@@ -1,0 +1,52 @@
+id: ea.activity.approaches-to-learning.calm-down-cozy-corner
+slug: calm-down-cozy-corner
+title: Calm-Down Cozy Corner
+summary: >-
+  Children help build and practice using a soft, quiet corner with simple
+  calming tools, learning to seek comfort and try coping strategies.
+supported_skill_ids:
+  - ea.skill.approaches-to-learning.self-regulation.manages-emotions
+age_range_months:
+  min: 12
+  max: 60
+group_size: 1-3 children
+duration_minutes: 15
+materials:
+  - A small rug, cushion, or beanbag in a low-traffic corner
+  - A soft lovey or stuffed animal
+  - A few feeling-face picture cards
+  - "Optional: a small pinwheel or feather for breathing practice"
+setup: >-
+  Set up the cushion and lovey in a quiet corner. Place the feeling cards within
+  reach. Introduce the space during a calm moment, not during a meltdown.
+steps:
+  - Show children the cozy corner and explain it is a place to go when feelings feel big.
+  - Name the feeling cards together, making the matching face for each one.
+  - Model taking a slow breath by blowing the pinwheel or feather gently.
+  - "Practice the routine while calm: sit down, hug the lovey, take three breaths."
+  - Let each child try the space and choose their own calming tool.
+variations:
+  - For toddlers, skip the cards and simply offer the lovey and a calm lap nearby.
+  - For older preschoolers, add a simple "I feel ___ because ___" sentence to say.
+differentiation:
+  - For children who communicate non-verbally, point to feeling cards instead of naming.
+  - For children who seek movement, offer a squeeze pillow or gentle rocking.
+assessment_opportunities:
+  - Note whether the child goes to the corner on their own when upset later in the day.
+  - Observe which calming strategy each child returns to most.
+safety_notes:
+  - Keep the corner visible to adults; it is a calming space, not a place out of sight.
+accessibility_notes:
+  - Use photos of real faces alongside drawn feeling cards for clearer recognition.
+  - Keep the space low-stimulation, with soft lighting and minimal visual clutter.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - emotions
+  - calming
+  - self-regulation
+methodologies:
+  - highscope
+  - play-based
+status: accepted
+locale: en-US

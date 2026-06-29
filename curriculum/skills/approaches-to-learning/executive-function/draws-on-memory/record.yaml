@@ -1,0 +1,35 @@
+id: ea.skill.approaches-to-learning.executive-function.draws-on-memory
+slug: draws-on-memory
+title: Draws on Memory to Guide Action
+short_description: Child uses memories of past experiences to anticipate routines and carry out remembered actions.
+developmental_purpose: >-
+  Using memory as a guide for what to do next is the engine of learning. When a
+  child recalls how an object works or what comes next in a routine, they begin
+  to plan, sequence, and build new actions on prior experience.
+domain_ids:
+  - ea.domain.approaches-to-learning
+age_range_months:
+  min: 6
+  max: 36
+developmental_stage: infant_to_toddler
+mastery_criteria:
+  - Anticipates familiar routines by taking action, such as going to the table at mealtime.
+  - Remembers how to use an object from a previous experience.
+  - Tells others about a memory or repeats a series of actions seen earlier.
+observation_prompts:
+  - Does the child get ready for the next routine before being asked?
+  - Does the child recall and repeat an action they watched earlier?
+accessibility_notes:
+  - Pair routines with a consistent song, sign, or picture cue to support recall.
+  - Give extra time for children who need longer to retrieve a memory.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - memory
+  - routines
+  - sequencing
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-c-5
+status: accepted
+locale: en-US

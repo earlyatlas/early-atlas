@@ -1,0 +1,41 @@
+id: ea.skill.language.expressive.takes-conversational-turns
+slug: takes-conversational-turns
+title: Takes Conversational Turns
+short_description: Child sustains multi-turn conversations and uses appropriate tone and volume.
+developmental_purpose: >-
+  Following social and conversational rules — taking turns, staying on topic, and
+  matching tone and volume to the situation — lets a child build relationships and
+  participate in group life. It is the social engine of language.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.language.expressive.speaks-in-detailed-sentences
+mastery_criteria:
+  - Maintains a conversation across several back-and-forth turns with an adult or peer.
+  - Stays responsive to the partner, such as by asking a related question or showing agreement.
+  - With increasing independence, matches tone and volume to the social situation, such as whispering a secret.
+observation_prompts:
+  - Can the child keep a conversation going for several turns by responding to the other person?
+  - Does the child adjust volume for different settings, such as quiet time versus the playground?
+accessibility_notes:
+  - Turns taken through signs, AAC, or gestures count fully as conversational turns.
+  - Model and visually cue turn-taking for children who need support reading social signals.
+  - Children who are DLLs may take turns across two languages.
+common_misconceptions:
+  - Talking a lot is not the same as conversing; turn-taking requires responding to a partner.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - expressive-language
+  - conversation
+  - turn-taking
+  - social-communication
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-lc-4
+status: accepted
+locale: en-US

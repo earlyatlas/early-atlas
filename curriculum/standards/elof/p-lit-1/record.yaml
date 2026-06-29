@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-lit-1
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-LIT 1"
+title: "Child demonstrates awareness that spoken language is composed of smaller segments of sound."
+domain_area: "Literacy"
+sub_domain: "Phonological Awareness"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Shows rote imitation and enjoyment of rhyme and alliteration. With support, distinguishes when two words rhyme and when two words begin with the same sound."
+  - age_period: "48 to 60 Months"
+    text: "Demonstrates rhyme recognition, such as identifying which words rhyme from a group of three: hat, cat, log. Recognizes phonemic changes in words, such as noticing the problem with \"Old McDonald had a charm.\" Is able to count syllables and understand sounds in spoken words."
+  - age_period: "By 60 Months"
+    text: "Provides one or more words that rhyme with a single given target, such as \"What rhymes with log?\""
+  - age_period: "By 60 Months"
+    text: "Produces the beginning sound in a spoken word, such as \"Dog begins with /d/.\""
+  - age_period: "By 60 Months"
+    text: "Provides a word that fits with a group of words sharing an initial sound, with adult support, such as \"Sock, Sara, and song all start with the /s/ sound. What else starts with the /s/ sound?\""
+source_url: https://headstart.gov/school-readiness/article/literacy-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

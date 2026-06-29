@@ -1,0 +1,36 @@
+id: ea.skill.social-emotional.relationships.seeks-help-from-adults
+slug: seeks-help-from-adults
+title: Seeks Help from Adults
+short_description: Infant or toddler communicates needs and asks familiar adults for help.
+developmental_purpose: >-
+  Learning to use an adult as a resource — through crying, pointing, leading, or
+  words — builds the child's sense that they can act on the world and get needs
+  met. It is the root of help-seeking, communication, and growing independence.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 6
+  max: 36
+developmental_stage: infant_toddler
+related_skill_ids:
+  - ea.skill.social-emotional.relationships.seeks-comfort-from-adults
+mastery_criteria:
+  - Communicates a need with a behavior such as crying, reaching, pointing, leading, or words.
+  - Seeks a familiar adult's help with a difficult task or situation.
+observation_prompts:
+  - When the child wants something out of reach, do they signal or ask an adult?
+  - Does the child take an adult's hand or lead them to what they need?
+accessibility_notes:
+  - Accept any communication mode — gesture, sign, picture cards, vocalizations, or words.
+  - Respond consistently to early signals so the child learns help-seeking pays off.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - relationships
+  - help-seeking
+  - communication
+  - infant-toddler
+standard_ids:
+  - ea.standard.elof.it-se-3
+status: accepted
+locale: en-US

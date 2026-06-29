@@ -1,0 +1,21 @@
+id: ea.methodology.reggio-emilia
+slug: reggio-emilia
+title: Reggio Emilia
+short_description: A project- and inquiry-based approach where children explore their own questions through many forms of expression.
+origin: Developed in the town of Reggio Emilia, Italy, after World War II, associated with educator Loris Malaguzzi.
+principles:
+  - The child is a capable, curious co-constructor of knowledge.
+  - Emergent, project-based learning that follows children's interests.
+  - The "hundred languages" — children express ideas through art, building, movement, and more.
+  - The environment acts as a "third teacher."
+  - Documentation of children's thinking guides what comes next.
+inspiration_note: >-
+  Lessons tagged Reggio Emilia are inspired by these ideas — child-led inquiry and
+  expressing ideas in many media. They are original Early Atlas activities, not an
+  official Reggio Emilia program.
+tags:
+  - inquiry
+  - project-based
+  - child-led
+status: accepted
+locale: en-US

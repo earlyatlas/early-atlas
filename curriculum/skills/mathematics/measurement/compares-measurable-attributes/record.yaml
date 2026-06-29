@@ -1,0 +1,42 @@
+id: ea.skill.mathematics.measurement.compares-measurable-attributes
+slug: compares-measurable-attributes
+title: Compares Measurable Attributes
+short_description: Child compares and orders objects by length, height, or weight using units.
+developmental_purpose: >-
+  Measurement begins with noticing that objects differ in attributes like
+  length, height, and weight, and that those attributes can be compared and
+  ordered. Using repeated non-standard units, such as snap cubes, lays the
+  groundwork for standard measurement and comparative reasoning.
+domain_ids:
+  - ea.domain.mathematics
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.mathematics.classification.sorts-by-color
+mastery_criteria:
+  - Compares two objects and says which is taller, longer, or heavier.
+  - Orders up to five objects from shortest to tallest or lightest to heaviest.
+  - Measures an object by lining up same-size units, such as cubes, end to end.
+observation_prompts:
+  - "When comparing two towers, does the child line up the bases before deciding which is taller?"
+  - Does the child use comparative words like shorter, heavier, or biggest?
+accessibility_notes:
+  - Offer objects with strong weight or length contrasts for children comparing by touch.
+  - Use units that snap or stick together for children with motor differences.
+common_misconceptions:
+  - "An object is not longer just because one end sticks out; the starting ends must be lined up."
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - measurement
+  - comparing
+  - length
+  - weight
+  - non-standard-units
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-math-8
+status: accepted
+locale: en-US

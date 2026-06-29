@@ -1,0 +1,51 @@
+id: ea.activity.approaches-to-learning.i-can-choose-board
+slug: i-can-choose-board
+title: I Can Choose Board
+summary: >-
+  Children use a simple choice board to pick an activity, gather what they need,
+  and begin on their own, building initiative and independence.
+supported_skill_ids:
+  - ea.skill.approaches-to-learning.curiosity-initiative.shows-initiative
+age_range_months:
+  min: 18
+  max: 60
+group_size: 1-6 children
+duration_minutes: 20
+materials:
+  - A board or pocket chart with picture cards of available activities
+  - Low, open shelves holding the materials for each choice
+setup: >-
+  Display picture cards of two to five real activity choices. Make sure the
+  matching materials are reachable on low shelves.
+steps:
+  - Show the choice board and name each picture option together.
+  - Invite a child to point to or take the card for what they want to do.
+  - Encourage the child to gather the materials that choice needs.
+  - Step back and let the child begin on their own, offering help only if asked.
+  - Afterward, talk about the choice the child made and how they started it.
+variations:
+  - Add a "what's next" pocket so a child can plan a second activity.
+  - For a group, let each child place a name tag under their chosen activity.
+differentiation:
+  - For toddlers, offer just two clear choices with real objects instead of cards.
+  - For older children, invite them to add a new choice they think of themselves.
+assessment_opportunities:
+  - Note whether the child makes a choice and begins without being directed.
+  - Observe whether the child gathers needed materials independently.
+safety_notes:
+  - Ensure all reachable materials are child-safe for independent use.
+accessibility_notes:
+  - Use photos or real objects so every child can choose without reading.
+  - Place the board and shelves at a height reachable from a seated position.
+research_reference_ids:
+  - ea.citation.naeyc.dap
+tags:
+  - initiative
+  - choice
+  - independence
+  - curiosity
+methodologies:
+  - montessori
+  - highscope
+status: accepted
+locale: en-US

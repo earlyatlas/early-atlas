@@ -1,0 +1,38 @@
+id: ea.skill.social-emotional.relationships.takes-turns
+slug: takes-turns
+title: Takes Turns
+short_description: Child takes turns with others during play, with support.
+developmental_purpose: >-
+  Turn-taking is an early cooperation skill that builds the give-and-take of
+  relationships and the impulse control needed for group learning.
+domain_ids:
+  - ea.domain.social-emotional
+age_range_months:
+  min: 30
+  max: 54
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.social-emotional.self-regulation.manages-strong-feelings
+mastery_criteria:
+  - Waits for a turn in a simple game with reminders.
+  - Hands a shared item to a peer when their turn ends.
+observation_prompts:
+  - During a turn-taking game, can the child wait briefly and then take a turn?
+  - Does the child share materials with a peer when prompted?
+supporting_activity_ids:
+  - ea.activity.social-emotional.roll-the-ball
+accessibility_notes:
+  - Use a visual or object cue (a "my turn" card) to make whose-turn-it-is concrete.
+  - Keep waits short at first and lengthen them gradually.
+research_reference_ids:
+  - ea.citation.cdc.learn-the-signs
+  - ea.citation.headstart.elof
+tags:
+  - relationships
+  - turn-taking
+  - cooperation
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-se-4
+status: accepted
+locale: en-US

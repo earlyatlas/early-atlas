@@ -1,0 +1,23 @@
+id: ea.standard.elof.p-pmp-1
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "P-PMP 1"
+title: "Child demonstrates control, strength, and coordination of large muscles."
+domain_area: "Perceptual, Motor, and Physical Development"
+sub_domain: "Gross Motor"
+age_band: preschooler
+indicators:
+  - age_period: "36 to 48 Months"
+    text: "Balances, such as on one leg or a beam, for short periods with some assistance. Performs some skills, such as jumping for height and hopping, but these skills may not be consistently demonstrated. Engages in physical activity that requires strength and stamina for at least brief periods."
+  - age_period: "48 to 60 Months"
+    text: "Balances, such as on one leg or on a beam, for longer periods of time both when standing still and when moving from one position to another. Demonstrates more coordinated movement when engaging in skills, such as jumping for height and distance, hopping, and running. Engages in more complex movements, such as riding a tricycle, with ease. Engages in physical activities of increasing levels of intensity for sustained periods of time."
+  - age_period: "By 60 Months"
+    text: "Demonstrates balance in large-muscle movement, such as walking on a log without falling or balancing on one leg."
+  - age_period: "By 60 Months"
+    text: "Performs activities that combine and coordinate large muscle movements, including swinging on a swing, climbing a ladder, or dancing to music."
+  - age_period: "By 60 Months"
+    text: "Demonstrates strength and stamina that allow for participation in a range of physical activities, such as running around playing tag."
+source_url: https://headstart.gov/school-readiness/article/perceptual-preschool
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

@@ -1,0 +1,45 @@
+id: ea.skill.physical-development.health-safety.makes-nutritious-choices
+slug: makes-nutritious-choices
+title: Makes Nutritious Food Choices
+short_description: >-
+  Child identifies healthy foods, understands that food helps the body grow, and
+  makes nutritious choices with growing independence.
+developmental_purpose: >-
+  Preschoolers can begin to reason about why we eat the foods we do. Naming
+  healthy and less-healthy foods, understanding that variety helps the body grow,
+  and reading their own hunger and fullness give children the knowledge and
+  self-regulation to make nutritious choices on their own.
+domain_ids:
+  - ea.domain.physical-development
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.physical-development.health-safety.explores-healthy-eating
+mastery_criteria:
+  - Identifies a variety of healthy and less-healthy foods.
+  - Explains in simple terms that eating a variety of foods helps the body grow.
+  - Makes healthy eating choices both independently and with support.
+  - Adjusts how much they eat based on feeling hungry or full.
+observation_prompts:
+  - When choosing a snack, can the child point out which options are healthy?
+  - Does the child stop eating when full rather than finishing out of habit?
+accessibility_notes:
+  - Use picture cards and real foods so children can match and choose without
+    relying on text.
+  - Respect cultural foods and family practices when discussing healthy choices.
+safety_notes:
+  - Keep food talk positive and pressure-free, and follow each child's allergy and
+    dietary plan.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - health-safety
+  - nutrition
+  - healthy-choices
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-pmp-5
+status: accepted
+locale: en-US

@@ -1,0 +1,48 @@
+id: ea.skill.approaches-to-learning.executive-function.shows-flexible-thinking
+slug: shows-flexible-thinking
+title: Shows Flexible Thinking
+short_description: >-
+  Child shifts approaches and adapts to change — trying a new strategy when one
+  fails and adjusting behavior across settings.
+developmental_purpose: >-
+  Cognitive flexibility — the ability to "switch gears" — lets a child try a
+  second approach when the first does not work, adjust to a changed routine, and
+  apply different rules in different settings. It begins in infancy as trying
+  more than one way to reach a toy and matures into preschool problem solving and
+  smooth transitions. Flexible thinking is a core executive function that drives
+  creativity and resilience.
+domain_ids:
+  - ea.domain.approaches-to-learning
+age_range_months:
+  min: 8
+  max: 60
+developmental_stage: infant_to_preschool
+related_skill_ids:
+  - ea.skill.approaches-to-learning.self-regulation.controls-impulses
+  - ea.skill.approaches-to-learning.persistence.persists-through-challenges
+mastery_criteria:
+  - Tries more than one approach when a first attempt to solve a problem does not work.
+  - Adjusts to changes in routine or activity, especially when told ahead of time.
+  - Applies different rules in different contexts, such as indoor voices versus outdoor voices.
+observation_prompts:
+  - When a child's first strategy fails, does the child try something different rather than give up or repeat the same move?
+  - How does the child handle an unexpected change to the usual schedule?
+common_misconceptions:
+  - >-
+    Repeating the same failing approach is typical early on; flexible thinking is
+    a developing skill, not a measure of how "smart" a child is.
+accessibility_notes:
+  - Preview changes with a picture or social story for children who find transitions hard.
+  - Offer two clear options when prompting flexibility, so the choice is concrete and manageable.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - executive-function
+  - flexibility
+  - problem-solving
+  - transitions
+standard_ids:
+  - ea.standard.elof.it-atl-5
+  - ea.standard.elof.p-atl-9
+status: accepted
+locale: en-US

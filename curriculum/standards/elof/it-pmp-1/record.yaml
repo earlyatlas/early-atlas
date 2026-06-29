@@ -1,0 +1,25 @@
+id: ea.standard.elof.it-pmp-1
+framework: elof
+framework_title: Head Start Early Learning Outcomes Framework
+code: "IT-PMP 1"
+title: "Child uses perceptual information to understand objects, experiences, and interactions."
+domain_area: "Perceptual, Motor, and Physical Development"
+sub_domain: "Perception"
+age_band: infant-toddler
+indicators:
+  - age_period: "Birth to 9 Months"
+    text: "Uses perceptual information to organize basic understanding of objects when given opportunities to observe, handle, and use objects, including recognizing differences in texture and how things feel."
+  - age_period: "8 to 18 Months"
+    text: "Uses perceptual information about properties of objects in matching and associating them with each other through play and interaction with an adult, such as using a play bottle to feed a baby doll."
+  - age_period: "16 to 36 Months"
+    text: "Observes others making things happen to understand the cause and effect relationship of intention and action, such as seeing an adult prepare to go outside and then going to get their own jacket."
+  - age_period: "By 36 Months"
+    text: "Combines information gained through the senses to understand objects, experiences, and interactions."
+  - age_period: "By 36 Months"
+    text: "Adjusts ways of interacting with materials based on sensory and perceptual information, such as pressing harder on clay than on play dough to make something."
+  - age_period: "By 36 Months"
+    text: "Modifies responses in social situations based on perceptual information, especially when meeting new people, such as hiding their face from an unfamiliar person."
+source_url: https://headstart.gov/school-readiness/article/perceptual-infant
+attribution: "Head Start Early Learning Outcomes Framework (ELOF), Office of Head Start — U.S. federal government work, public domain."
+status: accepted
+locale: en-US

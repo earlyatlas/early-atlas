@@ -1,0 +1,46 @@
+id: ea.activity.social-emotional.problem-solving-puppets
+slug: problem-solving-puppets
+title: Problem-Solving Puppets
+summary: Two puppets act out a common conflict and children help name the problem, the feelings, and a fair solution.
+supported_skill_ids:
+  - ea.skill.social-emotional.self-regulation.solves-peer-conflicts
+age_range_months:
+  min: 36
+  max: 60
+group_size: 2-10 children
+duration_minutes: 15
+materials:
+  - Two puppets or stuffed animals
+  - One shared prop the puppets both want (a toy car or a single crayon)
+  - Optional picture solution cards (share, take turns, trade, get help)
+setup: Sit where all children can see, with the two puppets and the shared prop ready.
+steps:
+  - Act out the puppets discovering they both want the same toy and starting to argue.
+  - Pause and ask the children, "What is the problem here?" and accept their descriptions.
+  - Ask how each puppet might feel and put feeling words to the puppets' voices.
+  - Invite children to suggest fair solutions and let the puppets try one out loud.
+  - Replay the scene using the children's solution so they see the conflict resolved calmly.
+variations:
+  - Use a real classroom conflict from earlier in the day, kept anonymous.
+  - Let children operate the puppets and act out their own solution.
+differentiation:
+  - Offer the picture solution cards so children can point instead of speak.
+  - For older children, ask them to compromise so both puppets get part of what they want.
+assessment_opportunities:
+  - Note whether the child can name the problem, the feelings, and at least one fair solution.
+safety_notes:
+  - Keep real examples anonymous so no child feels singled out or blamed.
+accessibility_notes:
+  - Pair feeling and solution words with pictures and allow AAC or gesture responses.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - conflict-resolution
+  - problem-solving
+  - feelings
+  - prosocial
+methodologies:
+  - highscope
+  - play-based
+status: accepted
+locale: en-US

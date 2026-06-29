@@ -1,0 +1,43 @@
+id: ea.skill.language.receptive.understands-complex-language
+slug: understands-complex-language
+title: Understands Complex Language
+short_description: Child understands and responds to longer sentences, varied questions, and multi-step directions.
+developmental_purpose: >-
+  Comprehending increasingly complex statements, varied question types, and
+  multi-step directions lets a child follow stories, participate in discussion,
+  and act on instructions — core skills for school readiness and learning.
+domain_ids:
+  - ea.domain.language
+age_range_months:
+  min: 36
+  max: 60
+developmental_stage: preschool
+prerequisite_skill_ids:
+  - ea.skill.language.receptive.follows-one-step-directions
+related_skill_ids:
+  - ea.skill.language.receptive.attends-to-conversations
+mastery_criteria:
+  - Responds appropriately to longer sentences and stories containing multiple ideas.
+  - Recalls and carries out multi-step directions in order.
+  - Answers a variety of question types, such as who, what, when, where, how, and why.
+observation_prompts:
+  - When given a two- or three-step direction, does the child carry out the steps in order?
+  - Can the child answer different question types about a story they just heard?
+accessibility_notes:
+  - Pair spoken directions with signs, gestures, or pictures and allow extra processing time.
+  - Children who are DLLs may show deeper understanding in their home language.
+  - Break long directions into chunks for children who need processing support, without removing the challenge.
+common_misconceptions:
+  - Following a routine from habit is not the same as understanding a novel multi-step direction.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - receptive-language
+  - comprehension
+  - directions
+  - questions
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-lc-2
+status: accepted
+locale: en-US

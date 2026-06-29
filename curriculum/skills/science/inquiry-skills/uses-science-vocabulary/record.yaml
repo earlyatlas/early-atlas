@@ -1,0 +1,42 @@
+id: ea.skill.science.inquiry-skills.uses-science-vocabulary
+slug: uses-science-vocabulary
+title: Uses Science Vocabulary
+short_description: Child engages in scientific talk, using practice and content words to describe what they explore.
+developmental_purpose: >-
+  Language is the tool children use to think and reason about the world. As they
+  pick up practice words like observe, predict, compare, and measure, along with
+  content words for the things they study, children gain the vocabulary to share
+  ideas, ask sharper questions, and join in the back-and-forth talk that drives
+  scientific inquiry.
+domain_ids:
+  - ea.domain.science
+age_range_months:
+  min: 36
+  max: 66
+developmental_stage: preschool
+related_skill_ids:
+  - ea.skill.science.inquiry-skills.observes-and-describes
+mastery_criteria:
+  - Uses scientific practice words such as observe, compare, predict, or measure during an investigation.
+  - Uses content words for what is being studied, such as naming the roots, stem, and leaves of a plant.
+  - Repeats and tries out new science words offered by an adult, sometimes asking what an unfamiliar word means.
+observation_prompts:
+  - "During an exploration, does the child use specific science words rather than only good or cool?"
+  - "When an adult models a new word, does the child take it up and use it again later?"
+accessibility_notes:
+  - Pair each new word with a picture, gesture, or sign so children can show meaning without speaking.
+  - Accept words offered in a child's home language and connect them to the English term.
+common_misconceptions:
+  - Saying a science word once by imitation is not the same as using it meaningfully in context.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - vocabulary
+  - inquiry
+  - scientific-talk
+  - language
+  - preschool
+standard_ids:
+  - ea.standard.elof.p-sci-2
+status: accepted
+locale: en-US

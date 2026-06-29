@@ -1,0 +1,47 @@
+id: ea.activity.literacy.sound-and-copy-words
+slug: sound-and-copy-words
+title: Sound It Out, Then Copy
+summary: The child blends a short word's sounds aloud, then copies the word — joining phonics with handwriting in the classical "say it, then write it" pattern.
+supported_skill_ids:
+  - ea.skill.literacy.writing.traces-letters
+age_range_months:
+  min: 48
+  max: 72
+group_size: 1-3 children
+duration_minutes: 10
+materials:
+  - A few simple three-sound (CVC) word cards, such as sun, cat, dog
+  - A writing surface — paper, chalkboard, or dry-erase
+  - Optional — the "Copywork — First Words" worksheet
+setup: Choose two or three words the child can sound out and set out the writing surface.
+steps:
+  - Show a word card and tap each sound slowly, such as "/c/ /a/ /t/".
+  - Blend the sounds together and read the whole word.
+  - Have the child say each sound, then read the word back.
+  - Model writing the word, naming each letter sound as you form it.
+  - Invite the child to copy the word and read it aloud once more.
+variations:
+  - Change the first sound to make a new word (cat → hat → mat) and copy each.
+  - Build the word with letter tiles before writing it.
+differentiation:
+  - For beginners, trace over a highlighted model and focus on one word.
+  - For confident readers, dictate the word and have them write it without a model.
+assessment_opportunities:
+  - Notice whether the child connects each sound to its letter while writing.
+safety_notes:
+  - None — this is a seated, supervised activity.
+accessibility_notes:
+  - Use letter tiles, sand trays, or air-writing for children not yet writing on paper.
+  - Accept any home language the child speaks when talking about the words.
+research_reference_ids:
+  - ea.citation.headstart.elof
+tags:
+  - phonics
+  - copywork
+  - cvc-words
+  - handwriting
+methodologies:
+  - classical
+  - montessori
+status: accepted
+locale: en-US
