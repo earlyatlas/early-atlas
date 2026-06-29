@@ -1,0 +1,136 @@
+---
+import Base from "../../layouts/Base.astro";
+
+export const prerender = true;
+
+const mcpEndpoint = "https://earlyatlas.com/mcp";
+---
+
+<Base title="Connect AI">
+  <div class="connect-ai">
+    <p class="back-link"><a href="/contribute">← Back to Contribute</a></p>
+
+    <header class="connect-hero">
+      <h1>Connect AI</h1>
+      <p class="lede">
+        Point your AI assistant at Early Atlas. The assistant will read the instructions it needs
+        from the MCP server.
+      </p>
+    </header>
+
+    <section class="connect-url" aria-labelledby="url-h">
+      <h2 id="url-h">Use this MCP URL</h2>
+      <a class="endpoint-link" href={mcpEndpoint}>{mcpEndpoint}</a>
+      <p>Use it in Codex, Claude Code, or any assistant that can connect to an MCP server.</p>
+    </section>
+
+    <section aria-labelledby="paths-h">
+      <h2 id="paths-h">What your assistant can do</h2>
+      <div class="path-list">
+        <article>
+          <h3>Read-only help</h3>
+          <p>
+            No sign-in. Your assistant can ask about the child’s age, domain, teaching approach, or
+            topic, then find an activity and explain it as a simple lesson.
+          </p>
+        </article>
+        <article>
+          <h3>Editable proposals</h3>
+          <p>
+            If you want to add or improve curriculum, your assistant can draft the proposal and
+            preview it. Saving or submitting an edit asks you to sign in, and an editor reviews it
+            before anything goes live.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="try-h">
+      <h2 id="try-h">Try asking</h2>
+      <p class="prompt">
+        Find a 15-minute play-based math activity for a four-year-old, then help me run it.
+      </p>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .connect-ai {
+    max-width: var(--prose);
+  }
+  .back-link {
+    margin: 0 0 var(--space-4);
+    font-size: var(--text-sm);
+  }
+  .back-link a {
+    color: var(--muted);
+  }
+  .back-link a:hover {
+    color: var(--accent);
+  }
+  .connect-hero {
+    margin-bottom: var(--space-6);
+  }
+  .lede {
+    margin: 0;
+    color: var(--muted);
+    font-size: var(--text-lg);
+    line-height: 1.6;
+  }
+  .connect-url {
+    padding: var(--space-5);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    background: var(--surface);
+  }
+  .connect-url h2 {
+    margin-top: 0;
+  }
+  .endpoint-link {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    margin: var(--space-3) 0;
+    padding: var(--space-3) var(--space-4);
+    border-radius: var(--radius-sm);
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .endpoint-link:hover {
+    background: var(--surface-2);
+  }
+  .connect-url p {
+    margin-bottom: 0;
+    color: var(--muted);
+  }
+  .path-list {
+    display: grid;
+    gap: var(--space-4);
+  }
+  .path-list article {
+    padding-bottom: var(--space-4);
+    border-bottom: 1px solid var(--line);
+  }
+  .path-list article:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+  .path-list h3 {
+    margin: 0 0 var(--space-2);
+    font-size: var(--text-lg);
+  }
+  .path-list p,
+  .prompt {
+    margin: 0;
+    color: var(--muted);
+  }
+  .prompt {
+    padding: var(--space-4);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    background: var(--surface-2);
+  }
+</style>

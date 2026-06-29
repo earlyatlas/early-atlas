@@ -13,6 +13,26 @@ const SERVER_INFO = { name: "earlyatlas-authoring-gateway", version: "0.1.0" };
 
 const PROMPTS = [
   {
+    name: "plan_activity_for_child",
+    description: "Help a caregiver choose a developmentally appropriate activity.",
+    arguments: [
+      { name: "age", description: "Child age, such as 30 months or 3 years", required: false },
+      { name: "domain", description: "Optional learning area, such as language", required: false },
+      {
+        name: "approach",
+        description: "Optional methodology, such as Montessori",
+        required: false,
+      },
+    ],
+    render: (args: any) =>
+      `Help the human choose an Early Atlas activity. First read ` +
+      `earlyatlas://guide/lesson-planning. Known context: age="${args?.age ?? ""}", ` +
+      `domain="${args?.domain ?? ""}", approach="${args?.approach ?? ""}". ` +
+      `If age is missing, ask for it. Offer compact domain and approach choices, ` +
+      `then call recommend_activity. Present activity options in plain language ` +
+      `without record ids or schema terms.`,
+  },
+  {
     name: "propose_new_skill",
     description: "Draft a well-formed new skill from an educator's plain-language idea.",
     arguments: [{ name: "idea", description: "What the child is learning", required: true }],

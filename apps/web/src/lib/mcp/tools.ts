@@ -39,7 +39,9 @@ function normalizeMethodology(v?: string): string | undefined {
 function coversAge(data: Record<string, any>, months?: number): boolean {
   if (typeof months !== "number") return true;
   const range = data.age_range_months ?? data.age_coverage;
-  return range && typeof range.min === "number" && months >= range.min && months <= range.max;
+  return Boolean(
+    range && typeof range.min === "number" && months >= range.min && months <= range.max,
+  );
 }
 
 function recordText(data: Record<string, any>): string {
@@ -66,7 +68,10 @@ function activityDomains(ctx: McpContext, activity: Record<string, any>) {
 
 function lessonOptions(ctx: McpContext, ageMonths?: number) {
   const activities = [...ctx.store.records.values()].filter(
-    (r) => r.kind === "activity" && (r.data.status ?? "draft") === "accepted" && coversAge(r.data, ageMonths),
+    (r) =>
+      r.kind === "activity" &&
+      (r.data.status ?? "draft") === "accepted" &&
+      coversAge(r.data, ageMonths),
   );
   const domainIds = new Set<string>();
   const methodologySlugs = new Set<string>();
@@ -79,7 +84,9 @@ function lessonOptions(ctx: McpContext, ageMonths?: number) {
       .sort((a, b) => titleOf(ctx, a).localeCompare(titleOf(ctx, b)))
       .map((id) => ({ id, title: titleOf(ctx, id) })),
     methodologies: [...methodologySlugs]
-      .sort((a, b) => titleOf(ctx, `ea.methodology.${a}`).localeCompare(titleOf(ctx, `ea.methodology.${b}`)))
+      .sort((a, b) =>
+        titleOf(ctx, `ea.methodology.${a}`).localeCompare(titleOf(ctx, `ea.methodology.${b}`)),
+      )
       .map((slug) => ({
         slug,
         title: titleOf(ctx, `ea.methodology.${slug}`),
@@ -209,7 +216,10 @@ const TOOLS: McpTool[] = [
             slug,
             title: titleOf(ctx, `ea.methodology.${slug}`),
           })),
-          supported_skills: arr(r.data.supported_skill_ids).map((id) => ({ id, title: titleOf(ctx, id) })),
+          supported_skills: arr(r.data.supported_skill_ids).map((id) => ({
+            id,
+            title: titleOf(ctx, id),
+          })),
           materials: arr(r.data.materials),
           steps: arr(r.data.steps),
           safety_notes: arr(r.data.safety_notes),

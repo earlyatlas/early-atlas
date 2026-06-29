@@ -72,9 +72,31 @@ const hasToc = Astro.slots.has("toc");
             How to use
           </a>
           <a class:list={["nav-top", { active: isActive("/about") }]} href="/about">About</a>
-          <a class:list={["nav-top", { active: isActive("/contribute") }]} href="/contribute">
-            Contribute
-          </a>
+          <div class="nav-subtree">
+            <a
+              class:list={[
+                "nav-top",
+                {
+                  active: isActive("/contribute"),
+                  "section-active": path.startsWith("/contribute/"),
+                },
+              ]}
+              href="/contribute"
+            >
+              Contribute
+            </a>
+            <ul>
+              <li>
+                <a
+                  class:list={{ active: isActive("/contribute/connect-ai") }}
+                  aria-current={isActive("/contribute/connect-ai") ? "page" : undefined}
+                  href="/contribute/connect-ai"
+                >
+                  Connect AI
+                </a>
+              </li>
+            </ul>
+          </div>
           {
             methodologies.length > 0 && (
               <div class="nav-group nav-methodologies">
@@ -93,13 +115,6 @@ const hasToc = Astro.slots.has("toc");
                   ))}
                 </ul>
               </div>
-            )
-          }
-          {
-            import.meta.env.DEV && (
-              <a class="nav-top" href="/mcp">
-                MCP
-              </a>
             )
           }
         </nav>

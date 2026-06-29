@@ -61,6 +61,10 @@ export const prerender = true;
       <p class="cta-row">
         <a class="cta-btn" href="/contribute/propose">Add or edit a skill or activity →</a>
       </p>
+      <p class="ai-link">
+        Have an AI assistant?
+        <a href="/contribute/connect-ai">Connect AI</a> gives it the Early Atlas MCP URL.
+      </p>
       <ul class="share-points">
         <li>
           <strong>Grounded in real practice.</strong> Activities, milestones, and the signs of mastery
@@ -253,6 +257,11 @@ export const prerender = true;
   }
   .cta-row {
     margin: 0 0 var(--space-5);
+  }
+  .ai-link {
+    max-width: var(--prose);
+    margin: 0 0 var(--space-5);
+    color: var(--muted);
   }
   .cta-btn {
     display: inline-flex;

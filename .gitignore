@@ -35,3 +35,6 @@ drafts/local/
 
 # agent tooling bundle (not part of the project)
 .agents/
+
+# Codex agent tooling
+.codex/
